@@ -217,6 +217,33 @@
             font-family: "Poppins";
             color: #585858;
         }
+        .square-left {
+            height: 395px;
+            width: 300px;
+            background-color: #FFF;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            margin-left: 3rem
+        }
+        .square-center {
+            height: 395px;
+            width: 300px;
+            background-color: #FFF;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            margin-left: 3rem
+        }
+        .square-right {
+            height: 395px;
+            width: 300px;
+            background-color: #FFF;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            margin-left: 3rem
+        }
         * {
             box-sizing: border-box;
         }
@@ -373,31 +400,19 @@
                         <p style="font-size: 24px;">Di Maungaji kamu bisa memilih salah satu di antara tiga jenis kelas</p>
                     </div>   
                </div>  
-               <div class="col-md-4 col-sm-4">
-                    <div class="about-item text-left">
-                        <div id="tech-statement">
-                            <h3><strong>TERPERCAYA</strong></h3>
-                        </div>
-                        <hr>
-                         <p><h4><strong>Guru Ngaji Kami berasal dari Universitas serta Pondok Pesantren Favorit dan Pengalaman Mumpuni serta Metode Pengajaran Terkini.</strong></h4></p>
-                    </div>  
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="about-item text-center">
-                        <div id="tech-statement">
-                            <h3><strong>BERPENGALAMAN</strong></h3>
-                        </div>
-                        <hr>
-                        <p><h4><strong>Semua Guru Ngaji kami memiliki minimal 2 tahun pengalaman mengajar Al-Quran.</p></h4></strong>
+               <div class="col-md-4 col-sm-4 square-left">
+                    <div class="text-center">
+                        <img src="../img/ilustrasi/iqro_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 10%;">               
                     </div>
                 </div>
-               <div class="col-md-4 col-sm-4">
-                    <div class="about-item text-center">
-                        <div id="tech-statement">
-                            <h3><strong>TERKUALIFIKASI</strong></h3>
-                        </div>
-                        <hr>
-                         <p><h4><strong>Semua Guru Ngaji kami sudah melalui proses kurasi yang diselenggarakan oleh Maungaji.</p></h4></strong>
+                <div class="col-md-4 col-sm-4 square-center">
+                    <div class="text-center">
+                        <img src="../img/ilustrasi/tahsin_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 1%;">               
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 square-right">
+                    <div class="text-center">
+                        <img src="../img/ilustrasi/Tahfidz_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 20%;">               
                     </div>
                 </div>
             </div>
