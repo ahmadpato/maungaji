@@ -209,7 +209,7 @@
             box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.8);
             letter-spacing: 2px;
             border-radius: 5px;
-            margin: 10px;
+            margin: 1px;
             text-transform: uppercase;
             font-size: 12px;
         }
