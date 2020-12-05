@@ -249,8 +249,7 @@
                                 <li><a href="<?php echo base_url('/') ?>">ARTIKEL</a></li>
                                 <li><a href="https://maungaji.co.id/artikel/">FAQ</a></li>
                                 <li><a href="https://maungaji.co.id/artikel/">TENTANG KAMI</a></li>
-                                <li a href="<?php echo base_url('/teacher') ?>" class='teacher' target="_blank">CARI GURU NGAJI</a></li>
-                                <!-- <li><a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Gabung Sebagai Pengajar</a></li> -->
+                                <li a href="<?php echo base_url('/teacher') ?>" class="teacher" target="_blank">CARI GURU NGAJI</a></li>
                             </ul>
                         </div>
                     </div>
