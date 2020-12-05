@@ -129,6 +129,9 @@
             position: relative;
             line-height:100%;
         }
+        li {
+        list-style-type: none;
+        }
         .col-center {
             margin: 0 auto;
             float: none !important;
@@ -331,8 +334,23 @@
                         </div> 
                         <br>  
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <img src="../img/ilustrasi/Hero_Illust.svg" class="img-responsive" alt="Belajar Ngaji" style="height: 450px; width: 100%;">  
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-md-2">
+                        <ul>
+                            <li><img src="../img/icon/new/wa_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                            <br>
+                            <li><img src="../img/icon/new/ig_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                            <br>
+                            <li><img src="../img/icon/new/fb_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                            <br>
+                            <li><img src="../img/icon/new/tw_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                            <br>
+                            <li><img src="../img/icon/new/ln_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -400,17 +418,17 @@
                         <p style="font-size: 24px;">Di Maungaji kamu bisa memilih salah satu di antara tiga jenis kelas</p>
                     </div>   
                </div>  
-               <div class="col-md-4 col-sm-4 square-left">
+               <div class="col-md-4 square-left">
                     <div class="text-center">
                         <img src="../img/ilustrasi/iqro_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 10%;">               
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 square-center">
+                <div class="col-md-4 square-center">
                     <div class="text-center">
                         <img src="../img/ilustrasi/tahsin_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 1%;">               
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 square-right">
+                <div class="col-md-4 square-right">
                     <div class="text-center">
                         <img src="../img/ilustrasi/Tahfidz_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 20%;">               
                     </div>
