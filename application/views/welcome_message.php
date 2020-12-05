@@ -247,6 +247,9 @@
             border-radius: 16px;
             margin-left: 3rem
         }
+        .content-mau {
+            margin-bottom:-100px;
+        }
         * {
             box-sizing: border-box;
         }
@@ -308,7 +311,7 @@
     <br>
     <br>
 
-    <div class="text-left">
+    <div class="content-mau text-left">
         <section>
             <div class="container">
                 <div class="row">
