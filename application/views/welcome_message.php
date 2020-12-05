@@ -441,7 +441,7 @@
     </div>
 </div>
 
-<div class="container">
+<!-- <div class="container">
     <div id="tech-statement" class="text-center">
         <div class="vertical-heading">
             <h3><strong>Kategori Belajar</strong></h3>
@@ -831,9 +831,9 @@
     <div class="vertical-heading">
         <h3><strong>Maungaji Telah diliput Oleh</strong></h3>
     </div>
-</div>
+</div> -->
 
-<section id="pers" style="background-color: #089ED1;">
+<!-- <section id="pers" style="background-color: #089ED1;">
     <div class="container">
         <div class="row">
             <div class="col-md-12 wow fadeIn">
@@ -850,7 +850,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!--FOOTER START -->
 <footer class="ct-footer">
@@ -888,11 +888,11 @@
                     <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
                        <div class="button-download">
                             <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank">
-                                <img src="<?php echo base_url('/img/icon/playstore.png') ?>" class="img-responsive">
+                                <img src="../img/icon/playstore.png" class="img-responsive">
                             </a>
                             <br>
                             <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
-                                <img src="<?php echo base_url('/img/icon/appstore.png') ?>" class="img-responsive">
+                                <img src="../img/icon/appstore.png" class="img-responsive">
                             </a>
                         </div>
                     </div>
@@ -948,12 +948,6 @@
 <script src="https://maungaji.co.id/maungaji/js/script.js"></script>
 
 <script async data-id="16951" src="https://cdn.widgetwhats.com/script.min.js"></script>
-
-<script type="text/javascript">
-  $(function() {
-  $('.selectpicker').selectpicker();
-});
-</script>
 
 </body>
 
