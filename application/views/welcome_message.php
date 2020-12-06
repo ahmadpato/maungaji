@@ -123,14 +123,13 @@
             line-height:100%;
         }
         h4 {
-            /* color: #FFF; */
             font-family: "Poppins";
             font-size: 24px;
             position: relative;
             line-height:100%;
         }
         li {
-        list-style-type: none;
+            list-style-type: none;
         }
         .col-center {
             margin: 0 auto;
@@ -249,6 +248,53 @@
         }
         .content-mau {
             margin-bottom:-100px;
+        }
+        .text-block-iqro {
+            position: absolute;
+            bottom: -2px;
+            right: 20px;
+            left: 0;
+            background-color: #3597D4;
+            color: #FFF;
+            padding: 25px;
+            width: 298px;
+            height: 120px;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-size: 50px;
+        }
+        .text-block-tahsin {
+            position: absolute;
+            bottom: -2px;
+            right: 20px;
+            left: -1px;
+            background-color: #3597D4;
+            color: #FFF;
+            padding-top: 25px;
+            padding-left: 55px;
+            width: 298px;
+            height: 120px;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-size: 50px;
+        }
+        .text-block-tahfidz {
+            position: absolute;
+            bottom: -2px;
+            right: 20px;
+            left: 0;
+            background-color: #3597D4;
+            color: #FFF;
+            padding-top: 25px;
+            padding-left: 40px;
+            width: 298px;
+            height: 120px;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-size: 50px;
         }
         * {
             box-sizing: border-box;
@@ -421,20 +467,29 @@
                         <p style="font-size: 24px;">Di Maungaji kamu bisa memilih salah satu di antara tiga jenis kelas</p>
                     </div>   
                </div>  
-               <div class="col-md-4 square-left">
+               <div class="col-md-4 square-left text-center">
                     <div class="text-center">
                         <img src="../img/ilustrasi/iqro_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 10%;">               
                     </div>
+                    <div class="text-block-iqro">
+                        IQRO'
+                    </div>   
                 </div>
                 <div class="col-md-4 square-center">
                     <div class="text-center">
                         <img src="../img/ilustrasi/tahsin_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 1%;">               
                     </div>
+                    <div class="text-block-tahsin">
+                        TAHSIN
+                    </div>   
                 </div>
                 <div class="col-md-4 square-right">
                     <div class="text-center">
                         <img src="../img/ilustrasi/Tahfidz_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 20%;">               
                     </div>
+                    <div class="text-block-tahfidz">
+                        TAHFIDZ
+                    </div>   
                 </div>
             </div>
         </div>
