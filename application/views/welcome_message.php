@@ -248,7 +248,6 @@
         }
         .square-jdid {
             height: 64px;
-            width: 100vw;
             background-color: #FFE604;
             box-sizing: border-box;
             position: absolute;
@@ -416,20 +415,26 @@
             <div class="container-fluid"> 
                 <div class="row">
                     <div class="square-jdid">
-                    <p style= "font-family: Poppin; margin-top: -5px; font-size: 20px;">
-                    <span style="margin-left: 20rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
-                        <span style="margin-left: 5rem; font-style: italic; font-weight: bold; font-size: 32px; letter-spacing: 0.05em;">
-                        Dapatkan
-                        <span style="color: #f60000e0; margin-left: 1rem; font-style: italic; font-weight: bold; font-size: 32px; letter-spacing: 0.05em;">Diskon 10%</span>
-                        </span>
-                    </span>
-                    <span style="margin-left: 15rem;">
-                        <img class="logo-non-text" src="../img/logo/MauNgaji.png" alt="logo" width="auto" class="img-responsive" height="50%">
-                    </span>
-                    <span style="margin-left: 2rem;">
-                        <img class="logo-non-text" src="../img/logo/JDID.png" alt="logo" width="auto" class="img-responsive" height="150%">
-                    </span>
-                    </p>
+                        <div class="col-md-6 col-sm-6">
+                            <p style="margin-top: 20px;">
+                                <span style="font-size: 16px; margin-left: 15rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
+                                    <span style="margin-left: 5rem; font-style: italic; font-weight: bold; font-size: 25px; letter-spacing: 0.05em;">
+                                    Dapatkan
+                                    <span style="color: #f60000e0; margin-left: 1rem; font-style: italic; font-weight: bold; font-size: 25px; letter-spacing: 0.05em;">Diskon 10%</span>
+                                    </span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <p style="margin-top: -20px;">
+                                <span style="margin-left: 15rem;">
+                                    <img class="logo-non-text" src="../img/logo/MauNgaji.png" alt="logo" width="auto" class="img-responsive" height="50%">
+                                </span>
+                                <span style="margin-left: 2rem;">
+                                    <img class="logo-non-text" src="../img/logo/JDID.png" alt="logo" width="auto" class="img-responsive" height="150%">
+                                </span>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
