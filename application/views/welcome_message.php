@@ -246,6 +246,15 @@
             border-radius: 16px;
             margin-left: 3rem
         }
+        .square-jdid {
+            height: 64px;
+            width: 100vw;
+            background-color: #FFE604;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
         .content-mau {
             margin-bottom:-100px;
         }
@@ -404,6 +413,32 @@
                     </div>
                 </div>
             </div>
+            <div class="container-fluid"> 
+                <div class="row">
+                    <div class="square-jdid">
+                    <p style= "font-family: Poppin; margin-top: -5px; font-size: 20px;">
+                    <span style="margin-left: 20rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
+                        <span style="margin-left: 5rem; font-style: italic; font-weight: bold; font-size: 32px; letter-spacing: 0.05em;">
+                        Dapatkan
+                        <span style="color: #f60000e0; margin-left: 1rem; font-style: italic; font-weight: bold; font-size: 32px; letter-spacing: 0.05em;">Diskon 10%</span>
+                        </span>
+                    </span>
+                    <span style="margin-left: 15rem;">
+                        <img class="logo-non-text" src="../img/logo/MauNgaji.png" alt="logo" width="auto" class="img-responsive" height="50%">
+                    </span>
+                    <span style="margin-left: 2rem;">
+                        <img class="logo-non-text" src="../img/logo/JDID.png" alt="logo" width="auto" class="img-responsive" height="150%">
+                    </span>
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </section>
     </div>
 
