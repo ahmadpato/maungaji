@@ -92,8 +92,6 @@
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
      <!--Facebook Pixel Code -->
@@ -512,7 +510,7 @@
                     <div class="text-center">
                         <img src="../img/ilustrasi/iqro_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 10%;">               
                     </div>
-                    <div class="text-block-iqro">
+                    <div class="text-block-iqro" data-toggle="tooltip" title="Mulai belajar mengenali, membaca, dan melafalkan secara benar huruf-huruf Arab dengan mengikuti kelas IQRO’ di Maungaji">
                         IQRO'
                     </div>   
                 </div>
@@ -520,7 +518,7 @@
                     <div class="text-center">
                         <img src="../img/ilustrasi/tahsin_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 1%;">               
                     </div>
-                    <div class="text-block-tahsin">
+                    <div class="text-block-tahsin" data-toggle="tooltip" title="Baguskan dan perbaiki bacaan Qur’an mu dengan mengikuti kelas Tahsin atau yang biasa dikenal dengan ilmu tajwid di Maungaji">
                         TAHSIN
                     </div>   
                 </div>
@@ -528,7 +526,7 @@
                     <div class="text-center">
                         <img src="../img/ilustrasi/Tahfidz_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 20%;">               
                     </div>
-                    <div class="text-block-tahfidz">
+                    <div class="text-block-tahfidz" data-toggle="tooltip" title="Hafal lebih banyak surah dan ayat dengan mengikuti kelas Tahfidz. Insya Allah guru ngaji siap membimbing kamu menjadi Hafidz/Hafizah">
                         TAHFIDZ
                     </div>   
                 </div>
@@ -1003,7 +1001,11 @@
 
 </footer>
  <!--FOOTER END -->
-
+<script>
+    $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+    });
+</script>
 <script src="<?php echo base_url('/js/calculate.js') ?>"></script>
 
 <script src="https://maungaji.co.id/maungaji/js/jquery.min.js"></script>
