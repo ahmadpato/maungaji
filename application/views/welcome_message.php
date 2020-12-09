@@ -87,6 +87,9 @@
 
     <!--Rakkas -->
     <link href='https://fonts.googleapis.com/css?family=Rakkas' rel='stylesheet'>
+    
+    <!--Montserrat -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -415,10 +418,10 @@
                     <div class="square-jdid">
                         <div class="col-md-6 col-sm-6">
                             <p style="margin-top: 20px;">
-                                <span style="font-size: 16px; margin-left: 15rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
-                                    <span style="margin-left: 5rem; font-style: italic; font-weight: bold; font-size: 25px; letter-spacing: 0.05em;">
+                                <span style="font-size: 16px; font-family:Poppins; margin-left: 15rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
+                                    <span style="margin-left: 5rem; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">
                                     Dapatkan
-                                    <span style="color: #f60000e0; font-style: italic; font-weight: bold; font-size: 25px; letter-spacing: 0.05em;">Diskon 10%</span>
+                                    <span style="color: #f60000e0; font-family: Montserrat; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">Diskon 10%</span>
                                     </span>
                                 </span>
                             </p>
@@ -494,7 +497,6 @@
     </div>
 </section> -->
 
-<div>
     <div class="content-box-md">
         <div class="container">
             <div class="row">
@@ -533,7 +535,34 @@
             </div>
         </div>
     </div>
-</div>
+
+    <div class="content-box-md" style="margin-top:-100px;">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-6 col-sm-6">
+                    <div>
+                        <img src="../img/guru-ngaji/santri.png" class="img-responsive" alt="Belajar Ngaji" height="auto">               
+                    </div>
+                </div>
+                <div class="col-md-6 sm-6">
+                    <div class="row">
+                        <div class="col-md-9 col-md-push-3" style="font-size:48px;">Santri Ngaji</div>
+                        <div class="col-md-3 col-md-pull-9" style="font-size:48px;">2231</div>
+                    </div>
+                    <div class="text-left">
+                        <p style="font-family:Poppins; font-size:24px; margin-left:15px; margin-top: 20px;">
+                        Saat ini Maungaji telah memiliki santri-santri dari segala jenis usia, tempat tinggal dan latar belakang. Antusias belajar ngaji yang disebarkan oleh mereka membuat kami bersemangat untuk terus memberikan fasilitas terbaik bagi para pembelajar Qur’an.
+                        </p>
+                    </div>   
+                    <div class="text-center">
+                        <p style="font-family:Poppins; font-size:16px; margin-left:15px; margin-top: 250px; color: #3597D4;">
+                        Daftar Jadi Santri Ngaji
+                        </p>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- <div class="container">
     <div id="tech-statement" class="text-center">
