@@ -371,7 +371,7 @@
             <div class="container">
                 <div class="row">
                     <br>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-6">
                         <p><h3>Belajar Mengaji</h3></p>
                         <p><h3>Makin Mudah</h3></p>
                         <br>
@@ -392,12 +392,12 @@
                         </div> 
                         <br>  
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-4">
                         <img src="../img/ilustrasi/Hero_Illust.svg" class="img-responsive" alt="Belajar Ngaji" style="height: 450px; width: 100%;">  
                     </div>
                     <br>
                     <br>
-                    <div class="col-md-2">
+                    <div class="col-md-2 col-sm-2">
                         <ul>
                             <li><img src="../img/icon/new/wa_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
                             <br>
@@ -420,18 +420,18 @@
                                 <span style="font-size: 16px; margin-left: 15rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
                                     <span style="margin-left: 5rem; font-style: italic; font-weight: bold; font-size: 25px; letter-spacing: 0.05em;">
                                     Dapatkan
-                                    <span style="color: #f60000e0; margin-left: 1rem; font-style: italic; font-weight: bold; font-size: 25px; letter-spacing: 0.05em;">Diskon 10%</span>
+                                    <span style="color: #f60000e0; font-style: italic; font-weight: bold; font-size: 25px; letter-spacing: 0.05em;">Diskon 10%</span>
                                     </span>
                                 </span>
                             </p>
                         </div>
                         <div class="col-md-6 col-sm-6">
-                            <p style="margin-top: -20px;">
+                            <p style="margin-top: -50px;">
                                 <span style="margin-left: 15rem;">
                                     <img class="logo-non-text" src="../img/logo/MauNgaji.png" alt="logo" width="auto" class="img-responsive" height="50%">
                                 </span>
                                 <span style="margin-left: 2rem;">
-                                    <img class="logo-non-text" src="../img/logo/JDID.png" alt="logo" width="auto" class="img-responsive" height="150%">
+                                    <img class="logo-non-text" src="../img/logo/JDID.png" alt="logo" width="auto" class="img-responsive" height="250%">
                                 </span>
                             </p>
                         </div>
