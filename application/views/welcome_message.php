@@ -397,7 +397,7 @@
                     </div>
                     <br>
                     <br>
-                    <div class="col-md-2 col-sm-2">
+                    <div class="col-md-2 col-sm-2" style="padding-left:100px;">
                         <ul>
                             <li><img src="../img/icon/new/wa_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
                             <br>
