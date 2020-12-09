@@ -325,10 +325,10 @@
                     <div class="container">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a href="<?php echo base_url('/') ?>">ARTIKEL</a></li>
-                                <li><a href="https://maungaji.co.id/artikel/">FAQ</a></li>
-                                <li><a href="https://maungaji.co.id/artikel/">TENTANG KAMI</a></li>
-                                <li a href="<?php echo base_url('/teacher') ?>" class="teacher" target="_blank">CARI GURU NGAJI</a></li>
+                                <li><a href="">ARTIKEL</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">TENTANG KAMI</a></li>
+                                <li a href="" class="teacher" target="_blank">CARI GURU NGAJI</a></li>
                             </ul>
                         </div>
                     </div>
@@ -339,9 +339,10 @@
                         <span id="mobile-nav-close-btn">&times;</span>
                         <div id="mobile-nav-content">
                             <ul class="nav">
-                                <li><a href="<?php echo base_url('/') ?>">Beranda</a></li>
-                                <li><a href="https://maungaji.co.id/artikel/">Artikel</a></li>
-                                <li><a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Gabung Sebagai Pengajar</a></li>
+                                <li><a href="">ARTIKEL</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">TENTANG KAMI</a></li>
+                                <li a href="" class="teacher" target="_blank">CARI GURU NGAJI</a></li>
                             </ul>
                         </div>
                     </div>
