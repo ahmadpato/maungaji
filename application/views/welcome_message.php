@@ -305,6 +305,41 @@
             border-radius: 16px;
             font-size: 50px;
         }
+        .text-count-student {
+            position: absolute;
+            right: 20px;
+            left: 0;
+            background-color: #FFD93B;
+            color: #263238;
+            padding-top: 20px; 
+            height: 100px; 
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-family:Poppins;
+        }
+        .text-student {
+            position: absolute;
+            right: 20px;
+            background-color: #3597D4;
+            color: #FFF;
+            padding-top: 20px; 
+            height: 100px; 
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-family:Poppins;
+        }
+        .text-register-student {
+            position: absolute;
+            color: #FFF;
+            padding-top: 10px;
+            height: 50px;
+            width: 550px;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-family:Poppins; 
+            font-size:16px; 
+        }
         * {
             box-sizing: border-box;
         }
@@ -546,16 +581,16 @@
                 </div>
                 <div class="col-md-6 sm-6">
                     <div class="row">
-                        <div class="col-md-9 col-md-push-3" style="font-size:48px;">Santri Ngaji</div>
-                        <div class="col-md-3 col-md-pull-9" style="font-size:48px;">2231</div>
+                        <div class="text-student text-center col-md-9 col-md-push-3" style="font-size:48px;">Santri Ngaji</div>
+                        <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">2231</div>
                     </div>
                     <div class="text-left">
-                        <p style="font-family:Poppins; font-size:24px; margin-left:15px; margin-top: 20px;">
+                        <p style="font-family:Poppins; font-size:24px; margin-left:15px; margin-top: 150px;">
                         Saat ini Maungaji telah memiliki santri-santri dari segala jenis usia, tempat tinggal dan latar belakang. Antusias belajar ngaji yang disebarkan oleh mereka membuat kami bersemangat untuk terus memberikan fasilitas terbaik bagi para pembelajar Qur’an.
                         </p>
                     </div>   
                     <div class="text-center">
-                        <p style="font-family:Poppins; font-size:16px; margin-left:15px; margin-top: 250px; color: #3597D4;">
+                        <p class="text-register-student text-center" style="color: #3597D4; margin-top: 175px;">
                         Daftar Jadi Santri Ngaji
                         </p>
                     </div>   
