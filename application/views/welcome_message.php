@@ -876,310 +876,7 @@
         </div>
   </div>
 
-<!-- <div class="container">
-    <div id="tech-statement" class="text-center">
-        <div class="vertical-heading">
-            <h3><strong>Kategori Belajar</strong></h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="about-item text-center">
-                <h3><strong>Tajwid</strong></h3>
-                <img src="<?php echo base_url('/img/icon/iqra-01.png') ?>" alt="iqra" border="0">
-                <p><h4><strong>Bagi muslim yang sudah bisa membaca Al-Qur’an dan ingin memperdalam ilmu tajwid dan muslim yang belum bisa membaca Al-Qur’an sama sekali.</strong></h4></p>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="about-item text-center">
-                <h3><strong>Tahfidzh</strong></h3>
-                <img src="<?php echo base_url('/img/icon/quran-iqra-01.png') ?>" alt="quran iqra" border="0">
-                <p><h4><strong> Bagi muslim yang ini menambahkan jumlah hafalan surah serta kualitas hafalan yang lebih baik.<strong></h4></p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<section id="testimonials" class="new-section-how-to-use">
-    <div class="left-phone">
-        <div class="half-phone">
-            <img src="<?php echo base_url('/img/icon/fullphone.jpg') ?>">
-            <div class="new-slide-phone" id="slidePhone">
-            <div>
-                <img src="img/app/homepage-2.jpeg" alt="Daftar Ngaji">
-            </div>
-            <div>
-                <img src="img/app/materi.jpeg">
-            </div>
-            <div>
-                <img src="img/app/guru.jpeg">
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="right-phone">
-    </div>
-    <div class="content">
-        <div class="table-display">
-            <div class="mid-table">
-                <div class="number" id="numberControl">
-                    <div data-number="0" class="active">1</div>
-                    <div data-number="1" class="">2</div>
-                    <div data-number="2" class="">3</div>
-                </div>
-                <div class="slide-content" id="contentSlide">
-
-                    <div><span class='dot-title'></span>Kamu Bisa Pilih Guru Ngaji Berdasarkan : <br> Lokasi Terdekat, Materi Belajar. Lembaga Qur'an dan Lain-Lain.</div>
-
-                    <div><span class='dot-title'></span>Pilih Materi & Paket Belajarmu : <br> Pilih Materi, Hari dan Waktu Belajar Sesuai yang Kamu Inginkan Melalui Aplikasi.</div>
-
-                    <div><span class='dot-title'></span>Guru Ngaji Tiba di Lokasi Belajar: <br> Guru Ngaji Favoritemu Langsung Datang ke Tempat Belajar yang Kamu Tentukan.</div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div id="tech-statement" class="text-center">
-    <div class="vertical-heading">
-        <h3><strong>Pilih Paket yang di Inginkan</strong></h3>
-    </div>
-</div>
-<br>
-<section class="pricing py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h3 class="card-title text-muted text-uppercase text-center"><strong>Personal</strong></h3>
-            <h4 class="card-title text-muted text-center"><strong>(Paket Personal)</strong></h4>
-              <h4 class="card-title text-muted text-center">
-                <strong>
-                <div class="text-center">
-                Rp.25.000  
-                </strong>
-              </h4>
-            <h6 class="card-price text-center"><span class="period"><img src="<?php echo base_url('/img/icon/personal.png') ?>" width="100px" height="auto" alt="Paket Personal"></span></h6>
-            <hr>
-            <div class="text-center"> 
-                <div class="form-group">
-                    <h4 class="card-title text-muted text-uppercase text-center"><strong>PILIH PERTEMUAN</strong></h4>
-                        <select name="tot_pin_requested" class="form-control" onchange="calculateAmount(this.value)" required>
-                            <option value="1">1x Pertemuan</option>
-                            <option value="2">2x Pertemuan</option>
-                            <option value="3">3x Pertemuan</option>
-                            <option value="4">4x Pertemuan</option>
-                            <option value="5">5x Pertemuan</option>
-                            <option value="6">6x Pertemuan</option>
-                            <option value="7">7x Pertemuan</option>
-                            <option value="8">8x Pertemuan</option>
-                            <option value="9">9x Pertemuan</option>
-                            <option value="10">10x Pertemuan</option>
-                            <option value="11">11x Pertemuan</option>
-                            <option value="12">12x Pertemuan</option>
-                        </select>
-                </div>
-                <h4 class="card-title text-muted text-uppercase text-center"><strong>TOTAL INFAQ</strong></h4>
-                <input type="text" class="form-control" id="tot_amount_personnel" readonly>
-            </div>
-          </div>
-          <hr>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h3 class="card-title text-muted text-uppercase text-center"><strong>Keluarga</strong></h3>
-             <h4 class="card-title text-muted text-center"><strong>(Paket Keluarga)</strong></h4>
-             <h4 class="card-title text-muted text-center">
-                <strong>
-                    <div class="text-center">
-                    Rp.50.000  
-                </strong>
-            </h4>
-            <h6 class="card-price text-center"><span class="period"><img src="<?php echo base_url('/img/icon/keluarga.png') ?>" width="100px" height="auto" alt="Paket Personal"></span></h6>
-            <hr>
-            <div class="text-center"> 
-                <div class="form-group">
-                    <h4 class="card-title text-muted text-uppercase text-center"><strong>PILIH PERTEMUAN</strong></h4>
-                        <select name="tot_pin_requested" class="form-control" onchange="calculateAmountFamily(this.value)" required>
-                            <option value="1">1x Pertemuan</option>
-                            <option value="2">2x Pertemuan</option>
-                            <option value="3">3x Pertemuan</option>
-                            <option value="4">4x Pertemuan</option>
-                            <option value="5">5x Pertemuan</option>
-                            <option value="6">6x Pertemuan</option>
-                            <option value="7">7x Pertemuan</option>
-                            <option value="8">8x Pertemuan</option>
-                            <option value="9">9x Pertemuan</option>
-                            <option value="10">10x Pertemuan</option>
-                            <option value="11">11x Pertemuan</option>
-                            <option value="12">12x Pertemuan</option>
-                        </select>
-                </div>
-                <h4 class="card-title text-muted text-uppercase text-center"><strong>TOTAL INFAQ</strong></h4>
-                <input type="text" class="form-control" id="tot_amount_family" readonly>
-            </div>
-          </div>
-          <hr>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title text-muted text-uppercase text-center"><strong>Kelompok</strong></h3>
-            <h4 class="card-title text-muted text-center"><strong>(Paket Kelompok)</strong></h4>
-            <h4 class="card-title text-muted text-center">
-                <strong>
-                    <div class="text-center">
-                    Rp.75.000  
-                </strong>
-            </h4>
-            <h6 class="card-price text-center"><span class="period"></span><img src="<?php echo base_url('/img/icon/Bersyari_ah.png') ?>" width="100px" height="auto" alt="Paket Personal"></h6>
-            <hr>
-            <div class="text-center"> 
-               <div class="form-group">
-                    <h4 class="card-title text-muted text-uppercase text-center"><strong>PILIH PERTEMUAN</strong></h4>
-                        <select name="tot_pin_requested" class="form-control" onchange="calculateAmountGroup(this.value)" required>
-                            <option value="1">1x Pertemuan</option>
-                            <option value="2">2x Pertemuan</option>
-                            <option value="3">3x Pertemuan</option>
-                            <option value="4">4x Pertemuan</option>
-                            <option value="5">5x Pertemuan</option>
-                            <option value="6">6x Pertemuan</option>
-                            <option value="7">7x Pertemuan</option>
-                            <option value="8">8x Pertemuan</option>
-                            <option value="9">9x Pertemuan</option>
-                            <option value="10">10x Pertemuan</option>
-                            <option value="11">11x Pertemuan</option>
-                            <option value="12">12x Pertemuan</option>
-                        </select>
-                </div>
-                <h4 class="card-title text-muted text-uppercase text-center"><strong>TOTAL INFAQ</strong></h4>
-                <input type="text" class="form-control" id="tot_amount_group" readonly>
-            </div>
-          </div>
-          <hr>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="about">
-<div id="about" style="background-color: #fff;">
-    <div class="content-box-md">
-        <div class="container">
-            <div class="row">
-                <div class="text-center">
-                    <div id="tech-statement"class="horizontal-heading">
-                        <h3><strong>Dengan Memilih Maungaji, Insya Allah</strong></h3>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="about-item text-center">
-                        <img src="<?php echo base_url('/img/icon/shield.png') ?>" width="100px" height="auto" alt="Verifikasi Guru">
-                    </div>
-                    <div id="tech-statement" style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <h3><strong>Aman dan Nyaman</strong></h3>
-                    </div>
-                    <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <p><h4><strong>Kenali dan Verifikasi Guru Ngaji mu dengan fitur scan barcode di aplikasi.</strong></h4></p>
-                    </div>
-                </div>
-                 <div class="col-md-6 col-sm-6">
-                     <div class="about-item text-center">
-                        <img src="<?php echo base_url('/img/icon/Bersyari_ah.png') ?>" width="100px" height="auto" alt="Bersyariah">
-                    </div>
-                    <div id="tech-statement" style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <h3><strong>Berdasarkan Syari’ah</strong></h3>
-                    </div>
-                    <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <p><h4><strong>Demi menjalani syariah, kami menyarankan para santri untuk memilih gender guru ngaji sesuai dengan gender santri pemesan, laki laki dengan laki laki, perempuan dengan perempuan.</strong></h4></p>
-                    </div>
-                </div>
-                 <div class="col-md-6 col-sm-6">
-                     <div class="about-item text-center">
-                        <img src="<?php echo base_url('/img/icon/analytics.png') ?>" width="100px" height="auto" alt="Laporan Belajar">
-                    </div>
-                    <div id="tech-statement" style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <h3><strong>Laporan Belajar</strong></h3>
-                    </div>
-                    <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                         <p><h4><strong>Kamu dapat melihat perkembangan belajarmu melalui aplikasi.</strong></h4></p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="about-item text-center">
-                        <img src="<?php echo base_url('/img/icon/diploma.png') ?>" width="100px" height="auto" alt="Sertifikat">
-                    </div>
-                    <div id="tech-statement" style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <h3><strong>Dapat Sertifikat</strong></h3>
-                    </div>
-                    <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <p><h4><strong>Pelajari apa yang anda inginkan dan dapatkan sertifikasi pada mata pelajaran tertentu.</strong></h4></p>
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-</section>
-
-<div id="lembaga" style="background-color: #fff;">
-    <div class="container">
-        <div class="row">
-            <div id="tech-statement" class="text-center">
-                <div class="vertical-heading">
-                    <h3><strong>Daftar Menjadi Guru Ngaji</strong></h3>
-                </div>
-            </div>
-            <div class="text-center">
-                <div class="vertical-heading">
-                    <h4><strong>Jadilah bagian dari dakwah kami dalam mengentaskan baca huruf Al-Quran dan dapatkan amal jariyahnya.</strong></h4>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="about-item text-center">
-                    <div id="tech-statement-2" style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <h3><strong>Buat Profile Mengajar</strong></h3>
-                    </div>
-                    <img src="<?php echo base_url('/img/icon/draft-01.png') ?>" width="100%" height="auto" alt="Profile Guru">
-                    <hr>
-                    <p><h4><strong>Isi Data Diri Ustadz/ah dan Pilih Materi Qur'an yang ingin Diajarkan, Seperti Tajwid & Tahsin Serta Tahfidz Qur'an. </strong></h4></p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="about-item text-center">
-                    <div id="tech-statement-2" style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <h3><strong>Isi Jadwal Mengajar</strong></h3>
-                    </div>
-                    <img src="<?php echo base_url('/img/icon/jadwal-sholat-01.png') ?>" width="100%" height="auto" alt="Jadwal Mengajar">
-                    <hr>
-                    <p><h4><strong>Tentukan Sendiri Jadwal Mengajar Part-time maupun Full-time.</strong></h4></p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="about-item text-center">
-                    <div id="tech-statement-2" style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <h3><strong>Siap Mengajar</strong></h3>
-                    </div>
-                    <img src="<?php echo base_url('/img/icon/Draft 2-04.png') ?>" width="100%" height="auto" alt="Santri">
-                    <hr>
-                    <p><h4><strong>Ribuan Santri Siap Belajar Qur'an dengan Ustadz/zah.</strong></h4></p>
-                </div>
-            </div>
-             <div class="col-md-12">
-                <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                        <a target='_blank' href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" class='daftar'>Download Aplikasi Guru Ngaji</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<hr>
-<div class="container">   
+<!-- <div class="container">   
     <div id="tech-statement" class="text-center">
         <div class="vertical-heading">
             <h3><strong>Artikel Terbaru</strong></h3>
@@ -1226,69 +923,35 @@
     </div>
 </div>
 <hr>
-<br/>
-<div class="container">
-    <div class="row">
-        <div id="tech-statement" class="text-center">
-            <div class="vertical-heading">
-                <h3><strong>Testimoni Maungaji</strong></h3>
-            </div>
-        </div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>   
-            <div class="carousel-inner">
-                <div class="item carousel-item active">
-                    <div class="img-box"><img src="<?php echo base_url('/img/icon/hijab.png') ?>" width="100px" height="auto"></div>
-                    <h3><p class="testimoni"><b>Maungaji sangat bermanfaat dan memudahkan umat untuk mencari guru ngaji berkualitas.</b></p></h3>
-                    <p class="overview"><h4><b>Putri Dewi Puspita</b></h4></p>
-                </div>
-                <div class="item carousel-item">
-                    <div class="img-box"><img src="<?php echo base_url('/img/icon/personal.png') ?>" width="100px" height="auto"></div>
-                    <h3><p class="testimoni"><b>Yang terbaik dan istimewa.</b></p></h3>
-                    <p class="overview"><h4><b>Amir Arfah</b></h4></p>
-                </div>
-                <div class="item carousel-item">
-                    <div class="img-box"><img src="<?php echo base_url('/img/icon/personal.png') ?>" width="100px" height="auto"></div>
-                    <h3><p class="testimoni"><b>Sangat bermanfaat untuk menemukan guru ngaji sesuai jadwal yang diinginkan.</b></p></h3>
-                    <p class="overview"><h4><b>Coretaninay</b></h4></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<hr>
+<br/> -->
 
 <div id="tech-statement" class="text-center">
     <div class="vertical-heading">
         <h3><strong>Maungaji Telah diliput Oleh</strong></h3>
     </div>
-</div> -->
+</div>
 
-<!-- <section id="pers" style="background-color: #089ED1;">
+<section id="pers" style="background-color: #FFFFFF;">
     <div class="container">
         <div class="row">
             <div class="col-md-12 wow fadeIn">
                 <div id="logo" class="text-center">
                         <div class="vertical-heading">
-                            <ul>
+                            <!-- <ul>
                             <img src="<?php echo base_url('/img/icon/koran-tempo.png') ?>" class="img-responsive" width="200px" height="auto" alt="Koran Tempo" style="display: inline-block; margin-right: 15px;">
                             <img src="<?php echo base_url('/img/icon/go-muslim.png') ?>" class="img-responsive" width="200px" height="auto" alt="gomuslim" style="display: inline-block; margin-right: 15px;">
                             <img src="<?php echo base_url('/img/icon/republika.png') ?>" class="img-responsive" width="200px" height="auto" style="display: inline-block; margin-right: 15px;">
                             <img src="https://maungaji.co.id/img/icon/republika_ramadhan.png" class="img-responsive" width="200px" height="auto" alt="Republika" style="display: inline-block; margin-right: 15px;">
-                            </ul>
+                            </ul> -->
                         </div>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!--FOOTER START -->
-<!-- <footer class="ct-footer">
+<footer class="ct-footer">
   <div class="container">
     <ul class="ct-footer-list text-center-sm">
         <li>
@@ -1340,7 +1003,7 @@
         <p>Copyright © 2020 PT Maungaji Teknologi Indonesia.&nbsp;<a href="">Privacy Policy</a></p>
   </div>
 
-</footer> -->
+</footer>
  <!--FOOTER END -->
 <script>
     $(document).ready(function(){
