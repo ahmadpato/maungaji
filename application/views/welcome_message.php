@@ -255,6 +255,14 @@
             left: 0;
             right: 0;
         }
+        .square-prons {
+            height: 14px;
+            background-color: #FFF;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
         .content-mau {
             margin-bottom:-100px;
         }
@@ -350,6 +358,19 @@
             box-sizing: border-box;
             border-radius: 16px;
             font-family:Poppins;
+        }
+        .square-kelebihan-maungaji {
+            /*position: absolute;*/
+            /*color: #FFF;*/
+            padding-top: 10px;
+            height: 250px;
+            width: 550px;
+            border: 2px solid #FFF;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-family:Poppins; 
+            margin-left: 3rem;
+            /*font-size:16px; */
         }
         * {
             box-sizing: border-box;
@@ -620,7 +641,7 @@
                     </div>
                     <div class="text-left">
                         <p style="font-family:Poppins; font-size:24px; margin-left:15px; margin-top: 150px;">
-                        Insya Allah mitra guru ngaji di Maungaji memiliki 3 poin kompetensi yakni Terpercaya, Berpengalaman, dan Terkualifikasi. Maungaji juga membuka kesempatan bagi Guru Ngaji untuk bergabung bersama kami sebagai mitra maungaji.
+                        Insya Allah mitra guru ngaji di Maungaji memiliki 3 poin kompetensi yakni <span style="color: #3597D4">Terpercaya, Berpengalaman</span>, dan <span style="color: #3597D4">Terkualifikasi.</span> Maungaji juga membuka kesempatan bagi Guru Ngaji untuk bergabung bersama kami sebagai mitra maungaji.
                         </p>
                     </div>   
                     <div class="text-center">
@@ -635,6 +656,85 @@
                         <img src="../img/guru-ngaji/guru-ngaji.png" class="img-responsive" alt="Belajar Ngaji" height="auto">
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-mau text-left">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <br>
+                    <div class="col-md-12 col-sm-12">
+                    <p><h3>Kelebihan Maungaji</h3></p>
+                    </div>    
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <br>
+                    <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                        <p>
+                            <img src="../img/ilustrasi/shield.png" style="left: 10%;" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                        </p>
+                        <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                            Aman dan Nyaman
+                        </p>
+                        <p style="font-size:15px;">
+                        Kenali dan Verifikasi Guru Ngaji mu dengan fitur scan barcode di aplikasi.
+                        </p>
+                    </div>    
+                    <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                        <p>
+                            <img src="../img/ilustrasi/Hands.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                        </p>
+                        <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                        Berdasarkan Syari'ah
+                        </p>
+                        <p style="font-size:15px;">
+                        Demi menjalani syariah, kami menyarankan para santri untuk memilih gender guru ngaji sesuai dengan gender santri pemesan, laki laki dengan laki laki,  perempuan dengan perempuan. 
+                        </p>
+                    </div>    
+                </div>
+                <div class="row">
+                    <br>
+                    <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                        <p>
+                            <img src="../img/ilustrasi/report.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                        </p>
+                        <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                        Laporan Belajar
+                        </p>
+                        <p style="font-size:15px;">
+                        Kamu dapat melihat perkembangan belajarmu melalui aplikasi
+                        </p>
+                    </div>    
+                    <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                        <p>
+                            <img src="../img/ilustrasi/certificate.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                        </p>
+                        <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                        Dapat sertifikat
+                        </p>
+                        <p style="font-size:15px;">
+                        Pelajari apa yang anda inginkan dan dapatkan sertifikasi pada mata pelajaran tertentu.
+                        </p>
+                    </div>    
+                </div>
+            </div>
+            <br>
+            <br>
+        </section>
+    </div>
+
+    <div class="content-box-md">
+        <div class="container">
+            <div class="row">
+                <div class="about-item text-left">
+                    <div id="tech-statement">
+                        <h3 style="font-size: 45.5px;">Testimoni</h3>
+                    </div>
+               </div>  
             </div>
         </div>
     </div>
@@ -1051,7 +1151,7 @@
 </section> -->
 
 <!--FOOTER START -->
-<footer class="ct-footer">
+<!-- <footer class="ct-footer">
   <div class="container">
     <ul class="ct-footer-list text-center-sm">
         <li>
@@ -1103,7 +1203,7 @@
         <p>Copyright © 2020 PT Maungaji Teknologi Indonesia.&nbsp;<a href="">Privacy Policy</a></p>
   </div>
 
-</footer>
+</footer> -->
  <!--FOOTER END -->
 <script>
     $(document).ready(function(){
