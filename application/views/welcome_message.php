@@ -624,7 +624,7 @@
                         </p>
                     </div>   
                     <div class="text-center">
-                        <p class="text-register-student text-center" style="color: #3597D4; margin-top: 175px;">
+                        <p class="text-register-student text-center" style="color: #3597D4; margin-top: 205px;">
                         Daftar Jadi Guru Ngaji
                         </p>
                     </div>   
