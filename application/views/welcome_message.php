@@ -340,6 +340,17 @@
             font-family:Poppins; 
             font-size:16px; 
         }
+        .text-teacher {
+            position: absolute;
+            left: 120px;
+            background-color: #3597D4;
+            color: #FFF;
+            padding-top: 20px; 
+            height: 100px; 
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-family:Poppins;
+        }
         * {
             box-sizing: border-box;
         }
@@ -594,6 +605,35 @@
                         Daftar Jadi Santri Ngaji
                         </p>
                     </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-box-md" style="margin-top:-100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div>
+                       <div class="text-teacher text-center col-md-9 col-md-push-3" style="font-size:48px;">GURU Ngaji</div>
+                       <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">202</div>   
+                    </div>
+                    <div class="text-left">
+                        <p style="font-family:Poppins; font-size:24px; margin-left:15px; margin-top: 150px;">
+                        Insya Allah mitra guru ngaji di Maungaji memiliki 3 poin kompetensi yakni Terpercaya, Berpengalaman, dan Terkualifikasi. Maungaji juga membuka kesempatan bagi Guru Ngaji untuk bergabung bersama kami sebagai mitra maungaji.
+                        </p>
+                    </div>   
+                    <div class="text-center">
+                        <p class="text-register-student text-center" style="color: #3597D4; margin-top: 175px;">
+                        Daftar Jadi Guru Ngaji
+                        </p>
+                    </div>   
+                </div>
+                
+                <div class="col-md-6 sm-6">
+                    <div class="row">
+                        <img src="../img/guru-ngaji/guru-ngaji.png" class="img-responsive" alt="Belajar Ngaji" height="auto">
+                    </div>
                 </div>
             </div>
         </div>
