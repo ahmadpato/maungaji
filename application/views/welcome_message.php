@@ -417,7 +417,7 @@
           margin-bottom: -1px;
         }
         .gtco-testimonials .card {
-          background: #fff;
+          /*background: #3597D4;*/
           box-shadow: 0 8px 30px -7px #c9dff0;
           margin: 0 20px;
           padding: 0 10px;
@@ -610,55 +610,6 @@
         </section>
     </div>
 
-<!-- <section id="statement">
-    <div class="content-box-lg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 wow fadeIn">
-                    <div id="statement-text" class="text-center">
-                        <div class="col-md-4">
-                            <h2><strong>
-                            <?php if (!empty($value)) { ?>
-                            <?php echo $value[0]['count'] ?>
-                            <?php } ?>
-                            </strong></h2>
-                            <p><strong>
-                            <?php if (!empty($value)) { ?> 
-                            <?php echo $value[0]['name'] ?>
-                            <?php } ?>
-                            </strong></h2></strong></p>
-                        </div>
-                        <div class="col-md-4">
-                           <h2><strong>
-                            <?php if (!empty($value)) { ?>
-                            <?php echo $value[1]['count'] ?>
-                            <?php } ?>
-                            </strong></h2>
-                            <p><strong>
-                            <?php if (!empty($value)) { ?>
-                            <?php echo $value[1]['name'] ?>
-                            <?php } ?>
-                            </strong></h2></strong></p>
-                        </div>
-                        <div class="col-md-4">
-                           <h2><strong>
-                            <?php if (!empty($value)) { ?>
-                            <?php echo $value[2]['count'] ?>
-                            <?php } ?>
-                            </strong></h2>
-                            <p><strong>
-                            <?php if (!empty($value)) { ?>
-                            <?php echo $value[2]['name'] ?>
-                            <?php } ?>
-                            </strong></h2></strong></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
     <div class="content-box-md">
         <div class="container">
             <div class="row">
@@ -842,42 +793,34 @@
         </div>
         <div class="owl-carousel owl-carousel1 owl-theme">
           <div>
-            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt="">
-              <div class="card-body">
-                <h5>Ronne Galle <br />
-                  <span> Project Manager </span></h5>
-                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ” </p>
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <h5 style="color:#FFFFFF;">Desi Aulia Pratama <br />
+                <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >Maungaji sangat bermanfaat bagi siapa saja yang ingin belajar ngaji, bagi guru yang ingin mengajar maupun bagi murid yang ingin belajar. Dapat memilih jadwal yang sesuai, guru dan materi yang diinginkan juga. Sangat Memudahkan dan fleksibel.</p>
               </div>
             </div>
           </div>
           <div>
             <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301" alt="">
-              <div class="card-body">
-                <h5>Missy Limana<br />
-                  <span> Engineer </span></h5>
-                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ” </p>
+              <div class="card-body" style="font-family:Poppins;">
+                <h5>Coretininay<br />
+                <p class="card-text" style="margin-top:53px;">Sangat bermanfaat untuk menemukan guru ngaji sesuai jadwal yang diinginkan.</p>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt="">
-              <div class="card-body">
-                <h5>Martha Brown<br />
-                  <span> Project Manager </span></h5>
-                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ” </p>
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <h5 style="color:#FFFFFF;">Putri Dewi Puspita<br />
+                <p class="card-text" style="color:#FFFFFF; margin-top:53px;">Maungaji sangat bermanfaat dan memudahkan umat untuk mencari guru ngaji berkualitas.</p>
               </div>
             </div>
           </div>
           <div>
             <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt="">
-              <div class="card-body">
-                <h5>Hanna Lisem<br />
-                  <span> Project Manager </span></h5>
-                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ” </p>
+              <div class="card-body" style="font-family:Poppins;">
+                <h5>Yuniar Fella Anggaraini<br />
+                <p class="card-text" style="margin-top:53px;">Sangat membantu dan memudahkan bagi mualaf seperti saya dalam belajar mengaji. Guru nya juga mumpuni. Makasih banyak Maungaji,recomended!.</p>
               </div>
             </div>
           </div>
