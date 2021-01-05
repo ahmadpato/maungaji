@@ -1,12 +1,12 @@
 <?php
-    // error_reporting(E_ALL);
-    // ini_set('display_errors', 1);
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
     
-    // if($murid){
-    //      foreach ($murid as $key => $value) {
-    //         echo "<!-- \n".print_r($value, TRUE)."\n-->\n\n";
-    //     }
-    // }
+    if($murid){
+         foreach ($murid as $key => $value) {
+            echo "<!-- \n".print_r($value, TRUE)."\n-->\n\n";
+        }
+    }
 
 ?>
 <!--<!DOCTYPE html>-->
@@ -709,7 +709,11 @@
                 <div class="col-md-6 sm-6">
                     <div class="row">
                         <div class="text-student text-center col-md-9 col-md-push-3" style="font-size:48px;">Santri Ngaji</div>
-                        <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">2231</div>
+                        <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">
+                        <?php if (!empty($value)) { ?>
+                        <?php echo $value[0]['count'] ?>
+                        <?php } ?>
+                        </div>
                     </div>
                     <div class="text-left">
                         <p style="font-family:Poppins; font-size:24px; margin-left:15px; margin-top: 150px;">
@@ -732,7 +736,11 @@
                 <div class="col-md-6 col-sm-6">
                     <div>
                        <div class="text-teacher text-center col-md-9 col-md-push-3" style="font-size:48px;">GURU Ngaji</div>
-                       <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">202</div>   
+                       <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">
+                       <?php if (!empty($value)) { ?>
+                       <?php echo $value[1]['count'] ?>
+                       <?php } ?>
+                       </div>   
                     </div>
                     <div class="text-left">
                         <p style="font-family:Poppins; font-size:24px; margin-left:15px; margin-top: 150px;">
