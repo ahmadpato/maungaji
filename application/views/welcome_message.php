@@ -423,6 +423,7 @@
           padding: 0 10px;
           border-radius: 20px;
           border: 0;
+          height: 500px;
         }
         .gtco-testimonials .card .card-img-top {
           max-width: 100px;
@@ -791,7 +792,7 @@
                </div>  
             </div>
         </div>
-        <div class="owl-carousel owl-carousel1 owl-theme">
+        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
           <div>
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt="">
               <div class="card-body" style="font-family:Poppins;">
