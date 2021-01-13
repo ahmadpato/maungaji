@@ -471,12 +471,9 @@
         * {
             box-sizing: border-box;
         }
-        @media screen and (min-width: 0px) and (max-width: 400px) {
-          #jdid { display: block; }  /* show it on small screens */
-        }
-
-        @media screen and (min-width: 401px) and (max-width: 1024px) {
-          #jdid { display: none; }   /* hide it elsewhere */
+        @media screen and (max-width: 1024px) {
+          #socmed { display: none; }   
+          #jdid { display: none; }
         }
     </style>
 </head>
@@ -568,7 +565,7 @@
                     </div>
                     <br>
                     <br>
-                    <div class="col-md-2 col-sm-2" style="padding-left:100px;">
+                    <div id="socmed" class="col-md-2 col-sm-2" style="padding-left:100px;">
                         <ul>
                             <li><img src="../img/icon/new/wa_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
                             <br>
@@ -583,9 +580,9 @@
                     </div>
                 </div>
             </div>
-            <div id="jdid" class="container-fluid"> 
+            <div class="container-fluid"> 
                 <div class="row">
-                    <div class="square-jdid">
+                    <div id="jdid" class="square-jdid">
                         <div class="col-md-6 col-sm-6">
                             <p style="margin-top: 20px;">
                                 <span style="font-size: 16px; font-family:Poppins; margin-left: 15rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
@@ -735,7 +732,7 @@
             <div class="container">
                 <div class="row">
                     <br>
-                    <div class="col-md-6 col-sm-6 text-center" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                    <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
                             <img src="../img/ilustrasi/Shield.png" style="left: 10%;" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
@@ -746,7 +743,7 @@
                         Kenali dan Verifikasi Guru Ngaji mu dengan fitur scan barcode di aplikasi.
                         </p>
                     </div>    
-                    <div class="col-md-6 col-sm-6 text-center" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                    <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
                             <img src="../img/ilustrasi/Hands.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
@@ -760,7 +757,7 @@
                 </div>
                 <div class="row">
                     <br>
-                    <div class="col-md-6 col-sm-6 text-center" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                    <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
                             <img src="../img/ilustrasi/Report.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
@@ -771,7 +768,7 @@
                         Kamu dapat melihat perkembangan belajarmu melalui aplikasi
                         </p>
                     </div>    
-                    <div class="col-md-6 col-sm-6 text-center" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
+                    <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
                             <img src="../img/ilustrasi/Certificate.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
