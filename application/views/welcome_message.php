@@ -632,7 +632,7 @@
                 </div>
                 <div class="col-md-4 square-center">
                     <div class="text-center">
-                        <img src="../img/ilustrasi/tahsin_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 1%;">               
+                        <img src="../img/ilustrasi/Tahsin_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 1%;">               
                     </div>
                     <div class="text-block-tahsin" data-toggle="tooltip" title="Baguskan dan perbaiki bacaan Qur’an mu dengan mengikuti kelas Tahsin atau yang biasa dikenal dengan ilmu tajwid di Maungaji">
                         TAHSIN
@@ -730,7 +730,7 @@
                     <br>
                     <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
-                            <img src="../img/ilustrasi/shield.png" style="left: 10%;" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                            <img src="../img/ilustrasi/Shield.png" style="left: 10%;" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
                         <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                             Aman dan Nyaman
@@ -755,7 +755,7 @@
                     <br>
                     <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
-                            <img src="../img/ilustrasi/report.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                            <img src="../img/ilustrasi/Report.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
                         <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         Laporan Belajar
@@ -766,7 +766,7 @@
                     </div>    
                     <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
-                            <img src="../img/ilustrasi/certificate.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                            <img src="../img/ilustrasi/Certificate.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
                         <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         Dapat sertifikat
@@ -826,7 +826,7 @@
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/Faiqotul.jpg" alt="">
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/faiqotul.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Faiqotul jamilah<br />
                 <p class="card-text" style="color:#FFFFFF; margin-top:53px;">MashaAllah , alhmdulillah dengan adanya aplikasi maungaji ini  saya lebih mudah untuk berbagi ilmu al quran kepada orang lain, tidak perlu repot melamar kerja atau mencari murid untuk sy ajar , dan respon admin mau ngaji yg ramah dan gercep jika membalas pertanyaan saya , membuat saya sdh merasa seperti keluarga.</p>
@@ -950,39 +950,109 @@
                     </p>
               </div>
             </div>   
-          <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/putridewi.jpg" alt="">
+            <div class="card text-center" style="background: #3597D4">
+              <img class="card-img-top" src="../img/icon/new/personal.png" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;">Putri Dewi Puspita<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:53px;">Maungaji sangat bermanfaat dan memudahkan umat untuk mencari guru ngaji berkualitas.</p>
+                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
+                    <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    25K/<span style="font-size: 25px;">pertemuan</span>
+                    </p>
+                    <br />
+                    <div class="col-sm-6" style="color:#FFFFFF;
+                    border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Tipe Kelas: Online
+                    </div>
+                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Max. Santri: 1 orang
+                    </div>
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru..
+                    </p>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="card text-center"><img class="card-img-top" src="../img/testimonial/yuniar.jpg" alt="">
+            <div class="card text-center" style="background: #D44835">
+              <img class="card-img-top" src="../img/icon/new/keluarga.png" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5>Yuniar Fella Anggaraini<br />
-                <p class="card-text" style="margin-top:53px;">Sangat membantu dan memudahkan bagi mualaf seperti saya dalam belajar mengaji. Guru nya juga mumpuni. Makasih banyak Maungaji,recomended!.</p>
+                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
+                    <p class="card-text" style="color:#D44835; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    50K/<span style="font-size: 25px;">pertemuan</span>
+                    </p>
+                    <br />
+                    <div class="col-sm-6" style="color:#FFFFFF;
+                    border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Tipe Kelas: Online
+                    </div>
+                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Max. Santri: 4 orang
+                    </div>
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    Belajar ngaji bersama guru ngaji secara online dan sertakan anggota keluarga Anda untuk belajar bersama.
+                    </p>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/Faiqotul.jpg" alt="">
+            <div class="card text-center" style="background: #35D458">
+              <img class="card-img-top" src="../img/icon/new/kelompok.png" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;">Faiqotul jamilah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:53px;">MashaAllah , alhmdulillah dengan adanya aplikasi maungaji ini  saya lebih mudah untuk berbagi ilmu al quran kepada orang lain, tidak perlu repot melamar kerja atau mencari murid untuk sy ajar , dan respon admin mau ngaji yg ramah dan gercep jika membalas pertanyaan saya , membuat saya sdh merasa seperti keluarga.</p>
+                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELOMPOK</h3> <br />
+                    <p class="card-text" style="color:#35D458; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    75K/<span style="font-size: 25px;">pertemuan</span>
+                    </p>
+                    <br />
+                    <div class="col-sm-6" style="color:#FFFFFF;
+                    border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Tipe Kelas: Online
+                    </div>
+                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Max. Santri: 10 orang
+                    </div>
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru..
+                    </p>
               </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/fida.jpg" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;">Fida Nabila<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:53px;">Alhamdulillah lebih mudah mengamalkan ilmu tentang al-qur'an nya. Mengajarnya jadi simple karena yang jauh bisa secara daring.</p>
-              </div>
-            </div>
-          </div>
-          <div class="card text-center" style="background: #3597D4">
+            </div>   
+            <div class="card text-center" style="background: #3597D4">
               <img class="card-img-top" src="../img/icon/new/personal.png" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
