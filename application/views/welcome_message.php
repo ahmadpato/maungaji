@@ -970,7 +970,7 @@
                     border-radius: 16px;
                     font-family: Poppins;
                     ">
-                        Tipe Kelas: Online
+                        Tipe Kelas: offline
                     </div>
                     <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
                     box-sizing: border-box;
@@ -1004,7 +1004,7 @@
                     border-radius: 16px;
                     font-family: Poppins;
                     ">
-                        Tipe Kelas: Online
+                        Tipe Kelas: offline
                     </div>
                     <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
                     box-sizing: border-box;
@@ -1072,7 +1072,7 @@
                     border-radius: 16px;
                     font-family: Poppins;
                     ">
-                        Tipe Kelas: Online
+                        Tipe Kelas: offline
                     </div>
                     <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
                     box-sizing: border-box;
