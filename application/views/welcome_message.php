@@ -659,7 +659,7 @@
             <div class="row">
                <div class="col-md-6 col-sm-6">
                     <div>
-                        <img src="../img/guru-ngaji/santri.png" class="img-responsive" alt="Belajar Ngaji" height="auto">               
+                        <img src="../img/guru-ngaji/Santri.png" class="img-responsive" alt="Belajar Ngaji" height="auto">               
                     </div>
                 </div>
                 <div class="col-md-6 sm-6">
