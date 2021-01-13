@@ -791,7 +791,7 @@
             <div class="row">
                 <div class="about-item text-left" style="margin-top: 100px;">
                     <div id="tech-statement">
-                        <h3 style="font-size: 50px;">Testimoni</h3>
+                        <h3 style="font-size: 50px;">Testimonis</h3>
                     </div>
                </div>  
             </div>
