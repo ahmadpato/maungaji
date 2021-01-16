@@ -477,7 +477,7 @@
                     <div class="container">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a href="">ARTIKEL</a></li>
+                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
                                 <li><a href="">FAQ</a></li>
                                 <li><a href="">TENTANG KAMI</a></li>
                                 <li><a href="https://maungaji.co.id/teacher/" target="_blank">
