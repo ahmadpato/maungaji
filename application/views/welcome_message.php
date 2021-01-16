@@ -211,7 +211,7 @@
             box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.8);
             letter-spacing: 2px;
             border-radius: 5px;
-            margin: 1px;
+            margin: -15px;
             text-transform: uppercase;
             font-size: 12px;
         }
@@ -480,7 +480,12 @@
                                 <li><a href="">ARTIKEL</a></li>
                                 <li><a href="">FAQ</a></li>
                                 <li><a href="">TENTANG KAMI</a></li>
-                                <li a href="" class="teacher" target="_blank">CARI GURU NGAJI</a></li>
+                                <li><a href="https://maungaji.co.id/teacher/" target="_blank">
+                                <div class="teacher">
+                                    CARI GURU NGAJI
+                                </div>
+                                </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
