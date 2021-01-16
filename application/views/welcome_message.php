@@ -1192,21 +1192,11 @@
 </section>
 
 <!--FOOTER START -->
-<footer class="ct-footer">
+<footer class="ct-footer" style="background-color: #263238">
   <div class="container">
     <ul class="ct-footer-list text-center-sm">
         <li>
-            <h2 class="ct-footer-list-header">Info Perusahaan</h2>
-            <ul><li><a href="">Tentang Kami</a></li>
-                <li><a href="">Kebijakan Privasi</a></li>
-                <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Syarat dan Ketentuan</a></li>
-                <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/faq.html">FAQ</a></li>
-                <li><a href="">Karir</a></li>
-                <li><a href="https://maungaji.co.id/artikel/">blog</a></li>
-            </ul>
-        </li>
-        <li>
-            <h2 class="ct-footer-list-header">Follow</h2>
+            <h2 class="ct-footer-list-header" style="color: #FFFFFF">Follow Kami</h2>
             <ul><li style="color:white"><a href="https://www.instagram.com/maungaji/" target="_blank"><i class="fa fa-instagram"></i><span>&nbsp;maungaji</span></a></li>
             <li style="color:white"><a href="https://www.facebook.com/maungaji/" target="_blank"><i class="fa fa-facebook"></i><span>&nbsp; maungaji</span></a></li>
             <li style="color:white"><a href="https://twitter.com/MaungajiIndo" target="_blank"><i class="fa fa-twitter"></i><span>&nbsp; maungajiIndo</span></a></li>
@@ -1214,14 +1204,29 @@
             </ul>
         </li>
         <li>
-            <h2 class="ct-footer-list-header">Hubungi Kami</h2>
+            <h2 class="ct-footer-list-header" style="color: #FFFFFF">Hubungi Kami</h2>
             <ul><li style="color:white"><a href="" target="_blank"><i class="fa fa-envelope-square"></i><span>&nbsp;support@maungaji.co.id</span></a></li>
             <li style="color:white"><a href="" target="_blank"><i class="fa fa-whatsapp"></i><span>&nbsp; +6281213419253</span></a></li>
             <li style="color:white"><a href="" target="_blank"><i class="fa fa-map-marker"></i><span>&nbsp; 
             Menara 165 lantai 4 Jl TB Simatupang kav1 Cilandak Jakarta Selatan.</span></a></li></ul>
         </li>
         <li>
-            <h2 class="ct-footer-list-header">Download</h2>
+            <h2 class="ct-footer-list-header" style="color: #FFFFFF">Info Perusahaan</h2>
+            <ul><li><a href="">Tentang Kami</a></li>
+                <li><a href="">Kebijakan Privasi</a></li>
+                <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Syarat dan Ketentuan</a></li>
+                <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/faq.html">FAQ</a></li>
+                <li><a href="">Karir</a></li>
+                <li><a href="https://maungaji.co.id/artikel/">blog</a></li>
+            </ul>
+            <br/>
+            <br/>
+            <div class="inner-center">
+                <p>Copyright © 2021 PT Maungaji Teknologi Indonesia.&nbsp;<a href="">Privacy Policy</a></p>
+            </div>
+        </li>
+        <li>
+            <h2 class="ct-footer-list-header" style="color: #FFFFFF">Download</h2>
             <ul>
                 <li>
                     <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
@@ -1240,9 +1245,6 @@
         </li>
     </ul>
 </div>
-  <div class="inner-center">
-        <p>Copyright © 2021 PT Maungaji Teknologi Indonesia.&nbsp;<a href="">Privacy Policy</a></p>
-  </div>
 
 </footer>
  <!--FOOTER END -->
