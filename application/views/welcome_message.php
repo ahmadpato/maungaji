@@ -1164,11 +1164,13 @@
     </div>
     <!--END FAQ-->
 
-<div id="tech-statement" class="text-center">
-    <div class="vertical-heading">
-        <h3><strong>Maungaji Telah diliput Oleh</strong></h3>
+    <div id="tech-statement" class="text-center" style="margin-top: 100px;">
+        <div class="vertical-heading">
+            <div style="font-size:50px; color: #FFFFFF; font-family: Poppins; margin-top: 10px; background-color: #3597D4; border: 1px solid #FFFFFF;box-sizing: border-box; border-radius: 16px; font-weight: 600; font-size: 50px; line-height: 80px;">
+                Maungaji Telah diliput Oleh
+            </div>
+        </div>
     </div>
-</div>
 
 <section id="pers" style="background-color: #FFFFFF;">
     <div class="container">
@@ -1176,12 +1178,12 @@
             <div class="col-md-12 wow fadeIn">
                 <div id="logo" class="text-center">
                         <div class="vertical-heading">
-                            <!-- <ul>
-                            <img src="<?php echo base_url('/img/icon/koran-tempo.png') ?>" class="img-responsive" width="200px" height="auto" alt="Koran Tempo" style="display: inline-block; margin-right: 15px;">
-                            <img src="<?php echo base_url('/img/icon/go-muslim.png') ?>" class="img-responsive" width="200px" height="auto" alt="gomuslim" style="display: inline-block; margin-right: 15px;">
-                            <img src="<?php echo base_url('/img/icon/republika.png') ?>" class="img-responsive" width="200px" height="auto" style="display: inline-block; margin-right: 15px;">
-                            <img src="https://maungaji.co.id/img/icon/republika_ramadhan.png" class="img-responsive" width="200px" height="auto" alt="Republika" style="display: inline-block; margin-right: 15px;">
-                            </ul> -->
+                            <ul>
+                            <img src="../img/icon/koran-tempo.png" class="img-responsive" width="200px" height="auto" alt="Koran Tempo" style="display: inline-block; margin-right: 15px;">
+                            <img src="../img/icon/go-muslim.png" class="img-responsive" width="200px" height="auto" alt="gomuslim" style="display: inline-block; margin-right: 15px;">
+                            <img src="../img/icon/republika.png" class="img-responsive" width="200px" height="auto" style="display: inline-block; margin-right: 15px;">
+                            <img src="../img/icon/republika_ramadhan.png" class="img-responsive" width="200px" height="auto" alt="Republika" style="display: inline-block; margin-right: 15px;">
+                            </ul>
                         </div>
                 </div>
             </div>
