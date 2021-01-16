@@ -548,15 +548,15 @@
                     <br>
                     <div id="socmed" class="col-md-2 col-sm-2" style="padding-left:100px;">
                         <ul>
-                            <li><img src="../img/icon/new/wa_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                            <li><a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank"><img src="../img/icon/new/wa_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
                             <br>
-                            <li><img src="../img/icon/new/ig_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                            <li><a href="https://www.instagram.com/maungaji/" target="_blank"><img src="../img/icon/new/ig_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
                             <br>
-                            <li><img src="../img/icon/new/fb_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                            <li><a href="https://www.facebook.com/maungaji/" target="_blank"><img src="../img/icon/new/fb_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
                             <br>
-                            <li><img src="../img/icon/new/tw_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                            <li><a href="https://twitter.com/MaungajiIndo" target="_blank"><img src="../img/icon/new/tw_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
                             <br>
-                            <li><img src="../img/icon/new/ln_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></li>
+                            <li><a href="https://www.linkedin.com/company/maungaji-indonesia/?originalSubdomain=id" target="_blank"><img src="../img/icon/new/ln_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -1211,7 +1211,7 @@
         <li>
             <h2 class="ct-footer-list-header" style="color: #FFFFFF">Hubungi Kami</h2>
             <ul><li style="color:white"><a href="" target="_blank"><i class="fa fa-envelope-square"></i><span>&nbsp;support@maungaji.co.id</span></a></li>
-            <li style="color:white"><a href="" target="_blank"><i class="fa fa-whatsapp"></i><span>&nbsp; +6281213419253</span></a></li>
+            <li style="color:white"><a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank"><i class="fa fa-whatsapp"></i><span>&nbsp; +6281213419253</span></a></li>
             <li style="color:white"><a href="" target="_blank"><i class="fa fa-map-marker"></i><span>&nbsp; 
             Menara 165 lantai 4 Jl TB Simatupang kav1 Cilandak Jakarta Selatan.</span></a></li></ul>
         </li>
