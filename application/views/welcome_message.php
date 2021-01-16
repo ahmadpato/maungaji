@@ -942,7 +942,7 @@
                     font-size: 50px;
                     line-height: 80px;
                     " >
-                    25K/<span style="font-size: 25px;">pertemuan</span>
+                    100K/<span style="font-size: 25px;">pertemuan</span>
                     </p>
                     <br />
                     <div class="col-sm-6" style="color:#FFFFFF;
@@ -976,7 +976,7 @@
                     font-size: 50px;
                     line-height: 80px;
                     " >
-                    50K/<span style="font-size: 25px;">pertemuan</span>
+                    125K/<span style="font-size: 25px;">pertemuan</span>
                     </p>
                     <br />
                     <div class="col-sm-6" style="color:#FFFFFF;
@@ -1044,7 +1044,7 @@
                     font-size: 50px;
                     line-height: 80px;
                     " >
-                    25K/<span style="font-size: 25px;">pertemuan</span>
+                    150K/<span style="font-size: 25px;">pertemuan</span>
                     </p>
                     <br />
                     <div class="col-sm-6" style="color:#FFFFFF;
@@ -1060,7 +1060,7 @@
                     border-radius: 16px;
                     font-family: Poppins;
                     ">
-                        Max. Santri: 1 orang
+                        Max. Santri: 10 orang
                     </div>
                     <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
                     Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru..
