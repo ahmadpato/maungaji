@@ -393,32 +393,9 @@
         .gtco-testimonials .owl-nav {
           display: none;
         }
-        .gtco-testimonials .owl-dots {
-          text-align: center;
-        }
-        .gtco-testimonials .owl-dots span {
-          position: relative;
-          height: 10px;
-          width: 10px;
-          border-radius: 50%;
-          display: block;
-          background: #fff;
-          border: 2px solid #01b0f8;
-          margin: 0 5px;
-        }
-        .gtco-testimonials .owl-dots .active {
-          box-shadow: none;
-        }
-        .gtco-testimonials .owl-dots .active span {
-          background: #01b0f8;
-          box-shadow: none;
-          height: 12px;
-          width: 12px;
-          margin-bottom: -1px;
-        }
         .gtco-testimonials .card {
           /*background: #3597D4;*/
-          box-shadow: 0 8px 30px -7px #c9dff0;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
           margin: 0 20px;
           padding: 0 10px;
           border-radius: 20px;
@@ -1093,55 +1070,6 @@
         </div>
     </div>
 
-<!-- <div class="container">   
-    <div id="tech-statement" class="text-center">
-        <div class="vertical-heading">
-            <h3><strong>Artikel Terbaru</strong></h3>
-        </div>
-    </div>      
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="<?php echo base_url('/img/icon/waktu_membaca_quran.png') ?>" alt="Waktu Baca" width="100%" height="auto">
-            <div class="caption">
-                <h3>Ini Loh Waktu Paling Baik Untuk Baca Al-Qur’an</h3>
-                <p><a href="https://maungaji.co.id/artikel/index.php/2020/03/25/ini-loh-waktu-paling-baik-untuk-baca-al-quran/" class="btn btn-primary" role="button">Lihat</a></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="<?php echo base_url('/img/icon/quran_qorona.png') ?>" alt="Al-Qur’an Qorona" width="100%" height="auto">
-            <div class="caption">
-                <h3>Sebelum Virus Corona, Al-Qur’an Sudah Ingatkan</h3>
-                <p><a href="https://maungaji.co.id/artikel/index.php/2020/03/23/sebelum-virus-corona-al-quran-sudah-ingatkan-tinggal-di-rumah-saat-bahaya/" class="btn btn-primary" role="button">Lihat</a></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="<?php echo base_url('/img/icon/fun_learning.png') ?>" alt="Fun Learning" width="100%" height="auto">
-            <div class="caption">
-                <h3>Belajar Mengaji Jadi Mudah dan Menyenangkan</h3>
-                <a href="https://maungaji.co.id/artikel/index.php/2020/04/04/metode-fun-learning-quran-untuk-anak/" class="btn btn-primary" role="button">Lihat</a></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-6 col-md-3">
-        <div class="thumbnail">
-            <img src="<?php echo base_url('/img/icon/isra_miraj.png') ?>" alt="Isra Miraj" width="100%" height="auto" width="100%" height="auto">
-            <div class="caption">
-                <h3>Kisah Isra Miraj: Langit Cemburu Pada Bumi</h3>
-                <p><a href="https://maungaji.co.id/artikel/index.php/2020/03/22/kisah-isra-miraj-langit-cemburu-pada-bumi-lalu-merayu-allah-agar-dikunjungi-nabi-muhammad/" class="btn btn-primary" role="button">Lihat</a></p>
-            </div>
-        </div>
-    </div>
-</div>
-<hr>
-<br/> -->
-
 <div id="tech-statement" class="text-center">
     <div class="vertical-heading">
         <h3><strong>Maungaji Telah diliput Oleh</strong></h3>
@@ -1227,44 +1155,37 @@
     $('[data-toggle="tooltip"]').tooltip();   
     });
 </script>
-<script src="<?php echo base_url('/js/calculate.js') ?>"></script>
 
-<script src="https://maungaji.co.id/maungaji/js/jquery.min.js"></script>
+<script src="https://maungaji.co.id/js/jquery.min.js"></script>
 
 <!--Bootstrap JS -->
-<script src="https://maungaji.co.id/maungaji/js/bootstrap/bootstrap.min.js"></script>
+<script src="https://maungaji.co.id/js/bootstrap/bootstrap.min.js"></script>
 
 <!--Owl Carousel JS -->
-<script src="https://maungaji.co.id/maungaji/js/owl-carousel/owl.carousel.min.js"></script>
+<script src="https://maungaji.co.id/js/owl-carousel/owl.carousel.min.js"></script>
 
 <!--Waypoints -->
-<script src="https://maungaji.co.id/maungaji/js/waypoints/jquery.waypoints.min.js"></script>
+<script src="https://maungaji.co.id/js/waypoints/jquery.waypoints.min.js"></script>
 
 <!--Responsive Tabs JS -->
-<script src="https://maungaji.co.id/maungaji/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+<script src="https://maungaji.co.id/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 
-<!--Gojek  -->
-<script type="text/javascript" src="https://maungaji.co.id/maungaji/js/slick.js"></script>
-
  <!--Isotope -->
-<script src="https://maungaji.co.id/maungaji/js/isotope/isotope.pkgd.min.js"></script>
+<script src="https://maungaji.co.id/js/isotope/isotope.pkgd.min.js"></script>
 
  <!--Magnific Popup -->
-<script src="https://maungaji.co.id/maungaji/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="https://maungaji.co.id/js/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 <!--Counter -->
-<script src="https://maungaji.co.id/maungaji/js/counter/jquery.counterup.min.js"></script>
+<script src="https://maungaji.co.id/js/counter/jquery.counterup.min.js"></script>
 
 <!--Easing -->
-<script src="https://maungaji.co.id/maungaji/js/easing/jquery.easing.1.3.min.js"></script>
+<script src="https://maungaji.co.id/js/easing/jquery.easing.1.3.min.js"></script>
 
 <!--WOW JS -->
-<script src="https://maungaji.co.id/maungaji/js/wow/wow.min.js"></script>
-
-<!--Custom JS -->
-<script src="https://maungaji.co.id/maungaji/js/script.js"></script>
+<script src="https://maungaji.co.id/js/wow/wow.min.js"></script>
 
 <script async data-id="16951" src="https://cdn.widgetwhats.com/script.min.js"></script>
 
