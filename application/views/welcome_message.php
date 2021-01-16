@@ -1120,9 +1120,9 @@
         <li>
             <h2 class="ct-footer-list-header">Hubungi Kami</h2>
             <ul><li style="color:white"><a href="" target="_blank"><i class="fa fa-envelope-square"></i><span>&nbsp;support@maungaji.co.id</span></a></li>
-            <li style="color:white"><a href="" target="_blank"><i class="fa fa-whatsapp"></i><span>&nbsp; 0813-8227-0775</span></a></li>
+            <li style="color:white"><a href="" target="_blank"><i class="fa fa-whatsapp"></i><span>&nbsp; +6281213419253</span></a></li>
             <li style="color:white"><a href="" target="_blank"><i class="fa fa-map-marker"></i><span>&nbsp; 
-            jl. radio dalam, gg.minank kramat rt 001/014, no2 Kebayoran Baru, Kota Jakarta Selatan, 12140.</span></a></li></ul>
+            Menara 165 lantai 4 Jl TB Simatupang kav1 Cilandak Jakarta Selatan.</span></a></li></ul>
         </li>
         <li>
             <h2 class="ct-footer-list-header">Download</h2>
