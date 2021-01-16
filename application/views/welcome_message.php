@@ -1156,6 +1156,8 @@
     });
 </script>
 
+<script src="https://maungaji.co.id/js/calculate.js"></script>
+
 <script src="https://maungaji.co.id/js/jquery.min.js"></script>
 
 <!--Bootstrap JS -->
@@ -1186,6 +1188,9 @@
 
 <!--WOW JS -->
 <script src="https://maungaji.co.id/js/wow/wow.min.js"></script>
+
+<!--Custom JS -->
+<script src="https://maungaji.co.id/js/script.js"></script>
 
 <script async data-id="16951" src="https://cdn.widgetwhats.com/script.min.js"></script>
 
