@@ -19,11 +19,17 @@ class Welcome extends CI_Controller {
 
 		ini_set('display_errors', 1);
 
+		//end point for count data teacher and student
         $countData = $this->http_request("http://13.59.145.203/v1/landing");
 
-		// ubah string JSON menjadi array
+        //end point for new article maungaji
+        $article = $this->http_request("https://maungaji.co.id/api/public/article/new");
+
+		// change string JSON to array
 		$x['murid'] = json_decode($countData, TRUE);
-        
+
+		$x['article'] = json_decode($article, TRUE);
+
         $this->load->view("welcome_message", $x);
 	}
 

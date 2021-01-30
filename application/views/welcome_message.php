@@ -479,7 +479,6 @@
                             <ul class="nav navbar-nav pull-right">
                                 <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
                                 <li><a href="">FAQ</a></li>
-                                <li><a href="">TENTANG KAMI</a></li>
                                 <li><a href="https://maungaji.co.id/teacher/" target="_blank">
                                 <div class="teacher">
                                     CARI GURU NGAJI
@@ -498,7 +497,6 @@
                             <ul class="nav">
                                 <li><a href="">ARTIKEL</a></li>
                                 <li><a href="">FAQ</a></li>
-                                <li><a href="">TENTANG KAMI</a></li>
                                 <li a href="" class="teacher" target="_blank">CARI GURU NGAJI</a></li>
                             </ul>
                         </div>
@@ -775,12 +773,16 @@
         </section>
     </div>
 
+    <!--testimoni-->
     <div class="gtco-testimonials">
         <div class="container">
             <div class="row">
                 <div class="about-item text-left" style="margin-top: 100px;">
                     <div id="tech-statement">
                         <h3 style="font-size: 50px;">Testimoni</h3>
+                    </div>
+                    <div style="color:#8A8787">
+                        <h5 style="font-size: 20px;">Kumpulan testimoni dari para santri dan guru ngaji yang sudah terdaftar di maungaji</h5>
                     </div>
                </div>  
             </div>
@@ -860,7 +862,9 @@
           </div>
         </div>
     </div>
+    <!--end testimoni-->
 
+    <!--price-->
     <div class="gtco-testimonials">
         <div class="container">
             <div class="row">
@@ -869,7 +873,7 @@
                         <h3 style="font-size: 50px;">Pilih Paket Belajar-Mu</h3>
                     </div>
                     <div style="color:#8A8787">
-                        <h5>Paket Pertemuan adalah paket yang pembayarannya dilakukan setiap 1x pertemuan</h5>
+                        <h5 style="font-size: 20px;">Paket Pertemuan adalah paket yang pembayarannya dilakukan setiap 1x pertemuan</h5>
                     </div>
                </div>  
             </div>
@@ -1086,6 +1090,92 @@
             </div>   
         </div>
     </div>
+    <!--end price-->
+
+    <!--article-->
+    <div class="gtco-testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="about-item text-left" style="margin-top: 100px;">
+                    <div id="tech-statement">
+                        <h3 style="font-size: 50px;">Artikel</h3>
+                    </div>
+                    <div style="color:#8A8787">
+                        <h5 style="font-size: 20px;">Kumpulan artikel islami yang ada di maungaji</h5>
+                    </div>
+               </div>  
+            </div>
+        </div>
+        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
+            <div class="card text-center" style="background: #FFFFFF">
+              <!-- <img class="card-img-top" src="../img/icon/new/keluarga.png" alt=""> -->
+              <div class="card-body" style="font-family:Poppins;">
+                <br />
+                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    <?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['0']['post_title'] ?>
+                    <?php } ?>
+                    </p>
+                    <br />
+                    <p><a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['0']['guid'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button">Read More..</a></p>
+              </div>
+            </div>
+            
+            <div class="card text-center" style="background: #FFFFFF">
+              <!-- <img class="card-img-top" src="../img/icon/new/personal.png" alt=""> -->
+              <div class="card-body" style="font-family:Poppins;">
+                <br />
+                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    <?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['1']['post_title'] ?>
+                    <?php } ?>
+                    </p>
+                    <br />
+
+                    <p><a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['1']['guid'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button">Read More..</a></p>
+              </div>
+            </div>
+
+             <div class="card text-center" style="background: #FFFFFF">
+              <!-- <img class="card-img-top" src="../img/icon/new/personal.png" alt=""> -->
+              <div class="card-body" style="font-family:Poppins;">
+                <br />
+                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    <?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['2']['post_title'] ?>
+                    <?php } ?>
+                    </p>
+                    <br />
+                    <p><a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['2']['guid'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button">Read More..</a></p>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--end article-->
 
     <div class="container">
         <div id="tech-statement" class="text-left" style="margin-top: 100px;">
@@ -1190,87 +1280,87 @@
         </div>
     </div>
 
-<section id="pers" style="background-color: #FFFFFF;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 wow fadeIn">
-                <div id="logo" class="text-center">
-                        <div class="vertical-heading">
-                            <ul>
-                            <img src="../img/icon/koran-tempo.png" class="img-responsive" width="200px" height="auto" alt="Koran Tempo" style="display: inline-block; margin-right: 15px;">
-                            <img src="../img/icon/go-muslim.png" class="img-responsive" width="200px" height="auto" alt="gomuslim" style="display: inline-block; margin-right: 15px;">
-                            <img src="../img/icon/republika.png" class="img-responsive" width="200px" height="auto" style="display: inline-block; margin-right: 15px;">
-                            <img src="../img/icon/republika_ramadhan.png" class="img-responsive" width="200px" height="auto" alt="Republika" style="display: inline-block; margin-right: 15px;">
-                            </ul>
-                        </div>
+    <section id="pers" style="background-color: #FFFFFF;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeIn">
+                    <div id="logo" class="text-center">
+                            <div class="vertical-heading">
+                                <ul>
+                                <img src="../img/icon/koran-tempo.png" class="img-responsive" width="200px" height="auto" alt="Koran Tempo" style="display: inline-block; margin-right: 15px;">
+                                <img src="../img/icon/go-muslim.png" class="img-responsive" width="200px" height="auto" alt="gomuslim" style="display: inline-block; margin-right: 15px;">
+                                <img src="../img/icon/republika.png" class="img-responsive" width="200px" height="auto" style="display: inline-block; margin-right: 15px;">
+                                <img src="../img/icon/republika_ramadhan.png" class="img-responsive" width="200px" height="auto" alt="Republika" style="display: inline-block; margin-right: 15px;">
+                                </ul>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!--FOOTER START -->
-<footer class="ct-footer" style="background-color: #263238">
-  <div class="container">
-    <ul class="ct-footer-list text-center-sm">
-        <li>
-            <h2 class="ct-footer-list-header" style="color: #FFFFFF">Follow Kami</h2>
-            <ul><li style="color:white"><a href="https://www.instagram.com/maungaji/" target="_blank"><i class="fa fa-instagram"></i><span>&nbsp;maungaji</span></a></li>
-            <li style="color:white"><a href="https://www.facebook.com/maungaji/" target="_blank"><i class="fa fa-facebook"></i><span>&nbsp; maungaji</span></a></li>
-            <li style="color:white"><a href="https://twitter.com/MaungajiIndo" target="_blank"><i class="fa fa-twitter"></i><span>&nbsp; maungajiIndo</span></a></li>
-            <li style="color:white"><a href="https://www.youtube.com/channel/UCIp6c79qyzU98400W253WYQ" target="_blank"><i class="fa fa-youtube"></i><span>&nbsp; maungaji official</span></a></li>
-            </ul>
-        </li>
-        <li>
-            <h2 class="ct-footer-list-header" style="color: #FFFFFF">Hubungi Kami</h2>
-            <ul><li style="color:white"><a href="" target="_blank"><i class="fa fa-envelope-square"></i><span>&nbsp;support@maungaji.co.id</span></a></li>
-            <li style="color:white"><a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank"><i class="fa fa-whatsapp"></i><span>&nbsp; +6281213419253</span></a></li>
-            <li style="color:white"><a href="" target="_blank"><i class="fa fa-map-marker"></i><span>&nbsp; 
-            Menara 165 lantai 4 Jl TB Simatupang kav1 Cilandak Jakarta Selatan.</span></a></li></ul>
-        </li>
-        <li>
-            <h2 class="ct-footer-list-header" style="color: #FFFFFF">Info Perusahaan</h2>
-            <ul><li><a href="">Tentang Kami</a></li>
-                <li><a href="">Kebijakan Privasi</a></li>
-                <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Syarat dan Ketentuan</a></li>
-                <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/faq.html">FAQ</a></li>
-                <li><a href="">Karir</a></li>
-                <li><a href="https://maungaji.co.id/artikel/">blog</a></li>
-            </ul>
-            <br/>
-            <br/>
-            <div class="inner-center">
-                <p>Copyright © 2021 PT Maungaji Teknologi Indonesia.&nbsp;<a href="">Privacy Policy</a></p>
-            </div>
-        </li>
-        <li>
-            <h2 class="ct-footer-list-header" style="color: #FFFFFF">Download</h2>
-            <ul>
-                <li>
-                    <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                       <div class="button-download">
-                            <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank">
-                                <img src="../img/icon/playstore.png" class="img-responsive">
-                            </a>
-                            <br>
-                            <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
-                                <img src="../img/icon/appstore.png" class="img-responsive">
-                            </a>
+    <!--FOOTER START -->
+    <footer class="ct-footer" style="background-color: #263238">
+      <div class="container">
+        <ul class="ct-footer-list text-center-sm">
+            <li>
+                <h2 class="ct-footer-list-header" style="color: #FFFFFF">Follow Kami</h2>
+                <ul><li style="color:white"><a href="https://www.instagram.com/maungaji/" target="_blank"><i class="fa fa-instagram"></i><span>&nbsp;maungaji</span></a></li>
+                <li style="color:white"><a href="https://www.facebook.com/maungaji/" target="_blank"><i class="fa fa-facebook"></i><span>&nbsp; maungaji</span></a></li>
+                <li style="color:white"><a href="https://twitter.com/MaungajiIndo" target="_blank"><i class="fa fa-twitter"></i><span>&nbsp; maungajiIndo</span></a></li>
+                <li style="color:white"><a href="https://www.youtube.com/channel/UCIp6c79qyzU98400W253WYQ" target="_blank"><i class="fa fa-youtube"></i><span>&nbsp; maungaji official</span></a></li>
+                </ul>
+            </li>
+            <li>
+                <h2 class="ct-footer-list-header" style="color: #FFFFFF">Hubungi Kami</h2>
+                <ul><li style="color:white"><a href="" target="_blank"><i class="fa fa-envelope-square"></i><span>&nbsp;support@maungaji.co.id</span></a></li>
+                <li style="color:white"><a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank"><i class="fa fa-whatsapp"></i><span>&nbsp; +6281213419253</span></a></li>
+                <li style="color:white"><a href="" target="_blank"><i class="fa fa-map-marker"></i><span>&nbsp; 
+                Menara 165 lantai 4 Jl TB Simatupang kav1 Cilandak Jakarta Selatan.</span></a></li></ul>
+            </li>
+            <li>
+                <h2 class="ct-footer-list-header" style="color: #FFFFFF">Info Perusahaan</h2>
+                <ul>
+                    <li><a href="">Kebijakan Privasi</a></li>
+                    <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Syarat dan Ketentuan</a></li>
+                    <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/faq.html">FAQ</a></li>
+                    <li><a href="">Karir</a></li>
+                    <li><a href="https://maungaji.co.id/artikel/">blog</a></li>
+                </ul>
+                <br/>
+                <br/>
+                <div class="inner-center">
+                    <p>Copyright © 2021 PT Maungaji Teknologi Indonesia.&nbsp;<a href="">Privacy Policy</a></p>
+                </div>
+            </li>
+            <li>
+                <h2 class="ct-footer-list-header" style="color: #FFFFFF">Download</h2>
+                <ul>
+                    <li>
+                        <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
+                           <div class="button-download">
+                                <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank">
+                                    <img src="../img/icon/playstore.png" class="img-responsive">
+                                </a>
+                                <br>
+                                <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
+                                    <img src="../img/icon/appstore.png" class="img-responsive">
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-</footer>
- <!--FOOTER END -->
-<script>
-    $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
-    });
-</script>
+    </footer>
+     <!--FOOTER END -->
+    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
 
 <script src="https://maungaji.co.id/js/calculate.js"></script>
 
