@@ -910,7 +910,7 @@
               </div>
             </div>
             
-            <!-- <div class="card text-center" style="background: #3597D4">
+            <div class="card text-center" style="background: #3597D4">
               <img class="card-img-top" src="../img/icon/new/personal.png" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
@@ -943,8 +943,9 @@
                     Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
                     </p>
               </div>
-            </div> -->
-            <!-- <div class="card text-center" style="background: #D44835">
+            </div>
+
+            <div class="card text-center" style="background: #D44835">
               <img class="card-img-top" src="../img/icon/new/keluarga.png" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
@@ -977,7 +978,7 @@
                     Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.
                     </p>
               </div>
-            </div> -->
+            </div>
             
             <div class="card text-center" style="background: #35D458">
               <img class="card-img-top" src="../img/icon/new/kelompok.png" alt="">
@@ -1048,11 +1049,12 @@
                     </p>
               </div>
             </div>  
-            <!-- <div class="card text-center" style="background: #3597D4">
+
+            <div class="card text-center" style="background: #35D458">
               <img class="card-img-top" src="../img/icon/new/kelompok.png" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELOMPOK</h3> <br />
-                    <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    <p class="card-text" style="color:#35D458; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
@@ -1081,7 +1083,7 @@
                     Belajar ngaji bersama guru ngaji secara offline dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar
                     </p>
               </div>
-            </div> -->
+            </div>   
         </div>
     </div>
 
