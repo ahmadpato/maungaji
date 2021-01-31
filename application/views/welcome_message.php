@@ -121,7 +121,7 @@
         h3 {
             color: #FFF;
             font-family: "Rakkas";
-            font-size: 45.5px;
+            font-size: 40px;
             position: relative;
             letter-spacing: 0.05em;
             line-height:100%;
@@ -474,7 +474,7 @@
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
           margin: 0 20px;
           padding: 0 10px;
-          border-radius: 20px;
+          /*border-radius: 20px;*/
           border: 0;
         }
         .gtco-article .card .card-img-top {
@@ -521,7 +521,7 @@
           outline: 0;
         }
         .img-article {
-          border-radius: 20px;
+          /*border-radius: 20px;*/
           padding: 5px;
           width: 150px;
           height: 500px
@@ -689,7 +689,7 @@
             <div class="row">
                 <div class="about-item text-left">
                     <div id="tech-statement">
-                        <h3 style="font-size: 45.5px; font-family: 'Poppins'; font-weight: 1000;">Pilihan Kelas</h3>
+                        <h3 style="font-size: 40px; font-family: 'Poppins'; font-weight: 1000;">Pilihan Kelas</h3>
                     </div>
                     <div class="new-text">
                         <p style="font-size: 24px;">Di Maungaji kamu bisa memilih salah satu di antara tiga jenis kelas</p>
