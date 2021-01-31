@@ -409,7 +409,7 @@
           max-width: 100px;
           border-radius: 50%;
           margin: 15px auto 0;
-          box-shadow: 0 8px 20px -4px #95abbb;
+          /*box-shadow: 0 8px 20px -4px #95abbb;*/
           width: 100px;
           height: 100px;
         }
@@ -751,7 +751,7 @@
                     </div>   
                     <div class="text-center">
                         <p class="text-register-student text-center" style="color: #3597D4; margin-top: 175px;">
-                        Daftar Jadi Santri Ngaji
+                        <a href="https://linktr.ee/Maungaji" target="_blank">Daftar Jadi Santri Ngaji</a>
                         </p>
                     </div>   
                 </div>
@@ -781,8 +781,8 @@
                         </p>
                     </div>   
                     <div class="text-center">
-                        <p class="text-register-student text-center" style="color: #3597D4; margin-top: 205px;">
-                        Daftar Jadi Guru Ngaji
+                        <p class="text-register-student text-center" style="color: #3597D4; margin-top: 175px;">
+                        <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji</a>
                         </p>
                     </div>   
                 </div>
