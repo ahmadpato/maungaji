@@ -8,6 +8,10 @@
         }
     }
 
+    if($imageArticle){
+        // var_dump($imageArticle);exit;
+    }
+
 ?>
 <!--<!DOCTYPE html>-->
 <html lang="en">
@@ -399,7 +403,7 @@
           padding: 0 10px;
           border-radius: 20px;
           border: 0;
-          height: 500px;
+          height: 600px;
         }
         .gtco-testimonials .card .card-img-top {
           max-width: 100px;
@@ -443,6 +447,84 @@
         }
         .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
           outline: 0;
+        }
+
+        .gtco-article {
+          position: relative;
+          margin-top: 30px;
+        }
+        @media (max-width: 767px) {
+          .gtco-article {
+            margin-top: 20px;
+          }
+        }
+        .gtco-article h2 {
+          font-size: 30px;
+          text-align: center;
+          color: #333333;
+          margin-bottom: 50px;
+        }
+        .gtco-article .owl-stage-outer {
+          padding: 30px 0;
+        }
+        .gtco-article .owl-nav {
+          display: none;
+        }
+        .gtco-article .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+          margin: 0 20px;
+          padding: 0 10px;
+          border-radius: 20px;
+          border: 0;
+        }
+        .gtco-article .card .card-img-top {
+          max-width: 100px;
+          border-radius: 50%;
+          margin: 15px auto 0;
+          box-shadow: 0 8px 20px -4px #95abbb;
+          width: 100px;
+          height: 100px;
+        }
+        .gtco-article .card h5 {
+          color: #01b0f8;
+          font-size: 21px;
+          line-height: 1.3;
+        }
+        .gtco-article .card h5 span {
+          font-size: 18px;
+          color: #666666;
+        }
+        .gtco-article .card p {
+          font-size: 18px;
+          color: #555;
+          padding-bottom: 15px;
+        }
+        .gtco-article .active {
+          opacity: 0.5;
+          transition: all 0.3s;
+        }
+        .gtco-article .center {
+          opacity: 1;
+        }
+        .gtco-article .center h5 {
+          font-size: 24px;
+        }
+        .gtco-article .center h5 span {
+          font-size: 20px;
+        }
+        .gtco-article .center .card-img-top {
+          max-width: 100%;
+          height: 120px;
+          width: 120px;
+        }
+        .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+          outline: 0;
+        }
+        .img-article {
+          border-radius: 20px;
+          padding: 5px;
+          width: 150px;
+          height: 500px
         }
         * {
             box-sizing: border-box;
@@ -519,8 +601,8 @@
                 <div class="row">
                     <br>
                     <div class="col-md-6 col-sm-6">
-                        <p><h3>Belajar Mengaji</h3></p>
-                        <p><h3>Makin Mudah</h3></p>
+                        <p><h3 style="font-family: 'Poppins'; font-weight: 1000;">Belajar Mengaji</h3></p>
+                        <p><h3 style="font-family: 'Poppins'; font-weight: 1000;">Makin Mudah</h3></p>
                         <br>
                         <p>
                         <h4 style="color: #FFF;">dengan Guru Ngaji Terbaik se-Indonesia <span style="color: #FFE604">Tatap Muka Langsung</span> ataupun <span style="color: #FFE604">Kelas Online.</span> Mudah, Murah dan Sesuai Syariah.
@@ -599,7 +681,7 @@
             <div class="row">
                 <div class="about-item text-left">
                     <div id="tech-statement">
-                        <h3 style="font-size: 45.5px;">Pilihan Kelas</h3>
+                        <h3 style="font-size: 45.5px; font-family: 'Poppins'; font-weight: 1000;">Pilihan Kelas</h3>
                     </div>
                     <div class="new-text">
                         <p style="font-size: 24px;">Di Maungaji kamu bisa memilih salah satu di antara tiga jenis kelas</p>
@@ -712,7 +794,7 @@
                 <div class="row">
                     <br>
                     <div class="col-md-12 col-sm-12">
-                    <p><h3>Kelebihan Maungaji</h3></p>
+                    <p><h3 style="font-family: 'Poppins'; font-weight: 1000;">Kelebihan Maungaji</h3></p>
                     </div>    
                 </div>
             </div>
@@ -779,7 +861,7 @@
             <div class="row">
                 <div class="about-item text-left" style="margin-top: 100px;">
                     <div id="tech-statement">
-                        <h3 style="font-size: 50px;">Testimoni</h3>
+                        <h3 style="font-size: 50px; font-family: 'Poppins'; font-weight: 1000;">Testimoni</h3>
                     </div>
                     <div style="color:#8A8787">
                         <h5 style="font-size: 20px;">Kumpulan testimoni dari para santri dan guru ngaji yang sudah terdaftar di maungaji</h5>
@@ -870,7 +952,7 @@
             <div class="row">
                 <div class="about-item text-left" style="margin-top: 100px;">
                     <div id="tech-statement">
-                        <h3 style="font-size: 50px;">Pilih Paket Belajar-Mu</h3>
+                        <h3 style="font-size: 50px; font-family: 'Poppins'; font-weight: 1000;">Pilih Paket Belajar-Mu</h3>
                     </div>
                     <div style="color:#8A8787">
                         <h5 style="font-size: 20px;">Paket Pertemuan adalah paket yang pembayarannya dilakukan setiap 1x pertemuan</h5>
@@ -878,6 +960,7 @@
                </div>  
             </div>
         </div>
+
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
             <div class="card text-center" style="background: #D44835">
               <img class="card-img-top" src="../img/icon/new/keluarga.png" alt="">
@@ -913,77 +996,7 @@
                     </p>
               </div>
             </div>
-            
-            <div class="card text-center" style="background: #3597D4">
-              <img class="card-img-top" src="../img/icon/new/personal.png" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
-                    <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    100K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    ">
-                        Tipe Kelas: offline
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    ">
-                        Max. Santri: 1 orang
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
-                    Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
-                    </p>
-              </div>
-            </div>
 
-            <div class="card text-center" style="background: #D44835">
-              <img class="card-img-top" src="../img/icon/new/keluarga.png" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
-                    <p class="card-text" style="color:#D44835; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    125K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    ">
-                        Tipe Kelas: offline
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    ">
-                        Max. Santri: 4 orang
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
-                    Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.
-                    </p>
-              </div>
-            </div>
-            
             <div class="card text-center" style="background: #35D458">
               <img class="card-img-top" src="../img/icon/new/kelompok.png" alt="">
               <div class="card-body" style="font-family:Poppins;">
@@ -1017,42 +1030,7 @@
                     Belajar ngaji bersama guru ngaji secara online dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.
                     </p>
               </div>
-            </div>    
-
-            <div class="card text-center" style="background: #3597D4">
-              <img class="card-img-top" src="../img/icon/new/personal.png" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
-                    <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    50K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    ">
-                        Tipe Kelas: Online
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    ">
-                        Max. Santri: 1 orang
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
-                    Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
-                    </p>
-              </div>
-            </div>  
+            </div> 
 
             <div class="card text-center" style="background: #35D458">
               <img class="card-img-top" src="../img/icon/new/kelompok.png" alt="">
@@ -1088,99 +1066,120 @@
                     </p>
               </div>
             </div>   
+
+            <div class="card text-center" style="background: #D44835">
+              <img class="card-img-top" src="../img/icon/new/keluarga.png" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
+                    <p class="card-text" style="color:#D44835; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    125K/<span style="font-size: 25px;">pertemuan</span>
+                    </p>
+                    <br />
+                    <div class="col-sm-6" style="color:#FFFFFF;
+                    border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Tipe Kelas: offline
+                    </div>
+                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Max. Santri: 4 orang
+                    </div>
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.
+                    </p>
+              </div>
+            </div>
+
+            <div class="card text-center" style="background: #3597D4">
+              <img class="card-img-top" src="../img/icon/new/personal.png" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
+                    <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    100K/<span style="font-size: 25px;">pertemuan</span>
+                    </p>
+                    <br />
+                    <div class="col-sm-6" style="color:#FFFFFF;
+                    border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Tipe Kelas: offline
+                    </div>
+                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Max. Santri: 1 orang
+                    </div>
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
+                    </p>
+              </div>
+            </div> 
+
+              <div class="card text-center" style="background: #3597D4">
+              <img class="card-img-top" src="../img/icon/new/personal.png" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
+                    <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    50K/<span style="font-size: 25px;">pertemuan</span>
+                    </p>
+                    <br />
+                    <div class="col-sm-6" style="color:#FFFFFF;
+                    border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Tipe Kelas: Online
+                    </div>
+                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Max. Santri: 1 orang
+                    </div>
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
+                    </p>
+              </div>
+            </div>    
+
         </div>
     </div>
     <!--end price-->
 
-    <!--article-->
-    <div class="gtco-testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="about-item text-left" style="margin-top: 100px;">
-                    <div id="tech-statement">
-                        <h3 style="font-size: 50px;">Artikel</h3>
-                    </div>
-                    <div style="color:#8A8787">
-                        <h5 style="font-size: 20px;">Kumpulan artikel islami yang ada di maungaji</h5>
-                    </div>
-               </div>  
-            </div>
-        </div>
-        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
-            <div class="card text-center" style="background: #FFFFFF">
-              <!-- <img class="card-img-top" src="../img/icon/new/keluarga.png" alt=""> -->
-              <div class="card-body" style="font-family:Poppins;">
-                <br />
-                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['0']['post_title'] ?>
-                    <?php } ?>
-                    </p>
-                    <br />
-                    <p><a href="<?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['0']['guid'] ?>
-                    <?php } ?>" class="btn btn-warning btn-lg" role="button">Read More..</a></p>
-              </div>
-            </div>
-            
-            <div class="card text-center" style="background: #FFFFFF">
-              <!-- <img class="card-img-top" src="../img/icon/new/personal.png" alt=""> -->
-              <div class="card-body" style="font-family:Poppins;">
-                <br />
-                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['1']['post_title'] ?>
-                    <?php } ?>
-                    </p>
-                    <br />
-
-                    <p><a href="<?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['1']['guid'] ?>
-                    <?php } ?>" class="btn btn-warning btn-lg" role="button">Read More..</a></p>
-              </div>
-            </div>
-
-             <div class="card text-center" style="background: #FFFFFF">
-              <!-- <img class="card-img-top" src="../img/icon/new/personal.png" alt=""> -->
-              <div class="card-body" style="font-family:Poppins;">
-                <br />
-                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['2']['post_title'] ?>
-                    <?php } ?>
-                    </p>
-                    <br />
-                    <p><a href="<?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['2']['guid'] ?>
-                    <?php } ?>" class="btn btn-warning btn-lg" role="button">Read More..</a></p>
-              </div>
-            </div>
-        </div>
-    </div>
-    <!--end article-->
-
-    <div class="container">
+     <div class="container">
         <div id="tech-statement" class="text-left" style="margin-top: 100px;">
             <div class="vertical-heading">
-                <h3 style="font-size:50px;"><strong>FAQ</strong></h3>
+                <h3 style="font-size:50px; font-family: 'Poppins'; font-weight: 1000;">FAQ</h3>
             </div>
         </div>
         <div class="panel-group" id="faqAccordion">
@@ -1271,6 +1270,157 @@
     <!--/panel-group-->
     </div>
     <!--END FAQ-->
+
+    <!--article-->
+    <div class="gtco-article">
+        <div class="container">
+            <div class="row">
+                <div class="about-item text-left" style="margin-top: 100px;">
+                    <div id="tech-statement">
+                        <h3 style="font-size: 50px; font-family: 'Poppins'; font-weight: 1000;">Artikel</h3>
+                    </div>
+                    <div style="color:#8A8787">
+                        <h5 style="font-size: 20px;">Kumpulan artikel terbaru yang ada di maungaji</h5>
+                    </div>
+               </div>  
+            </div>
+        </div>
+
+        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
+            <div class="card text-left" style="background: #FFFFFF">
+              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
+                    <?php echo $imageArticle['data']['1']['guid'] ?>
+                    <?php } ?>" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <br />
+                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 35px;
+                    line-height: 50px;
+                    " >
+                    <?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['0']['post_title'] ?>
+                    <?php } ?>
+                    </p>
+                    <br />
+              </div>
+
+              <div class="text-center">
+                <p>
+                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['0']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                </p>
+               </div>
+            </div>
+            
+            <div class="card text-left" style="background: #FFFFFF">
+              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
+                    <?php echo $imageArticle['data']['0']['guid'] ?>
+                    <?php } ?>" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <br />
+                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 35px;
+                    line-height: 50px;
+                    " >
+                    <?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['1']['post_title'] ?>
+                    <?php } ?>
+                    </p>
+                    <br />
+              </div>
+              <div class="text-center">
+                <p>
+                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['1']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                </p>
+               </div>
+            </div>
+
+            <div class="card text-left" style="background: #FFFFFF">
+              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
+                    <?php echo $imageArticle['data']['1']['guid'] ?>
+                    <?php } ?>" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <br />
+                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 35px;
+                    line-height: 50px;
+                    " >
+                    <?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['2']['post_title'] ?>
+                    <?php } ?>
+                    </p>
+                    <br />
+              </div>
+              <div class="text-center">
+                <p>
+                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['2']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                </p>
+               </div>
+            </div>
+
+            <div class="card text-left" style="background: #FFFFFF">
+              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
+                    <?php echo $imageArticle['data']['3']['guid'] ?>
+                    <?php } ?>" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <br />
+                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 35px;
+                    line-height: 50px;
+                    " >
+                    <?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['4']['post_title'] ?>
+                    <?php } ?>
+                    </p>
+                    <br />
+              </div>
+              <div class="text-center">
+                <p>
+                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['4']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                </p>
+               </div>
+            </div>
+
+            <div class="card text-left" style="background: #FFFFFF">
+              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
+                    <?php echo $imageArticle['data']['2']['guid'] ?>
+                    <?php } ?>" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <br />
+                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 35px;
+                    line-height: 50px;
+                    " >
+                    <?php if (!empty($article)) { ?>
+                    <?php echo $article['data']['3']['post_title'] ?>
+                    <?php } ?>
+                    </p>
+                    <br />
+              </div>
+              <div class="text-center">
+                <p>
+                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['3']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                </p>
+               </div>
+            </div>
+
+        </div>
+    </div>
+    <!--end article-->
 
     <div id="tech-statement" class="text-center" style="margin-top: 100px;">
         <div class="vertical-heading">

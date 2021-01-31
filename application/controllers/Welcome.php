@@ -25,10 +25,15 @@ class Welcome extends CI_Controller {
         //end point for new article maungaji
         $article = $this->http_request("https://maungaji.co.id/api/public/article/new");
 
+        //end point for new image article maungaji
+        $imageArticle = $this->http_request("https://maungaji.co.id/api/public/article/image/new");
+        
 		// change string JSON to array
 		$x['murid'] = json_decode($countData, TRUE);
 
 		$x['article'] = json_decode($article, TRUE);
+
+		$x['imageArticle'] = json_decode($imageArticle, TRUE);
 
         $this->load->view("welcome_message", $x);
 	}
