@@ -532,6 +532,14 @@
         @media screen and (max-width: 1024px) {
           #socmed { display: none; }   
           #jdid { display: none; }
+          #chosing-class .about-item {
+            font-size: 40px;
+          }
+          #prons-mau .square-kelebihan-maungaji { 
+            height: 300px;
+            width: 300px;
+            margin-top: 25px;
+          }
         }
     </style>
 </head>
@@ -676,7 +684,7 @@
         </section>
     </div>
 
-    <div class="content-box-md">
+    <div id="chosing-class" class="content-box-md">
         <div class="container">
             <div class="row">
                 <div class="about-item text-left">
@@ -788,13 +796,13 @@
         </div>
     </div>
 
-    <div class="content-mau text-left">
+    <div id="prons-mau" class="content-mau text-left">
         <section>
             <div class="container">
                 <div class="row">
                     <br>
                     <div class="col-md-12 col-sm-12">
-                    <p><h3 style="font-family: 'Poppins'; font-weight: 1000;">Kelebihan Maungaji</h3></p>
+                    <p><h3 style="font-family: 'Poppins'; font-weight: 1000; font-size: 40px;">Kelebihan Maungaji</h3></p>
                     </div>    
                 </div>
             </div>
