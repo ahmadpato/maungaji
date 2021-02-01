@@ -541,6 +541,12 @@
             width: 300px;
             margin-top: 25px;
           }
+          .square-center{
+            margin-top: 5rem;
+          }
+          .square-right{
+            margin-top: 5rem;
+          }
         }
     </style>
 </head>
