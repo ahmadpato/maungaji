@@ -522,7 +522,7 @@
         }
         .img-article {
           border-radius: 40px;
-          box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);
+          box-shadow: 0 4px 8px 0 rgb(0 0 0 / 7%);
           padding: 5px;
           width: 150px;
           height: 450px;
