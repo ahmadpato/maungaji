@@ -377,7 +377,7 @@
         }
         .gtco-testimonials {
           position: relative;
-          margin-top: 30px;
+          margin-top: -100px;
         }
         @media (max-width: 767px) {
           .gtco-testimonials {
@@ -451,7 +451,7 @@
 
         .gtco-article {
           position: relative;
-          margin-top: 30px;
+          margin-top: 20px;
         }
         @media (max-width: 767px) {
           .gtco-article {
@@ -521,10 +521,11 @@
           outline: 0;
         }
         .img-article {
-          /*border-radius: 20px;*/
+          border-radius: 40px;
+          box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);
           padding: 5px;
           width: 150px;
-          height: 500px
+          height: 450px;
         }
         * {
             box-sizing: border-box;
@@ -802,7 +803,7 @@
                 <div class="row">
                     <br>
                     <div class="col-md-12 col-sm-12">
-                    <p><h3 style="font-family: 'Poppins'; font-weight: 1000; font-size: 40px;">Kelebihan Maungaji</h3></p>
+                    <p><h3 style="font-family: 'Poppins'; font-weight: 1000; font-size: 30px;">Kelebihan Maungaji</h3></p>
                     </div>    
                 </div>
             </div>
@@ -1185,7 +1186,7 @@
     <!--end price-->
 
      <div class="container">
-        <div id="tech-statement" class="text-left" style="margin-top: 100px;">
+        <div id="tech-statement" class="text-left" style="margin-top: 50px;">
             <div class="vertical-heading">
                 <h3 style="font-size:50px; font-family: 'Poppins'; font-weight: 1000;">FAQ</h3>
             </div>
@@ -1283,7 +1284,7 @@
     <div class="gtco-article">
         <div class="container">
             <div class="row">
-                <div class="about-item text-left" style="margin-top: 100px;">
+                <div class="about-item text-left">
                     <div id="tech-statement">
                         <h3 style="font-size: 50px; font-family: 'Poppins'; font-weight: 1000;">Artikel</h3>
                     </div>
@@ -1305,7 +1306,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
-                    font-size: 35px;
+                    /*font-size: 20px;*/
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
@@ -1332,7 +1333,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
-                    font-size: 35px;
+                    /*font-size: 20px;*/
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
@@ -1358,7 +1359,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
-                    font-size: 35px;
+                    /*font-size: 20px;*/
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
@@ -1384,7 +1385,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
-                    font-size: 35px;
+                    /*font-size: 20px;*/
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
@@ -1410,7 +1411,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
-                    font-size: 35px;
+                    /*font-size: 20px;*/
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
