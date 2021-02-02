@@ -318,8 +318,20 @@
         }
         .text-count-student {
             position: absolute;
-            right: 20px;
+            /*right: 20px;*/
             left: 0;
+            background-color: #FFD93B;
+            color: #263238;
+            padding-top: 20px; 
+            height: 100px; 
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-family:Poppins;
+        }
+        .text-count-teacher {
+            position: absolute;
+            /*right: 20px;*/
+            /*left: 0;*/
             background-color: #FFD93B;
             color: #263238;
             padding-top: 20px; 
@@ -350,6 +362,20 @@
             border-radius: 16px;
             font-family:Poppins; 
             font-size:16px; 
+            margin-top: 175px;
+        }
+        .text-register-teacher {
+            position: absolute;
+            color: #FFF;
+            padding-top: 10px;
+            height: 50px;
+            width: 550px;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-family:Poppins; 
+            font-size:16px; 
+            margin-top: 206px;
         }
         .text-teacher {
             position: absolute;
@@ -527,6 +553,19 @@
           width: 150px;
           height: 450px;
         }
+        .text-santri{
+            font-family: Poppins;
+            font-size: 24px;
+            margin-left: 15px;
+            margin-top: 150px;
+        }
+        .text-choose-package{
+            font-size: 50px; 
+            font-family: 'Poppins'; 
+            font-weight: 1000;
+            margin-top: 120px;
+            color: #3597D4;
+        }
         * {
             box-sizing: border-box;
         }
@@ -547,6 +586,47 @@
           .square-right{
             margin-top: 5rem;
           }
+          .text-register-student{
+            width: 300px;
+            margin-left: 10px;
+            margin-top: 10px;
+          }
+          .text-register-teacher{
+            width: 330px;
+            margin-top: 375px;
+          }
+          .text-count-student{
+            margin-left: 30px;
+            margin-top: -450px;
+          }
+          .text-count-teacher{
+            margin-left: 5px;
+            margin-top: 20px;
+            margin-top: -120px;
+          }
+          .text-student{
+            margin-left: 30px;
+            margin-top: -451px;
+          }
+          .text-teacher{
+            margin-top: -121px;
+            margin-right: 10px;
+          }
+          .img-santri{
+            margin-top: 50px;
+          }
+          .text-santri {
+            font-family: Poppins;
+            font-size: 24px;
+            margin-left: 15px;
+            margin-top: 20px;
+          }
+          .text-choose-package{
+            font-size: 27px;
+            font-family: 'Poppins'; 
+            font-weight: 1000;
+            margin-top: -30px;
+            color: #3597D4;
         }
     </style>
 </head>
@@ -662,7 +742,7 @@
                         <div class="col-md-6 col-sm-6">
                             <p style="margin-top: 20px;">
                                 <span style="font-size: 16px; font-family:Poppins; margin-left: 15rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
-                                    <span style="margin-left: 2rem; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">
+                                    <span style="margin-left: 2px; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">
                                     Dapatkan
                                     <span style="color: #f60000e0; font-family: Montserrat; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">Diskon 10%</span>
                                     </span>
@@ -730,7 +810,7 @@
         </div>
     </div>
 
-    <div class="content-box-md" style="margin-top:-100px;">
+    <div class="content-box-md" class="img-santri">
         <div class="container">
             <div class="row">
                <div class="col-md-6 col-sm-6">
@@ -752,12 +832,12 @@
                         </div>
                     </div>
                     <div class="text-left">
-                        <p style="font-family:Poppins; font-size:24px; margin-left:15px; margin-top: 150px;">
+                        <p class="text-santri">
                         Saat ini Maungaji telah memiliki santri-santri dari segala jenis usia, tempat tinggal dan latar belakang. Antusias belajar ngaji yang disebarkan oleh mereka membuat kami bersemangat untuk terus memberikan fasilitas terbaik bagi para pembelajar Qur’an.
                         </p>
                     </div>   
                     <div class="text-center">
-                        <p class="text-register-student text-center" style="color: #3597D4; margin-top: 175px;">
+                        <p class="text-register-student text-center" style="color: #3597D4;">
                         <a href="https://linktr.ee/Maungaji" target="_blank">Daftar Jadi Santri Ngaji</a>
                         </p>
                     </div>   
@@ -776,7 +856,7 @@
                        <?php echo $value[1]['name'] ?>
                        <?php } ?>   
                        </div>
-                       <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">
+                       <div class="text-count-teacher text-center col-md-3 col-md-pull-9" style="font-size:48px;">
                        <?php if (!empty($value)) { ?>
                        <?php echo $value[1]['count'] ?>
                        <?php } ?>
@@ -788,7 +868,7 @@
                         </p>
                     </div>   
                     <div class="text-center">
-                        <p class="text-register-student text-center" style="color: #3597D4; margin-top: 175px;">
+                        <p class="text-register-teacher text-center" style="color: #3597D4;">
                         <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji</a>
                         </p>
                     </div>   
@@ -965,9 +1045,9 @@
     <div class="gtco-testimonials">
         <div class="container">
             <div class="row">
-                <div class="about-item text-left" style="margin-top: 100px;">
+                <div class="about-item text-left">
                     <div id="tech-statement">
-                        <h3 style="font-size: 50px; font-family: 'Poppins'; font-weight: 1000;">Pilih Paket Belajar-Mu</h3>
+                        <div class="text-choose-package">Pilih Paket Belajar-Mu</div>
                     </div>
                     <div style="color:#8A8787">
                         <h5 style="font-size: 20px;">Paket Pertemuan adalah paket yang pembayarannya dilakukan setiap 1x pertemuan</h5>
