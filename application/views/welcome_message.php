@@ -756,7 +756,7 @@
               margin-right: 15px;
           }
           .img-teacher-mobile-version{
-            margin: 20px;
+            margin: 15px;
             margin-top: 150px;
           }
           .title-testimoni {
