@@ -358,7 +358,7 @@
             border-radius: 16px;
             font-family:Poppins; 
             font-size:16px; 
-            margin-top: 175px;
+            margin-top: 85px;
         }
         .text-register-teacher {
             position: absolute;
@@ -371,7 +371,7 @@
             border-radius: 16px;
             font-family:Poppins; 
             font-size:16px; 
-            margin-top: 206px;
+            margin-top: 118px;
         }
         .text-teacher {
             position: absolute;
@@ -576,7 +576,17 @@
             font-size: 24px;
             margin-left: 15px;
             margin-top: 150px;
+            text-align: left;
+            line-height: normal;
         }
+        .text-guru{
+            font-family: Poppins;
+            font-size: 24px;
+            margin-left: 15px;
+            margin-top: 150px;
+            line-height: normal;
+            text-align: left;
+          }
         .text-choose-package{
             font-size: 50px; 
             font-family: 'Poppins'; 
@@ -623,6 +633,7 @@
             display: inline-block; 
             margin-right: 15px;
         }
+        .description-g
         * {
             box-sizing: border-box;
         }
@@ -653,11 +664,11 @@
             margin-top: 375px;
           }
           .text-count-student{
-            margin-left: 30px;
+            margin-left: 18px;
             margin-top: -450px;
           }
           .text-count-teacher{
-            margin-left: 5px;
+            margin-left: 14px;
             margin-top: 20px;
             margin-top: -120px;
           }
@@ -677,6 +688,16 @@
             font-size: 24px;
             margin-left: 15px;
             margin-top: 20px;
+            text-align: left;
+            line-height: normal;
+          }
+          .text-guru{
+            font-family: Poppins;
+            font-size: 24px;
+            margin-left: 15px;
+            margin-top: 150px;
+            line-height: normal;
+            text-align: left;
           }
           .text-choose-package{
             font-size: 27px;
@@ -878,7 +899,7 @@
                         <h3 style="font-size: 40px; font-family: 'Poppins'; font-weight: 1000;">Pilihan Kelas</h3>
                     </div>
                     <div class="new-text">
-                        <p style="font-size: 24px;">Di Maungaji kamu bisa memilih salah satu di antara tiga jenis kelas</p>
+                        <p style="font-size: 24px; line-height: normal;">Di Maungaji kamu bisa memilih salah satu di antara tiga jenis kelas</p>
                     </div>   
                </div>  
                <div class="col-md-4 square-left text-center">
@@ -962,7 +983,7 @@
                        </div>   
                     </div>
                     <div class="text-left">
-                        <p style="font-family:Poppins; font-size:24px; margin-left:15px; margin-top: 150px;">
+                        <p class="text-guru">
                         Insya Allah mitra guru ngaji di Maungaji memiliki 3 poin kompetensi yakni <span style="color: #3597D4">Terpercaya, Berpengalaman</span>, dan <span style="color: #3597D4">Terkualifikasi.</span> Maungaji juga membuka kesempatan bagi Guru Ngaji untuk bergabung bersama kami sebagai mitra maungaji.
                         </p>
                     </div>   
