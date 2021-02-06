@@ -128,6 +128,17 @@
     #home-heading {
         text-align: center;
     }
+    .navbar {
+        padding: 20px 0;
+    }
+    .site-nav-wrapper,
+    .white-nav-top {
+        padding: 0;
+    }
+    /* show mobile nav open btn */
+    #mobile-nav-open-btn {
+        display: block;
+    }
     #home-heading h1 {
         font-size: 49px;
         font-weight: bold;
