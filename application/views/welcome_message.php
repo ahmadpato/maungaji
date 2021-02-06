@@ -1743,8 +1743,6 @@
         });
     </script>
 
-<script src="https://maungaji.co.id/js/calculate.js"></script>
-
 <script src="https://maungaji.co.id/js/jquery.min.js"></script>
 
 <!--Bootstrap JS -->
