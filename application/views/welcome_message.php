@@ -639,6 +639,10 @@
             font-weight: 1000;
             color: #3597D4;
         }
+        .owl-carousel .owl-item img {
+            display: initial;
+            width: 100%;
+        }
         * {
             box-sizing: border-box;
         }
@@ -1106,7 +1110,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/desi.jpeg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Desi Aulia Pratama <br />
-                <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:150px;" >Maungaji sangat bermanfaat bagi siapa saja yang ingin belajar ngaji, bagi guru yang ingin mengajar maupun bagi murid yang ingin belajar. Dapat memilih jadwal yang sesuai, guru dan materi yang diinginkan juga. Sangat Memudahkan dan fleksibel.</p>
+                <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:50px;" >Maungaji sangat bermanfaat bagi siapa saja yang ingin belajar ngaji, bagi guru yang ingin mengajar maupun bagi murid yang ingin belajar. Dapat memilih jadwal yang sesuai, guru dan materi yang diinginkan juga. Sangat Memudahkan dan fleksibel.</p>
               </div>
             </div>
           </div>
@@ -1122,7 +1126,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/putridewi.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Putri Dewi Puspita<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">Maungaji sangat bermanfaat dan memudahkan umat untuk mencari guru ngaji berkualitas.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">Maungaji sangat bermanfaat dan memudahkan umat untuk mencari guru ngaji berkualitas.</p>
               </div>
             </div>
           </div>
@@ -1138,7 +1142,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/faiqotul.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Faiqotul jamilah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">MashaAllah , alhmdulillah dengan adanya aplikasi maungaji ini  saya lebih mudah untuk berbagi ilmu al quran kepada orang lain, tidak perlu repot melamar kerja atau mencari murid untuk sy ajar , dan respon admin mau ngaji yg ramah dan gercep jika membalas pertanyaan saya , membuat saya sdh merasa seperti keluarga.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">MashaAllah , alhmdulillah dengan adanya aplikasi maungaji ini  saya lebih mudah untuk berbagi ilmu al quran kepada orang lain, tidak perlu repot melamar kerja atau mencari murid untuk sy ajar , dan respon admin mau ngaji yg ramah dan gercep jika membalas pertanyaan saya , membuat saya sdh merasa seperti keluarga.</p>
               </div>
             </div>
           </div>
@@ -1146,7 +1150,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/fida.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Fida Nabila<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">Alhamdulillah lebih mudah mengamalkan ilmu tentang al-qur'an nya. Mengajarnya jadi simple karena yang jauh bisa secara daring.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">Alhamdulillah lebih mudah mengamalkan ilmu tentang al-qur'an nya. Mengajarnya jadi simple karena yang jauh bisa secara daring.</p>
               </div>
             </div>
           </div>
@@ -1154,7 +1158,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/idanurjanah.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Ida Nurjanah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">Alhamdulillah baik namun kurang lancar kadang masih macet appnya.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">Alhamdulillah baik namun kurang lancar kadang masih macet appnya.</p>
               </div>
             </div>
           </div>
@@ -1162,7 +1166,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/rizqotul.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Rizqotul Mukaromah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">Alhamdulillah lewat apk saya bisa mengamalkan ilmu saya sekaligus membantu perekonomian saya, jazakumullahu khoiron kastiiron tim maungaji.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">Alhamdulillah lewat apk saya bisa mengamalkan ilmu saya sekaligus membantu perekonomian saya, jazakumullahu khoiron kastiiron tim maungaji.</p>
               </div>
             </div>
           </div>
@@ -1170,7 +1174,7 @@
             <div class="card text-center"><img class="card-img-top" src="../img/testimonial/dea.jpeg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5>Tory Asdani<br />
-                <p class="card-text" style="margin-top:150px;">Alhamdulillah Tory sudah menjadi lebih baik dalam membaca Al Quran dan dapat memahami panjang pendek ayat dengan makhraj yang baik serta pengertian sedikit tajwid.</p>
+                <p class="card-text" style="margin-top:50px;">Alhamdulillah Tory sudah menjadi lebih baik dalam membaca Al Quran dan dapat memahami panjang pendek ayat dengan makhraj yang baik serta pengertian sedikit tajwid.</p>
               </div>
             </div>
           </div>
