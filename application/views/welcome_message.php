@@ -1182,7 +1182,7 @@
     </div>
     <!--end testimoni-->
 
-    <!--price-->
+    <!--prices-->
     <div class="gtco-testimonials">
         <div class="container">
             <div class="row">
