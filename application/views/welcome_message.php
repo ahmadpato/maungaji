@@ -1533,7 +1533,6 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
-                    /*font-size: 20px;*/
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
@@ -1585,7 +1584,6 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
-                    /*font-size: 20px;*/
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
@@ -1611,7 +1609,6 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
-                    /*font-size: 20px;*/
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
@@ -1637,7 +1634,6 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
-                    /*font-size: 20px;*/
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
