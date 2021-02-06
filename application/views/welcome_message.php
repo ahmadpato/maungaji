@@ -749,28 +749,7 @@
             color: #3597D4;
             margin-top: -30px;
           }
-          #mobile-nav {
-            /* by default, mobile nav will be hidden with height 0% */
-            width: 100%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 3;
-            background-color: #263238;
-            -webkit-transition: all 300ms linear;
-            transition: all 300ms linear;
-            overflow-y: hidden;
-        }
-        #mobile-nav a {
-            font-family: 'Poppins';
-            font-size: 18px;
-            color: #FFFFFF;
-            font-weight: 400;
-            text-transform: uppercase;
-            display: inline;
-            -webkit-transition: .3s;
-            transition: .3s;
-        }
+          /**/
     </style>
 </head>
 
