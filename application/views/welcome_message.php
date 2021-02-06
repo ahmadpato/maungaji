@@ -8,10 +8,6 @@
         }
     }
 
-    if($imageArticle){
-        // var_dump($imageArticle);exit;
-    }
-
 ?>
 <!--<!DOCTYPE html>-->
 <html lang="en">
@@ -479,6 +475,28 @@
           position: relative;
           margin-top: 20px;
         }
+        #mobile-nav {
+            /* by default, mobile nav will be hidden with height 0% */
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 3;
+            background-color: #263238;
+            -webkit-transition: all 300ms linear;
+            transition: all 300ms linear;
+            overflow-y: hidden;
+        }
+        #mobile-nav a {
+            font-family: 'Poppins';
+            font-size: 18px;
+            color: #FFFFFF;
+            font-weight: 400;
+            text-transform: uppercase;
+            display: inline;
+            -webkit-transition: .3s;
+            transition: .3s;
+        }
         @media (max-width: 767px) {
           .gtco-article {
             margin-top: 20px;
@@ -521,7 +539,7 @@
           color: #666666;
         }
         .gtco-article .card p {
-          font-size: 18px;
+          font-size: 20px;
           color: #555;
           padding-bottom: 15px;
         }
@@ -565,6 +583,29 @@
             font-weight: 1000;
             margin-top: 120px;
             color: #3597D4;
+        }
+        .media{
+            color: #FFFFFF;
+            font-family: Poppins;
+            margin-top: 10px;
+            background-color: #3597D4;
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 80px;
+        }
+        .text-header{
+            font-family: 'Poppins'; 
+            font-weight: 1000;
+            font-size: 50px;
+        }
+        .btn-download-header{
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
         }
         * {
             box-sizing: border-box;
@@ -627,6 +668,30 @@
             font-weight: 1000;
             margin-top: -30px;
             color: #3597D4;
+          }
+          .media{
+            color: #FFFFFF;
+            font-family: Poppins;
+            margin-top: 10px;
+            background-color: #3597D4;
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 80px;
+          }
+          .text-header{
+            font-family: 'Poppins'; 
+            font-weight: 1000;
+            text-align: center;
+            font-size: 35px;
+          }
+          .btn-download-header{
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
         }
     </style>
 </head>
@@ -656,9 +721,9 @@
                             <ul class="nav navbar-nav pull-right">
                                 <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
                                 <li><a href="#faq">FAQ</a></li>
-                                <li><a href="https://maungaji.co.id/teacher/" target="_blank">
+                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank">
                                 <div class="teacher">
-                                    CARI GURU NGAJI
+                                    MAUNGAJI ARMY
                                 </div>
                                 </a>
                                 </li>
@@ -674,7 +739,7 @@
                             <ul class="nav">
                                 <li><a href="">ARTIKEL</a></li>
                                 <li><a href="">FAQ</a></li>
-                                <li a href="" class="teacher" target="_blank">CARI GURU NGAJI</a></li>
+                                <li a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
                             </ul>
                         </div>
                     </div>
@@ -696,15 +761,14 @@
                 <div class="row">
                     <br>
                     <div class="col-md-6 col-sm-6">
-                        <p><h3 style="font-family: 'Poppins'; font-weight: 1000;">Belajar Mengaji</h3></p>
-                        <p><h3 style="font-family: 'Poppins'; font-weight: 1000;">Makin Mudah</h3></p>
+                        <p><h3 class="text-header">Belajar Mengaji Makin Mudah</h3></p>
                         <br>
                         <p>
                         <h4 style="color: #FFF;">dengan Guru Ngaji Terbaik se-Indonesia <span style="color: #FFE604">Tatap Muka Langsung</span> ataupun <span style="color: #FFE604">Kelas Online.</span> Mudah, Murah dan Sesuai Syariah.
                         </h4>
                         </p>
                         <br>
-                        <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: left;">
+                        <div class="btn-download-header">
                             <div class="button-download">
                                 <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
                                     <img src="https://maungaji.co.id/img/logo/appstore.svg">
@@ -969,7 +1033,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/desi.jpeg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Desi Aulia Pratama <br />
-                <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:100px;" >Maungaji sangat bermanfaat bagi siapa saja yang ingin belajar ngaji, bagi guru yang ingin mengajar maupun bagi murid yang ingin belajar. Dapat memilih jadwal yang sesuai, guru dan materi yang diinginkan juga. Sangat Memudahkan dan fleksibel.</p>
+                <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:150px;" >Maungaji sangat bermanfaat bagi siapa saja yang ingin belajar ngaji, bagi guru yang ingin mengajar maupun bagi murid yang ingin belajar. Dapat memilih jadwal yang sesuai, guru dan materi yang diinginkan juga. Sangat Memudahkan dan fleksibel.</p>
               </div>
             </div>
           </div>
@@ -985,7 +1049,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/putridewi.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Putri Dewi Puspita<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:100px;">Maungaji sangat bermanfaat dan memudahkan umat untuk mencari guru ngaji berkualitas.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">Maungaji sangat bermanfaat dan memudahkan umat untuk mencari guru ngaji berkualitas.</p>
               </div>
             </div>
           </div>
@@ -1001,7 +1065,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/faiqotul.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Faiqotul jamilah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:100px;">MashaAllah , alhmdulillah dengan adanya aplikasi maungaji ini  saya lebih mudah untuk berbagi ilmu al quran kepada orang lain, tidak perlu repot melamar kerja atau mencari murid untuk sy ajar , dan respon admin mau ngaji yg ramah dan gercep jika membalas pertanyaan saya , membuat saya sdh merasa seperti keluarga.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">MashaAllah , alhmdulillah dengan adanya aplikasi maungaji ini  saya lebih mudah untuk berbagi ilmu al quran kepada orang lain, tidak perlu repot melamar kerja atau mencari murid untuk sy ajar , dan respon admin mau ngaji yg ramah dan gercep jika membalas pertanyaan saya , membuat saya sdh merasa seperti keluarga.</p>
               </div>
             </div>
           </div>
@@ -1009,7 +1073,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/fida.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Fida Nabila<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:100px;">Alhamdulillah lebih mudah mengamalkan ilmu tentang al-qur'an nya. Mengajarnya jadi simple karena yang jauh bisa secara daring.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">Alhamdulillah lebih mudah mengamalkan ilmu tentang al-qur'an nya. Mengajarnya jadi simple karena yang jauh bisa secara daring.</p>
               </div>
             </div>
           </div>
@@ -1017,7 +1081,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/idanurjanah.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Ida Nurjanah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:100px;">Alhamdulillah baik namun kurang lancar kadang masih macet appnya.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">Alhamdulillah baik namun kurang lancar kadang masih macet appnya.</p>
               </div>
             </div>
           </div>
@@ -1025,7 +1089,7 @@
             <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/rizqotul.jpg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;">Rizqotul Mukaromah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:100px;">Alhamdulillah lewat apk saya bisa mengamalkan ilmu saya sekaligus membantu perekonomian saya, jazakumullahu khoiron kastiiron tim maungaji.</p>
+                <p class="card-text" style="color:#FFFFFF; margin-top:150px;">Alhamdulillah lewat apk saya bisa mengamalkan ilmu saya sekaligus membantu perekonomian saya, jazakumullahu khoiron kastiiron tim maungaji.</p>
               </div>
             </div>
           </div>
@@ -1033,7 +1097,7 @@
             <div class="card text-center"><img class="card-img-top" src="../img/testimonial/dea.jpeg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h5>Tory Asdani<br />
-                <p class="card-text" style="margin-top:53px;">Alhamdulillah Tory sudah menjadi lebih baik dalam membaca Al Quran dan dapat memahami panjang pendek ayat dengan makhraj yang baik serta pengertian sedikit tajwid.</p>
+                <p class="card-text" style="margin-top:150px;">Alhamdulillah Tory sudah menjadi lebih baik dalam membaca Al Quran dan dapat memahami panjang pendek ayat dengan makhraj yang baik serta pengertian sedikit tajwid.</p>
               </div>
             </div>
           </div>
@@ -1517,9 +1581,9 @@
     </div>
     <!--end article-->
 
-    <div id="tech-statement" class="text-center" style="margin-top: 100px;">
+    <div id="tech-statement" class="text-center" style="margin-top: 50px;">
         <div class="vertical-heading">
-            <div style="font-size:50px; color: #FFFFFF; font-family: Poppins; margin-top: 10px; background-color: #3597D4; border: 1px solid #FFFFFF;box-sizing: border-box; border-radius: 16px; font-weight: 600; font-size: 50px; line-height: 80px;">
+            <div class="media">
                 Maungaji Telah diliput Oleh
             </div>
         </div>
