@@ -633,7 +633,12 @@
             display: inline-block; 
             margin-right: 15px;
         }
-        .description-g
+        .title-testimoni {
+            font-size: 50px;
+            font-family: 'Poppins';
+            font-weight: 1000;
+            color: #3597D4;
+        }
         * {
             box-sizing: border-box;
         }
@@ -661,24 +666,24 @@
           }
           .text-register-teacher{
             width: 330px;
-            margin-top: 375px;
+            margin-top: 510px;
           }
           .text-count-student{
             margin-left: 18px;
             margin-top: -450px;
           }
           .text-count-teacher{
-            margin-left: 14px;
+            margin-left: 5px;
             margin-top: 20px;
-            margin-top: -120px;
           }
           .text-student{
             margin-left: 30px;
             margin-top: -451px;
           }
           .text-teacher{
-            margin-top: -121px;
-            margin-right: 10px;
+            margin-top: 20px;
+            margin-left: -9px;
+            margin-right: 25px;
           }
           .img-santri{
             margin-top: 50px;
@@ -698,6 +703,7 @@
             margin-top: 150px;
             line-height: normal;
             text-align: left;
+            display: none;
           }
           .text-choose-package{
             font-size: 27px;
@@ -749,6 +755,17 @@
               display: inline-block; 
               margin-right: 15px;
           }
+          .img-teacher-mobile-version{
+            margin: 20px;
+            margin-top: 150px;
+          }
+          .title-testimoni {
+            font-size: 50px;
+            font-family: 'Poppins';
+            font-weight: 1000;
+            color: #3597D4;
+            margin-top: -30px;
+        }
     </style>
 </head>
 
@@ -994,7 +1011,7 @@
                     </div>   
                 </div>
                 
-                <div class="col-md-6 sm-6">
+                <div class="col-md-6 sm-6 img-teacher-mobile-version">
                     <div class="row">
                         <img src="../img/guru-ngaji/guru-ngaji.png" class="img-responsive" alt="Belajar Ngaji" height="auto">
                     </div>
@@ -1076,7 +1093,7 @@
             <div class="row">
                 <div class="about-item text-left" style="margin-top: 100px;">
                     <div id="tech-statement">
-                        <h3 style="font-size: 50px; font-family: 'Poppins'; font-weight: 1000;">Testimoni</h3>
+                        <div class="title-testimoni">Testimoni</div>
                     </div>
                     <div style="color:#8A8787">
                         <h5 style="font-size: 20px;">Kumpulan testimoni dari para santri dan guru ngaji yang sudah terdaftar di maungaji</h5>
