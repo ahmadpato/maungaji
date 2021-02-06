@@ -1520,8 +1520,8 @@
                     <div id="jdid" class="square-jdid">
                         <div class="col-md-6 col-sm-6">
                             <p style="margin-top: 20px;">
-                                <span style="font-size: 16px; font-family:Poppins; margin-left: 15rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
-                                    <span style="margin-left: 2px; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">
+                                <span style="font-size: 16px; font-family:Poppins; margin-left: 5rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
+                                    <span style="margin-left: 1px; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">
                                     Dapatkan
                                     <span style="color: #f60000e0; font-family: Montserrat; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">Diskon 10%</span>
                                     </span>
