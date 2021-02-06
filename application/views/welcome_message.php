@@ -23,7 +23,7 @@
 
      <!--Basic SEO -->
     <meta name="description" content="Privat ngaji di tempat yang kamu tentukan, murah, mudah dan sesuai syariah.">
-    <meta name="keywords" content="guru ngaji online, belajar ngaji, belajar iqro, belajar al-quran, belajar tahsin, hafidz qur'an, aplikasi ngaji online, belajar iqro online, belajar al-quran online, ngaji online, privat ngaji, guru ngaji, guru ngaji profesional, privat ngaji online, ngaji, guru ngaji berkualitas">
+    <meta name="keywords" content="guru ngaji, guru ngaji online, belajar ngaji, belajar iqro, belajar al-quran, belajar tahsin, hafidz qur'an, aplikasi ngaji online, belajar iqro online, belajar al-quran online, ngaji online, privat ngaji, guru ngaji, guru ngaji profesional, privat ngaji online, ngaji, guru ngaji berkualitas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
      <!--Favicon -->
