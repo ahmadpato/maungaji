@@ -607,6 +607,22 @@
             flex-wrap: wrap;
             justify-content: left;
         }
+        .img-media-tempo {
+            display: inline-block; 
+            margin-right: 15px;
+        }
+        .img-media-gomuslim {
+            display: inline-block; 
+            margin-right: 15px;
+        }
+        .img-media-republika {
+            display: inline-block; 
+            margin-right: 15px;
+        }
+        .img-media-republika-ramadhan {
+            display: inline-block; 
+            margin-right: 15px;
+        }
         * {
             box-sizing: border-box;
         }
@@ -692,7 +708,26 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: left;
-        }
+          }
+          .img-media-tempo {
+            display: inline-block;
+            margin-right: 15px;
+            margin-top: 25px;
+           }
+          .img-media-gomuslim {
+              display: inline-block;
+              margin-right: 15px;
+              margin-top: -50px;
+           }
+          .img-media-republika {
+              display: inline-block; 
+              margin-right: 15px;
+              margin-top: -70px;
+           }
+          .img-media-republika-ramadhan {
+              display: inline-block; 
+              margin-right: 15px;
+          }
     </style>
 </head>
 
@@ -737,9 +772,9 @@
                         <span id="mobile-nav-close-btn">&times;</span>
                         <div id="mobile-nav-content">
                             <ul class="nav">
-                                <li><a href="">ARTIKEL</a></li>
-                                <li><a href="">FAQ</a></li>
-                                <li a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
+                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1596,10 +1631,10 @@
                     <div id="logo" class="text-center">
                             <div class="vertical-heading">
                                 <ul>
-                                <img src="../img/icon/koran-tempo.png" class="img-responsive" width="200px" height="auto" alt="Koran Tempo" style="display: inline-block; margin-right: 15px;">
-                                <img src="../img/icon/go-muslim.png" class="img-responsive" width="200px" height="auto" alt="gomuslim" style="display: inline-block; margin-right: 15px;">
-                                <img src="../img/icon/republika.png" class="img-responsive" width="200px" height="auto" style="display: inline-block; margin-right: 15px;">
-                                <img src="../img/icon/republika_ramadhan.png" class="img-responsive" width="200px" height="auto" alt="Republika" style="display: inline-block; margin-right: 15px;">
+                                <img src="../img/icon/koran-tempo.png" class="img-responsive img-media-tempo" width="200px" height="auto" alt="Koran Tempo">
+                                <img src="../img/icon/go-muslim.png" class="img-responsive img-media-gomuslim" width="200px" height="auto" alt="gomuslim">
+                                <img src="../img/icon/republika.png" class="img-responsive img-media-republika" width="200px" height="auto">
+                                <img src="../img/icon/republika_ramadhan.png" class="img-responsive img-media-republika-ramadhan" width="200px" height="auto" alt="Republika">
                                 </ul>
                             </div>
                     </div>
