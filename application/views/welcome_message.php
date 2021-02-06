@@ -2158,7 +2158,7 @@
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
             <div class="card text-left" style="background: #FFFFFF">
               <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['1']['guid'] ?>
+                    <?php echo $imageArticle['data']['0']['guid'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2184,7 +2184,7 @@
             
             <div class="card text-left" style="background: #FFFFFF">
               <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['0']['guid'] ?>
+                    <?php echo $imageArticle['data']['1']['guid'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2209,7 +2209,7 @@
 
             <div class="card text-left" style="background: #FFFFFF">
               <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['1']['guid'] ?>
+                    <?php echo $imageArticle['data']['2']['guid'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2245,21 +2245,21 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['4']['post_title'] ?>
+                    <?php echo $article['data']['3']['post_title'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['4']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['3']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
 
             <div class="card text-left" style="background: #FFFFFF">
               <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['2']['guid'] ?>
+                    <?php echo $imageArticle['data']['4']['guid'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2270,14 +2270,14 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['3']['post_title'] ?>
+                    <?php echo $article['data']['4']['post_title'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['3']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['4']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
