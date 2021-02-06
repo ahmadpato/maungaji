@@ -625,7 +625,7 @@
             box-sizing: border-box;
         }
 
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1100px) {
           #socmed { display: none; }   
           #jdid { display: none; }
           #chosing-class .about-item {
