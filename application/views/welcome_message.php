@@ -311,7 +311,6 @@
     }
     .text-count-student {
         position: absolute;
-        /*right: 20px;*/
         left: 0;
         background-color: #FFD93B;
         color: #263238;
@@ -323,8 +322,6 @@
     }
     .text-count-teacher {
         position: absolute;
-        /*right: 20px;*/
-        /*left: 0;*/
         background-color: #FFD93B;
         color: #263238;
         padding-top: 20px; 
@@ -382,8 +379,6 @@
         font-family:Poppins;
     }
     .square-kelebihan-maungaji {
-        /*position: absolute;*/
-        /*color: #FFF;*/
         padding-top: 10px;
         height: 250px;
         width: 550px;
@@ -392,7 +387,6 @@
         border-radius: 16px;
         font-family:Poppins; 
         margin-left: 3rem;
-        /*font-size:16px; */
     }
     .gtco-testimonials {
       position: relative;
@@ -582,7 +576,7 @@
         line-height: 80px;
     }
     .text-header{
-        font-family: 'Poppins'; 
+        font-family: 'Rakkas'; 
         font-weight: 1000;
         font-size: 50px;
     }
