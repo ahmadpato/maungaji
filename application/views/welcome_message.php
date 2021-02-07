@@ -582,7 +582,7 @@
         line-height: 80px;
     }
     .text-header{
-        font-family: 'Poppins'; 
+        font-family: 'Rakkas'; 
         font-weight: 1000;
         font-size: 50px;
     }
