@@ -2062,7 +2062,7 @@
                 </div>
                 <div id="question0" class="panel-collapse collapse" style="height: 0px;">
                     <div class="panel-body">
-                         <p style="font-family:Poppins;">Tarif rata-rata dari kursus mengaji adalah sebesar Rp 25.000</p>
+                         <p style="font-family:Poppins;">Tarif rata-rata dari kursus mengaji adalah sebesar Rp 50.000</p>
                          <p style="font-family:Poppins;">Tarif masing-masing guru juga akan bergantung pada :</p>
                          <p style="font-family:Poppins;">Pengalaman mengajar dari guru mengaji lokasi kursus (online atau langsung) dan jarak yang di tempuh untuk ke tempat mengajar durasi dan frekuensi kursus.
                          99% guru kami menawarkan kursus gratis untuk 1 jam pertama.</p>
