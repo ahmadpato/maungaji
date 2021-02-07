@@ -705,7 +705,7 @@
         line-height: 80px;
       }
       .text-header{
-        font-family: 'Poppins'; 
+        font-family: 'Rakkas'; 
         font-weight: 1000;
         text-align: center;
         font-size: 35px;
