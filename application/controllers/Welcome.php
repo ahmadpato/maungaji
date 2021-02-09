@@ -22,7 +22,13 @@ class Welcome extends CI_Controller {
 		//end point for count data teacher and student
         $countData = $this->http_request("http://13.59.145.203/v1/landing");
 
-        //end point for new article maungaji
+        $a = json_decode($countData);	
+        
+        if($a->message = 'connect ECONNREFUSED 127.0.0.1:3306'){
+        	$res = NULL;
+			$res->success = false; // Warning: Creating default object from empty value
+        }
+        //end point for new article maungaji	
         $article = $this->http_request("https://maungaji.co.id/api/public/article/new");
 
         //end point for new image article maungaji

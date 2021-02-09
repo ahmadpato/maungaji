@@ -1,11 +1,17 @@
 <?php
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
-    
+
+    $value = '';
+
     if($murid){
-         foreach ($murid as $key => $value) {
+        if($murid['status'] = 'false'){
+            $value = 'data not found';
+        } else {
+            foreach ($murid as $key => $value) {
             echo "<!-- \n".print_r($value, TRUE)."\n-->\n\n";
-        }
+            }
+        } 
     }
 
 ?>
@@ -1595,14 +1601,22 @@
                 <div class="col-md-6 sm-6">
                     <div class="row">
                         <div class="text-student text-center col-md-9 col-md-push-3" style="font-size:48px;">
-                        <?php if (!empty($value)) { ?>
+                        <?php 
+                        if($value = 'data not found'){
+                          echo "SANTRI";
+                        } else {
+                        if (!empty($value)) { ?>
                         <?php echo $value[0]['name'] ?>
-                        <?php } ?>
+                        <?php } } ?>
                         </div>
                         <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">
-                        <?php if (!empty($value)) { ?>
+                        <?php 
+                        if($value = 'data not found'){
+                          echo "1500";
+                        } else {
+                        if (!empty($value)) { ?>
                         <?php echo $value[0]['count'] ?>
-                        <?php } ?>
+                        <?php } } ?>
                         </div>
                     </div>
                     <div class="text-left">
@@ -1626,14 +1640,22 @@
                 <div class="col-md-6 col-sm-6">
                     <div>
                        <div class="text-teacher text-center col-md-9 col-md-push-3" style="font-size:48px;">
-                       <?php if (!empty($value)) { ?>
+                       <?php 
+                       if($value = 'data not found'){
+                          echo "GURU";
+                       } else {
+                       if (!empty($value)) { ?>
                        <?php echo $value[1]['name'] ?>
-                       <?php } ?>   
+                       <?php } } ?>
                        </div>
                        <div class="text-count-teacher text-center col-md-3 col-md-pull-9" style="font-size:48px;">
-                       <?php if (!empty($value)) { ?>
+                       <?php 
+                       if($value = 'data not found'){
+                          echo "120";
+                       } else {
+                       if (!empty($value)) { ?>
                        <?php echo $value[1]['count'] ?>
-                       <?php } ?>
+                       <?php } } ?>
                        </div>   
                     </div>
                     <div class="text-left">
