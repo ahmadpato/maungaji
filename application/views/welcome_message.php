@@ -612,6 +612,9 @@
         display: initial;
         width: 100%;
     }
+    .section-size {
+        height:500px;
+    }
     * {
         box-sizing: border-box;
     }
@@ -739,6 +742,9 @@
         font-weight: 1000;
         color: #3597D4;
         margin-top: -30px;
+      }
+      .section-size {
+        height:800px;
       }
     }
 
@@ -1460,7 +1466,7 @@
     <br>
 
     <div class="content-mau text-left">
-        <section>
+        <section class="section-size">
             <div class="container">
                 <div class="row">
                     <br>
