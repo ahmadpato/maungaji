@@ -1,17 +1,11 @@
 <?php
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
-
-    $value = '';
-
+    
     if($murid){
-        if($murid['status'] = 'false'){
-            $value = 'data not found';
-        } else {
-            foreach ($murid as $key => $value) {
+         foreach ($murid as $key => $value) {
             echo "<!-- \n".print_r($value, TRUE)."\n-->\n\n";
-            }
-        } 
+        }
     }
 
 ?>
@@ -317,7 +311,6 @@
     }
     .text-count-student {
         position: absolute;
-        /*right: 20px;*/
         left: 0;
         background-color: #FFD93B;
         color: #263238;
@@ -329,8 +322,6 @@
     }
     .text-count-teacher {
         position: absolute;
-        /*right: 20px;*/
-        /*left: 0;*/
         background-color: #FFD93B;
         color: #263238;
         padding-top: 20px; 
@@ -388,8 +379,6 @@
         font-family:Poppins;
     }
     .square-kelebihan-maungaji {
-        /*position: absolute;*/
-        /*color: #FFF;*/
         padding-top: 10px;
         height: 250px;
         width: 550px;
@@ -398,7 +387,6 @@
         border-radius: 16px;
         font-family:Poppins; 
         margin-left: 3rem;
-        /*font-size:16px; */
     }
     .gtco-testimonials {
       position: relative;
@@ -711,7 +699,7 @@
         line-height: 80px;
       }
       .text-header{
-        font-family: 'Rakkas'; 
+        font-family: 'Poppins'; 
         font-weight: 1000;
         text-align: center;
         font-size: 35px;
@@ -1601,22 +1589,14 @@
                 <div class="col-md-6 sm-6">
                     <div class="row">
                         <div class="text-student text-center col-md-9 col-md-push-3" style="font-size:48px;">
-                        <?php 
-                        if($value = 'data not found'){
-                          echo "SANTRI";
-                        } else {
-                        if (!empty($value)) { ?>
+                        <?php if (!empty($value)) { ?>
                         <?php echo $value[0]['name'] ?>
-                        <?php } } ?>
+                        <?php } ?>
                         </div>
                         <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">
-                        <?php 
-                        if($value = 'data not found'){
-                          echo "1500";
-                        } else {
-                        if (!empty($value)) { ?>
+                        <?php if (!empty($value)) { ?>
                         <?php echo $value[0]['count'] ?>
-                        <?php } } ?>
+                        <?php } ?>
                         </div>
                     </div>
                     <div class="text-left">
@@ -1640,22 +1620,14 @@
                 <div class="col-md-6 col-sm-6">
                     <div>
                        <div class="text-teacher text-center col-md-9 col-md-push-3" style="font-size:48px;">
-                       <?php 
-                       if($value = 'data not found'){
-                          echo "GURU";
-                       } else {
-                       if (!empty($value)) { ?>
+                       <?php if (!empty($value)) { ?>
                        <?php echo $value[1]['name'] ?>
-                       <?php } } ?>
+                       <?php } ?>   
                        </div>
                        <div class="text-count-teacher text-center col-md-3 col-md-pull-9" style="font-size:48px;">
-                       <?php 
-                       if($value = 'data not found'){
-                          echo "120";
-                       } else {
-                       if (!empty($value)) { ?>
+                       <?php if (!empty($value)) { ?>
                        <?php echo $value[1]['count'] ?>
-                       <?php } } ?>
+                       <?php } ?>
                        </div>   
                     </div>
                     <div class="text-left">
@@ -2398,41 +2370,39 @@
         });
     </script>
 
-<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-
-<script src="/js/app.js"></script>
-
-<script src="/js/jquery.min.js"></script>
+<script src="https://maungaji.co.id/js/jquery.min.js"></script>
 
 <!--Bootstrap JS -->
-<script src="/js/bootstrap/bootstrap.min.js"></script>
+<script src="https://maungaji.co.id/js/bootstrap/bootstrap.min.js"></script>
 
 <!--Owl Carousel JS -->
-<script src="/js/owl-carousel/owl.carousel.min.js"></script>
+<script src="https://maungaji.co.id/js/owl-carousel/owl.carousel.min.js"></script>
 
 <!--Waypoints -->
-<script src="/js/waypoints/jquery.waypoints.min.js"></script>
+<script src="https://maungaji.co.id/js/waypoints/jquery.waypoints.min.js"></script>
 
 <!--Responsive Tabs JS -->
-<script src="/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+<script src="https://maungaji.co.id/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 
  <!--Isotope -->
-<script src="/js/isotope/isotope.pkgd.min.js"></script>
+<script src="https://maungaji.co.id/js/isotope/isotope.pkgd.min.js"></script>
 
  <!--Magnific Popup -->
-<script src="/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="https://maungaji.co.id/js/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 <!--Counter -->
-<script src="/js/counter/jquery.counterup.min.js"></script>
+<script src="https://maungaji.co.id/js/counter/jquery.counterup.min.js"></script>
 
 <!--Easing -->
-<script src="/js/easing/jquery.easing.1.3.min.js"></script>
+<script src="https://maungaji.co.id/js/easing/jquery.easing.1.3.min.js"></script>
 
 <!--WOW JS -->
-<script src="/js/wow/wow.min.js"></script>
+<script src="https://maungaji.co.id/js/wow/wow.min.js"></script>
 
 <!--Custom JS -->
-<script src="/js/script.js"></script>
+<script src="https://maungaji.co.id/js/script.js"></script>
 
 <script async data-id="16951" src="https://cdn.widgetwhats.com/script.min.js"></script>
 
