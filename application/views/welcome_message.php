@@ -2338,7 +2338,7 @@
                 <br/>
                 <br/>
                 <div class="inner-center">
-                    <p>Copyright © 2021 PT Maungaji Teknologi Indonesia.&nbsp;<a href="">Privacy Policy</a></p>
+                    <p>Copyright © <?php echo date("Y"); ?> PT Maungaji Teknologi Indonesia.&nbsp;<a href="">Privacy Policy</a></p>
                 </div>
             </li>
             <li>
