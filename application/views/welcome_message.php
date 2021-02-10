@@ -1506,7 +1506,7 @@
             </div>
             <div class="container-fluid"> 
                 <div class="row">
-                    <div id="jdid" class="square-jdid">
+                    <!-- <div id="jdid" class="square-jdid">
                         <div class="col-md-6 col-sm-6">
                             <p style="margin-top: 20px;">
                                 <span style="font-size: 16px; font-family:Poppins; margin-left: 5rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
@@ -1527,7 +1527,7 @@
                                 </span>
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <br>
