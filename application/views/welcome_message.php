@@ -2037,7 +2037,7 @@
 
         </div>
     </div>
-    <!--end price-->
+    <!--end prices-->
 
      <div id="faq" class="container">
         <div id="tech-statement" class="text-left" style="margin-top: 50px;">
