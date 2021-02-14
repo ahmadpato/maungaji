@@ -744,7 +744,7 @@
         margin-top: -30px;
       }
       .section-size {
-        height:800px;
+        height:900px;
       }
     }
 
