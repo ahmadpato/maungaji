@@ -1471,10 +1471,11 @@
                 <div class="row">
                     <br>
                     <div class="col-md-6 col-sm-6">
-                        <p><h3 class="text-header">Belajar Mengaji Makin Mudah</h3></p>
+                        <p><h3 class="text-header">Belajar Mengaji</h3></p>
+                        <p><h3 class="text-header">Makin Mudah</h3></p>
                         <br>
                         <p>
-                        <h4 style="color: #FFF;">dengan Guru Ngaji Terbaik se-Indonesia <span style="color: #FFE604">Tatap Muka Langsung</span> ataupun <span style="color: #FFE604">Kelas Online.</span> Mudah, Murah dan Sesuai Syariah.
+                        <h4 style="color: #FFF; line-height: normal;">dengan Guru Ngaji Terbaik se-Indonesia <span style="color: #FFE604">Tatap Muka Langsung</span> ataupun <span style="color: #FFE604">Kelas Online.</span> Mudah, Murah dan Sesuai Syariah.
                         </h4>
                         </p>
                         <br>
