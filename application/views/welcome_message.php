@@ -702,10 +702,10 @@
         line-height: 80px;
       }
       .text-header{
-        font-family: 'Poppins'; 
+        font-family: 'Rakkas'; 
         font-weight: 1000;
         text-align: center;
-        font-size: 35px;
+        font-size: 45px;
       }
       .btn-download-header{
         text-align: center;
