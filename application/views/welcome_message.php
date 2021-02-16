@@ -1430,7 +1430,7 @@
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
                                 <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
-                                <li><a href="http://maungaji/army" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://beta.maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank">
                                 <div class="teacher">
@@ -1449,7 +1449,7 @@
                         <div id="mobile-nav-content">
                             <ul class="nav">
                                 <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
-                                <li><a href="http://maungaji/army" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://beta.maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">DAFTAR ARMY</a></li>
                             </ul>
