@@ -1532,7 +1532,9 @@
                           <h4 class="text-lowercase text-center"><strong><?php echo $list['fullname']; ?></strong></h4>
                           <hr>
                           <?php if($list['photo']): ?>
-                          <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="http://127.0.0.1:8000/images/1613142533.PNG" style="width:250px;height:250px;" class="img-circle"></a>
+                          <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
+                            <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle">
+                        </a>
                           <?php endif; ?> 
                           <hr>
                           <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
@@ -1558,14 +1560,9 @@
                                     <div class="modal-body">
                                         <center>
                                         <?php if($list['photo']): ?>
-                                        <!-- <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle"></a> -->
-                                        <img src="http://127.0.0.1:8000/images/1613142533.PNG" style="width:250px;height:250px;" class="img-circle"></a>
+                                        <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle"></a>
                                         <?php endif; ?>
                                         <h3 class="media-heading"><?php echo $list['fullname']; ?></h3>
-                                        <!-- <span><strong>Mengajar: </strong></span>
-                                          <span class="label label-info">Iqro</span>
-                                          <span class="label label-info">Tajwid</span>
-                                          <span class="label label-info">Tahfidz</span> -->
                                         </center>
                                         <hr>
                                         <center>
@@ -1579,8 +1576,8 @@
                                         <br>
                                         </center>
                                         <center>
-                                        <p class="text-center"><strong>QR Code: </strong><br>
-                                           Yuk Belajar Al Quran dengan Ustadz/ah <b><?php echo $list['fullname'] ?></b> di aplikasi Maungaji. Unduh Aplikasi Mau Ngaji di <a href="https://linktr.ee/Maungaji">sini</a>
+                                        <p class="text-center"><strong>Share: </strong><br>
+                                           Yuk Jadi Bagian Pejuang Al Quran seperti <b><?php echo $list['fullname'] ?></b> di aplikasi Maungaji. Daftar jadi army sekarang <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform">disini</a>
                                         <br>
                                         </center>
                                     </div>
