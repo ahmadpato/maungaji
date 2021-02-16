@@ -59,3 +59,5 @@ $route['contact'] = 'welcome/contact';
 $route['quran'] = 'quran/overview';
 
 $route['teacher'] = 'teacher/teachers';
+
+$route['army'] = 'army/Armys';
