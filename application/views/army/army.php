@@ -1530,7 +1530,7 @@
                   <div class="col-sm-6 col-md-4">
                     <div class="card mb-5 mb-lg-0">
                       <div class="card-body">
-                        <div class="thumbnail">
+                        <div class="thumbnail" style="border-color: #3597d4;border-radius: 32px; border: 2px solid #3597d4;">
                           <?php if($list['photo']): ?>
                           <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
                             <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle">
