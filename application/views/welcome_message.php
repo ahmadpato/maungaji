@@ -2,8 +2,8 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
     
-    if($murid){
-         foreach ($murid as $key => $value) {
+    if($count){
+         foreach ($count as $key => $value) {
             echo "<!-- \n".print_r($value, TRUE)."\n-->\n\n";
         }
     }
@@ -2157,11 +2157,13 @@
                </div>  
             </div>
         </div>
-
+        <?php
+        // var_dump($article['0']);exit;
+        ?>
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['0']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['0']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2172,7 +2174,7 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['0']['post_title'] ?>
+                    <?php echo $article['0']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
@@ -2180,14 +2182,14 @@
 
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['0']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?> <?php echo $article['0']['link'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
             
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['1']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['1']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2198,21 +2200,23 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['1']['post_title'] ?>
+                    <?php echo $article['1']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['1']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['1']['link'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
 
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['2']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['2']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2223,21 +2227,23 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['2']['post_title'] ?>
+                    <?php echo $article['2']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['2']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['2']['link'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
 
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['3']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['3']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2248,21 +2254,23 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['3']['post_title'] ?>
+                    <?php echo $article['3']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['3']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['3']['link'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
 
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['4']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['4']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2273,14 +2281,16 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['4']['post_title'] ?>
+                    <?php echo $article['4']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['4']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['4']['link'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
