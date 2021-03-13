@@ -913,6 +913,10 @@
     }
     /* Tech Statement */
     #tech-statement h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .army {
         font-size: 20px;
         line-height: 30px;
     }
@@ -1054,6 +1058,10 @@
     }
     /* Tech Statement */
     #tech-statement h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .army {
         font-size: 20px;
         line-height: 30px;
     }
@@ -1515,88 +1523,96 @@
     </div>
 
 
-    <!-- Page Content -->
-    <div class="content-box-md">
-      <div class="row">
-        <br> 
-        <?php
-        
-        if($army['data']){
-            foreach ($army['data'] as $key => $list) {
-                ?>
-              <?php
-              ?>
-                <section class="pricing py-5" id="myDIV">
-                  <div class="col-sm-6 col-md-4">
-                    <div class="card mb-5 mb-lg-0">
-                      <div class="card-body">
-                        <div class="thumbnail" style="border-color: #3597d4;border-radius: 32px; border: 2px solid #3597d4;">
-                          <?php if($list['photo']): ?>
-                          <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
-                            <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle">
-                        </a>
-                          <?php endif; ?> 
-                          <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
-                            <br>
-                            <div class="form-group" style="font-family:Poppins;">
-                                <h4 class="text-center"><strong><?php echo $list['fullname']; ?></strong></h4>
-                                </br>
-                                <div class="" style="height:"><h4 class="text-center"><strong>No. ID : <?php echo $list['agent_code']; ?></strong></h4></div>
-                                <i class="fa fa-envelope-square"></i><span>&nbsp;<?php echo $list['email']; ?></span>
-                                </br>
-                                </br>
-                                <a href="#aboutModal" data-toggle="modal" data-target="#myModal<?php echo $list['id']; ?>" class="btn btn-primary" role="button" style="padding: 15px 30px; background-color: #3597D4; color: #fff; letter-spacing:2px; text-transform: uppercase; font-size: 15px; opacity: 20.7; border-radius: 2rem;">Lihat Detail</a></p>
-                            </div>
-                            <!-- modal -->
-                            <div class="modal fade" id="myModal<?php echo $list['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                                        <h4 class="modal-title" id="myModalLabel">Tentang <?php echo $list['fullname']; ?></h4>
+    <div id="chosing-class" class="content-box-md">
+        <div class="container">
+            <div class="row">
+                <div class="about-item text-left">
+                    <div id="tech-statement">
+                        <h3 style="font-family: 'Poppins'; font-weight: 1000;">Daftar Maungaji Army</h3>
+                    </div>
+                    <div class="new-text">
+                        <p style="font-size: 24px; line-height: normal;">Maungaji Army adalah tim sales yang bertugas menjual produk, barang, atau jasa dari Maungaji Indonesia kepada pengguna jasa serta menjalin komunikasi dari satu prospek ke satu prospek lainnya.</p>
+                    </div>
+                    </br>
+                    <div class="col-md-12">
+                    <?php
+                        if($army['data']){
+                            foreach ($army['data'] as $key => $list) {
+                              ?>
+                              <?php
+                              ?>
+                              <div class="col-sm-6 col-md-4">
+                                <div class="card mb-5 mb-lg-0">
+                                  <div class="card-body">
+                                    <div class="thumbnail" style="border-color: #3597d4;border-radius: 32px; border: 2px solid #3597d4;">
+                                      <?php if($list['photo']): ?>
+                                      <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
+                                        <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle">
+                                    </a>
+                                      <?php endif; ?> 
+                                      <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
+                                        <br>
+                                        <div class="form-group" style="font-family:Poppins;">
+                                            <h4 class="text-center"><strong><?php echo $list['fullname']; ?></strong></h4>
+                                            </br>
+                                            <div class="col-md-12"><h5 class="text-center"><strong>No. ID : <?php echo $list['agent_code']; ?></strong></h5>
+                                            </div>
+                                            </br>
+                                            </br>
+                                            <div class="col-md-12">
+                                            <h5 class="text-center"><i class="fa fa-envelope" style="font-size:20px;"> <?php echo $list['email']; ?></i></h5>
+                                            </br>
+                                            </div>
+                                            <a href="#aboutModal" data-toggle="modal" data-target="#myModal<?php echo $list['id']; ?>" class="btn btn-primary" role="button" style="padding: 15px 30px; background-color: #3597D4; color: #fff; letter-spacing:2px; text-transform: uppercase; font-size: 15px; opacity: 20.7; border-radius: 2rem;">Lihat Detail</a></p>
                                         </div>
-                                    <div class="modal-body">
-                                        <center>
-                                        <?php if($list['photo']): ?>
-                                        <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle"></a>
-                                        <?php endif; ?>
-                                        <h3 class="media-heading"><?php echo $list['fullname']; ?></h3>
-                                        </center>
-                                        <center>
-                                        <p class="text-center"><strong>Agent Code: </strong><br>
-                                           <?php echo $list['agent_code'] ?></p>
-                                        <br>
-                                        </center>
-                                        <center>
-                                        <strong>Email: </strong><br>
-                                           <?php echo $list['email'] ?></p>
-                                        <br>
-                                        </center>
-                                        <center>
-                                        <p class="text-center"><strong>Share: </strong><br>
-                                           Yuk Jadi Bagian Pejuang Al Quran seperti <b><?php echo $list['fullname'] ?></b> di aplikasi Maungaji. Daftar jadi army sekarang <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform">disini</a>
-                                        <br>
-                                        </center>
+                                        <!-- modal -->
+                                        <div class="modal fade" id="myModal<?php echo $list['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                    <h4 class="modal-title" id="myModalLabel">Tentang <?php echo $list['fullname']; ?></h4>
+                                                    </div>
+                                                <div class="modal-body">
+                                                    <center>
+                                                    <?php if($list['photo']): ?>
+                                                    <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle"></a>
+                                                    <?php endif; ?>
+                                                    </br>
+                                                    <div class="col-md-12"><h5 class="text-center"><strong>No. ID : <?php echo $list['agent_code']; ?></strong></h5>
+                                                    </div>
+                                                    </br>
+                                                    <div class="col-md-12">
+                                                    <h5 class="text-center"><strong>Email : <?php echo $list['email']; ?></strong></h5>
+                                                    </br>
+                                                    </center>
+                                                    <center>
+                                                    <p class="text-center"><strong>Share: </strong><br>
+                                                       Yuk Jadi Bagian Pejuang Al Quran seperti <b><?php echo $list['fullname'] ?></b> di aplikasi Maungaji. Daftar jadi army sekarang <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform">disini</a>
+                                                    <br>
+                                                    </center>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <center>
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">tutup</button>
+                                                    </center>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <center>
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">tutup</button>
-                                        </center>
-                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <?php
-                }
-            }
-        ?>     
-      </div>
+                            <?php
+                            }
+                        }
+                    ?>    
+                    </div>    
+               </div>  
+            </div>
+        </div>
     </div>
 
     <!--FOOTER START -->
