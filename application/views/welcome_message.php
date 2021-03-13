@@ -2,8 +2,8 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
     
-    if($murid){
-         foreach ($murid as $key => $value) {
+    if($count){
+         foreach ($count as $key => $value) {
             echo "<!-- \n".print_r($value, TRUE)."\n-->\n\n";
         }
     }
@@ -702,10 +702,10 @@
         line-height: 80px;
       }
       .text-header{
-        font-family: 'Poppins'; 
+        font-family: 'Rakkas'; 
         font-weight: 1000;
         text-align: center;
-        font-size: 35px;
+        font-size: 45px;
       }
       .btn-download-header{
         text-align: center;
@@ -744,7 +744,7 @@
         margin-top: -30px;
       }
       .section-size {
-        height:800px;
+        height:900px;
       }
     }
 
@@ -1430,10 +1430,11 @@
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
                                 <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
+                                <li><a href="https://beta.maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank">
                                 <div class="teacher">
-                                    MAUNGAJI ARMY
+                                    DAFTAR ARMY
                                 </div>
                                 </a>
                                 </li>
@@ -1448,8 +1449,9 @@
                         <div id="mobile-nav-content">
                             <ul class="nav">
                                 <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
+                                <li><a href="https://beta.maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
                                 <li><a href="#faq">FAQ</a></li>
-                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
+                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">DAFTAR ARMY</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1471,10 +1473,11 @@
                 <div class="row">
                     <br>
                     <div class="col-md-6 col-sm-6">
-                        <p><h3 class="text-header">Belajar Mengaji Makin Mudah</h3></p>
+                        <p><h3 class="text-header">Belajar Mengaji</h3></p>
+                        <p><h3 class="text-header">Makin Mudah</h3></p>
                         <br>
                         <p>
-                        <h4 style="color: #FFF;">dengan Guru Ngaji Terbaik se-Indonesia <span style="color: #FFE604">Tatap Muka Langsung</span> ataupun <span style="color: #FFE604">Kelas Online.</span> Mudah, Murah dan Sesuai Syariah.
+                        <h4 style="color: #FFF; line-height: normal;">dengan Guru Ngaji Terbaik se-Indonesia <span style="color: #FFE604">Tatap Muka Langsung</span> ataupun <span style="color: #FFE604">Kelas Online.</span> Mudah, Murah dan Sesuai Syariah.
                         </h4>
                         </p>
                         <br>
@@ -2154,11 +2157,13 @@
                </div>  
             </div>
         </div>
-
+        <?php
+        // var_dump($article['0']);exit;
+        ?>
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['0']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['0']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2169,7 +2174,7 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['0']['post_title'] ?>
+                    <?php echo $article['0']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
@@ -2177,14 +2182,14 @@
 
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['0']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?> <?php echo $article['0']['link'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
             
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['1']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['1']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2195,21 +2200,23 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['1']['post_title'] ?>
+                    <?php echo $article['1']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['1']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['1']['link'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
 
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['2']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['2']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2220,21 +2227,23 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['2']['post_title'] ?>
+                    <?php echo $article['2']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['2']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['2']['link'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
 
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['3']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['3']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2245,21 +2254,23 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['3']['post_title'] ?>
+                    <?php echo $article['3']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['3']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['3']['link'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
 
             <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($imageArticle)) { ?>
-                    <?php echo $imageArticle['data']['4']['guid'] ?>
+              <img class="img-article" src="<?php if (!empty($article)) { ?>
+                    <?php echo $article['4']['jetpack_featured_media_url'] ?>
                     <?php } ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <br />
@@ -2270,14 +2281,16 @@
                     line-height: 50px;
                     " >
                     <?php if (!empty($article)) { ?>
-                    <?php echo $article['data']['4']['post_title'] ?>
+                    <?php echo $article['4']['title']['rendered'] ?>
                     <?php } ?>
                     </p>
                     <br />
               </div>
               <div class="text-center">
                 <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['data']['4']['guid'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                <a href="<?php if (!empty($article)) { ?>
+                    <?php echo $article['4']['link'] ?>
+                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
                 </p>
                </div>
             </div>
