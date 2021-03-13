@@ -2,6 +2,7 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
     
+    //count
     if($count){
          foreach ($count as $key => $value) {
             echo "<!-- \n".print_r($value, TRUE)."\n-->\n\n";
