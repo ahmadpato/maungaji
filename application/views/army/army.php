@@ -735,6 +735,9 @@
       .section-size {
         height:900px;
       }
+      .detail {
+
+      }
     }
 
 /* =========================================
@@ -1520,7 +1523,6 @@
         
         if($army['data']){
             foreach ($army['data'] as $key => $list) {
-                // var_dump($list);exit;
                 ?>
               <?php
               ?>
@@ -1529,25 +1531,21 @@
                     <div class="card mb-5 mb-lg-0">
                       <div class="card-body">
                         <div class="thumbnail">
-                          <h4 class="text-lowercase text-center"><strong><?php echo $list['fullname']; ?></strong></h4>
-                          <hr>
                           <?php if($list['photo']): ?>
                           <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
                             <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle">
                         </a>
                           <?php endif; ?> 
-                          <hr>
                           <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
                             <br>
-                            <div class="form-group">
-                                <label for="agent" style="font-size:15px;">Agent Code : </label>
-                                <span class="label label-primary" style="height:"><?php echo $list['agent_code']; ?></span>
-                                <br>
-                                <p>
-                                <label for="email" style="font-size:15px;">Email : </label>
-                                <span class="label label-primary"><?php echo $list['email']; ?></span>
-                                </p>
-                                <a href="#aboutModal" data-toggle="modal" data-target="#myModal<?php echo $list['id']; ?>" class="btn btn-primary" role="button">Lihat Detail</a></p>
+                            <div class="form-group" style="font-family:Poppins;">
+                                <h4 class="text-center"><strong><?php echo $list['fullname']; ?></strong></h4>
+                                </br>
+                                <div class="" style="height:"><h4 class="text-center"><strong>No. ID : <?php echo $list['agent_code']; ?></strong></h4></div>
+                                <i class="fa fa-envelope-square"></i><span>&nbsp;<?php echo $list['email']; ?></span>
+                                </br>
+                                </br>
+                                <a href="#aboutModal" data-toggle="modal" data-target="#myModal<?php echo $list['id']; ?>" class="btn btn-primary" role="button" style="padding: 15px 30px; background-color: #3597D4; color: #fff; letter-spacing:2px; text-transform: uppercase; font-size: 15px; opacity: 20.7; border-radius: 2rem;">Lihat Detail</a></p>
                             </div>
                             <!-- modal -->
                             <div class="modal fade" id="myModal<?php echo $list['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -1564,14 +1562,13 @@
                                         <?php endif; ?>
                                         <h3 class="media-heading"><?php echo $list['fullname']; ?></h3>
                                         </center>
-                                        <hr>
                                         <center>
                                         <p class="text-center"><strong>Agent Code: </strong><br>
                                            <?php echo $list['agent_code'] ?></p>
                                         <br>
                                         </center>
                                         <center>
-                                        <p class="text-center"><strong>Email: </strong><br>
+                                        <strong>Email: </strong><br>
                                            <?php echo $list['email'] ?></p>
                                         <br>
                                         </center>
