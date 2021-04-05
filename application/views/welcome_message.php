@@ -1863,6 +1863,16 @@
                     ">
                         Max. Santri: 4 orang
                     </div>
+                    <p>
+                    <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    margin-top: 10px;
+                    ">
+                        Durasi Belajar: 90 Menit
+                    </div>
+                    </p>
                     <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
                     Belajar ngaji bersama guru ngaji secara online dan sertakan anggota keluarga Anda untuk belajar bersama.
                     </p>
@@ -1898,6 +1908,16 @@
                     ">
                         Max. Santri: 10 orang
                     </div>
+                    <p>
+                     <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
+                        box-sizing: border-box;
+                        border-radius: 16px;
+                        font-family: Poppins;
+                        margin-top: 10px;
+                        ">
+                        Durasi Belajar : 120 menit
+                    </div>
+                    </p>
                     <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
                     Belajar ngaji bersama guru ngaji secara online dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.
                     </p>
@@ -1909,6 +1929,51 @@
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELOMPOK</h3> <br />
                     <p class="card-text" style="color:#35D458; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 80px;
+                    " >
+                    200K/<span style="font-size: 25px;">pertemuan</span>
+                    </p>
+                    <br />
+                    <div class="col-sm-6" style="color:#FFFFFF;
+                    border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Tipe Kelas: offline
+                    </div>
+                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    ">
+                        Max. Santri: 10 orang
+                    </div>
+                    <p>
+                     <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
+                        box-sizing: border-box;
+                        border-radius: 16px;
+                        font-family: Poppins;
+                        margin-top: 10px;
+                        ">
+                        Durasi Belajar : 120 menit
+                    </div>
+                    </p>
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    Belajar ngaji bersama guru ngaji secara offline dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar
+                    </p>
+              </div>
+            </div>   
+
+            <div class="card text-center" style="background: #D44835">
+              <img class="card-img-top" src="../img/icon/new/keluarga.png" alt="">
+              <div class="card-body" style="font-family:Poppins;">
+                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
+                    <p class="card-text" style="color:#D44835; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-weight: 600;
@@ -1931,43 +1996,18 @@
                     border-radius: 16px;
                     font-family: Poppins;
                     ">
-                        Max. Santri: 10 orang
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
-                    Belajar ngaji bersama guru ngaji secara offline dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar
-                    </p>
-              </div>
-            </div>   
-
-            <div class="card text-center" style="background: #D44835">
-              <img class="card-img-top" src="../img/icon/new/keluarga.png" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
-                    <p class="card-text" style="color:#D44835; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    125K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    ">
-                        Tipe Kelas: offline
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    ">
                         Max. Santri: 4 orang
                     </div>
+                    <p>
+                    <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    margin-top: 10px;
+                    ">
+                        Durasi Belajar: 90 Menit
+                    </div>
+                    </p>
                     <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
                     Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.
                     </p>
@@ -2003,6 +2043,16 @@
                     ">
                         Max. Santri: 1 orang
                     </div>
+                    <p>
+                    <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    margin-top: 10px;
+                    ">
+                        Durasi Belajar: 60 Menit
+                    </div>
+                    </p>
                     <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
                     Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
                     </p>
@@ -2038,6 +2088,16 @@
                     ">
                         Max. Santri: 1 orang
                     </div>
+                    <p>
+                    <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    font-family: Poppins;
+                    margin-top: 10px;
+                    ">
+                        Durasi Belajar: 60 Menit
+                    </div>
+                    </p>
                     <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
                     Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
                     </p>
