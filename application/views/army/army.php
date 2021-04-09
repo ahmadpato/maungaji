@@ -1567,37 +1567,69 @@
                                         </div>
                                         <!-- modal -->
                                         <div class="modal fade" id="myModal<?php echo $list['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                          <div class="modal-dialog">
+                                          <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                                                    <h4 class="modal-title" id="myModalLabel">Tentang <?php echo $list['fullname']; ?></h4>
+                                                <div class="modal-header" style="background: #3597D4;">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="col-md-6">
+                                                            <h4 class="modal-title">
+                                                            <?php if($list['photo']): ?>
+                                                            <img src="<?php echo $url .'/'.$list['photo'] ?>" style="border-radius: 15%;width: 250px;height: 250px;"></a>
+                                                            <?php endif; ?>
+                                                            </h4>
+                                                        </div>
+                                                        <?php
+                                                        // var_dump($list);
+                                                        ?>
+                                                        <div class="col-md-6">
+                                                            <h4 style="font-family: Poppins; font-style: normal;font-weight: 600;font-size: 47px;line-height: 72px;color: #FFFFFF;" class="modal-title" id="myModalLabel">
+                                                            <?php echo $list['fullname']; ?>
+                                                            </h4>
+                                                        </div>
                                                     </div>
-                                                <div class="modal-body">
-                                                    <center>
-                                                    <?php if($list['photo']): ?>
-                                                    <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle"></a>
-                                                    <?php endif; ?>
-                                                    </br>
-                                                    <div class="col-md-12"><h5 class="text-center"><strong>No. ID : <?php echo $list['agent_code']; ?></strong></h5>
+                                                    <div class="modal-body">
+                                                        <div class="col-md-12">
+                                                            <div class="col-md-6">
+                                                                <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: bold;font-size: 15px;line-height: 26px;color: #263238;">
+                                                                    Data Agen 
+                                                                </p>
+                                                                <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                                   No. ID : <b><?php echo $list['agent_code']; ?></b>
+                                                                </p>
+                                                                <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                                    Kode Referral : <b>abcdefgh</b>
+                                                                </p>
+                                                                <p style="text-align:justify;font-family: Poppins;font-style: normal;font-weight: normal;font-size: 12px;line-height: 22px;">
+                                                                    * Dengan menggunakan kode referral dari,
+                                                                    </br> 
+                                                                    saya anda akan mendapatkan diskon 10% untuk semua paket belajar di Maungaji.
+                                                                </p>
+                                                                <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 14px;line-height: 21px;color: #3B97D3;">
+                                                                   <!--  > -->
+                                                                   <a href="https://play.google.com/store/apps/details?id=com.maungaji&hl=in&gl=US" target="_blank">yuk pakai kode referal di aplikasi maungaji -></a>
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="col-md-6">
+                                                                <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: bold;font-size: 15px;line-height: 26px;color: #263238;">
+                                                                    Kontak Agen
+                                                                </p>
+                                                                <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                                   No. Telepon : <b><?php echo $list['phone_number']; ?></b>
+                                                                </p>
+                                                                <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                                    Email : <b><?php echo $list['email']; ?></b>
+                                                                </p>
+                                                                <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                                    Alamat Agen : <b><?php echo $list['address']; ?></b>
+                                                                </p>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    </br>
-                                                    <div class="col-md-12">
-                                                    <h5 class="text-center"><strong>Email : <?php echo $list['email']; ?></strong></h5>
-                                                    </br>
-                                                    </center>
-                                                    <center>
-                                                    <p class="text-center"><strong>Share: </strong><br>
-                                                       Yuk Jadi Bagian Pejuang Al Quran seperti <b><?php echo $list['fullname'] ?></b> di aplikasi Maungaji. Daftar jadi army sekarang <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform">disini</a>
-                                                    <br>
-                                                    </center>
+                                                    <div class="modal-footer">
+                                                    <!-- tes -->
+                                                    </div>
                                                 </div>
-                                                <div class="modal-footer">
-                                                    <center>
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">tutup</button>
-                                                    </center>
-                                                </div>
-                                            </div>
                                           </div>
                                         </div>
                                       </div>
