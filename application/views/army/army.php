@@ -1566,7 +1566,6 @@
                                       <div class="modal-dialog modal-lg">
                                         <div class="modal-content">
                                             <div class="modal-header" style="background: #3597D4;">
-                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
                                                     <div class="col-md-6">
                                                         <h4 class="modal-title">
                                                         <?php if($list['photo']): ?>
