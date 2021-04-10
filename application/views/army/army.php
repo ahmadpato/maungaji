@@ -1432,6 +1432,7 @@
                                 <li><a href="https://maungaji.co.id/" target="_blank">HOME PAGE</a></li>
                                 <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
                                 <li><a href="https://maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id/teacher" target="_blank">TEACHER LIST</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank">
                                 <div class="teacher">
                                     MAUNGAJI ARMY
@@ -1451,6 +1452,7 @@
                                 <li><a href="https://maungaji.co.id/" target="_blank">HOME PAGE</a></li>
                                 <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
                                 <li><a href="https://beta.maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id/teacher" target="_blank">TEACHER LIST</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
                             </ul>
                         </div>
