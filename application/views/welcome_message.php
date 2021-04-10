@@ -1429,9 +1429,10 @@
                     <div class="container">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a href="https://maungaji.co.id/">HOME PAGE</a></li>
-                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
-                                <li><a href="https://maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id">HOME PAGE</a></li>
+                                <li><a href="https://maungaji.co.id/artikel" target="_blank">ARTICLE</a></li>
+                                <li><a href="https://maungaji.co.id/army" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id/teacher" target="_blank">TEACHER LIST</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank">
                                 <div class="teacher">
@@ -1450,8 +1451,9 @@
                         <div id="mobile-nav-content">
                             <ul class="nav">
                                 <li><a href="https://maungaji.co.id/">HOME PAGE</a></li>
-                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
-                                <li><a href="https://maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id/artikel" target="_blank">ARTICLE</a></li>
+                                <li><a href="https://maungaji.co.id/army" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id/teacher" target="_blank">TEACHER LIST</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
                             </ul>
