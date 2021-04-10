@@ -22,12 +22,20 @@ class Welcome extends CI_Controller {
 		//end point for count data teacher and student
         $countData = $this->http_request("http://13.59.145.203/v1/landing");
         
+        //end point for article
         $article = $this->http_request("https://maungaji.co.id/artikel/wp-json/wp/v2/posts");
+
+        //end point for testimoni
+        $testimoni = $this->http_request("https://cms.maungaji.co.id/testimoni/getTestimoni");
 
 		// change string JSON to array
 		$x['count'] = json_decode($countData, TRUE);
 
 		$x['article'] = json_decode($article, TRUE);
+
+		$x['testimoni']= json_decode($testimoni, TRUE);
+		
+		$x['photo'] = "https://cms.maungaji.co.id/photo";
 
         $this->load->view("welcome_message", $x);
 	}
