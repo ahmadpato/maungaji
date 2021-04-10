@@ -1553,7 +1553,11 @@
                           <br>
                           <div class="form-group" style="font-family:Poppins;">
                               <h4 class="text-center" style="font-size: 15px;"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
-                              <span class="label label-success">Online</span>
+                              <?php if($list['teacher']['status_online'] == 1): ?>
+                                 <span class="label label-success">Online</span>
+                              <?php else: ?>
+                                 <span class="label label-warning">Offline</span>
+                              <?php endif; ?>
                               </br>
                               <div class="col-md-12">
                               <h4 class="text-center" style="font-size: 15px;"><i class="fa fa-envelope"> <?php echo $list['teacher']['email']; ?></i></h4>
