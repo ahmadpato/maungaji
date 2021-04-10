@@ -1428,9 +1428,10 @@
                   <div class="container">
                       <div class="collapse navbar-collapse">
                           <ul class="nav navbar-nav pull-right">
-                              <li><a href="https://maungaji.co.id/" target="_blank">HOME PAGE</a></li>
-                              <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
-                              <li><a href="https://maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
+                              <li><a href="https://maungaji.co.id" target="_blank">HOME PAGE</a></li>
+                              <li><a href="https://maungaji.co.id/artikel" target="_blank">ARTICLE</a></li>
+                              <li><a href="https://maungaji.co.id/army" target="_blank">ARMY LIST</a></li>
+                              <li><a href="https://maungaji.co.id/teacher" target="_blank">TEACHER LIST</a></li>
                               <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank">
                               <div class="teacher">
                                   MAUNGAJI ARMY
@@ -1447,9 +1448,10 @@
                       <span id="mobile-nav-close-btn">&times;</span>
                       <div id="mobile-nav-content">
                           <ul class="nav">
-                              <li><a href="https://maungaji.co.id/" target="_blank">HOME PAGE</a></li>
-                              <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
-                              <li><a href="https://beta.maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
+                              <li><a href="https://maungaji.co.id" target="_blank">HOME PAGE</a></li>
+                              <li><a href="https://maungaji.co.id/artikel" target="_blank">ARTICLE</a></li>
+                              <li><a href="https://maungaji.co.id/army" target="_blank">ARMY LIST</a></li>
+                              <li><a href="https://maungaji.co.id/teacher" target="_blank">TEACHER LIST</a></li>
                               <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
                           </ul>
                       </div>
@@ -1527,7 +1529,7 @@
         <h3 style="color: #3597D4;font-family: 'Poppins';font-weight: bold;line-height: 50px;text-align: center;font-size: 28px;">Mitra Guru Maungaji</h3>
       </div>
       <div class="new-text">
-          <p style="font-size: 20px;line-height: normal;text-align: center; font-family: 'Poppins';">Insya Allah mitra guru ngaji di Maungaji memiliki 3 poin kompetensi yakni Terpercaya, Berpengalaman, dan Terkualifikasi. Maungaji juga membuka kesempatan bagi Guru Ngaji untuk bergabung bersama kami sebagai mitra maungaji.</p>
+          <p style="font-size: 20px;line-height: normal;text-align: center; font-family: 'Poppins';">Insya Allah mitra guru ngaji di Maungaji memiliki 3 poin kompetensi yakni <b>Terpercaya, Berpengalaman, dan Terkualifikasi.</b> Maungaji juga membuka kesempatan bagi Guru Ngaji untuk bergabung bersama kami sebagai mitra maungaji.</p>
       </div>
       </br>
       <br> 
