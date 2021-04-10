@@ -1430,9 +1430,10 @@
                     <div class="container">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a href="https://maungaji.co.id/">HOME PAGE</a></li>
-                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
-                                <li><a href="https://maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id">HOME PAGE</a></li>
+                                <li><a href="https://maungaji.co.id/artikel" target="_blank">ARTICLE</a></li>
+                                <li><a href="https://maungaji.co.id/army" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id/teacher" target="_blank">TEACHER LIST</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank">
                                 <div class="teacher">
@@ -1451,8 +1452,9 @@
                         <div id="mobile-nav-content">
                             <ul class="nav">
                                 <li><a href="https://maungaji.co.id/">HOME PAGE</a></li>
-                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
-                                <li><a href="https://maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id/artikel" target="_blank">ARTICLE</a></li>
+                                <li><a href="https://maungaji.co.id/army" target="_blank">ARMY LIST</a></li>
+                                <li><a href="https://maungaji.co.id/teacher" target="_blank">TEACHER LIST</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
                             </ul>
@@ -2409,10 +2411,10 @@
             <li>
                 <h2 class="ct-footer-list-header" style="color: #FFFFFF">Info Perusahaan</h2>
                 <ul>
-                    <li><a href="">Kebijakan Privasi</a></li>
+                    <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Kebijakan Privasi</a></li>
                     <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Syarat dan Ketentuan</a></li>
                     <li><a href="">Karir</a></li>
-                    <li><a href="https://maungaji.co.id/artikel/">blog</a></li>
+                    <li><a href="https://maungaji.co.id/artikel">blog</a></li>
                 </ul>
                 <br/>
                 <br/>
