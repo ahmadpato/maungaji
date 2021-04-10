@@ -1585,11 +1585,8 @@
                                   </div>
                                   <div class="modal-body">
                                   <div class="col-md-12" style="margin-top: 20px">
-                                      <p style="text-align:center;font-family: Poppins;font-style: normal;font-weight: bold;font-size: 15px;line-height: 26px;color: #263238;">
-                                          Deskripsi Guru 
-                                      </p>
                                       <p style="text-align:center;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
-                                         Description : <b><?php echo $list['teacher']['description']; ?></b>
+                                         Deskripsi : <b><?php echo $list['teacher']['description']; ?></b>
                                       </p>
                                   </div>
                                   </div>
