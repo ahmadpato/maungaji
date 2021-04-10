@@ -15,7 +15,6 @@ class Armys extends CI_Controller
 
     public function index()
     {
-        //end point for count data teacher and student
         $army = $this->http_request("https://cms.maungaji.co.id/user/getUser");
 
         $x['army'] = json_decode($army, TRUE);

@@ -1589,7 +1589,7 @@
                                                                No. ID : <b><?php echo $list['agent_code']; ?></b>
                                                             </p>
                                                             <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
-                                                                Kode Referral : <b>abcdefgh</b>
+                                                                Kode Referral : <b><?php echo $list['referal_code']; ?></b>
                                                             </p>
                                                             <p style="text-align:justify;font-family: Poppins;font-style: normal;font-weight: normal;font-size: 12px;line-height: 22px;">
                                                                 <span style="color: #FF5151">*</span> Dengan menggunakan kode referral dari,
