@@ -1588,6 +1588,10 @@
                                       <p style="text-align:center;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
                                          Deskripsi : <b><?php echo $list['teacher']['description']; ?></b>
                                       </p>
+                                      <p style="text-align:center;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 14px;line-height: 21px;color: #3B97D3;">
+                                         <!--  > -->
+                                         <a href="https://play.google.com/store/apps/details?id=com.maungaji&hl=in&gl=US" target="_blank">yuk belajar dengan ustadz/ah  <?php echo $list['teacher']['name']; ?> di aplikasi maungaji -></a>
+                                      </p>
                                   </div>
                                   </div>
                                   <div class="modal-footer">
