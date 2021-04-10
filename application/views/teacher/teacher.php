@@ -1578,7 +1578,7 @@
                                         </h4>
                                     </div>
                                     <div class="col-md-6">
-                                        <h4 style="font-family: Poppins; font-style: normal;font-weight: 600;font-size: 25px;line-height: 72px;color: #FFFFFF;margin-left: -100px;" class="modal-title" id="myModalLabel">
+                                        <h4 style="font-family: Poppins; font-style: normal;font-weight: 600;font-size: 20px;line-height: 72px;color: #FFFFFF;text-align: center;" class="modal-title" id="myModalLabel">
                                         <?php echo $list['teacher']['name']; ?>
                                         </h4>
                                     </div>
