@@ -1429,9 +1429,9 @@
                     <div class="container">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
-                                <li><a href="https://beta.maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
-                                <li><a href="#faq">FAQ</a></li>
+                                <li><a href="https://maungaji.co.id/" target="_blank">HOME PAGE</a></li>
+                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
+                                <li><a href="https://maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank">
                                 <div class="teacher">
                                     MAUNGAJI ARMY
@@ -1448,9 +1448,9 @@
                         <span id="mobile-nav-close-btn">&times;</span>
                         <div id="mobile-nav-content">
                             <ul class="nav">
-                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTIKEL</a></li>
+                                <li><a href="https://maungaji.co.id/" target="_blank">HOME PAGE</a></li>
+                                <li><a href="https://maungaji.co.id/artikel/" target="_blank">ARTICLE</a></li>
                                 <li><a href="https://beta.maungaji.co.id/army/" target="_blank">ARMY LIST</a></li>
-                                <li><a href="#faq">FAQ</a></li>
                                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
                             </ul>
                         </div>
@@ -1483,9 +1483,9 @@
                         <br>
                         <div class="btn-download-header">
                             <div class="button-download">
-                                <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
+                                <!-- <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
                                     <img src="https://maungaji.co.id/img/logo/appstore.svg">
-                                </a>
+                                </a> -->
                                 <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank" style="margin-left: 15px;">
                                     <img src="https://maungaji.co.id/img/logo/playstore.svg">
                                 </a>
@@ -1592,9 +1592,7 @@
                                                                 Kode Referral : <b><?php echo $list['referal_code']; ?></b>
                                                             </p>
                                                             <p style="text-align:justify;font-family: Poppins;font-style: normal;font-weight: normal;font-size: 12px;line-height: 22px;">
-                                                                <span style="color: #FF5151">*</span> Dengan menggunakan kode referral dari,
-                                                                </br> 
-                                                                saya anda akan mendapatkan diskon 10% untuk semua paket belajar di Maungaji.
+                                                                <span style="color: #FF5151">*</span> Dengan menggunakan kode referral dari, saya anda akan mendapatkan diskon 10% untuk semua paket belajar di Maungaji.
                                                             </p>
                                                             <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 14px;line-height: 21px;color: #3B97D3;">
                                                                <!--  > -->
@@ -1661,7 +1659,6 @@
                 <ul>
                     <li><a href="">Kebijakan Privasi</a></li>
                     <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Syarat dan Ketentuan</a></li>
-                    <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/faq.html">FAQ</a></li>
                     <li><a href="">Karir</a></li>
                     <li><a href="https://maungaji.co.id/artikel/">blog</a></li>
                 </ul>
@@ -1681,9 +1678,9 @@
                                     <img src="../img/icon/playstore.png" class="img-responsive">
                                 </a>
                                 <br>
-                                <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
+                               <!--  <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
                                     <img src="../img/icon/appstore.png" class="img-responsive">
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </li>
