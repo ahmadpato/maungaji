@@ -1592,9 +1592,7 @@
                                                                 Kode Referral : <b><?php echo $list['referal_code']; ?></b>
                                                             </p>
                                                             <p style="text-align:justify;font-family: Poppins;font-style: normal;font-weight: normal;font-size: 12px;line-height: 22px;">
-                                                                <span style="color: #FF5151">*</span> Dengan menggunakan kode referral dari,
-                                                                </br> 
-                                                                saya anda akan mendapatkan diskon 10% untuk semua paket belajar di Maungaji.
+                                                                <span style="color: #FF5151">*</span> Dengan menggunakan kode referral dari, saya anda akan mendapatkan diskon 10% untuk semua paket belajar di Maungaji.
                                                             </p>
                                                             <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 14px;line-height: 21px;color: #3B97D3;">
                                                                <!--  > -->
