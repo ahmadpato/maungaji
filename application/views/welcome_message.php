@@ -2432,9 +2432,6 @@
                                     <img src="../img/icon/playstore.png" class="img-responsive">
                                 </a>
                                 <br>
-                               <!--  <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
-                                    <img src="../img/icon/appstore.png" class="img-responsive">
-                                </a> -->
                             </div>
                         </div>
                     </li>
