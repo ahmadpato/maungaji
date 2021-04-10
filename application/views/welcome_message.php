@@ -1697,7 +1697,7 @@
                         Berdasarkan Syari'ah
                         </p>
                         <p style="font-size:15px;">
-                        Demi menjalani syariah, kami menyarankan para santri untuk memilih gender guru ngaji sesuai dengan gender santri pemesan, laki laki dengan laki laki,  perempuan dengan perempuan. 
+                        Demi menjalani syariah, kami menyarankan para santri untuk memilih gender guru ngaji sesuai dengan gender santri pemesan, laki laki dengan laki laki,perempuan dengan perempuan. 
                         </p>
                     </div>    
                 </div>
