@@ -2395,18 +2395,20 @@
         <ul class="ct-footer-list text-center-sm">
             <li>
                 <h2 class="ct-footer-list-header" style="color: #FFFFFF">Follow Kami</h2>
-                <ul><li style="color:white"><a href="https://www.instagram.com/maungaji/" target="_blank"><i class="fa fa-instagram"></i><span>&nbsp;maungaji</span></a></li>
-                <li style="color:white"><a href="https://www.facebook.com/maungaji/" target="_blank"><i class="fa fa-facebook"></i><span>&nbsp; maungaji</span></a></li>
-                <li style="color:white"><a href="https://twitter.com/MaungajiIndo" target="_blank"><i class="fa fa-twitter"></i><span>&nbsp; maungajiIndo</span></a></li>
-                <li style="color:white"><a href="https://www.youtube.com/channel/UCIp6c79qyzU98400W253WYQ" target="_blank"><i class="fa fa-youtube"></i><span>&nbsp; maungaji official</span></a></li>
+                <ul class="fa-ul">
+                    <li><a href="https://www.instagram.com/maungaji/" target="_blank"><i class="fa-li fa fa-instagram"></i>maungaji</a></li>
+                    <li><a href="https://www.facebook.com/maungaji/" target="_blank"><i class="fa-li fa fa-facebook"></i>maungaji</a></li>
+                    <li><a href="https://twitter.com/MaungajiIndo" target="_blank"><i class="fa-li fa fa-twitter"></i>maungajiIndo</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCIp6c79qyzU98400W253WYQ" target="_blank"><i class="fa-li fa fa-youtube"></i>maungaji official</a></li>
                 </ul>
             </li>
             <li>
                 <h2 class="ct-footer-list-header" style="color: #FFFFFF">Hubungi Kami</h2>
-                <ul><li style="color:white"><a href="" target="_blank"><i class="fa fa-envelope-square"></i><span>&nbsp;support@maungaji.co.id</span></a></li>
-                <li style="color:white"><a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank"><i class="fa fa-whatsapp"></i><span>&nbsp; +6281213419253</span></a></li>
-                <li style="color:white"><a href="" target="_blank"><i class="fa fa-map-marker"></i><span>&nbsp; 
-                Menara 165 lantai 4 Jl TB Simatupang kav1 Cilandak Jakarta Selatan</span></a></li></ul>
+                <ul class="fa-ul">
+                    <li><a><i class="fa-li fa fa-envelope-square"></i>support@maungaji.co.id</a></li>
+                    <li><a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank"><i class="fa-li fa fa-whatsapp"></i>+6281213419253</a></li>
+                    <li><a><i class="fa-li fa fa-map-marker"></i>Menara 165 lantai 4 Jl TB Simatupang kav1 Cilandak Jakarta Selatan</a></li>
+                </ul>
             </li>
             <li>
                 <h2 class="ct-footer-list-header" style="color: #FFFFFF">Info Perusahaan</h2>
