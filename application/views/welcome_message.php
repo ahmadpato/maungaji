@@ -1505,15 +1505,46 @@
                     <br>
                     <div id="socmed" class="col-md-2 col-sm-2" style="padding-left:100px;">
                         <ul>
-                            <li><a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank"><img src="../img/icon/new/wa_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
-                            <br>
-                            <li><a href="https://www.instagram.com/maungaji/" target="_blank"><img src="../img/icon/new/ig_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
-                            <br>
-                            <li><a href="https://www.facebook.com/maungaji/" target="_blank"><img src="../img/icon/new/fb_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
-                            <br>
-                            <li><a href="https://twitter.com/MaungajiIndo" target="_blank"><img src="../img/icon/new/tw_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
-                            <br>
-                            <li><a href="https://www.linkedin.com/company/maungaji-indonesia/?originalSubdomain=id" target="_blank"><img src="../img/icon/new/ln_icon.png" class="img-responsive" style="height: 48px; width: 48px;"></a></li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
+                                        <i class="fa fa-whatsapp fa-stack-1x text-carolina-blue"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/maungaji/" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
+                                        <i class="fa fa-instagram fa-stack-1x text-carolina-blue"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/maungaji/" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
+                                        <i class="fa fa-facebook fa-stack-1x text-carolina-blue"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/MaungajiIndo" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
+                                        <i class="fa fa-twitter fa-stack-1x text-carolina-blue"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/maungaji-indonesia/?originalSubdomain=id" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x text-carolina-blue"></i>
+                                    </span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -2421,7 +2452,7 @@
                 <br/>
                 <br/>
                 <div class="inner-center">
-                    <p>Copyright © <?php echo date("Y"); ?> PT Maungaji Teknologi Indonesia.&nbsp;<a href="">Privacy Policy</a></p>
+                    <p>Copyright © <?php echo date("Y"); ?> PT Maungaji Teknologi Indonesia.</p>
                 </div>
             </li>
             <li>
