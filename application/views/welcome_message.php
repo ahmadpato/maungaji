@@ -2404,10 +2404,10 @@
             </li>
             <li>
                 <h2 class="ct-footer-list-header" style="color: #FFFFFF">Hubungi Kami</h2>
-                <ul class="fa-ul">
-                    <li><a><i class="fa-li fa fa-envelope-square"></i>support@maungaji.co.id</a></li>
+                <ul class="fa-ul text-white">
+                    <li><i class="fa-li fa fa-envelope-square"></i>support@maungaji.co.id</li>
                     <li><a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank"><i class="fa-li fa fa-whatsapp"></i>+6281213419253</a></li>
-                    <li><a><i class="fa-li fa fa-map-marker"></i>Menara 165 lantai 4 Jl TB Simatupang kav1 Cilandak Jakarta Selatan</a></li>
+                    <li><i class="fa-li fa fa-map-marker"></i>Menara 165 lantai 4 Jl TB Simatupang kav 1 Cilandak Jakarta Selatan</li>
                 </ul>
             </li>
             <li>

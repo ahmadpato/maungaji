@@ -2510,6 +2510,11 @@ section.pricing {
   transition: all 0.2s;
 }
 
+/* Font color */
+.text-white {
+  color: #fff!important;
+}
+
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {
