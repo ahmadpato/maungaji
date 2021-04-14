@@ -37,7 +37,9 @@ class Welcome extends CI_Controller {
 		
 		$x['photo'] = "https://cms.maungaji.co.id/photo";
 
-        $this->load->view("welcome_message", $x);
+    $this->load->view("header");
+    $this->load->view("welcome_message", $x);
+    $this->load->view("footer");
 	}
 
 	public function about()
