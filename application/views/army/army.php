@@ -49,7 +49,10 @@
                                                     <div class="col-md-6">
                                                         <h4 class="modal-title">
                                                         <?php if($list['photo']): ?>
-                                                        <img src="<?php echo $url .'/'.$list['photo'] ?>" style="border-radius: 15%;width: 250px;height: 250px;"></a>
+                                                            <div
+                                                            class="profile-photo"
+                                                            style="background: url(<?php echo $url .'/'.$list['photo'] ?>"
+                                                            ></div>
                                                         <?php endif; ?>
                                                         </h4>
                                                     </div>
