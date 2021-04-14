@@ -1430,12 +1430,6 @@ ul.navbar-nav>li>a:focus {
     z-index: 2;
 }
 
-.white-nav-top img {
-    width: 100px;
-    height: auto;
-    margin-top: -38px !important;
-}
-
 .white-nav-top ul.navbar-nav>li>a {
     color: #3597D4;
 }

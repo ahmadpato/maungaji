@@ -54,7 +54,7 @@
 <link rel="stylesheet" href="../css/animate/animate.min.css">
 
  <!--Custom CSS -->
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/style.css?version=1.0.1">
 
 <!--Slick  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
@@ -1410,11 +1410,11 @@
                         <span id="mobile-nav-open-btn">&#9776;</span>
                          <!--Logo -->
                         <a class="navbar-brand" href="/">
-                            <img class="logo-non-text" src="./logo.png" alt="logo" width="auto" class="img-responsive" height="50px" style="margin-top: -10px;margin-left: 72px;">
+                            <img class="logo-non-text" src="/img/logo/Mau-Ngaji-Logo-transparent.png" alt="logo" width="auto" class="img-responsive" height="50px" style="margin-top: -10px;margin-left: 72px;">
                         </a>
                          <!--Logo -->
                         <a class="navbar-brand-mobile" href="/">
-                            <img src="https://i.ibb.co/ZTdPn9T/Mau-Ngaji-Logo-3.png" alt="maungaji" border="0" class="img-responsive">
+                            <img src="/img/logo/Mau-Ngaji-Logo-transparent.png" alt="maungaji" border="0" class="img-responsive">
                         </a>
                     </div>
 
