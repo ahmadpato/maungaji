@@ -20,7 +20,10 @@
                                 <div class="thumbnail" style="border-color: #3597d4;border-radius: 32px; border: 2px solid #3597d4;">
                                   <?php if($list['photo']): ?>
                                   <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
-                                    <img src="<?php echo $url .'/'.$list['photo'] ?>" style="width:250px;height:250px;" class="img-circle">
+                                    <div
+                                    class="profile-photo center-block"
+                                    style="background: url(<?php echo $url .'/'.$list['photo'] ?>"
+                                    ></div>
                                 </a>
                                   <?php endif; ?> 
                                   <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">

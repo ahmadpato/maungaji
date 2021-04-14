@@ -2540,7 +2540,13 @@ section.pricing {
 }
 
 
-
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  background-size: cover !important;
+  background-position: center !important;
+  border-radius: 250px;
+}
 
 
 
