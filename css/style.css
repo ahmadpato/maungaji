@@ -1415,8 +1415,7 @@ ul.navbar-nav>li>a {
 ul.navbar-nav>li>a:hover,
 ul.navbar-nav>li>a:focus {
     background: none;
-    color: #fff;
-    border-bottom: 1px solid #fff;
+    color: #3597D4;
 }
 
 

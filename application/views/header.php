@@ -751,7 +751,7 @@
 
 #mobile-nav-open-btn {
     font-size: 30px;
-    color: #fff;
+    color: #3597D4;
     cursor: pointer;
     z-index: 2;
     position: absolute;
