@@ -53,11 +53,6 @@
 
     </footer>
      <!--FOOTER END -->
-    <script>
-        $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();   
-        });
-    </script>
 
 <script src="/js/jquery.min.js"></script>
 
@@ -127,6 +122,10 @@
     carousels();
   })(jQuery);
 })();
+
+    $(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
 
 </script>
 

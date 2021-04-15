@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <!--Title -->
-<title>Maungaji I Pesan Guru Ngaji Privat</title>
+<title>Maungaji | Pesan Guru Ngaji Privat</title>
 
  <!--Basic SEO -->
 <meta name="description" content="Privat ngaji di tempat yang kamu tentukan, murah, mudah dan sesuai syariah.">
@@ -38,23 +38,23 @@
 <meta name="theme-color" content="#ffffff">
 
  <!--Bootstrap CSS -->
-<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
  <!--Owl Carousel CSS -->
-<link rel="stylesheet" href="../css/owl-carousel/owl.carousel.min.css">
-<link rel="stylesheet" href="../css/owl-carousel/owl.theme.default.min.css">
+<link rel="stylesheet" href="/css/owl-carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="/css/owl-carousel/owl.theme.default.min.css">
 
  <!--Responsive Tabs CSS -->
-<link rel="stylesheet" href="../css/responsive-tabs/responsive-tabs.min.css">
+<link rel="stylesheet" href="/css/responsive-tabs/responsive-tabs.min.css">
 
  <!--Magnific Popup -->
-<link rel="stylesheet" href="../css/magnific-popup/magnific-popup.min.css">
+<link rel="stylesheet" href="/css/magnific-popup/magnific-popup.min.css">
 
  <!--Animate CSS -->
-<link rel="stylesheet" href="../css/animate/animate.min.css">
+<link rel="stylesheet" href="/css/animate/animate.min.css">
 
  <!--Custom CSS -->
-<link rel="stylesheet" href="../css/style.css?version=1.0.1">
+<link rel="stylesheet" href="/css/style.css?version=1.0.1">
 
 <!--Slick  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
@@ -63,11 +63,8 @@
  <!--Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
- <!--Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
 <!--Fontawesome -->
-<link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
 
 <!--Fontpoppins -->
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -77,14 +74,6 @@
 
 <!--Montserrat -->
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
  <!--Facebook Pixel Code -->
 <script>
