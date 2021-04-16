@@ -68,7 +68,7 @@
 <!--Responsive Tabs JS -->
 <script src="/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script type="text/javascript" src="/js/slick.min.js"></script>
 
  <!--Isotope -->
 <script src="/js/isotope/isotope.pkgd.min.js"></script>

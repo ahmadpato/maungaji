@@ -20,39 +20,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
  <!--Favicon -->
-<link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url('/img/favicon/apple-icon-57x57.png') ?>">
-<link rel="apple-touch-icon" sizes="60x60" href="<?php echo base_url('/img/favicon/apple-icon-60x60.png') ?>">
-<link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url('/img/favicon/apple-icon-72x72.png') ?>">
-<link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url('/img/favicon/apple-icon-114x114.png') ?>">
-<link rel="apple-touch-icon" sizes="120x120" href="<?php echo base_url('/img/favicon/apple-icon-120x120.png') ?>">
-<link rel="apple-touch-icon" sizes="144x144" href="<?php echo base_url('/img/favicon/apple-icon-144x144.png') ?>">
-<link rel="apple-touch-icon" sizes="152x152" href="<?php echo base_url('/img/favicon/apple-icon-152x152.png') ?>">
-<link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('/img/favicon/apple-icon-180x180.png') ?>">
-<link rel="icon" type="image/png" sizes="192x192" href="<?php echo base_url('/img/favicon/android-icon-192x192.png') ?>">
-<link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('/img/favicon/favicon-32x32.png') ?>">
-<link rel="manifest" href="img/favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
- <!--Owl Carousel CSS -->
-<link rel="stylesheet" href="/css/owl-carousel/owl.carousel.min.css">
-<link rel="stylesheet" href="/css/owl-carousel/owl.theme.default.min.css">
-
- <!--Responsive Tabs CSS -->
-<link rel="stylesheet" href="/css/responsive-tabs/responsive-tabs.min.css">
-
- <!--Magnific Popup -->
-<link rel="stylesheet" href="/css/magnific-popup/magnific-popup.min.css">
-
- <!--Animate CSS -->
-<link rel="stylesheet" href="/css/animate/animate.min.css">
+<link rel="icon" type="image/png" href="<?php echo base_url('/img/favicon/favicon-32x32.png') ?>">
 
  <!--Custom CSS -->
-<link rel="stylesheet" href="/css/maungaji-style.min.css?version=1.0.1">
-
-<!--Fontawesome -->
-<link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/maungaji-style.min.css?version=1.0.2">
 
 <!--Fontpoppins -->
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
