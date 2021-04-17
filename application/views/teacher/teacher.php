@@ -41,7 +41,7 @@
                               <?php endif; ?>
                               </br>
                               <div class="col-md-12">
-                              <h4 class="text-center" style="font-size: 15px;"><i class="fa fa-envelope"> <?php echo $list['teacher']['email']; ?></i></h4>
+                              <h4 class="text-center" style="font-size: 15px;"><i class="fa fa-envelope"></i> <?php echo $list['teacher']['email']; ?></h4>
                               </br>
                               </div>
                               <a href="#aboutModal" data-toggle="modal" data-target="#myModal<?php echo $list['teacher']['id']; ?>" class="btn btn-primary" role="button" style="padding: 15px 30px; background-color: #3597D4; color: #fff; letter-spacing:2px; text-transform: uppercase; font-size: 15px; opacity: 20.7; border-radius: 2rem;">Lihat Detail</a></p>
