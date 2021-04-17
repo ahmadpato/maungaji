@@ -2,6 +2,7 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
     
+    //count
     if($count){
          foreach ($count as $key => $value) {
             echo "<!-- \n".print_r($value, TRUE)."\n-->\n\n";
@@ -1696,7 +1697,7 @@
                         Berdasarkan Syari'ah
                         </p>
                         <p style="font-size:15px;">
-                        Demi menjalani syariah, kami menyarankan para santri untuk memilih gender guru ngaji sesuai dengan gender santri pemesan, laki laki dengan laki laki,  perempuan dengan perempuan. 
+                        Demi menjalani syariah, kami menyarankan para santri untuk memilih gender guru ngaji sesuai dengan gender santri pemesan, laki laki dengan laki laki,perempuan dengan perempuan. 
                         </p>
                     </div>    
                 </div>
@@ -2447,9 +2448,6 @@
                                     <img src="../img/icon/playstore.png" class="img-responsive">
                                 </a>
                                 <br>
-                               <!--  <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
-                                    <img src="../img/icon/appstore.png" class="img-responsive">
-                                </a> -->
                             </div>
                         </div>
                     </li>
@@ -2466,39 +2464,39 @@
         });
     </script>
 
-<script src="https://maungaji.co.id/js/jquery.min.js"></script>
+<script src="/js/jquery.min.js"></script>
 
 <!--Bootstrap JS -->
-<script src="https://maungaji.co.id/js/bootstrap/bootstrap.min.js"></script>
+<script src="/js/bootstrap/bootstrap.min.js"></script>
 
 <!--Owl Carousel JS -->
-<script src="https://maungaji.co.id/js/owl-carousel/owl.carousel.min.js"></script>
+<script src="/js/owl-carousel/owl.carousel.min.js"></script>
 
 <!--Waypoints -->
-<script src="https://maungaji.co.id/js/waypoints/jquery.waypoints.min.js"></script>
+<script src="/js/waypoints/jquery.waypoints.min.js"></script>
 
 <!--Responsive Tabs JS -->
-<script src="https://maungaji.co.id/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+<script src="/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 
  <!--Isotope -->
-<script src="https://maungaji.co.id/js/isotope/isotope.pkgd.min.js"></script>
+<script src="/js/isotope/isotope.pkgd.min.js"></script>
 
  <!--Magnific Popup -->
-<script src="https://maungaji.co.id/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="/js/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 <!--Counter -->
-<script src="https://maungaji.co.id/js/counter/jquery.counterup.min.js"></script>
+<script src="/js/counter/jquery.counterup.min.js"></script>
 
 <!--Easing -->
-<script src="https://maungaji.co.id/js/easing/jquery.easing.1.3.min.js"></script>
+<script src="/js/easing/jquery.easing.1.3.min.js"></script>
 
 <!--WOW JS -->
-<script src="https://maungaji.co.id/js/wow/wow.min.js"></script>
+<script src="/js/wow/wow.min.js"></script>
 
 <!--Custom JS -->
-<script src="https://maungaji.co.id/js/script.js"></script>
+<script src="/js/script.js"></script>
 
 <script async data-id="16951" src="https://cdn.widgetwhats.com/script.min.js"></script>
 
