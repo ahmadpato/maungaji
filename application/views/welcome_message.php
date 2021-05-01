@@ -313,77 +313,93 @@
         </div>
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/desi-circle.png" alt="">
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][0]['photo'] ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;">Desi Aulia Pratama <br />
-                <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:50px;" >Maungaji sangat bermanfaat bagi siapa saja yang ingin belajar ngaji, bagi guru yang ingin mengajar maupun bagi murid yang ingin belajar. Dapat memilih jadwal yang sesuai, guru dan materi yang diinginkan juga. Sangat Memudahkan dan fleksibel.</p>
+                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][0]['fullname']; ?><br />
+                <div style="font-family:Poppins; margin-top:50px;">
+                    <?php echo $testimoni['data'][0]['comment']; ?>
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center"><img class="card-img-top" src="../img/testimonial/derisca-circle.png" alt="">
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][1]['photo'] ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5>Nararya Nur Hasna<br />
-                <p class="card-text" style="margin-top:100px;">Lebih mudah pertemuan online nya.</p>
+                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][1]['fullname']; ?><br />
+                <div style="font-family:Poppins; margin-top:100px;">
+                    <?php echo $testimoni['data'][1]['comment']; ?>
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/putridewi-circle.png" alt="">
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][2]['photo'] ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;">Putri Dewi Puspita<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">Maungaji sangat bermanfaat dan memudahkan umat untuk mencari guru ngaji berkualitas.</p>
+                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][2]['fullname']; ?><br />
+                <div style="font-family:Poppins; margin-top:50px;">
+                    <?php echo $testimoni['data'][2]['comment']; ?>
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center"><img class="card-img-top" src="../img/testimonial/yuniar-circle.png" alt="">
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][3]['photo'] ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5>Yuniar Fella Anggaraini<br />
-                <p class="card-text" style="margin-top:100px;">Sangat membantu dan memudahkan bagi mualaf seperti saya dalam belajar mengaji. Guru nya juga mumpuni. Makasih banyak Maungaji,recomended!.</p>
+                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][3]['fullname']; ?><br />
+                <div style="font-family:Poppins; margin-top:50px;">
+                    <?php echo $testimoni['data'][3]['comment']; ?>
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/faiqotul-circle.png" alt="">
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][4]['photo'] ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;">Faiqotul jamilah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">MashaAllah , alhmdulillah dengan adanya aplikasi maungaji ini  saya lebih mudah untuk berbagi ilmu al quran kepada orang lain, tidak perlu repot melamar kerja atau mencari murid untuk sy ajar , dan respon admin mau ngaji yg ramah dan gercep jika membalas pertanyaan saya , membuat saya sdh merasa seperti keluarga.</p>
+                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][4]['fullname']; ?><br />
+                <div style="font-family:Poppins; margin-top:50px;">
+                    <?php echo $testimoni['data'][4]['comment']; ?>
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/fida-circle.png" alt="">
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][5]['photo'] ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;">Fida Nabila<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">Alhamdulillah lebih mudah mengamalkan ilmu tentang al-qur'an nya. Mengajarnya jadi simple karena yang jauh bisa secara daring.</p>
+                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][5]['fullname']; ?><br />
+                <div style="font-family:Poppins; margin-top:50px;">
+                    <?php echo $testimoni['data'][5]['comment']; ?>
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/idanurjanah-circle.png" alt="">
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][6]['photo'] ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;">Ida Nurjanah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">Alhamdulillah baik namun kurang lancar kadang masih macet appnya.</p>
+                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][6]['fullname']; ?><br />
+                <div style="font-family:Poppins; margin-top:50px;">
+                    <?php echo $testimoni['data'][6]['comment']; ?>
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="../img/testimonial/rizqotul-circle.png" alt="">
+            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][7]['photo'] ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;">Rizqotul Mukaromah<br />
-                <p class="card-text" style="color:#FFFFFF; margin-top:50px;">Alhamdulillah lewat apk saya bisa mengamalkan ilmu saya sekaligus membantu perekonomian saya, jazakumullahu khoiron kastiiron tim maungaji.</p>
+                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][7]['fullname']; ?><br />
+                <div style="font-family:Poppins; margin-top:50px;">
+                    <?php echo $testimoni['data'][7]['comment']; ?>
+                </div>
               </div>
             </div>
           </div>
-          <div>
-            <div class="card text-center"><img class="card-img-top" src="../img/testimonial/dea-circle.png" alt="">
+          <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][8]['photo'] ?>" alt="">
               <div class="card-body" style="font-family:Poppins;">
-                <h5>Tory Asdani<br />
-                <p class="card-text" style="margin-top:50px;">Alhamdulillah Tory sudah menjadi lebih baik dalam membaca Al Quran dan dapat memahami panjang pendek ayat dengan makhraj yang baik serta pengertian sedikit tajwid.</p>
+                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][8]['fullname']; ?><br />
+                <div style="font-family:Poppins; margin-top:50px;">
+                    <?php echo $testimoni['data'][8]['comment']; ?>
+                </div>
               </div>
             </div>
-          </div>
         </div>
     </div>
     <!--end testimoni-->

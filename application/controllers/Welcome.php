@@ -35,7 +35,8 @@ class Welcome extends CI_Controller {
 
 		$x['testimoni']= json_decode($testimoni, TRUE);
 		
-		$x['photo'] = "https://cms.maungaji.co.id/photo";
+		//get url imagess
+		$x['url'] = "https://cms.maungaji.co.id/images";
 
     $this->load->view("header");
     $this->load->view("welcome_message", $x);
