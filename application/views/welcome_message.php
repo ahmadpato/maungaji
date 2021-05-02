@@ -41,42 +41,37 @@
                         <ul>
                             <li>
                                 <a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
-                                        <i class="fa fa-whatsapp fa-stack-1x text-carolina-blue"></i>
-                                    </span>
+                                    <div class="round-icon text-center mb-5">
+                                        <i class="fa fa-whatsapp center align-middle fa-2x"></i>
+                                    </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/maungaji/" target="_blank">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
-                                        <i class="fa fa-instagram fa-stack-1x text-carolina-blue"></i>
-                                    </span>
+                                    <div class="round-icon text-center mb-5">
+                                        <i class="fa fa-instagram center align-middle fa-2x"></i>
+                                    </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.facebook.com/maungaji/" target="_blank">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
-                                        <i class="fa fa-facebook fa-stack-1x text-carolina-blue"></i>
-                                    </span>
+                                    <div class="round-icon text-center mb-5">
+                                        <i class="fa fa-facebook center align-middle fa-2x"></i>
+                                    </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/MaungajiIndo" target="_blank">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
-                                        <i class="fa fa-twitter fa-stack-1x text-carolina-blue"></i>
-                                    </span>
+                                    <div class="round-icon text-center mb-5">
+                                        <i class="fa fa-twitter center align-middle fa-2x"></i>
+                                    </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/company/maungaji-indonesia/?originalSubdomain=id" target="_blank">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x text-white"></i>
-                                        <i class="fa fa-linkedin fa-stack-1x text-carolina-blue"></i>
-                                    </span>
+                                    <div class="round-icon text-center mb-5">
+                                        <i class="fa fa-linkedin center align-middle fa-2x"></i>
+                                    </div>
                                 </a>
                             </li>
                         </ul>
