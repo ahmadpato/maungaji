@@ -416,7 +416,7 @@
 
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
             <div class="card text-center" style="background: #D44835">
-              <img class="card-img-top" src="../img/icon/new/keluarga.png" alt="">
+              <img class="card-img-top" src="../img/icon/new/keluarga.svg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
                     <p class="card-text" style="color:#D44835; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
@@ -461,7 +461,7 @@
             </div>
 
             <div class="card text-center" style="background: #35D458">
-              <img class="card-img-top" src="../img/icon/new/kelompok.png" alt="">
+              <img class="card-img-top" src="../img/icon/new/kelompok.svg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELOMPOK</h3> <br />
                     <p class="card-text" style="color:#35D458; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
@@ -506,7 +506,7 @@
             </div> 
 
             <div class="card text-center" style="background: #35D458">
-              <img class="card-img-top" src="../img/icon/new/kelompok.png" alt="">
+              <img class="card-img-top" src="../img/icon/new/kelompok.svg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELOMPOK</h3> <br />
                     <p class="card-text" style="color:#35D458; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
@@ -551,7 +551,7 @@
             </div>   
 
             <div class="card text-center" style="background: #D44835">
-              <img class="card-img-top" src="../img/icon/new/keluarga.png" alt="">
+              <img class="card-img-top" src="../img/icon/new/keluarga.svg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
                     <p class="card-text" style="color:#D44835; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
@@ -596,7 +596,7 @@
             </div>
 
             <div class="card text-center" style="background: #3597D4">
-              <img class="card-img-top" src="../img/icon/new/personal.png" alt="">
+              <img class="card-img-top" src="../img/icon/new/personal.svg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
                     <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
@@ -641,7 +641,7 @@
             </div> 
 
               <div class="card text-center" style="background: #3597D4">
-              <img class="card-img-top" src="../img/icon/new/personal.png" alt="">
+              <img class="card-img-top" src="../img/icon/new/personal.svg" alt="">
               <div class="card-body" style="font-family:Poppins;">
                 <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
                     <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
