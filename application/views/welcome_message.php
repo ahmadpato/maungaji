@@ -308,27 +308,30 @@
         </div>
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][0]['photo'] ?>" alt="">
+            <div class="card text-center pt-5" style="background: #3597D4">
+            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][0]['photo'] ?>"></div>
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][0]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:50px;">
+                <div class="text-white" style="font-family:Poppins; margin-top:50px;">
                     <?php echo $testimoni['data'][0]['comment']; ?>
                 </div>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][1]['photo'] ?>" alt="">
+            <div class="card text-center pt-5" style="background: #3597D4">
+            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][1]['photo'] ?>"></div>
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][1]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:100px;">
+                <div style="font-family:Poppins; margin-top:50px;">
                     <?php echo $testimoni['data'][1]['comment']; ?>
                 </div>
               </div>
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][2]['photo'] ?>" alt="">
+            <div class="card text-center pt-5" style="background: #3597D4">
+            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][2]['photo'] ?>"></div>
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][2]['fullname']; ?><br />
                 <div style="font-family:Poppins; margin-top:50px;">
@@ -338,7 +341,8 @@
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][3]['photo'] ?>" alt="">
+            <div class="card text-center pt-5" style="background: #3597D4">
+            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][3]['photo'] ?>"></div>
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][3]['fullname']; ?><br />
                 <div style="font-family:Poppins; margin-top:50px;">
@@ -348,7 +352,8 @@
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][4]['photo'] ?>" alt="">
+            <div class="card text-center pt-5" style="background: #3597D4">
+            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][4]['photo'] ?>"></div>
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][4]['fullname']; ?><br />
                 <div style="font-family:Poppins; margin-top:50px;">
@@ -358,7 +363,8 @@
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][5]['photo'] ?>" alt="">
+            <div class="card text-center pt-5" style="background: #3597D4">
+            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][5]['photo'] ?>"></div>
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][5]['fullname']; ?><br />
                 <div style="font-family:Poppins; margin-top:50px;">
@@ -368,7 +374,8 @@
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][6]['photo'] ?>" alt="">
+            <div class="card text-center pt-5" style="background: #3597D4">
+            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][6]['photo'] ?>"></div>
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][6]['fullname']; ?><br />
                 <div style="font-family:Poppins; margin-top:50px;">
@@ -378,7 +385,8 @@
             </div>
           </div>
           <div>
-            <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][7]['photo'] ?>" alt="">
+            <div class="card text-center pt-5" style="background: #3597D4">
+            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][7]['photo'] ?>"></div>
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][7]['fullname']; ?><br />
                 <div style="font-family:Poppins; margin-top:50px;">
@@ -387,7 +395,8 @@
               </div>
             </div>
           </div>
-          <div class="card text-center" style="background: #3597D4"><img class="card-img-top" src="<?php echo $url .'/'.$testimoni['data'][8]['photo'] ?>" alt="">
+          <div class="card text-center pt-5" style="background: #3597D4">
+          <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][8]['photo'] ?>"></div>
               <div class="card-body" style="font-family:Poppins;">
                 <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][8]['fullname']; ?><br />
                 <div style="font-family:Poppins; margin-top:50px;">
