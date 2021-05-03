@@ -21,7 +21,7 @@
                 <div class="col-sm-6 col-md-4">
                   <div class="card mb-5 mb-lg-0">
                     <div class="card-body">
-                      <div class="thumbnail" style="border-color: #3597d4;border-radius: 32px; border: 2px solid #3597d4;">
+                      <div class="thumbnail pt-5" style="border-color: #3597d4;border-radius: 32px; border: 2px solid #3597d4;">
                         <?php if($list['teacher']['avatar']): ?>
                           <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
                             <div
