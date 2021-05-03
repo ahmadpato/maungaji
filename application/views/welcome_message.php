@@ -22,10 +22,10 @@
                         <br>
                         <div class="btn-download-header">
                             <div class="button-download">
-                                <!-- <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank">
+                                <!-- <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank" style="margin-right: 15px;">
                                     <img src="https://maungaji.co.id/img/logo/appstore.svg">
                                 </a> -->
-                                <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank" style="margin-left: 15px;">
+                                <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank">
                                     <img src="https://maungaji.co.id/img/logo/playstore.svg">
                                 </a>
                             </div>
@@ -434,6 +434,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Tipe Kelas: Online
                     </div>
@@ -441,20 +442,19 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Max. Santri: 4 orang
                     </div>
-                    <p>
                     <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
-                    margin-top: 10px;
+                    margin-bottom:35px;
                     ">
                         Durasi Belajar: 90 Menit
                     </div>
-                    </p>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
                     Belajar ngaji bersama guru ngaji secara online dan sertakan anggota keluarga Anda untuk belajar bersama.
                     </p>
               </div>
@@ -479,6 +479,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Tipe Kelas: Online
                     </div>
@@ -486,20 +487,19 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Max. Santri: 10 orang
                     </div>
-                    <p>
                      <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
                         box-sizing: border-box;
                         border-radius: 16px;
                         font-family: Poppins;
-                        margin-top: 10px;
+                        margin-bottom:35px;
                         ">
                         Durasi Belajar : 120 menit
                     </div>
-                    </p>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
                     Belajar ngaji bersama guru ngaji secara online dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.
                     </p>
               </div>
@@ -524,6 +524,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Tipe Kelas: offline
                     </div>
@@ -531,20 +532,19 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Max. Santri: 10 orang
                     </div>
-                    <p>
                      <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
                         box-sizing: border-box;
                         border-radius: 16px;
                         font-family: Poppins;
-                        margin-top: 10px;
+                        margin-bottom:35px;
                         ">
                         Durasi Belajar : 120 menit
                     </div>
-                    </p>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
                     Belajar ngaji bersama guru ngaji secara offline dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar
                     </p>
               </div>
@@ -569,6 +569,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Tipe Kelas: offline
                     </div>
@@ -576,20 +577,19 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Max. Santri: 4 orang
                     </div>
-                    <p>
                     <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
-                    margin-top: 10px;
+                    margin-bottom:35px;
                     ">
                         Durasi Belajar: 90 Menit
                     </div>
-                    </p>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
                     Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.
                     </p>
               </div>
@@ -614,6 +614,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Tipe Kelas: offline
                     </div>
@@ -621,20 +622,19 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Max. Santri: 1 orang
                     </div>
-                    <p>
                     <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
-                    margin-top: 10px;
+                    margin-bottom:35px;
                     ">
                         Durasi Belajar: 60 Menit
                     </div>
-                    </p>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
                     Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
                     </p>
               </div>
@@ -659,6 +659,7 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Tipe Kelas: Online
                     </div>
@@ -666,20 +667,19 @@
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
+                    margin-bottom: 10px;
                     ">
                         Max. Santri: 1 orang
                     </div>
-                    <p>
                     <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
                     box-sizing: border-box;
                     border-radius: 16px;
                     font-family: Poppins;
-                    margin-top: 10px;
+                    margin-bottom:35px;
                     ">
                         Durasi Belajar: 60 Menit
                     </div>
-                    </p>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins; margin-top:53px;" >
+                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
                     Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
                     </p>
               </div>
