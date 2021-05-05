@@ -124,29 +124,29 @@
                         <p style="font-size: 24px; line-height: normal;">Di Maungaji kamu bisa memilih salah satu di antara tiga jenis kelas</p>
                     </div>   
                </div>  
-               <div class="col-md-4 square-left text-center">
-                    <div class="text-center">
-                        <img src="../img/ilustrasi/iqro_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 10%;">               
+               <div class="col-md-4">
+                    <div class="class-card text-center position-relative mb-5 mb-lg-0">
+                        <img src="../img/ilustrasi/iqro_Illust.png" class="img-responsive center-block" alt="Belajar Ngaji">
+                        <div class="class-name w-100 position-absolute" data-toggle="tooltip" title="Mulai belajar mengenali, membaca, dan melafalkan secara benar huruf-huruf Arab dengan mengikuti kelas IQRO’ di Maungaji">
+                            IQRO'
+                        </div>
                     </div>
-                    <div class="text-block-iqro" data-toggle="tooltip" title="Mulai belajar mengenali, membaca, dan melafalkan secara benar huruf-huruf Arab dengan mengikuti kelas IQRO’ di Maungaji">
-                        IQRO'
-                    </div>   
                 </div>
-                <div class="col-md-4 square-center">
-                    <div class="text-center">
-                        <img src="../img/ilustrasi/Tahsin_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 1%;">               
+                <div class="col-md-4">
+                    <div class="class-card text-center position-relative mb-5 mb-lg-0">
+                        <img src="../img/ilustrasi/Tahsin_Illust.png" class="img-responsive center-block" alt="Belajar Ngaji">
+                        <div class="class-name w-100 position-absolute" data-toggle="tooltip" title="Baguskan dan perbaiki bacaan Qur’an mu dengan mengikuti kelas Tahsin atau yang biasa dikenal dengan ilmu tajwid di Maungaji">
+                            TAHSIN
+                        </div>
                     </div>
-                    <div class="text-block-tahsin" data-toggle="tooltip" title="Baguskan dan perbaiki bacaan Qur’an mu dengan mengikuti kelas Tahsin atau yang biasa dikenal dengan ilmu tajwid di Maungaji">
-                        TAHSIN
-                    </div>   
                 </div>
-                <div class="col-md-4 square-right">
-                    <div class="text-center">
-                        <img src="../img/ilustrasi/Tahfidz_Illust.png" class="img-responsive" alt="Belajar Ngaji" height="auto" style="height: 250px; position: absolute; top: 10%; left: 20%;">               
+                <div class="col-md-4">
+                    <div class="class-card text-center position-relative mb-5 mb-lg-0">
+                        <img src="../img/ilustrasi/Tahfidz_Illust.png" class="img-responsive center-block" alt="Belajar Ngaji">
+                        <div class="class-name w-100 position-absolute" data-toggle="tooltip" title="Hafal lebih banyak surah dan ayat dengan mengikuti kelas Tahfidz. Insya Allah guru ngaji siap membimbing kamu menjadi Hafidz/Hafizah">
+                            TAHFIDZ
+                        </div>
                     </div>
-                    <div class="text-block-tahfidz" data-toggle="tooltip" title="Hafal lebih banyak surah dan ayat dengan mengikuti kelas Tahfidz. Insya Allah guru ngaji siap membimbing kamu menjadi Hafidz/Hafizah">
-                        TAHFIDZ
-                    </div>   
                 </div>
             </div>
         </div>

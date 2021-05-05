@@ -2666,32 +2666,33 @@ h3 {
         font-family: "Poppins";
         color: #585858;
     }
-    .square-left {
+    .class-card {
         height: 395px;
-        width: 300px;
         background-color: #FFF;
         border: 2px solid #3597D4;
         box-sizing: border-box;
         border-radius: 16px;
-        margin-left: 3rem
-    }
-    .square-center {
-        height: 395px;
-        width: 300px;
-        background-color: #FFF;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        margin-left: 3rem
-    }
-    .square-right {
-        height: 395px;
-        width: 300px;
-        background-color: #FFF;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        margin-left: 3rem
+
+        img {
+            height: 250px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 10%;
+            margin: auto;
+        }
+
+        .class-name {
+            bottom: -2px;
+            background-color: #3597D4;
+            color: #FFF;
+            padding: 25px;
+            height: 120px;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-size: 50px;
+        }
     }
     .square-jdid {
         height: 64px;
@@ -2711,53 +2712,6 @@ h3 {
     }
     .content-mau {
         margin-bottom:-100px;
-    }
-    .text-block-iqro {
-        position: absolute;
-        bottom: -2px;
-        right: 20px;
-        left: 0;
-        background-color: #3597D4;
-        color: #FFF;
-        padding: 25px;
-        width: 298px;
-        height: 120px;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        font-size: 50px;
-    }
-    .text-block-tahsin {
-        position: absolute;
-        bottom: -2px;
-        right: 20px;
-        left: -1px;
-        background-color: #3597D4;
-        color: #FFF;
-        padding-top: 25px;
-        padding-left: 55px;
-        width: 298px;
-        height: 120px;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        font-size: 50px;
-    }
-    .text-block-tahfidz {
-        position: absolute;
-        bottom: -2px;
-        right: 20px;
-        left: 0;
-        background-color: #3597D4;
-        color: #FFF;
-        padding-top: 25px;
-        padding-left: 40px;
-        width: 298px;
-        height: 120px;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        font-size: 50px;
     }
     .text-count-student {
         position: absolute;
