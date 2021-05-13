@@ -23,10 +23,10 @@
                         <div class="btn-download-header">
                             <div class="button-download">
                                 <!-- <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank" style="margin-right: 15px;">
-                                    <img src="https://maungaji.co.id/img/logo/appstore.svg">
+                                    <img src="/img/logo/appstore.svg">
                                 </a> -->
                                 <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank">
-                                    <img src="https://maungaji.co.id/img/logo/playstore.svg">
+                                    <img src="/img/logo/playstore.svg">
                                 </a>
                             </div>
                         </div> 
@@ -307,103 +307,23 @@
             </div>
         </div>
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
-          <div>
-            <div class="card text-center pt-5" style="background: #3597D4">
-            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][0]['photo'] ?>"></div>
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][0]['fullname']; ?><br />
-                <div class="text-white" style="font-family:Poppins; margin-top:50px;">
-                    <?php echo $testimoni['data'][0]['comment']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center pt-5" style="background: #3597D4">
-            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][1]['photo'] ?>"></div>
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][1]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:50px;">
-                    <?php echo $testimoni['data'][1]['comment']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center pt-5" style="background: #3597D4">
-            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][2]['photo'] ?>"></div>
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][2]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:50px;">
-                    <?php echo $testimoni['data'][2]['comment']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center pt-5" style="background: #3597D4">
-            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][3]['photo'] ?>"></div>
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][3]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:50px;">
-                    <?php echo $testimoni['data'][3]['comment']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center pt-5" style="background: #3597D4">
-            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][4]['photo'] ?>"></div>
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][4]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:50px;">
-                    <?php echo $testimoni['data'][4]['comment']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center pt-5" style="background: #3597D4">
-            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][5]['photo'] ?>"></div>
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][5]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:50px;">
-                    <?php echo $testimoni['data'][5]['comment']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center pt-5" style="background: #3597D4">
-            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][6]['photo'] ?>"></div>
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][6]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:50px;">
-                    <?php echo $testimoni['data'][6]['comment']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center pt-5" style="background: #3597D4">
-            <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][7]['photo'] ?>"></div>
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][7]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:50px;">
-                    <?php echo $testimoni['data'][7]['comment']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card text-center pt-5" style="background: #3597D4">
-          <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testimoni['data'][8]['photo'] ?>"></div>
-              <div class="card-body" style="font-family:Poppins;">
-                <h5 style="color:#FFFFFF;"><?php echo $testimoni['data'][8]['fullname']; ?><br />
-                <div style="font-family:Poppins; margin-top:50px;">
-                    <?php echo $testimoni['data'][8]['comment']; ?>
-                </div>
-              </div>
-            </div>
+            <?php
+                foreach ($testimoni['data'] as $testi_data) {
+                    ?>
+                        <div>
+                            <div class="card text-center pt-5" style="background: #3597D4">
+                                <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testi_data['photo'] ?>"></div>
+                                <div class="card-body" style="font-family:Poppins;">
+                                    <h5 style="color:#FFFFFF;"><?php echo $testi_data['fullname']; ?></h5><br />
+                                    <div class="text-white" style="font-family:Poppins; margin-top:50px;">
+                                        <?php echo $testi_data['comment']; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php
+                }
+            ?>
         </div>
     </div>
     <!--end testimoni-->
@@ -422,277 +342,95 @@
                </div>  
             </div>
         </div>
-
+        
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
-            <div class="card text-center" style="background: #D44835">
-              <img class="card-img-top" src="../img/icon/new/keluarga.svg" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
-                    <p class="card-text" style="color:#D44835; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    75K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Tipe Kelas: Online
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Max. Santri: 4 orang
-                    </div>
-                    <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom:35px;
-                    ">
-                        Durasi Belajar: 90 Menit
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
-                    Belajar ngaji bersama guru ngaji secara online dan sertakan anggota keluarga Anda untuk belajar bersama.
-                    </p>
-              </div>
-            </div>
+            <?php
+                class StudyPackage {
+                    public $name;
+                    public $price;
+                    public $class_type;
+                    public $max_student;
+                    public $study_duration;
+                    public $testimony;
+                }
+                $packages = array();
 
-            <div class="card text-center" style="background: #35D458">
-              <img class="card-img-top" src="../img/icon/new/kelompok.svg" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELOMPOK</h3> <br />
-                    <p class="card-text" style="color:#35D458; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    100K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Tipe Kelas: Online
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Max. Santri: 10 orang
-                    </div>
-                     <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
-                        box-sizing: border-box;
-                        border-radius: 16px;
-                        font-family: Poppins;
-                        margin-bottom:35px;
-                        ">
-                        Durasi Belajar : 120 menit
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
-                    Belajar ngaji bersama guru ngaji secara online dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.
-                    </p>
-              </div>
-            </div> 
+                $packages[0] = new StudyPackage();
+                $packages[0]->name = "keluarga";
+                $packages[0]->price = "75K";
+                $packages[0]->class_type = "Online";
+                $packages[0]->max_student = "4";
+                $packages[0]->study_duration = "90";
+                $packages[0]->testimony = "Belajar ngaji bersama guru ngaji secara online dan sertakan anggota keluarga Anda untuk belajar bersama.";
+                
+                $packages[1] = new StudyPackage();
+                $packages[1]->name = "keluarga";
+                $packages[1]->price = "150K";
+                $packages[1]->class_type = "Offline";
+                $packages[1]->max_student = "4";
+                $packages[1]->study_duration = "90";
+                $packages[1]->testimony = "Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.";
 
-            <div class="card text-center" style="background: #35D458">
-              <img class="card-img-top" src="../img/icon/new/kelompok.svg" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELOMPOK</h3> <br />
-                    <p class="card-text" style="color:#35D458; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    200K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Tipe Kelas: offline
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Max. Santri: 10 orang
-                    </div>
-                     <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
-                        box-sizing: border-box;
-                        border-radius: 16px;
-                        font-family: Poppins;
-                        margin-bottom:35px;
-                        ">
-                        Durasi Belajar : 120 menit
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
-                    Belajar ngaji bersama guru ngaji secara offline dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar
-                    </p>
-              </div>
-            </div>   
+                $packages[2] = new StudyPackage();
+                $packages[2]->name = "kelompok";
+                $packages[2]->price = "100K";
+                $packages[2]->class_type = "Online";
+                $packages[2]->max_student = "10";
+                $packages[2]->study_duration = "120";
+                $packages[2]->testimony = "Belajar ngaji bersama guru ngaji secara online dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.";
 
-            <div class="card text-center" style="background: #D44835">
-              <img class="card-img-top" src="../img/icon/new/keluarga.svg" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">KELUARGA</h3> <br />
-                    <p class="card-text" style="color:#D44835; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    150K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Tipe Kelas: offline
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Max. Santri: 4 orang
-                    </div>
-                    <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom:35px;
-                    ">
-                        Durasi Belajar: 90 Menit
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
-                    Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.
-                    </p>
-              </div>
-            </div>
+                $packages[3] = new StudyPackage();
+                $packages[3]->name = "kelompok";
+                $packages[3]->price = "200K";
+                $packages[3]->class_type = "Offline";
+                $packages[3]->max_student = "10";
+                $packages[3]->study_duration = "120";
+                $packages[3]->testimony = "Belajar ngaji bersama guru ngaji secara offline dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.";
 
-            <div class="card text-center" style="background: #3597D4">
-              <img class="card-img-top" src="../img/icon/new/personal.svg" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
-                    <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    100K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Tipe Kelas: offline
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Max. Santri: 1 orang
-                    </div>
-                    <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom:35px;
-                    ">
-                        Durasi Belajar: 60 Menit
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
-                    Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
-                    </p>
-              </div>
-            </div> 
+                $packages[4] = new StudyPackage();
+                $packages[4]->name = "personal";
+                $packages[4]->price = "50K";
+                $packages[4]->class_type = "Online";
+                $packages[4]->max_student = "1";
+                $packages[4]->study_duration = "60";
+                $packages[4]->testimony = "Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.";
+                
+                $packages[5] = new StudyPackage();
+                $packages[5]->name = "personal";
+                $packages[5]->price = "100K";
+                $packages[5]->class_type = "Offline";
+                $packages[5]->max_student = "1";
+                $packages[5]->study_duration = "60";
+                $packages[5]->testimony = "Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.";
 
-              <div class="card text-center" style="background: #3597D4">
-              <img class="card-img-top" src="../img/icon/new/personal.svg" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <h3 style="color:#FFFFFF;font-family:Poppins; letter-spacing: -1px;">PERSONAL</h3> <br />
-                    <p class="card-text" style="color:#3597D4; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 80px;
-                    " >
-                    50K/<span style="font-size: 25px;">pertemuan</span>
-                    </p>
-                    <br />
-                    <div class="col-sm-6" style="color:#FFFFFF;
-                    border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Tipe Kelas: Online
-                    </div>
-                    <div class="col-sm-6" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom: 10px;
-                    ">
-                        Max. Santri: 1 orang
-                    </div>
-                    <div class="col-sm-12" style="color:#FFFFFF;border: 2px solid #FFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-family: Poppins;
-                    margin-bottom:35px;
-                    ">
-                        Durasi Belajar: 60 Menit
-                    </div>
-                    <p class="card-text" style="color:#FFFFFF; font-family:Poppins;" >
-                    Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.
-                    </p>
-              </div>
-            </div>    
+                foreach ($packages as $package) {
+                    ?>
+                        <div class="card text-center package-card <?php echo $package->{'name'}; ?>">
+                            <img class="card-img-top" src="../img/icon/new/keluarga.svg" alt="">
+                            <div class="card-body">
+                                <h3 class="package-name"><?php echo $package->{'name'}; ?></h3>
+                                <br />
+                                <p class="package-price">
+                                    <?php echo $package->{'price'}; ?>/<span>pertemuan</span>
+                                </p>
+                                <br />
+                                <div class="col-sm-6 package-detail">
+                                    Tipe Kelas: <?php echo $package->{'class_type'}; ?>
+                                </div>
+                                <div class="col-sm-6  package-detail">
+                                    Max. Santri: <?php echo $package->{'max_student'}; ?> orang
+                                </div>
+                                <div class="col-sm-12  package-detail">
+                                    Durasi Belajar: <?php echo $package->{'study_duration'}; ?> Menit
+                                </div>
+                                <p class="package-description">
+                                    <?php echo $package->{'testimony'}; ?>
+                                </p>
+                            </div>
+                        </div>
+                    <?php
+                }
+            ?>
 
         </div>
     </div>
@@ -809,140 +547,40 @@
         </div>
         
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
-            <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($article)) { ?>
-                    <?php echo $article['0']['jetpack_featured_media_url'] ?>
-                    <?php } ?>" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <br />
-                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    line-height: 50px;
-                    " >
-                    <?php if (!empty($article)) { ?>
-                    <?php echo $article['0']['title']['rendered'] ?>
-                    <?php } ?>
-                    </p>
-                    <br />
-              </div>
+            <?php
+                foreach ($article as $key=>$art) {
+                    if ($key <= 4) {
+                        ?>
+                            <div class="card text-left" style="background: #FFFFFF">
+                                <img class="img-article" src="<?php if (!empty($article)) { ?>
+                                        <?php echo $art['jetpack_featured_media_url'] ?>
+                                        <?php } ?>" alt="">
+                                <div class="card-body" style="font-family:Poppins;">
+                                    <br />
+                                        <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                                        box-sizing: border-box;
+                                        border-radius: 16px;
+                                        font-weight: 600;
+                                        line-height: 50px;
+                                        " >
+                                        <?php if (!empty($article)) { ?>
+                                        <?php echo $art['title']['rendered'] ?>
+                                        <?php } ?>
+                                        </p>
+                                        <br />
+                                </div>
 
-              <div class="text-center">
-                <p>
-                <a href="<?php if (!empty($article)) { ?> <?php echo $article['0']['link'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
-                </p>
-               </div>
-            </div>
-            
-            <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($article)) { ?>
-                    <?php echo $article['1']['jetpack_featured_media_url'] ?>
-                    <?php } ?>" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <br />
-                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    line-height: 50px;
-                    " >
-                    <?php if (!empty($article)) { ?>
-                    <?php echo $article['1']['title']['rendered'] ?>
-                    <?php } ?>
-                    </p>
-                    <br />
-              </div>
-              <div class="text-center">
-                <p>
-                <a href="<?php if (!empty($article)) { ?>
-                    <?php echo $article['1']['link'] ?>
-                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
-                </p>
-               </div>
-            </div>
+                                <div class="text-center">
+                                    <p>
+                                    <a href="<?php if (!empty($article)) { ?> <?php echo $art['link'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        <?php
+                    }
+                }
 
-            <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($article)) { ?>
-                    <?php echo $article['2']['jetpack_featured_media_url'] ?>
-                    <?php } ?>" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <br />
-                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    line-height: 50px;
-                    " >
-                    <?php if (!empty($article)) { ?>
-                    <?php echo $article['2']['title']['rendered'] ?>
-                    <?php } ?>
-                    </p>
-                    <br />
-              </div>
-              <div class="text-center">
-                <p>
-                <a href="<?php if (!empty($article)) { ?>
-                    <?php echo $article['2']['link'] ?>
-                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
-                </p>
-               </div>
-            </div>
-
-            <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($article)) { ?>
-                    <?php echo $article['3']['jetpack_featured_media_url'] ?>
-                    <?php } ?>" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <br />
-                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    line-height: 50px;
-                    " >
-                    <?php if (!empty($article)) { ?>
-                    <?php echo $article['3']['title']['rendered'] ?>
-                    <?php } ?>
-                    </p>
-                    <br />
-              </div>
-              <div class="text-center">
-                <p>
-                <a href="<?php if (!empty($article)) { ?>
-                    <?php echo $article['3']['link'] ?>
-                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
-                </p>
-               </div>
-            </div>
-
-            <div class="card text-left" style="background: #FFFFFF">
-              <img class="img-article" src="<?php if (!empty($article)) { ?>
-                    <?php echo $article['4']['jetpack_featured_media_url'] ?>
-                    <?php } ?>" alt="">
-              <div class="card-body" style="font-family:Poppins;">
-                <br />
-                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                    box-sizing: border-box;
-                    border-radius: 16px;
-                    font-weight: 600;
-                    line-height: 50px;
-                    " >
-                    <?php if (!empty($article)) { ?>
-                    <?php echo $article['4']['title']['rendered'] ?>
-                    <?php } ?>
-                    </p>
-                    <br />
-              </div>
-              <div class="text-center">
-                <p>
-                <a href="<?php if (!empty($article)) { ?>
-                    <?php echo $article['4']['link'] ?>
-                    <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
-                </p>
-               </div>
-            </div>
-
+            ?>
         </div>
     </div>
     <!--end article-->
