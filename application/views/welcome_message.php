@@ -550,7 +550,7 @@
             <?php
                 foreach ($article as $art) {
                     ?>
-                        <div class="card text-left" style="background: #FFFFFF">
+                        <div class="card text-center" style="background: #FFFFFF">
                             <img class="img-article" src="<?php if (!empty($article)) { ?>
                                     <?php echo $art['jetpack_featured_media_url'] ?>
                                     <?php } ?>" alt="">
@@ -560,7 +560,6 @@
                                     box-sizing: border-box;
                                     border-radius: 16px;
                                     font-weight: 600;
-                                    line-height: 50px;
                                     " >
                                     <?php if (!empty($article)) { ?>
                                     <?php echo $art['title']['rendered'] ?>
