@@ -548,36 +548,34 @@
         
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
             <?php
-                foreach ($article as $key=>$art) {
-                    if ($key <= 4) {
-                        ?>
-                            <div class="card text-left" style="background: #FFFFFF">
-                                <img class="img-article" src="<?php if (!empty($article)) { ?>
-                                        <?php echo $art['jetpack_featured_media_url'] ?>
-                                        <?php } ?>" alt="">
-                                <div class="card-body" style="font-family:Poppins;">
-                                    <br />
-                                        <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                                        box-sizing: border-box;
-                                        border-radius: 16px;
-                                        font-weight: 600;
-                                        line-height: 50px;
-                                        " >
-                                        <?php if (!empty($article)) { ?>
-                                        <?php echo $art['title']['rendered'] ?>
-                                        <?php } ?>
-                                        </p>
-                                        <br />
-                                </div>
-
-                                <div class="text-center">
-                                    <p>
-                                    <a href="<?php if (!empty($article)) { ?> <?php echo $art['link'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                foreach ($article as $art) {
+                    ?>
+                        <div class="card text-left" style="background: #FFFFFF">
+                            <img class="img-article" src="<?php if (!empty($article)) { ?>
+                                    <?php echo $art['jetpack_featured_media_url'] ?>
+                                    <?php } ?>" alt="">
+                            <div class="card-body" style="font-family:Poppins;">
+                                <br />
+                                    <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
+                                    box-sizing: border-box;
+                                    border-radius: 16px;
+                                    font-weight: 600;
+                                    line-height: 50px;
+                                    " >
+                                    <?php if (!empty($article)) { ?>
+                                    <?php echo $art['title']['rendered'] ?>
+                                    <?php } ?>
                                     </p>
-                                </div>
+                                    <br />
                             </div>
-                        <?php
-                    }
+
+                            <div class="text-center">
+                                <p>
+                                <a href="<?php if (!empty($article)) { ?> <?php echo $art['link'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                    <?php
                 }
 
             ?>
