@@ -311,11 +311,11 @@
                 foreach ($testimoni['data'] as $testi_data) {
                     ?>
                         <div>
-                            <div class="card text-center pt-5" style="background: #3597D4">
-                                <div class="profile-photo center-block" style="background: url(<?php echo $url .'/'.$testi_data['photo'] ?>"></div>
-                                <div class="card-body" style="font-family:Poppins;">
-                                    <h5 style="color:#FFFFFF;"><?php echo $testi_data['fullname']; ?></h5><br />
-                                    <div class="text-white" style="font-family:Poppins; margin-top:50px;">
+                            <div class="card text-center pt-5 testimony-card">
+                                <div class="profile-photo center-block mb-5" style="background: url(<?php echo $url .'/'.$testi_data['photo'] ?>"></div>
+                                <div>
+                                    <h5><strong><?php echo $testi_data['fullname']; ?></strong></h5><br />
+                                    <div>
                                         <?php echo $testi_data['comment']; ?>
                                     </div>
                                 </div>
