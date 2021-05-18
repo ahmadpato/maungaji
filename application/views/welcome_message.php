@@ -163,13 +163,13 @@
                 <div class="col-md-6 sm-6">
                     <div class="row">
                         <div class="text-student text-center col-md-9 col-md-push-3" style="font-size:48px;">
-                        <?php if (!empty($value)) { ?>
-                        <?php echo $value[0]['name'] ?>
+                        <?php if (!empty($count)) { ?>
+                        <?php echo $count['data'][0]['name'] ?>
                         <?php } ?>
                         </div>
                         <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">
-                        <?php if (!empty($value)) { ?>
-                        <?php echo $value[0]['count'] ?>
+                        <?php if (!empty($count)) { ?>
+                        <?php echo $count['data'][0]['count'] ?>
                         <?php } ?>
                         </div>
                     </div>
@@ -194,13 +194,13 @@
                 <div class="col-md-6 col-sm-6">
                     <div>
                        <div class="text-teacher text-center col-md-9 col-md-push-3" style="font-size:48px;">
-                       <?php if (!empty($value)) { ?>
-                       <?php echo $value[1]['name'] ?>
+                       <?php if (!empty($count)) { ?>
+                       <?php echo $count['data'][1]['name'] ?>
                        <?php } ?>   
                        </div>
                        <div class="text-count-teacher text-center col-md-3 col-md-pull-9" style="font-size:48px;">
-                       <?php if (!empty($value)) { ?>
-                       <?php echo $value[1]['count'] ?>
+                       <?php if (!empty($count)) { ?>
+                       <?php echo $count['data'][1]['count'] ?>
                        <?php } ?>
                        </div>   
                     </div>

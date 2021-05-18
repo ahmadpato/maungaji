@@ -20,7 +20,7 @@ class Welcome extends CI_Controller {
 		ini_set('display_errors', 1);
 
 		//end point for count data teacher and student
-        $countData = $this->http_request("http://13.59.145.203/v1/landing");
+        $countData = $this->http_request("http://13.59.145.203:8000/v1/landing");
         
         //end point for article
         $article = $this->http_request("https://maungaji.co.id/artikel/wp-json/wp/v2/posts");
@@ -37,10 +37,10 @@ class Welcome extends CI_Controller {
 		
 		//get url images
 		$x['url'] = "https://cms.maungaji.co.id/images";
-
-    $this->load->view("header");
-    $this->load->view("welcome_message", $x);
-    $this->load->view("footer");
+		// var_dump($x['count']);exit;
+	    $this->load->view("header");
+	    $this->load->view("welcome_message", $x);
+	    $this->load->view("footer");
 	}
 
 	public function about()
