@@ -37,7 +37,7 @@ class Welcome extends CI_Controller {
 		
 		//get url images
 		$x['url'] = "https://cms.maungaji.co.id/images";
-		// var_dump($x['count']);exit;
+	
 	    $this->load->view("header");
 	    $this->load->view("welcome_message", $x);
 	    $this->load->view("footer");
