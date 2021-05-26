@@ -33,7 +33,7 @@
                         <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
                           <br>
                           <div class="form-group" style="font-family:Poppins;">
-                              <h4 class="text-center" style="font-size: 15px;"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
+                              <h4 class="text-center" style="font-size: 12px;"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
                               <?php if($list['teacher']['status_online'] == 1): ?>
                                  <span class="label label-success">Online</span>
                               <?php else: ?>
