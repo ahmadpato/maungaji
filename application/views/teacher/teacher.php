@@ -33,7 +33,7 @@
                         <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
                           <br>
                           <div class="form-group" style="font-family:Poppins;">
-                              <h4 class="text-center" style="font-size: 12px;"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
+                              <h4 class="text-center" style="font-size: 15px;"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
                               <?php if($list['teacher']['status_online'] == 1): ?>
                                  <span class="label label-success">Online</span>
                               <?php else: ?>
@@ -62,7 +62,7 @@
                                         </h4>
                                     </div>
                                     <div class="col-md-6">
-                                        <h4 style="font-family: Poppins; font-style: normal;font-weight: 600;font-size: 20px;line-height: 72px;color: #FFFFFF;text-align: center;" class="modal-title" id="myModalLabel">
+                                        <h4 style="font-family: Poppins; font-style: normal;font-weight: 600;font-size: 12px;line-height: 72px;color: #FFFFFF;text-align: center;" class="modal-title" id="myModalLabel">
                                         <?php echo $list['teacher']['name']; ?>
                                         </h4>
                                     </div>
