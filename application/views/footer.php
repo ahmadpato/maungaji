@@ -22,7 +22,7 @@
             <li>
                 <h2 class="ct-footer-list-header" style="color: #FFFFFF">Info Perusahaan</h2>
                 <ul>
-                    <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Kebijakan Privasi</a></li>
+                    <li><a href="https://maungaji.co.id/privacy/privacy_policy.html">Kebijakan Privasi</a></li>
                     <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Syarat dan Ketentuan</a></li>
                     <li><a href="">Karir</a></li>
                     <li><a href="https://maungaji.co.id/artikel">Blog</a></li>
