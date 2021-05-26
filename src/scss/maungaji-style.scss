@@ -11,6 +11,7 @@
 @import "../../node_modules/bootstrap-utilities/bootstrap-utilities";
 @import "utilities/position";
 @import "icons";
+@import "cards";
 
 /* =========================================
     Default Theme
@@ -45,11 +46,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Muli", sans-serif;
+    font-family: Poppins;
 }
 
 p {
-    font-family: "Open Sans", sans-serif;
+    font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
@@ -2554,8 +2555,8 @@ section.pricing {
 
 
 .profile-photo {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background-size: cover !important;
   background-position: center !important;
   border-radius: 250px;
@@ -2666,32 +2667,33 @@ h3 {
         font-family: "Poppins";
         color: #585858;
     }
-    .square-left {
+    .class-card {
         height: 395px;
-        width: 300px;
         background-color: #FFF;
         border: 2px solid #3597D4;
         box-sizing: border-box;
         border-radius: 16px;
-        margin-left: 3rem
-    }
-    .square-center {
-        height: 395px;
-        width: 300px;
-        background-color: #FFF;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        margin-left: 3rem
-    }
-    .square-right {
-        height: 395px;
-        width: 300px;
-        background-color: #FFF;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        margin-left: 3rem
+
+        img {
+            height: 250px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 10%;
+            margin: auto;
+        }
+
+        .class-name {
+            bottom: -2px;
+            background-color: #3597D4;
+            color: #FFF;
+            padding: 25px;
+            height: 120px;
+            border: 2px solid #3597D4;
+            box-sizing: border-box;
+            border-radius: 16px;
+            font-size: 50px;
+        }
     }
     .square-jdid {
         height: 64px;
@@ -2711,53 +2713,6 @@ h3 {
     }
     .content-mau {
         margin-bottom:-100px;
-    }
-    .text-block-iqro {
-        position: absolute;
-        bottom: -2px;
-        right: 20px;
-        left: 0;
-        background-color: #3597D4;
-        color: #FFF;
-        padding: 25px;
-        width: 298px;
-        height: 120px;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        font-size: 50px;
-    }
-    .text-block-tahsin {
-        position: absolute;
-        bottom: -2px;
-        right: 20px;
-        left: -1px;
-        background-color: #3597D4;
-        color: #FFF;
-        padding-top: 25px;
-        padding-left: 55px;
-        width: 298px;
-        height: 120px;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        font-size: 50px;
-    }
-    .text-block-tahfidz {
-        position: absolute;
-        bottom: -2px;
-        right: 20px;
-        left: 0;
-        background-color: #3597D4;
-        color: #FFF;
-        padding-top: 25px;
-        padding-left: 40px;
-        width: 298px;
-        height: 120px;
-        border: 2px solid #3597D4;
-        box-sizing: border-box;
-        border-radius: 16px;
-        font-size: 50px;
     }
     .text-count-student {
         position: absolute;
@@ -2838,142 +2793,6 @@ h3 {
         font-family:Poppins; 
         margin-left: 3rem;
     }
-    .gtco-testimonials {
-      position: relative;
-      margin-top: -100px;
-    }
-    @media (max-width: 767px) {
-      .gtco-testimonials {
-        margin-top: 20px;
-      }
-    }
-    .gtco-testimonials h2 {
-      font-size: 30px;
-      text-align: center;
-      color: #333333;
-      margin-bottom: 50px;
-    }
-    .gtco-testimonials .owl-stage-outer {
-      padding: 30px 0;
-    }
-    .gtco-testimonials .owl-nav {
-      display: none;
-    }
-    .gtco-testimonials .card {
-      /*background: #3597D4;*/
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-      margin: 0 20px;
-      padding: 0 10px;
-      border-radius: 20px;
-      border: 0;
-      height: 600px;
-    }
-    .gtco-testimonials .card .card-img-top {
-      max-width: 100px;
-      border-radius: 50%;
-      margin: 15px auto 0;
-      /*box-shadow: 0 8px 20px -4px #95abbb;*/
-      width: 100px;
-      height: 100px;
-    }
-    .gtco-testimonials .card h5 {
-      color: #01b0f8;
-      font-size: 21px;
-      line-height: 1.3;
-    }
-    .gtco-testimonials .card h5 span {
-      font-size: 18px;
-      color: #666666;
-    }
-    .gtco-testimonials .card p {
-      font-size: 18px;
-      padding-bottom: 15px;
-    }
-    .gtco-testimonials .active {
-      opacity: 0.5;
-      transition: all 0.3s;
-    }
-    .gtco-testimonials .center {
-      opacity: 1;
-    }
-    .gtco-testimonials .center h5 {
-      font-size: 24px;
-    }
-    .gtco-testimonials .center h5 span {
-      font-size: 20px;
-    }
-    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-      outline: 0;
-    }
-
-    .gtco-article {
-      position: relative;
-      margin-top: 20px;
-    }
-    @media (max-width: 767px) {
-      .gtco-article {
-        margin-top: 20px;
-      }
-    }
-    .gtco-article h2 {
-      font-size: 30px;
-      text-align: center;
-      color: #333333;
-      margin-bottom: 50px;
-    }
-    .gtco-article .owl-stage-outer {
-      padding: 30px 0;
-    }
-    .gtco-article .owl-nav {
-      display: none;
-    }
-    .gtco-article .card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-      margin: 0 20px;
-      padding: 0 10px;
-      /*border-radius: 20px;*/
-      border: 0;
-    }
-    .gtco-article .card .card-img-top {
-      max-width: 100px;
-      border-radius: 50%;
-      margin: 15px auto 0;
-      box-shadow: 0 8px 20px -4px #95abbb;
-      width: 100px;
-      height: 100px;
-    }
-    .gtco-article .card h5 {
-      color: #01b0f8;
-      font-size: 21px;
-      line-height: 1.3;
-    }
-    .gtco-article .card h5 span {
-      font-size: 18px;
-      color: #666666;
-    }
-    .gtco-article .card p {
-      font-size: 20px;
-      color: #555;
-      padding-bottom: 15px;
-    }
-    .gtco-article .active {
-      opacity: 0.5;
-      transition: all 0.3s;
-    }
-    .gtco-article .center {
-      opacity: 1;
-    }
-    .gtco-article .center h5 {
-      font-size: 24px;
-    }
-    .gtco-article .center h5 span {
-      font-size: 20px;
-    }
-    .gtco-article .center .card-img-top {
-      max-width: 100%;
-      height: 120px;
-      width: 120px;
-    }
     .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
       outline: 0;
     }
@@ -2981,8 +2800,8 @@ h3 {
       border-radius: 40px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07);
       padding: 5px;
-      width: 150px;
-      height: 450px;
+      width: auto !important;
+      height: 200px;
     }
     .text-santri{
         font-family: Poppins;
