@@ -67,7 +67,7 @@
                                         <div class="teacher-name-container" style="display: table; height: 200px;">
                                           <h3 style="font-family: Poppins; font-style: normal;font-weight: 600;color: #FFFFFF; display: table-cell; vertical-align: middle; word-break: break-all;" class="modal-title" id="myModalLabel">
                                           <?php echo $list['teacher']['name']; ?>
-                                          </34>
+                                          </h3>
                                         </div>
                                           
                                       </div>
@@ -87,9 +87,6 @@
                                       </div>
                                     </div>
                                   </div>
-                                  <!-- <div class="modal-footer">
-                                      <button type="button" class="btn btn-default" style="background: #FF4D35; color: white;" data-dismiss="modal">Close</button>
-                                  </div> -->
                               </div>
                             </div>
                           </div>

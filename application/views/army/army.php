@@ -42,11 +42,13 @@
                                         <a href="#aboutModal" data-toggle="modal" data-target="#myModal<?php echo $list['id']; ?>" class="btn btn-primary" role="button" style="padding: 15px 30px; background-color: #3597D4; color: #fff; letter-spacing:2px; text-transform: uppercase; font-size: 15px; opacity: 20.7; border-radius: 2rem;">Lihat Detail</a></p>
                                     </div>
                                     <!-- modal -->
-                                    <div class="modal fade" id="myModal<?php echo $list['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal fade modal-personnel" id="myModal<?php echo $list['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                       <div class="modal-dialog modal-lg">
                                         <div class="modal-content">
-                                            <div class="modal-header" style="background: #3597D4;">
-                                                    <div class="col-md-6">
+                                            <div class="modal-header p-5" style="background: #3597D4;">
+                                                <button type="button" class="btn btn-default position-absolute btn-close-modal" style="background: #FF4D35; color: white;" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                                                <div class="row">
+                                                    <div class="col-md-4">
                                                         <h4 class="modal-title">
                                                         <?php if($list['photo']): ?>
                                                             <div
@@ -56,53 +58,53 @@
                                                         <?php endif; ?>
                                                         </h4>
                                                     </div>
-                                                    <div class="col-md-6">
-                                                        <h4 style="font-family: Poppins; font-style: normal;font-weight: 600;font-size: 47px;line-height: 72px;color: #FFFFFF;" class="modal-title" id="myModalLabel">
-                                                        <?php echo $list['fullname']; ?>
-                                                        </h4>
-                                                    </div>
-                                                </div>
-                                                 <div class="col-md-12">
-                                                    <div class="modal-body">
-                                                        <div class="col-md-6" style="margin-top: 20px">
-                                                            <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: bold;font-size: 15px;line-height: 26px;color: #263238;">
-                                                                Data Agen 
-                                                            </p>
-                                                            <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
-                                                               No. ID : <b><?php echo $list['agent_code']; ?></b>
-                                                            </p>
-                                                            <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
-                                                                Kode Referral : <b><?php echo $list['referal_code']; ?></b>
-                                                            </p>
-                                                            <p style="text-align:justify;font-family: Poppins;font-style: normal;font-weight: normal;font-size: 12px;line-height: 22px;">
-                                                                <span style="color: #FF5151">*</span> Dengan menggunakan kode referral dari, saya anda akan mendapatkan diskon 10% untuk semua paket belajar di Maungaji.
-                                                            </p>
-                                                            <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 14px;line-height: 21px;color: #3B97D3;">
-                                                               <!--  > -->
-                                                               <a href="https://play.google.com/store/apps/details?id=com.maungaji&hl=in&gl=US" target="_blank">yuk pakai kode referal di aplikasi maungaji -></a>
-                                                            </p>
-                                                        </div>
-
-                                                        <div class="col-md-6" style="margin-top: 20px;">
-                                                            <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: bold;font-size: 15px;line-height: 26px;color: #263238;">
-                                                                Kontak Agen
-                                                            </p>
-                                                            <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
-                                                               No. Telepon : <b><?php echo $list['phone_number']; ?></b>
-                                                            </p>
-                                                            <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
-                                                                Email : <b><?php echo $list['email']; ?></b>
-                                                            </p>
-                                                            <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
-                                                                Alamat Agen : <b><?php echo $list['address']; ?></b>
-                                                            </p>
+                                                    <div class="col-md-8">
+                                                        <div class="teacher-name-container" style="display: table; height: 200px;">
+                                                            <h3 style="font-family: Poppins; font-style: normal;font-weight: 600;color: #FFFFFF; display: table-cell; vertical-align: middle; word-break: break-all;" class="modal-title" id="myModalLabel">
+                                                                <?php echo $list['fullname']; ?>
+                                                            </h3>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" style="background: #FF4D35; color: white;" data-dismiss="modal">Close</button>
                                                 </div>
                                             </div>
+                                            <div class="modal-body p-5">
+                                                <div class="row">
+                                                    <div class="col-md-6" style="margin-top: 20px">
+                                                        <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: bold;font-size: 15px;line-height: 26px;color: #263238;">
+                                                            Data Agen 
+                                                        </p>
+                                                        <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                            <b>No. ID :</b> <?php echo $list['agent_code']; ?>
+                                                        </p>
+                                                        <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                            <b>Kode Referral :</b> <?php echo $list['referal_code']; ?>
+                                                        </p>
+                                                        <p style="text-align:justify;font-family: Poppins;font-style: normal;font-weight: normal;font-size: 12px;line-height: 22px;">
+                                                            <span style="color: #FF5151">*</span> Dengan menggunakan kode referral dari, saya anda akan mendapatkan diskon 10% untuk semua paket belajar di Maungaji.
+                                                        </p>
+                                                        <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 14px;line-height: 21px;color: #3B97D3;">
+                                                            <!--  > -->
+                                                            <a href="https://play.google.com/store/apps/details?id=com.maungaji&hl=in&gl=US" target="_blank">yuk pakai kode referal di aplikasi maungaji -></a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="col-md-6" style="margin-top: 20px;">
+                                                        <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: bold;font-size: 15px;line-height: 26px;color: #263238;">
+                                                            Kontak Agen
+                                                        </p>
+                                                        <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                            <b>No. Telepon :</b> <?php echo $list['phone_number']; ?>
+                                                        </p>
+                                                        <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                            <b>Email :</b> <?php echo $list['email']; ?>
+                                                        </p>
+                                                        <p style="text-align:left;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                                            <b>Alamat Agen :</b> <?php echo $list['address']; ?>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
