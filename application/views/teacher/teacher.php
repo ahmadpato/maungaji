@@ -23,12 +23,10 @@
                     <div class="card-body">
                       <div class="thumbnail pt-5" style="border-color: #3597d4;border-radius: 32px; border: 2px solid #3597d4;">
                         <?php if($list['teacher']['avatar']): ?>
-                          <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
-                            <div
-                                class="profile-photo center-block"
-                                style="background: url(<?php echo $url .'/'.$list['teacher']['avatar'] ?>"
-                                ></div>
-                          </a>
+                          <div
+                              class="profile-photo center-block"
+                              style="background: url(<?php echo $url .'/'.$list['teacher']['avatar'] ?>"
+                              ></div>
                         <?php endif; ?>
                         <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
                           <br>

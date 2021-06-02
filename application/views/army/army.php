@@ -19,12 +19,10 @@
                               <div class="card-body">
                                 <div class="thumbnail pt-5" style="border-color: #3597d4;border-radius: 32px; border: 2px solid #3597d4;">
                                   <?php if($list['photo']): ?>
-                                  <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
                                     <div
                                     class="profile-photo center-block"
                                     style="background: url(<?php echo $url .'/'.$list['photo'] ?>"
                                     ></div>
-                                </a>
                                   <?php endif; ?> 
                                   <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
                                     <br>
@@ -52,7 +50,7 @@
                                                         <h4 class="modal-title">
                                                         <?php if($list['photo']): ?>
                                                             <div
-                                                            class="profile-photo"
+                                                            class="profile-photo center-block"
                                                             style="background: url(<?php echo $url .'/'.$list['photo'] ?>"
                                                             ></div>
                                                         <?php endif; ?>
