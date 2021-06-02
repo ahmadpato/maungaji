@@ -82,7 +82,7 @@
                                                         </p>
                                                         <p style="text-align:left;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 14px;line-height: 21px;color: #3B97D3;">
                                                             <!--  > -->
-                                                            <a href="https://play.google.com/store/apps/details?id=com.maungaji&hl=in&gl=US" target="_blank">yuk pakai kode referal di aplikasi maungaji -></a>
+                                                            <a href="https://play.google.com/store/apps/details?id=com.maungaji&hl=in&gl=US" target="_blank">yuk pakai kode referal di aplikasi maungaji <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                                                         </p>
                                                     </div>
 
