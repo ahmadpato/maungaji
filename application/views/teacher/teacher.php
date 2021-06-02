@@ -47,40 +47,49 @@
                               <a href="#aboutModal" data-toggle="modal" data-target="#myModal<?php echo $list['teacher']['id']; ?>" class="btn btn-primary" role="button" style="padding: 15px 30px; background-color: #3597D4; color: #fff; letter-spacing:2px; text-transform: uppercase; font-size: 15px; opacity: 20.7; border-radius: 2rem;">Lihat Detail</a></p>
                           </div>
                           <!-- modal -->
-                          <div class="modal fade" id="myModal<?php echo $list['teacher']['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal fade modal-personnel" id="myModal<?php echo $list['teacher']['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                               <div class="modal-content">
-                                  <div class="modal-header" style="background: #3597D4;">
-                                    <div class="col-md-6">
-                                        <h4 class="modal-title">
-                                        <?php if($list['teacher']['avatar']): ?>
-                                            <div
-                                            class="profile-photo"
-                                            style="background: url(<?php echo $url .'/'.$list['teacher']['avatar'] ?>"
-                                            ></div>
-                                        <?php endif; ?>
-                                        </h4>
+                                  <div class="modal-header p-5" style="background: #3597D4;">
+                                    <button type="button" class="btn btn-default position-absolute btn-close-modal" style="background: #FF4D35; color: white;" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                                    <div class="row">
+                                      <div class="col-md-4">
+                                          <h4 class="modal-title">
+                                          <?php if($list['teacher']['avatar']): ?>
+                                              <div
+                                              class="profile-photo center-block"
+                                              style="background: url(<?php echo $url .'/'.$list['teacher']['avatar'] ?>"
+                                              ></div>
+                                          <?php endif; ?>
+                                          </h4>
+                                      </div>
+                                      <div class="col-md-8 text-left">
+                                        <div class="teacher-name-container" style="display: table; height: 200px;">
+                                          <h3 style="font-family: Poppins; font-style: normal;font-weight: 600;color: #FFFFFF; display: table-cell; vertical-align: middle; word-break: break-all;" class="modal-title" id="myModalLabel">
+                                          <?php echo $list['teacher']['name']; ?>
+                                          </34>
+                                        </div>
+                                          
+                                      </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <h4 style="font-family: Poppins; font-style: normal;font-weight: 600;font-size: 12px;line-height: 72px;color: #FFFFFF;text-align: center;" class="modal-title" id="myModalLabel">
-                                        <?php echo $list['teacher']['name']; ?>
-                                        </h4>
+                                    
+                                  </div>
+                                  <div class="modal-body p-5">
+                                    <div class="row">
+                                      <div class="col-md-12" style="margin-top: 20px">
+                                        <p style="text-align:center;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
+                                          <?php echo $list['teacher']['description']; ?>
+                                        </p>
+                                        <p style="text-align:center;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 14px;line-height: 21px;color: #3B97D3;">
+                                          <!--  > -->
+                                          <a href="https://play.google.com/store/apps/details?id=com.maungaji&hl=in&gl=US" target="_blank">yuk belajar dengan ustadz/ah  <?php echo $list['teacher']['name']; ?> di aplikasi maungaji -></a>
+                                        </p>
+                                      </div>
                                     </div>
                                   </div>
-                                  <div class="modal-body">
-                                  <div class="col-md-12" style="margin-top: 20px">
-                                      <p style="text-align:center;font-family: Poppins;font-style: normal;font-size: 15px;line-height: 26px;color: #263238;">
-                                         Deskripsi : <b><?php echo $list['teacher']['description']; ?></b>
-                                      </p>
-                                      <p style="text-align:center;font-family: Poppins;font-style: normal;font-weight: 500;font-size: 14px;line-height: 21px;color: #3B97D3;">
-                                         <!--  > -->
-                                         <a href="https://play.google.com/store/apps/details?id=com.maungaji&hl=in&gl=US" target="_blank">yuk belajar dengan ustadz/ah  <?php echo $list['teacher']['name']; ?> di aplikasi maungaji -></a>
-                                      </p>
-                                  </div>
-                                  </div>
-                                  <div class="modal-footer">
+                                  <!-- <div class="modal-footer">
                                       <button type="button" class="btn btn-default" style="background: #FF4D35; color: white;" data-dismiss="modal">Close</button>
-                                  </div>
+                                  </div> -->
                               </div>
                             </div>
                           </div>

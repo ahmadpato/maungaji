@@ -3120,6 +3120,23 @@ h3 {
     color: #089ED1;
 }
 
+.modal-personnel {
+    .modal-content {
+        border-radius: 25px;
+    }
+    .modal-header {
+        border-radius: 25px 25px 0 0;
+    }
+    .btn-close-modal {
+        z-index: 1;
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 5px;
+        right: 0;
+        margin-right: 20px;
+    }
+}
+
 /*==================================================
             Bootstrap 3 Media Queries
 ==================================================*/
