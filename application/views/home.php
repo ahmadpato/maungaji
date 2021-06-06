@@ -154,7 +154,7 @@
                     </div>   
                     <div class="text-center">
                         <p class="text-register-student text-center" style="color: #3597D4;">
-                        <a href="https://linktr.ee/Maungaji" target="_blank">Daftar Jadi Santri Ngaji <i class="fas fa-arrow-right"></i>
+                        <a href="https://linktr.ee/Maungaji" target="_blank">Daftar Jadi Santri Ngaji <i class="fa fa-arrow-right"></i>
                         </a>
                         </p>
                     </div>   
@@ -186,7 +186,7 @@
                     </div>   
                     <div class="text-center">
                         <p class="text-register-teacher text-center" style="color: #3597D4;">
-                        <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji <i class="fa fa-arrow-right"></i></a>
                         </p>
                     </div>   
                 </div>
