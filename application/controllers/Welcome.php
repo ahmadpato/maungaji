@@ -28,12 +28,17 @@ class Welcome extends CI_Controller {
         //end point for testimoni
         $testimoni = $this->http_request("https://cms.maungaji.co.id/testimoni/getTestimoni");
 
+        //end point for faq
+        $faq = $this->http_request("https://cms.maungaji.co.id/faq/getFaq");
+
 		// change string JSON to array
 		$x['count'] = json_decode($countData, TRUE);
 
 		$x['article'] = json_decode($article, TRUE);
 
-		$x['testimoni']= json_decode($testimoni, TRUE);
+		$x['testimoni'] = json_decode($testimoni, TRUE);
+
+		$x['faq'] = json_decode($faq, TRUE);
 		
 		//get url images
 		$x['url'] = "https://cms.maungaji.co.id/images";
