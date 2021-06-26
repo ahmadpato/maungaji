@@ -31,7 +31,7 @@
                                         <div class="col-md-12"><h5 class="text-center"><strong>No. ID : <?php echo $list['agent_code']; ?></strong></h5>
                                         </div>
                                         <div class="col-md-12">
-                                        <h5 class="text-center"><i class="fa fa-envelope" style="font-size:20px;"></i> <?php echo $list['email']; ?></h5>
+                                        <h5 class="text-center personnel-detail mx-auto"><i class="fa fa-envelope" style="font-size:20px;"></i> <?php echo $list['email']; ?></h5>
                                         </br>
                                         </div>
                                         <a href="#aboutModal" data-toggle="modal" data-target="#myModal<?php echo $list['id']; ?>" class="btn btn-primary" role="button" style="padding: 15px 30px; background-color: #3597D4; color: #fff; letter-spacing:2px; text-transform: uppercase; font-size: 15px; opacity: 20.7; border-radius: 2rem;">Lihat Detail</a></p>
