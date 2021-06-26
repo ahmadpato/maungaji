@@ -27,7 +27,7 @@
                                   <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
                                     <br>
                                     <div class="form-group" style="font-family:Poppins;">
-                                        <h4 class="text-center"><strong><?php echo $list['fullname']; ?></strong></h4>
+                                        <h4 class="text-center personnel-detail mx-auto" data-toggle="tooltip" data-placement="top" title="<?php echo $list['fullname']; ?>"><strong><?php echo $list['fullname']; ?></strong></h4>
                                         <div class="col-md-12"><h5 class="text-center"><strong>No. ID : <?php echo $list['agent_code']; ?></strong></h5>
                                         </div>
                                         <div class="col-md-12">

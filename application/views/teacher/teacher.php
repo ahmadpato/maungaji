@@ -36,9 +36,9 @@
                               <?php else: ?>
                                  <span class="label label-warning mb-3 p-2 d-inline-block">Offline</span>
                               <?php endif; ?>
-                              <h4 class="text-center"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
+                              <h4 class="text-center personnel-detail mx-auto" data-toggle="tooltip" data-placement="bottom" title="<?php echo $list['teacher']['name']; ?>"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
                               <div class="col-md-12">
-                              <h4 class="text-center" style="font-size: 15px;"><i class="fa fa-envelope"></i> <?php echo $list['teacher']['email']; ?></h4>
+                              <h4 class="text-center personnel-detail mx-auto" data-toggle="tooltip" data-placement="bottom" title="<?php echo $list['teacher']['email']; ?>" style="font-size: 15px;"><i class="fa fa-envelope"></i> <?php echo $list['teacher']['email']; ?></h4>
                               </br>
                               </div>
                               <a href="#aboutModal" data-toggle="modal" data-target="#myModal<?php echo $list['teacher']['id']; ?>" class="btn btn-primary" role="button" style="padding: 15px 30px; background-color: #3597D4; color: #fff; letter-spacing:2px; text-transform: uppercase; font-size: 15px; opacity: 20.7; border-radius: 2rem;">Lihat Detail</a></p>

@@ -12,6 +12,7 @@
 @import "utilities/position";
 @import "icons";
 @import "cards";
+@import "tooltip";
 
 /* =========================================
     Default Theme
@@ -2551,15 +2552,6 @@ section.pricing {
   .pricing .card:hover .btn {
     opacity: 1;
   }
-}
-
-
-.profile-photo {
-  width: 200px;
-  height: 200px;
-  background-size: cover !important;
-  background-position: center !important;
-  border-radius: 250px;
 }
 
 h3 {
