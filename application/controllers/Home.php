@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Home extends CI_Controller {
 
 	public function __construct()
     {
@@ -28,18 +28,23 @@ class Welcome extends CI_Controller {
         //end point for testimoni
         $testimoni = $this->http_request("https://cms.maungaji.co.id/testimoni/getTestimoni");
 
+        //end point for faq
+        $faq = $this->http_request("https://cms.maungaji.co.id/faq/getFaq");
+
 		// change string JSON to array
 		$x['count'] = json_decode($countData, TRUE);
 
 		$x['article'] = json_decode($article, TRUE);
 
-		$x['testimoni']= json_decode($testimoni, TRUE);
+		$x['testimoni'] = json_decode($testimoni, TRUE);
+
+		$x['faq'] = json_decode($faq, TRUE);
 		
 		//get url images
 		$x['url'] = "https://cms.maungaji.co.id/images";
 	
 	    $this->load->view("header");
-	    $this->load->view("welcome_message", $x);
+	    $this->load->view("home", $x);
 	    $this->load->view("footer");
 	}
 

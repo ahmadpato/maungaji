@@ -78,32 +78,6 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid"> 
-                <div class="row">
-                    <!-- <div id="jdid" class="square-jdid">
-                        <div class="col-md-6 col-sm-6">
-                            <p style="margin-top: 20px;">
-                                <span style="font-size: 16px; font-family:Poppins; margin-left: 5rem; color: #000000;"> Beli Paket Ngaji Murah di JD.ID 
-                                    <span style="margin-left: 1px; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">
-                                    Dapatkan
-                                    <span style="color: #f60000e0; font-family: Montserrat; font-style: italic; font-weight: bold; font-size: 20px; letter-spacing: 0.05em;">Diskon 10%</span>
-                                    </span>
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <p style="margin-top: -50px;">
-                                <span style="margin-left: 15rem;">
-                                    <img class="logo-non-text" src="../img/logo/MauNgaji.png" alt="logo" width="auto" class="img-responsive" height="50%">
-                                </span>
-                                <span style="margin-left: 2rem;">
-                                    <img class="logo-non-text" src="../img/logo/JDID.png" alt="logo" width="auto" class="img-responsive" height="250%">
-                                </span>
-                            </p>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
             <br>
             <br>
             <br>
@@ -180,7 +154,8 @@
                     </div>   
                     <div class="text-center">
                         <p class="text-register-student text-center" style="color: #3597D4;">
-                        <a href="https://linktr.ee/Maungaji" target="_blank">Daftar Jadi Santri Ngaji</a>
+                        <a href="https://linktr.ee/Maungaji" target="_blank">Daftar Jadi Santri Ngaji <i class="fa fa-arrow-right"></i>
+                        </a>
                         </p>
                     </div>   
                 </div>
@@ -211,7 +186,7 @@
                     </div>   
                     <div class="text-center">
                         <p class="text-register-teacher text-center" style="color: #3597D4;">
-                        <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji <i class="fa fa-arrow-right"></i></a>
                         </p>
                     </div>   
                 </div>
@@ -436,100 +411,39 @@
     </div>
     <!--end price-->
 
-     <div id="faq" class="container">
+    <!-- Faq -->
+    <div id="faq" class="container">
         <div id="tech-statement" class="text-left" style="margin-top: 50px;">
             <div class="vertical-heading">
                 <h3 style="font-size:50px; font-family: 'Poppins'; font-weight: 1000;">FAQ</h3>
             </div>
         </div>
-        <div class="panel-group" id="faqAccordion">
-            <div class="panel panel-default ">
-                <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0" style="background: #3597D4">
-                    <h4 class="panel-title">
-                        <div style="color:#FFFFFF; font-family:Poppins;">
-                        Berapa tarif rata-rata dari kursus mengaji ?
+        <?php
+        if($faq){
+            foreach ($faq['data'] as $dataFaq) {
+               ?>
+                <div class="panel-group" id="faqAccordion">
+                    <div class="panel panel-default ">
+                        <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0" style="background: #3597D4">
+                            <h4 class="panel-title">
+                               <div style="color:#FFFFFF; font-family:Poppins;">
+                                <?php echo $dataFaq['question']; ?>
+                               </div>
+                            </h4>
                         </div>
-                    </h4>
-                </div>
-                <div id="question0" class="panel-collapse collapse" style="height: 0px;">
-                    <div class="panel-body">
-                         <p style="font-family:Poppins;">Tarif rata-rata dari kursus mengaji adalah sebesar Rp 50.000</p>
-                         <p style="font-family:Poppins;">Tarif masing-masing guru juga akan bergantung pada :</p>
-                         <p style="font-family:Poppins;">Pengalaman mengajar dari guru mengaji lokasi kursus (online atau langsung) dan jarak yang di tempuh untuk ke tempat mengajar durasi dan frekuensi kursus.
-                         99% guru kami menawarkan kursus gratis untuk 1 jam pertama.</p>
-                         <p style="font-family:Poppins;"><strong>Segera cek tarif guru ngaji kami yang siap mengajar di dekat wilayah anda.</strong></p>
+                        <div class="panel-body">
+                            <p style="font-family:Poppins;">
+                                <?php echo $dataFaq['answer']; ?>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1" style="background: #3597D4">
-                    <h4 class="panel-title">
-                        <div style="color:#FFFFFF; font-family:Poppins;">
-                        Kenapa harus mengambil kursus mengaji ?
-                        </div>
-                    </h4>
-                </div>
-                <div id="question1" class="panel-collapse collapse" style="height: 0px;">
-                    <div class="panel-body">
-                         <p style="font-family:Poppins;">Karena mengaji adalah pondasi penting yang harus kita pupuk sejak dini dan terus kita dawamkan hingga tua nanti, menjadi pedoman hidup serta apabila di amalkan secara istiqomah mampu menjadikan amal jariyah di akhirat kelak.</p>
-                         <p style="font-family:Poppins;">Kursus mengaji dengan guru ngaji yang berpengalaman memberikan kamu pengalaman untuk belajar mengaji dengan pendekatan yang berbeda yang lebih efektif dan efisien.</p>
-                         <p style="font-family:Poppins;">Segera pilih guru ngaji kamu dan pilih kursus nya, apakah itu kursus secara langsung atau online, semua terserah kamu !</p>
-                         <p style="font-family:Poppins;">Fitur chat dengan guru ngaji memungkinkan untuk berkomunikasi langsung dengan Guru Ngaji kamu serta dapat memilih waktu dan mengatur kursus ngaji kamu dengan tenang.</p>
-                         <p><strong>Cari guru ngaji sekarang hanya dengan 1 klik.</strong></p>    
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2" style="background: #3597D4">
-                    <h4 class="panel-title">
-                        <div style="color:#FFFFFF; font-family:Poppins;">
-                        Apakah kami bisa kursus mengaji secara online ?
-                        </div>
-                    </h4>
-                </div>
-                <div id="question2" class="panel-collapse collapse" style="height: 0px;">
-                    <div class="panel-body">
-                         <p style="font-family:Poppins;">Di Maungaji, 100% guru mengaji kami menawarkan <strong>kursus mengaji secara online</strong></p>
-                         <p style="font-family:Poppins;"><strong>kursus mengaji secara online : </strong></p>
-                         <p style="font-family:Poppins;">Alat yang digunakan untuk dapat menunjang kursus online diserahkan antara kesepakatan guru ngaji dan murid, bisa menggunakan Skype, Zoom, Google Meet, Facetime, Video call WA, dll.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default ">
-                <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3" style="background: #3597D4">
-                    <h4 class="panel-title">
-                        <div style="color:#FFFFFF; font-family:Poppins;">
-                        Ada berapa guru yang tersedia untuk memberikan kursus mengaji ?
-                        </div>
-                    </h4>
-                </div>
-                <div id="question3" class="panel-collapse collapse" style="height: 0px;">
-                    <div class="panel-body">
-                         <p style="font-family:Poppins;">Terdapat 124 guru mengaji dan akan terus bertambah yang menawarkan kursus mengaji dan siap membantu Anda.</p>
-                         <p style="font-family:Poppins;">Kamu bisa cek profil mereka dan pilih guru ngaji yang paling sesuai dengan kebutuhan dan keinginan Anda.</p>   
-                         <p style="font-family:Poppins;"><strong>Pilih guru ngaji kamu di lebih dari 124 profil guru ngaji yang ada di aplikasi kami.</strong></p>  
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default ">
-                <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question4" style="background: #3597D4">
-                     <h4 class="panel-title">
-                        <div style="color:#FFFFFF; font-family:Poppins;">
-                        Berapa nilai rata-rata yang diberikan oleh para murid kepada para guru mengaji ?
-                        </div>
-                    </h4>
-                </div>
-                <div id="question4" class="panel-collapse collapse" style="height: 0px;">
-                    <div class="panel-body">
-                         <p style="font-family:Poppins;">Para murid memberikan nilai kepada guru mereka sebesar 5.0 dari skala 5.</p>
-                         <p style="font-family:Poppins;">Jika kamu memiliki masalah dengan kursus kamu, layanan customer service kami tersedia untuk dapat memberikan kamu solusi terbaik (via telepon atau via email dari Senin sampai Minggu).</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <!--/panel-group-->
+                <?php
+                }   
+            }
+        ?>
     </div>
-    <!--END FAQ-->
+    <!--End Faq-->
 
     <!--article-->
     <div class="gtco-article">
@@ -548,8 +462,9 @@
         
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
             <?php
-                foreach ($article as $art) {
-                    ?>
+                if($article){
+                     foreach ($article as $art) {
+                      ?>
                         <div class="card text-center" style="background: #FFFFFF">
                             <img class="img-article" src="<?php if (!empty($article)) { ?>
                                     <?php echo $art['jetpack_featured_media_url'] ?>
@@ -575,8 +490,8 @@
                             </div>
                         </div>
                     <?php
+                    }   
                 }
-
             ?>
         </div>
     </div>
