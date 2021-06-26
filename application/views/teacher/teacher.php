@@ -36,7 +36,7 @@
                               <?php else: ?>
                                  <span class="label label-warning mb-3 p-2 d-inline-block">Offline</span>
                               <?php endif; ?>
-                              <h4 class="text-center" style="font-size: 15px;"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
+                              <h4 class="text-center"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
                               <div class="col-md-12">
                               <h4 class="text-center" style="font-size: 15px;"><i class="fa fa-envelope"></i> <?php echo $list['teacher']['email']; ?></h4>
                               </br>

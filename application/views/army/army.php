@@ -28,11 +28,8 @@
                                     <br>
                                     <div class="form-group" style="font-family:Poppins;">
                                         <h4 class="text-center"><strong><?php echo $list['fullname']; ?></strong></h4>
-                                        </br>
                                         <div class="col-md-12"><h5 class="text-center"><strong>No. ID : <?php echo $list['agent_code']; ?></strong></h5>
                                         </div>
-                                        </br>
-                                        </br>
                                         <div class="col-md-12">
                                         <h5 class="text-center"><i class="fa fa-envelope" style="font-size:20px;"></i> <?php echo $list['email']; ?></h5>
                                         </br>
