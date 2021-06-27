@@ -27,7 +27,7 @@ class Home extends CI_Controller {
 
         //end point for testimoni
         $testimoni = $this->http_request("https://cms.maungaji.co.id/testimoni/getTestimoni");
-
+        
         //end point for faq
         $faq = $this->http_request("https://cms.maungaji.co.id/faq/getFaq");
 

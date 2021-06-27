@@ -328,7 +328,8 @@
         </div>
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
             <?php
-                foreach ($testimoni['data'] as $testi_data) {
+                if($testimoni){
+                    foreach ($testimoni['data'] as $testi_data) {
                     ?>
                         <div>
                             <div class="card text-center pt-5 testimony-card">
@@ -343,6 +344,7 @@
                         </div>
                     <?php
                 }
+            }    
             ?>
         </div>
     </div>
