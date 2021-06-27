@@ -23,7 +23,7 @@
 <link rel="icon" type="image/png" href="<?php echo base_url('/img/favicon/favicon-32x32.png') ?>">
 
  <!--Custom CSS -->
-<link rel="stylesheet" href="/css/maungaji-style.min.css?version=1.0.5">
+<link rel="stylesheet" href="/css/maungaji-style.min.css?version=1.0.6">
 
 <!--Fontpoppins -->
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>

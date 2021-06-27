@@ -2707,18 +2707,17 @@ h3 {
         margin-bottom:-100px;
     }
     .text-count-student {
-        position: absolute;
         left: 0;
         background-color: #FFD93B;
         color: #263238;
         padding-top: 20px; 
         height: 100px; 
         box-sizing: border-box;
-        border-radius: 16px;
         font-family:Poppins;
+        border-radius: 16px 0px 0px 16px;
+        width: 35%;
     }
     .text-count-teacher {
-        position: absolute;
         background-color: #FFD93B;
         color: #263238;
         padding-top: 20px; 
@@ -2726,10 +2725,10 @@ h3 {
         box-sizing: border-box;
         border-radius: 16px;
         font-family:Poppins;
+        border-radius: 16px 0px 0px 16px;
+        width: 35%;
     }
     .text-student {
-        position: absolute;
-        right: 20px;
         background-color: #3597D4;
         color: #FFF;
         padding-top: 20px; 
@@ -2737,6 +2736,8 @@ h3 {
         box-sizing: border-box;
         border-radius: 16px;
         font-family:Poppins;
+        width: 65%;
+        border-radius: 0px 16px 16px 0px;
     }
     .text-register-student {
         position: absolute;
@@ -2749,7 +2750,7 @@ h3 {
         border-radius: 16px;
         font-family:Poppins; 
         font-size:16px; 
-        margin-top: 85px;
+        margin-top: 105px;
     }
     .text-register-teacher {
         position: absolute;
@@ -2762,10 +2763,9 @@ h3 {
         border-radius: 16px;
         font-family:Poppins; 
         font-size:16px; 
-        margin-top: 118px;
+        margin-top: 108px;
     }
     .text-teacher {
-        position: absolute;
         left: 120px;
         background-color: #3597D4;
         color: #FFF;
@@ -2774,6 +2774,8 @@ h3 {
         box-sizing: border-box;
         border-radius: 16px;
         font-family:Poppins;
+        width: 65%;
+        border-radius: 0px 16px 16px 0px;
     }
     .square-kelebihan-maungaji {
         padding-top: 10px;
@@ -2799,7 +2801,7 @@ h3 {
         font-family: Poppins;
         font-size: 24px;
         margin-left: 15px;
-        margin-top: 150px;
+        margin-top: 40px;
         text-align: left;
         line-height: normal;
     }
@@ -2807,7 +2809,7 @@ h3 {
         font-family: Poppins;
         font-size: 24px;
         margin-left: 15px;
-        margin-top: 150px;
+        margin-top: 40px;
         line-height: normal;
         text-align: left;
       }
@@ -2904,23 +2906,23 @@ h3 {
         width: 330px;
         margin-top: 510px;
       }
-      .text-count-student{
-        margin-left: 18px;
-        margin-top: -450px;
-      }
-      .text-count-teacher{
-        margin-left: 5px;
-        margin-top: 20px;
-      }
-      .text-student{
-        margin-left: 30px;
-        margin-top: -451px;
-      }
-      .text-teacher{
-        margin-top: 20px;
-        margin-left: -9px;
-        margin-right: 25px;
-      }
+    //   .text-count-student{
+    //     margin-left: 18px;
+    //     margin-top: -450px;
+    //   }
+    //   .text-count-teacher{
+    //     margin-left: 5px;
+    //     margin-top: 20px;
+    //   }
+    //   .text-student{
+    //     margin-left: 30px;
+    //     margin-top: -451px;
+    //   }
+    //   .text-teacher{
+    //     margin-top: 20px;
+    //     margin-left: -9px;
+    //     margin-right: 25px;
+    //   }
       .img-santri{
         margin-top: 50px;
       }
@@ -2936,10 +2938,9 @@ h3 {
         font-family: Poppins;
         font-size: 24px;
         margin-left: 15px;
-        margin-top: 150px;
+        margin-top: 20px;
         line-height: normal;
         text-align: left;
-        display: none;
       }
       .text-choose-package{
         font-size: 27px;
@@ -3255,6 +3256,20 @@ h3 {
 /* Extra Small Devices (Landscape Phones & Portrait Tablets) */
 
 @media (max-width: 767px) {
+    .student-title, .teacher-title {
+        margin-bottom: 30px;
+    }
+    .santri-box, .teacher-box {
+        .img-responsive {
+            width: 100%;
+        }
+    }
+    .text-register-student, .text-register-teacher {
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
     /* Navigaiton */
     .navbar {
         padding: 20px 0;

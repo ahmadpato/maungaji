@@ -126,74 +126,119 @@
         </div>
     </div>
 
-    <div class="content-box-md" class="img-santri">
+    <div class="content-box-md santri-box" style="margin-top:-100px;">
         <div class="container">
             <div class="row">
-               <div class="col-md-6 col-sm-6">
-                    <div>
-                        <img src="../img/guru-ngaji/santri.png" class="img-responsive" alt="Belajar Ngaji" height="auto">               
+               <div class="col-sm-6">
+                    <div class="row visible-xs">
+                        <div class="col-xs-12 student-title">
+                            <div class="text-count-student text-center pull-left" style="font-size:48px;">
+                            <?php if (!empty($count)) { ?>
+                            <?php echo $count['data'][0]['count'] ?>
+                            <?php } ?>
+                            </div>
+                            <div class="text-student text-center pull-left" style="font-size:48px;">
+                            <?php if (!empty($count)) { ?>
+                            <?php echo $count['data'][0]['name'] ?>
+                            <?php } ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="../img/guru-ngaji/santri.png" class="img-responsive" alt="Belajar Ngaji" height="auto">
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 sm-6">
-                    <div class="row">
-                        <div class="text-student text-center col-md-9 col-md-push-3" style="font-size:48px;">
-                        <?php if (!empty($count)) { ?>
-                        <?php echo $count['data'][0]['name'] ?>
-                        <?php } ?>
-                        </div>
-                        <div class="text-count-student text-center col-md-3 col-md-pull-9" style="font-size:48px;">
-                        <?php if (!empty($count)) { ?>
-                        <?php echo $count['data'][0]['count'] ?>
-                        <?php } ?>
+                <div class="col-sm-6">
+                    <div class="row hidden-xs">
+                        <div class="col-xs-12">
+                            <div class="text-count-student text-center pull-left" style="font-size:48px;">
+                            <?php if (!empty($count)) { ?>
+                            <?php echo $count['data'][0]['count'] ?>
+                            <?php } ?>
+                            </div>
+                            <div class="text-student text-center pull-left" style="font-size:48px;">
+                            <?php if (!empty($count)) { ?>
+                            <?php echo $count['data'][0]['name'] ?>
+                            <?php } ?>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-left">
-                        <p class="text-santri">
-                        Saat ini Maungaji telah memiliki santri-santri dari segala jenis usia, tempat tinggal dan latar belakang. Antusias belajar ngaji yang disebarkan oleh mereka membuat kami bersemangat untuk terus memberikan fasilitas terbaik bagi para pembelajar Qur’an.
-                        </p>
-                    </div>   
-                    <div class="text-center">
-                        <p class="text-register-student text-center" style="color: #3597D4;">
-                        <a href="https://linktr.ee/Maungaji" target="_blank">Daftar Jadi Santri Ngaji <i class="fa fa-arrow-right"></i>
-                        </a>
-                        </p>
-                    </div>   
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="text-left">
+                            <p class="text-santri">
+                            Saat ini Maungaji telah memiliki santri-santri dari segala jenis usia, tempat tinggal dan latar belakang. Antusias belajar ngaji yang disebarkan oleh mereka membuat kami bersemangat untuk terus memberikan fasilitas terbaik bagi para pembelajar Qur’an.
+                            </p>
+                        </div>   
+                        <div class="text-center">
+                            <p class="text-register-student text-center" style="color: #3597D4;">
+                            <a href="https://linktr.ee/Maungaji" target="_blank">Daftar Jadi Santri Ngaji <i class="fa fa-arrow-right"></i>
+                            </a>
+                            </p>
+                        </div>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="content-box-md" style="margin-top:-100px;">
+    <div class="content-box-md teacher-box" style="margin-top:-100px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div>
-                       <div class="text-teacher text-center col-md-9 col-md-push-3" style="font-size:48px;">
-                       <?php if (!empty($count)) { ?>
-                       <?php echo $count['data'][1]['name'] ?>
-                       <?php } ?>   
-                       </div>
-                       <div class="text-count-teacher text-center col-md-3 col-md-pull-9" style="font-size:48px;">
-                       <?php if (!empty($count)) { ?>
-                       <?php echo $count['data'][1]['count'] ?>
-                       <?php } ?>
-                       </div>   
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-xs-12 teacher-title">
+                            <div class="text-count-teacher text-center pull-left" style="font-size:48px;">
+                            <?php if (!empty($count)) { ?>
+                            <?php echo $count['data'][1]['count'] ?>
+                            <?php } ?>
+                            </div>   
+                            <div class="text-teacher text-center pull-left" style="font-size:48px;">
+                            <?php if (!empty($count)) { ?>
+                            <?php echo $count['data'][1]['name'] ?>
+                            <?php } ?>   
+                            </div>
+                        </div>
+                       
                     </div>
-                    <div class="text-left">
-                        <p class="text-guru">
-                        Insya Allah mitra guru ngaji di Maungaji memiliki 3 poin kompetensi yakni <span style="color: #3597D4">Terpercaya, Berpengalaman</span>, dan <span style="color: #3597D4">Terkualifikasi.</span> Maungaji juga membuka kesempatan bagi Guru Ngaji untuk bergabung bersama kami sebagai mitra maungaji.
-                        </p>
-                    </div>   
-                    <div class="text-center">
-                        <p class="text-register-teacher text-center" style="color: #3597D4;">
-                        <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji <i class="fa fa-arrow-right"></i></a>
-                        </p>
+                    <div class="row">
+                        <div class="col-xs-12 hidden-xs">
+                            <div class="text-left">
+                                <p class="text-guru">
+                                Insya Allah mitra guru ngaji di Maungaji memiliki 3 poin kompetensi yakni <span style="color: #3597D4">Terpercaya, Berpengalaman</span>, dan <span style="color: #3597D4">Terkualifikasi.</span> Maungaji juga membuka kesempatan bagi Guru Ngaji untuk bergabung bersama kami sebagai mitra maungaji.
+                                </p>
+                            </div>   
+                            <div class="text-center">
+                                <p class="text-register-teacher text-center" style="color: #3597D4;">
+                                <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji <i class="fa fa-arrow-right"></i></a>
+                                </p>
+                            </div>
+                        </div>
                     </div>   
                 </div>
                 
-                <div class="col-md-6 sm-6 img-teacher-mobile-version">
+                <div class="col-sm-6">
                     <div class="row">
-                        <img src="../img/guru-ngaji/guru-ngaji.png" class="img-responsive" alt="Belajar Ngaji" height="auto">
+                        <div class="col-xs-12">
+                            <img src="../img/guru-ngaji/guru-ngaji.png" class="img-responsive" alt="Belajar Ngaji" height="auto">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 visible-xs">
+                            <div class="text-left">
+                                <p class="text-guru">
+                                Insya Allah mitra guru ngaji di Maungaji memiliki 3 poin kompetensi yakni <span style="color: #3597D4">Terpercaya, Berpengalaman</span>, dan <span style="color: #3597D4">Terkualifikasi.</span> Maungaji juga membuka kesempatan bagi Guru Ngaji untuk bergabung bersama kami sebagai mitra maungaji.
+                                </p>
+                            </div>   
+                            <div class="text-center">
+                                <p class="text-register-teacher text-center" style="color: #3597D4;">
+                                <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji <i class="fa fa-arrow-right"></i></a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -268,7 +313,7 @@
     </div>
 
     <!--testimoni-->
-    <div class="gtco-testimonials">
+    <div class="gtco-testimonials testimonies">
         <div class="container">
             <div class="row">
                 <div class="about-item text-left" style="margin-top: 100px;">
@@ -304,7 +349,7 @@
     <!--end testimoni-->
 
     <!--prices-->
-    <div class="gtco-testimonials">
+    <div class="gtco-testimonials study-packages">
         <div class="container">
             <div class="row">
                 <div class="about-item text-left">

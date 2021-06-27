@@ -237,3 +237,9 @@
     margin-top: 20px;
   }
 }
+
+@media (max-width: 679px) {
+  .gtco-testimonials.study-packages .card{
+    height:unset;
+  }
+}
