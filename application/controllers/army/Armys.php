@@ -15,7 +15,7 @@ class Armys extends CI_Controller
 
     public function index()
     {
-        $army = $this->http_request("http://127.0.0.1:8000/user/getUser");
+        $army = $this->http_request("https://cms.maungaji.co.id/user/getUser");
 
         $x['army'] = json_decode($army, TRUE);
 
