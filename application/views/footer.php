@@ -25,7 +25,7 @@
                     <li><a href="https://maungaji.co.id/privacy/privacy_policy.html">Kebijakan Privasi</a></li>
                     <li><a href="https://maungaji-2019.s3-ap-southeast-1.amazonaws.com/additional/tnc.html">Syarat dan Ketentuan</a></li>
                     <li><a href="">Karir</a></li>
-                    <li><a href="https://maungaji.co.id/artikel">Blog</a></li>
+                    <li><a href="https://blog.maungaji.co.id/">Blog</a></li>
                 </ul>
                 <br/>
                 <br/>
