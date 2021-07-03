@@ -23,7 +23,7 @@ class Home extends CI_Controller {
         $countData = $this->http_request("http://13.59.145.203:8000/v1/landing");
         
         //end point for article
-        $article = $this->http_request("https://maungaji.co.id/artikel/wp-json/wp/v2/posts?per_page=5");
+        $article = $this->http_request("https://blog.maungaji.co.id/wp-json/wp/v2/posts?per_page=5");
 
         //end point for testimoni
         $testimoni = $this->http_request("https://cms.maungaji.co.id/testimoni/getTestimoni");
