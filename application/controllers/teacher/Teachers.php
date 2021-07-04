@@ -17,7 +17,9 @@ class Teachers extends CI_Controller
     
         $x["url"] = "https://maungaji-2019.s3-ap-southeast-1.amazonaws.com";
 
+        $this->load->view("header");
         $this->load->view("teacher/teacher", $x);
+        $this->load->view("footer");
     }
 
      function http_request($url){

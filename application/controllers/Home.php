@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Home extends CI_Controller {
 
 	public function __construct()
     {
@@ -20,25 +20,32 @@ class Welcome extends CI_Controller {
 		ini_set('display_errors', 1);
 
 		//end point for count data teacher and student
-        $countData = $this->http_request("http://13.59.145.203/v1/landing");
+        $countData = $this->http_request("http://13.59.145.203:8000/v1/landing");
         
         //end point for article
-        $article = $this->http_request("https://maungaji.co.id/artikel/wp-json/wp/v2/posts");
+        $article = $this->http_request("https://blog.maungaji.co.id/wp-json/wp/v2/posts?per_page=5");
 
         //end point for testimoni
         $testimoni = $this->http_request("https://cms.maungaji.co.id/testimoni/getTestimoni");
+        
+        //end point for faq
+        $faq = $this->http_request("https://cms.maungaji.co.id/faq/getFaq");
 
 		// change string JSON to array
 		$x['count'] = json_decode($countData, TRUE);
 
 		$x['article'] = json_decode($article, TRUE);
 
-		$x['testimoni']= json_decode($testimoni, TRUE);
-		
-		//get url imagess
-		$x['url'] = "https://cms.maungaji.co.id/images";
+		$x['testimoni'] = json_decode($testimoni, TRUE);
 
-        $this->load->view("welcome_message", $x);
+		$x['faq'] = json_decode($faq, TRUE);
+		
+		//get url images
+		$x['url'] = "https://cms.maungaji.co.id/images";
+	
+	    $this->load->view("header");
+	    $this->load->view("home", $x);
+	    $this->load->view("footer");
 	}
 
 	public function about()

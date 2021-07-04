@@ -2,5 +2,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/maungaji/public_html/
+    - export DEPLOYPATH=/home/maungaji/beta/
     - /bin/cp -R images $DEPLOYPATH

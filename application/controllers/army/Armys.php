@@ -21,7 +21,9 @@ class Armys extends CI_Controller
 
         $x['url'] = "https://cms.maungaji.co.id/images";
 
+        $this->load->view("header");
         $this->load->view("army/army", $x);
+        $this->load->view("footer");
     }
 
     function http_request($url){
