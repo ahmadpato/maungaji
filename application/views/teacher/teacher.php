@@ -32,9 +32,9 @@
                           <br>
                           <div class="form-group" style="font-family:Poppins;">
                               <?php if($list['teacher']['status_online'] == 1): ?>
-                                 <span class="label label-success mb-3 p-2 d-inline-block">Online</span>
+                                 <span class="label label-success mb-3 mt-3 p-2 d-inline-block">Online</span>
                               <?php else: ?>
-                                 <span class="label label-warning mb-3 p-2 d-inline-block">Offline</span>
+                                 <span class="label label-warning mb-3 mt-3 p-2 d-inline-block">Offline</span>
                               <?php endif; ?>
                               <h4 class="text-center personnel-detail mx-auto" data-toggle="tooltip" data-placement="bottom" title="<?php echo $list['teacher']['name']; ?>"><strong><?php echo $list['teacher']['name']; ?></strong></h4>
                               <div class="col-md-12">
