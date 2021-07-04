@@ -4,7 +4,9 @@
                     <h3 style="color: #3597D4;font-family: 'Poppins';font-weight: bold;line-height: 50px;text-align: center;font-size: 28px;">Daftar Maungaji Army</h3>
                 </div>
                 <div class="new-text">
-                    <p style="font-size: 20px;line-height: normal;text-align: center; font-family: 'Poppins';">Maungaji Army adalah tim sales yang bertugas menjual produk, barang, atau jasa dari Maungaji Indonesia kepada pengguna jasa serta menjalin komunikasi dari satu prospek ke satu prospek lainnya.</p>
+                    <p style="font-size: 20px;line-height: normal;text-align: center; font-family: 'Poppins';">Maungaji Army adalah tim sales yang bertugas menjual produk, barang, atau jasa dari Maungaji Indonesia kepada pengguna jasa serta menjalin komunikasi dari satu prospek ke satu prospek lainnya. </p>
+                    <p style="font-size: 20px;line-height: normal;text-align: center; font-family: 'Poppins';"> Tertarik jadi army? <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank"><b>daftar disini<b> </a>
+                    </p>
                 </div>
                 </br>
                 <div class="col-md-12">

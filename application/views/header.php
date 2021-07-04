@@ -76,19 +76,14 @@
                     <div class="container">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
+                                <li><a href="/">HALAMAN UTAMA</a></li>
                                 <li><a href="https://blog.maungaji.co.id">BLOG</a></li>
-                                <li><a href="/army">ARMY LIST</a></li>
-                                <li><a href="/teacher">TEACHER LIST</a></li>
-                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" target="_blank">
-                                <div class="teacher">
-                                    MAUNGAJI ARMY
-                                </div>
-                                </a>
-                                </li>
+                                <li><a href="/army">LIST ARMY</a></li>
+                                <li><a href="/teacher">LIST GURU NGAJI</a></li>
                                 <li>
-                                <a href="https://bit.ly/Maungajiapa" target="_blank">
+                                <a href="https://linktr.ee/Maungaji" target="_blank">
                                 <div class="teacher">
-                                    START LEARNING
+                                    MULAI NGAJI
                                 </div>
                                 </a>
                                 </li>
@@ -102,13 +97,11 @@
                         <span id="mobile-nav-close-btn">&times;</span>
                         <div id="mobile-nav-content">
                             <ul class="nav">
-                                <li><a href="/">HOME PAGE</a></li>
+                                <li><a href="/">HALAMAN UTAMA</a></li>
                                 <li><a href="https://blog.maungaji.co.id">BLOG</a></li>
-                                <li><a href="/army">ARMY LIST</a></li>
-                                <li><a href="/teacher">TEACHER LIST</a></li>
-                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfXTB4RKaDXoB01ld4tA8TFSiQsu-u790F4bmG9WTeCYf8bIA/viewform" class="teacher" target="_blank">MAUNGAJI ARMY</a></li>
-                                <br>
-                                <li><a href="https://bit.ly/Maungajiapa" class="teacher" target="_blank">START LEARNING</a></li>
+                                <li><a href="/army">LIST ARMY</a></li>
+                                <li><a href="/teacher">LIST GURU NGAJI</a></li>
+                                <li><a href="https://linktr.ee/Maungaji" class="teacher" target="_blank">MULAI NGAJI</a></li>
                             </ul>
                         </div>
                     </div>
