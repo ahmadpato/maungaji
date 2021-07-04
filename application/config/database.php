@@ -74,13 +74,9 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'maungaji_admin',
-	'password' => 'Ahmad@123456!',
-	'database' => 'maungaji_cms',
-	'username' => 'root',
-	'password' => '',
+	'username' => 'sysdb',
+	'password' => '4ktnbOU2hDLmHsaZ',
 	'database' => 'wp',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
