@@ -512,7 +512,7 @@
                      foreach ($article as $art) {
                       ?>
                         <div class="card text-center" style="background: #FFFFFF">
-                            <img class="img-article" src="<?php if (!empty($article)) { ?>
+                            <img class="img-article img-responsive" src="<?php if (!empty($article)) { ?>
                                     <?php echo $art['jetpack_featured_media_url'] ?>
                                     <?php } ?>" alt="">
                             <div class="card-body" style="font-family:Poppins;">
