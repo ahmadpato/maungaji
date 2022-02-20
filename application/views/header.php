@@ -53,10 +53,8 @@
 
  <script data-ad-client="ca-pub-6962543154354144" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-</head>
-
-<style>
-@media screen and (max-width: 1100px) {
+ <style>
+    @media screen and (max-width: 1100px) {
     #socmed {
       display: none;
     }
@@ -171,6 +169,8 @@
     }
   }
 </style>
+
+</head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="65">
      <!--Header -->
