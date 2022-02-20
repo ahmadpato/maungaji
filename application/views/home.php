@@ -21,25 +21,25 @@
                         <br>
                         <div class="btn-download-header">
                             <div class="button-download">
-                                <!-- <a href="https://apps.apple.com/id/app/maungaji/id1497420237" target="_blank" style="margin-right: 15px;">
-                                    <img src="/img/logo/appstore.svg">
-                                </a> -->
-                                <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank">
-                                    <img src="/img/logo/playstore.svg">
+                                <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank" style="margin-right: 15px;">
+                                    <img src="<?php echo base_url('img/logo/playstore.svg')?>">
+                                </a>
+                                <a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" target="_blank">
+                                    <img src="<?php echo base_url('img/logo/logo_wa.png')?>">
                                 </a>
                             </div>
                         </div> 
                         <br>  
                     </div>
                     <div class="col-md-4 col-sm-4">
-                        <img src="../img/ilustrasi/Hero_Illust.svg" class="img-responsive" alt="Belajar Ngaji" style="height: 450px; width: 100%;">  
+                        <img src="<?php echo base_url('/img/ilustrasi/Hero_Illust.svg')?>" class="img-responsive" alt="Belajar Ngaji" style="height: 450px; width: 100%;">  
                     </div>
                     <br>
                     <br>
                     <div id="socmed" class="col-md-2 col-sm-2" style="padding-left:100px;">
                         <ul>
                             <li>
-                                <a href="https://api.whatsapp.com/send?text=Assalamua'alaikum&phone=6281213419253" target="_blank">
+                                <a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" target="_blank">
                                     <div class="round-icon text-center mb-5">
                                         <i class="fa fa-whatsapp center align-middle fa-2x"></i>
                                     </div>
@@ -99,7 +99,7 @@
                </div>  
                <div class="col-md-4">
                     <div class="class-card text-center position-relative mb-5 mb-lg-0">
-                        <img src="../img/ilustrasi/iqro_Illust.png" class="img-responsive center-block" alt="Belajar Ngaji">
+                        <img src="<?php echo base_url('img/ilustrasi/iqro_Illust.png')?>" class="img-responsive center-block" alt="Belajar Ngaji">
                         <div class="class-name w-100 position-absolute" data-toggle="tooltip" title="Mulai belajar mengenali, membaca, dan melafalkan secara benar huruf-huruf Arab dengan mengikuti kelas IQRO’ di Maungaji">
                             IQRO'
                         </div>
@@ -107,7 +107,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="class-card text-center position-relative mb-5 mb-lg-0">
-                        <img src="../img/ilustrasi/Tahsin_Illust.png" class="img-responsive center-block" alt="Belajar Ngaji">
+                        <img src="<?php echo base_url('img/ilustrasi/Tahsin_Illust.png')?>" class="img-responsive center-block" alt="Belajar Ngaji">
                         <div class="class-name w-100 position-absolute" data-toggle="tooltip" title="Baguskan dan perbaiki bacaan Qur’an mu dengan mengikuti kelas Tahsin atau yang biasa dikenal dengan ilmu tajwid di Maungaji">
                             TAHSIN
                         </div>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="class-card text-center position-relative mb-5 mb-lg-0">
-                        <img src="../img/ilustrasi/Tahfidz_Illust.png" class="img-responsive center-block" alt="Belajar Ngaji">
+                        <img src="<?php echo base_url('img/ilustrasi/Tahfidz_Illust.png')?>" class="img-responsive center-block" alt="Belajar Ngaji">
                         <div class="class-name w-100 position-absolute" data-toggle="tooltip" title="Hafal lebih banyak surah dan ayat dengan mengikuti kelas Tahfidz. Insya Allah guru ngaji siap membimbing kamu menjadi Hafidz/Hafizah">
                             TAHFIDZ
                         </div>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-                            <img src="../img/guru-ngaji/santri.png" class="img-responsive" alt="Belajar Ngaji" height="auto">
+                            <img src="<?php echo base_url('img/guru-ngaji/santri.png')?>" class="img-responsive" alt="Belajar Ngaji" height="auto">
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
                 <div class="col-sm-6">
                     <div class="row">
                         <div class="col-xs-12">
-                            <img src="../img/guru-ngaji/guru-ngaji.png" class="img-responsive" alt="Belajar Ngaji" height="auto">
+                            <img src="<?php echo base_url('img/guru-ngaji/guru-ngaji.png')?>" class="img-responsive" alt="Belajar Ngaji" height="auto">
                         </div>
                     </div>
                     <div class="row">
@@ -259,7 +259,7 @@
                     <br>
                     <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
-                            <img src="../img/ilustrasi/Shield.png" style="left: 10%;" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                            <img src="<?php echo base_url('img/ilustrasi/Shield.png')?>" style="left: 10%;" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
                         <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                             Aman dan Nyaman
@@ -270,7 +270,7 @@
                     </div>    
                     <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
-                            <img src="../img/ilustrasi/Hands.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                            <img src="<?php echo base_url('img/ilustrasi/Hands.png')?>" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
                         <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         Berdasarkan Syari'ah
@@ -284,7 +284,7 @@
                     <br>
                     <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
-                            <img src="../img/ilustrasi/Report.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                            <img src="<?php echo base_url('/img/ilustrasi/Report.png')?>" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
                         <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         Laporan Belajar
@@ -295,7 +295,7 @@
                     </div>    
                     <div class="col-md-6 col-sm-6 text-center square-kelebihan-maungaji" style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         <p>
-                            <img src="../img/ilustrasi/Certificate.png" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
+                            <img src="<?php echo base_url('img/ilustrasi/Certificate.png')?>" class="img-responsive center-block" alt="Belajar Ngaji" height="auto">
                         </p>
                         <p style="color:#FFFFFF; font-size:25px; font-family:Poppins;">
                         Dapat sertifikat
@@ -558,10 +558,10 @@
                     <div id="logo" class="text-center">
                             <div class="vertical-heading">
                                 <ul>
-                                <img src="../img/icon/koran-tempo.png" class="img-responsive img-media-tempo" width="200px" height="auto" alt="Koran Tempo">
-                                <img src="../img/icon/go-muslim.png" class="img-responsive img-media-gomuslim" width="200px" height="auto" alt="gomuslim">
-                                <img src="../img/icon/republika.png" class="img-responsive img-media-republika" width="200px" height="auto">
-                                <img src="../img/icon/republika_ramadhan.png" class="img-responsive img-media-republika-ramadhan" width="200px" height="auto" alt="Republika">
+                                <img src="<?php echo base_url('img/icon/koran-tempo.png')?>" class="img-responsive img-media-tempo" width="200px" height="auto" alt="Koran Tempo">
+                                <img src="<?php echo base_url('/img/icon/go-muslim.png')?>" class="img-responsive img-media-gomuslim" width="200px" height="auto" alt="gomuslim">
+                                <img src="<?php echo base_url('img/icon/republika.png')?>" class="img-responsive img-media-republika" width="200px" height="auto">
+                                <img src="<?php echo base_url('/img/icon/republika_ramadhan.png')?>" class="img-responsive img-media-republika-ramadhan" width="200px" height="auto" alt="Republika">
                                 </ul>
                             </div>
                     </div>

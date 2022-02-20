@@ -23,7 +23,7 @@
 <link rel="icon" type="image/png" href="<?php echo base_url('/img/favicon/favicon-32x32.png') ?>">
 
  <!--Custom CSS -->
-<link rel="stylesheet" href="/css/maungaji-style.min.css?version=1.0.7">
+<link rel="stylesheet" href="<?php echo base_url('/css/maungaji-style.min.css?version=1.0.7') ?>">
 
 <!--Fontpoppins -->
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -64,11 +64,11 @@
                         <span id="mobile-nav-open-btn">&#9776;</span>
                          <!--Logo -->
                         <a class="navbar-brand" href="/">
-                            <img class="logo-non-text" src="/img/logo/Mau-Ngaji-Logo-transparent.png" alt="logo" width="auto" class="img-responsive" height="50px" style="margin-top: -10px;margin-left: 72px;">
+                            <img class="logo-non-text" src="<?php echo base_url('img/logo/Mau-Ngaji-Logo-transparent.png')?>" alt="logo" width="auto" class="img-responsive" height="50px" style="margin-top: -10px;margin-left: 72px;">
                         </a>
                          <!--Logo -->
                         <a class="navbar-brand-mobile" href="/">
-                            <img src="/img/logo/Mau-Ngaji-Logo-transparent.png" alt="maungaji" border="0" class="img-responsive">
+                            <img src="<?php echo base_url('img/logo/Mau-Ngaji-Logo-transparent.png')?>" alt="maungaji" border="0" class="img-responsive">
                         </a>
                     </div>
 
@@ -81,7 +81,7 @@
                                 <li><a href="/army">LIST ARMY</a></li>
                                 <li><a href="/teacher">LIST GURU NGAJI</a></li>
                                 <li>
-                                <a href="https://linktr.ee/Maungaji" target="_blank">
+                                <a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" target="_blank">
                                 <div class="teacher">
                                     MULAI NGAJI
                                 </div>
@@ -101,7 +101,7 @@
                                 <li><a href="https://blog.maungaji.co.id">BLOG</a></li>
                                 <li><a href="/army">LIST ARMY</a></li>
                                 <li><a href="/teacher">LIST GURU NGAJI</a></li>
-                                <li><a href="https://linktr.ee/Maungaji" class="teacher" target="_blank">MULAI NGAJI</a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" class="teacher" target="_blank">MULAI NGAJI</a></li>
                             </ul>
                         </div>
                     </div>

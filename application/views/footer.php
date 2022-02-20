@@ -3,7 +3,7 @@
       <div class="container">
         <ul class="ct-footer-list text-center-sm">
             <li>
-                <h2 class="ct-footer-list-header" style="color: #FFFFFF">Follow Kami</h2>
+                <h2 class="ct-footer-list-header" style="color: #FFFFFF">Ikuti Kami</h2>
                 <ul class="fa-ul">
                     <li><a href="https://www.instagram.com/maungaji/" target="_blank"><i class="fa-li fa fa-instagram text-persian-pink"></i>maungaji</a></li>
                     <li><a href="https://twitter.com/MaungajiIndo" target="_blank"><i class="fa-li fa fa-twitter text-carolina-blue"></i>maungajiIndo</a></li>
@@ -40,9 +40,12 @@
                         <div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
                            <div class="button-download">
                                 <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank">
-                                    <img src="../img/icon/playstore.png" class="img-responsive">
+                                    <img src="<?php echo base_url('img/icon/playstore.png')?>" class="img-responsive">
                                 </a>
                                 <br>
+                                <a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" target="_blank">
+                                    <img src="<?php echo base_url('img/logo/logo_wa.png')?>" class="img-responsive">
+                                </a>
                             </div>
                         </div>
                     </li>
