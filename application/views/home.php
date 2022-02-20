@@ -22,10 +22,10 @@
                         <div class="btn-download-header">
                             <div class="button-download">
                                 <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank" style="margin-right: 15px;">
-                                    <img src="<?php echo base_url('img/logo/playstore.svg')?>">
+                                    <img src="<?php echo base_url('img/logo/playstore.svg')?>" class="responsive">
                                 </a>
                                 <a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" target="_blank">
-                                    <img src="<?php echo base_url('img/logo/logo_wa.png')?>">
+                                    <img src="<?php echo base_url('img/logo/logo_wa.png')?>" class="responsive">
                                 </a>
                             </div>
                         </div> 

@@ -25,6 +25,8 @@
  <!--Custom CSS -->
 <link rel="stylesheet" href="<?php echo base_url('/css/maungaji-style.min.css?version=1.0.7') ?>">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <!--Fontpoppins -->
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
@@ -78,7 +80,7 @@
                             <ul class="nav navbar-nav pull-right">
                                 <li><a href="/">HALAMAN UTAMA</a></li>
                                 <li><a href="https://blog.maungaji.co.id">BLOG</a></li>
-                                <li><a href="/army">LIST ARMY</a></li>
+                                <!-- <li><a href="/army">LIST ARMY</a></li> -->
                                 <li><a href="/teacher">LIST GURU NGAJI</a></li>
                                 <li>
                                 <a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" target="_blank">
@@ -99,7 +101,7 @@
                             <ul class="nav">
                                 <li><a href="/">HALAMAN UTAMA</a></li>
                                 <li><a href="https://blog.maungaji.co.id">BLOG</a></li>
-                                <li><a href="/army">LIST ARMY</a></li>
+                                <!-- <li><a href="/army">LIST ARMY</a></li> -->
                                 <li><a href="/teacher">LIST GURU NGAJI</a></li>
                                 <li><a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" class="teacher" target="_blank">MULAI NGAJI</a></li>
                             </ul>
