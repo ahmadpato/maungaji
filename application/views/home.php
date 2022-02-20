@@ -21,11 +21,11 @@
                         <br>
                         <div class="btn-download-header">
                             <div class="button-download">
-                                <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank" style="margin-right: 15px;">
+                                <a href="https://play.google.com/store/apps/details?id=com.maungaji" target="_blank">
                                     <img src="<?php echo base_url('img/logo/playstore.svg')?>" class="responsive">
                                 </a>
                                 <a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" target="_blank">
-                                    <img src="<?php echo base_url('img/logo/logo_wa.png')?>" class="responsive">
+                                    <img src="<?php echo base_url('img/logo/maungaji_wa.png')?>" class="responsive">
                                 </a>
                             </div>
                         </div> 
@@ -85,6 +85,44 @@
             <br>
         </section>
     </div>
+
+    <!--testimoni-->
+    <div class="gtco-testimonials testimonies">
+        <div class="container">
+            <div class="row">
+                <div class="about-item text-left" style="margin-top: 100px;">
+                    <div id="tech-statement">
+                        <div class="title-testimoni">Testimoni</div>
+                    </div>
+                    <div style="color:#8A8787">
+                        <h5 style="font-size: 20px;">Kumpulan testimoni dari para santri dan guru ngaji yang sudah terdaftar di maungaji</h5>
+                    </div>
+               </div>  
+            </div>
+        </div>
+        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
+            <?php
+                if($testimoni){
+                    foreach ($testimoni['data'] as $testi_data) {
+                    ?>
+                        <div>
+                            <div class="card text-center pt-5 testimony-card">
+                                <div class="profile-photo center-block mb-5" style="background: url(<?php echo $url .'/'.$testi_data['photo'] ?>"></div>
+                                <div>
+                                    <h5><strong><?php echo $testi_data['fullname']; ?></strong></h5><br />
+                                    <div>
+                                        <?php echo $testi_data['comment']; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php
+                }
+            }    
+            ?>
+        </div>
+    </div>
+    <!--end testimoni-->
 
     <div id="chosing-class" class="content-box-md">
         <div class="container">
@@ -310,44 +348,6 @@
             <br>
         </section>
     </div>
-
-    <!--testimoni-->
-    <div class="gtco-testimonials testimonies">
-        <div class="container">
-            <div class="row">
-                <div class="about-item text-left" style="margin-top: 100px;">
-                    <div id="tech-statement">
-                        <div class="title-testimoni">Testimoni</div>
-                    </div>
-                    <div style="color:#8A8787">
-                        <h5 style="font-size: 20px;">Kumpulan testimoni dari para santri dan guru ngaji yang sudah terdaftar di maungaji</h5>
-                    </div>
-               </div>  
-            </div>
-        </div>
-        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
-            <?php
-                if($testimoni){
-                    foreach ($testimoni['data'] as $testi_data) {
-                    ?>
-                        <div>
-                            <div class="card text-center pt-5 testimony-card">
-                                <div class="profile-photo center-block mb-5" style="background: url(<?php echo $url .'/'.$testi_data['photo'] ?>"></div>
-                                <div>
-                                    <h5><strong><?php echo $testi_data['fullname']; ?></strong></h5><br />
-                                    <div>
-                                        <?php echo $testi_data['comment']; ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <?php
-                }
-            }    
-            ?>
-        </div>
-    </div>
-    <!--end testimoni-->
 
     <!--prices-->
     <div class="gtco-testimonials study-packages">

@@ -44,7 +44,7 @@
                                 </a>
                                 <br>
                                 <a href="https://api.whatsapp.com/send?phone=6281213419253&text=Assalamu'alaikum%20admin%20maungaji%20saya%20ingin%20memesan%20Guru%20Ngaji" target="_blank">
-                                    <img src="<?php echo base_url('img/logo/logo_wa.png')?>" class="img-responsive">
+                                    <img src="<?php echo base_url('img/logo/maungaji_wa.png')?>" class="img-responsive">
                                 </a>
                             </div>
                         </div>
