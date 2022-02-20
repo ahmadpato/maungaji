@@ -55,6 +55,123 @@
 
 </head>
 
+<style>
+@media screen and (max-width: 1100px) {
+    #socmed {
+      display: none;
+    }
+    #jdid {
+      display: none;
+    }
+    #chosing-class .about-item {
+      font-size: 40px;
+    }
+    #prons-mau .square-kelebihan-maungaji {
+      height: 300px;
+      width: 300px;
+      margin-top: 25px;
+    }
+    .square-center {
+      margin-top: 5rem;
+    }
+    .square-right {
+      margin-top: 5rem;
+    }
+    .text-register-student {
+      width: 300px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .text-register-teacher {
+      width: 330px;
+      /* margin-top: 510px; */
+    }
+    .img-santri {
+      margin-top: 50px;
+    }
+    .text-santri {
+      font-family: Poppins;
+      font-size: 24px;
+      margin-left: 15px;
+      margin-top: 20px;
+      text-align: left;
+      line-height: normal;
+    }
+    .text-guru {
+      font-family: Poppins;
+      font-size: 24px;
+      margin-left: 15px;
+      margin-top: 20px;
+      line-height: normal;
+      text-align: left;
+    }
+    .text-choose-package {
+      font-size: 27px;
+      font-family: "Poppins";
+      font-weight: 1000;
+      margin-top: 100px;
+      color: #3597d4;
+    }
+    .media {
+      color: #ffffff;
+      font-family: Poppins;
+      margin-top: 10px;
+      background-color: #3597d4;
+      border: 1px solid #ffffff;
+      box-sizing: border-box;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 80px;
+    }
+    .text-header {
+      font-family: "Rakkas";
+      font-weight: 1000;
+      text-align: center;
+      font-size: 45px;
+    }
+    .btn-download-header {
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+    }
+    .img-media-tempo {
+      display: inline-block;
+      margin-right: 15px;
+      margin-top: 25px;
+    }
+    .img-media-gomuslim {
+      display: inline-block;
+      margin-right: 15px;
+      margin-top: -50px;
+    }
+    .img-media-republika {
+      display: inline-block;
+      margin-right: 15px;
+      margin-top: -70px;
+    }
+    .img-media-republika-ramadhan {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .img-teacher-mobile-version {
+      margin: 15px;
+      margin-top: 150px;
+    }
+    .title-testimoni {
+      font-size: 50px;
+      font-family: "Poppins";
+      font-weight: 1000;
+      color: #3597d4;
+      margin-top: -30px;
+    }
+    .section-size {
+      height: 900px;
+    }
+  }
+</style>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="65">
      <!--Header -->
     <header>
