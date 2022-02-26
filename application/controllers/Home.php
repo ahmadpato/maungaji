@@ -31,6 +31,9 @@ class Home extends CI_Controller {
         //end point for faq
         $faq = $this->http_request("https://cms.maungaji.co.id/faq/getFaq");
 
+		//end point for summary report
+        $report = $this->http_request("https://cms.maungaji.co.id/report/getReport");
+
 		// change string JSON to array
 		$x['count'] = json_decode($countData, TRUE);
 
@@ -39,6 +42,8 @@ class Home extends CI_Controller {
 		$x['testimoni'] = json_decode($testimoni, TRUE);
 
 		$x['faq'] = json_decode($faq, TRUE);
+
+		$x['report'] = json_decode($report, TRUE);
 		
 		//get url images
 		$x['url'] = "https://cms.maungaji.co.id/images";
