@@ -123,7 +123,8 @@
         </div>
     </div>
     <!--end testimoni-->
-
+    
+    <!--choosing class-->
     <div id="chosing-class" class="content-box-md">
         <div class="container">
             <div class="row">
@@ -162,8 +163,117 @@
             </div>
         </div>
     </div>
+    <!--end class-->
 
-    <div class="content-box-md santri-box" style="margin-top:-100px;">
+    <!--prices-->
+    <div class="gtco-testimonials study-packages">
+        <div class="container">
+            <div class="row">
+                <div class="about-item text-left">
+                    <div id="tech-statement">
+                        <div class="text-choose-package">Pilih Paket Belajar-Mu</div>
+                    </div>
+                    <div style="color:#8A8787">
+                        <h5 style="font-size: 20px;">Paket Pertemuan adalah paket yang pembayarannya dilakukan setiap 1x pertemuan</h5>
+                    </div>
+               </div>  
+            </div>
+        </div>
+        
+        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
+            <?php
+                class StudyPackage {
+                    public $name;
+                    public $price;
+                    public $class_type;
+                    public $max_student;
+                    public $study_duration;
+                    public $testimony;
+                }
+                $packages = array();
+
+                $packages[0] = new StudyPackage();
+                $packages[0]->name = "keluarga";
+                $packages[0]->price = "75K";
+                $packages[0]->class_type = "Online";
+                $packages[0]->max_student = "4";
+                $packages[0]->study_duration = "90";
+                $packages[0]->testimony = "Belajar ngaji bersama guru ngaji secara online dan sertakan anggota keluarga Anda untuk belajar bersama.";
+                
+                $packages[1] = new StudyPackage();
+                $packages[1]->name = "keluarga";
+                $packages[1]->price = "150K";
+                $packages[1]->class_type = "Offline";
+                $packages[1]->max_student = "4";
+                $packages[1]->study_duration = "90";
+                $packages[1]->testimony = "Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.";
+
+                $packages[2] = new StudyPackage();
+                $packages[2]->name = "kelompok";
+                $packages[2]->price = "100K";
+                $packages[2]->class_type = "Online";
+                $packages[2]->max_student = "10";
+                $packages[2]->study_duration = "120";
+                $packages[2]->testimony = "Belajar ngaji bersama guru ngaji secara online dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.";
+
+                $packages[3] = new StudyPackage();
+                $packages[3]->name = "kelompok";
+                $packages[3]->price = "200K";
+                $packages[3]->class_type = "Offline";
+                $packages[3]->max_student = "10";
+                $packages[3]->study_duration = "120";
+                $packages[3]->testimony = "Belajar ngaji bersama guru ngaji secara offline dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.";
+
+                $packages[4] = new StudyPackage();
+                $packages[4]->name = "personal";
+                $packages[4]->price = "50K";
+                $packages[4]->class_type = "Online";
+                $packages[4]->max_student = "1";
+                $packages[4]->study_duration = "60";
+                $packages[4]->testimony = "Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.";
+                
+                $packages[5] = new StudyPackage();
+                $packages[5]->name = "personal";
+                $packages[5]->price = "100K";
+                $packages[5]->class_type = "Offline";
+                $packages[5]->max_student = "1";
+                $packages[5]->study_duration = "60";
+                $packages[5]->testimony = "Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.";
+
+                foreach ($packages as $package) {
+                    ?>
+                        <div class="card text-center package-card <?php echo $package->{'name'}; ?>">
+                            <img class="card-img-top" src="../img/icon/new/keluarga.svg" alt="">
+                            <div class="card-body">
+                                <h3 class="package-name"><?php echo $package->{'name'}; ?></h3>
+                                <br />
+                                <p class="package-price">
+                                    <?php echo $package->{'price'}; ?>/<span>pertemuan</span>
+                                </p>
+                                <br />
+                                <div class="col-sm-6 package-detail">
+                                    Tipe Kelas: <?php echo $package->{'class_type'}; ?>
+                                </div>
+                                <div class="col-sm-6  package-detail">
+                                    Max. Santri: <?php echo $package->{'max_student'}; ?> orang
+                                </div>
+                                <div class="col-sm-12  package-detail">
+                                    Durasi Belajar: <?php echo $package->{'study_duration'}; ?> Menit
+                                </div>
+                                <p class="package-description">
+                                    <?php echo $package->{'testimony'}; ?>
+                                </p>
+                            </div>
+                        </div>
+                    <?php
+                }
+            ?>
+
+        </div>
+    </div>
+    <!--end price-->
+
+    <div class="content-box-md santri-box">
         <div class="container">
             <div class="row">
                <div class="col-sm-6">
@@ -349,117 +459,9 @@
         </section>
     </div>
 
-    <!--prices-->
-    <div class="gtco-testimonials study-packages">
-        <div class="container">
-            <div class="row">
-                <div class="about-item text-left">
-                    <div id="tech-statement">
-                        <div class="text-choose-package">Pilih Paket Belajar-Mu</div>
-                    </div>
-                    <div style="color:#8A8787">
-                        <h5 style="font-size: 20px;">Paket Pertemuan adalah paket yang pembayarannya dilakukan setiap 1x pertemuan</h5>
-                    </div>
-               </div>  
-            </div>
-        </div>
-        
-        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
-            <?php
-                class StudyPackage {
-                    public $name;
-                    public $price;
-                    public $class_type;
-                    public $max_student;
-                    public $study_duration;
-                    public $testimony;
-                }
-                $packages = array();
-
-                $packages[0] = new StudyPackage();
-                $packages[0]->name = "keluarga";
-                $packages[0]->price = "75K";
-                $packages[0]->class_type = "Online";
-                $packages[0]->max_student = "4";
-                $packages[0]->study_duration = "90";
-                $packages[0]->testimony = "Belajar ngaji bersama guru ngaji secara online dan sertakan anggota keluarga Anda untuk belajar bersama.";
-                
-                $packages[1] = new StudyPackage();
-                $packages[1]->name = "keluarga";
-                $packages[1]->price = "150K";
-                $packages[1]->class_type = "Offline";
-                $packages[1]->max_student = "4";
-                $packages[1]->study_duration = "90";
-                $packages[1]->testimony = "Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.";
-
-                $packages[2] = new StudyPackage();
-                $packages[2]->name = "kelompok";
-                $packages[2]->price = "100K";
-                $packages[2]->class_type = "Online";
-                $packages[2]->max_student = "10";
-                $packages[2]->study_duration = "120";
-                $packages[2]->testimony = "Belajar ngaji bersama guru ngaji secara online dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.";
-
-                $packages[3] = new StudyPackage();
-                $packages[3]->name = "kelompok";
-                $packages[3]->price = "200K";
-                $packages[3]->class_type = "Offline";
-                $packages[3]->max_student = "10";
-                $packages[3]->study_duration = "120";
-                $packages[3]->testimony = "Belajar ngaji bersama guru ngaji secara offline dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.";
-
-                $packages[4] = new StudyPackage();
-                $packages[4]->name = "personal";
-                $packages[4]->price = "50K";
-                $packages[4]->class_type = "Online";
-                $packages[4]->max_student = "1";
-                $packages[4]->study_duration = "60";
-                $packages[4]->testimony = "Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.";
-                
-                $packages[5] = new StudyPackage();
-                $packages[5]->name = "personal";
-                $packages[5]->price = "100K";
-                $packages[5]->class_type = "Offline";
-                $packages[5]->max_student = "1";
-                $packages[5]->study_duration = "60";
-                $packages[5]->testimony = "Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.";
-
-                foreach ($packages as $package) {
-                    ?>
-                        <div class="card text-center package-card <?php echo $package->{'name'}; ?>">
-                            <img class="card-img-top" src="../img/icon/new/keluarga.svg" alt="">
-                            <div class="card-body">
-                                <h3 class="package-name"><?php echo $package->{'name'}; ?></h3>
-                                <br />
-                                <p class="package-price">
-                                    <?php echo $package->{'price'}; ?>/<span>pertemuan</span>
-                                </p>
-                                <br />
-                                <div class="col-sm-6 package-detail">
-                                    Tipe Kelas: <?php echo $package->{'class_type'}; ?>
-                                </div>
-                                <div class="col-sm-6  package-detail">
-                                    Max. Santri: <?php echo $package->{'max_student'}; ?> orang
-                                </div>
-                                <div class="col-sm-12  package-detail">
-                                    Durasi Belajar: <?php echo $package->{'study_duration'}; ?> Menit
-                                </div>
-                                <p class="package-description">
-                                    <?php echo $package->{'testimony'}; ?>
-                                </p>
-                            </div>
-                        </div>
-                    <?php
-                }
-            ?>
-
-        </div>
-    </div>
-    <!--end price-->
-
     <!-- Faq -->
     <div id="faq" class="container">
-        <div id="tech-statement" class="text-left" style="margin-top: 50px;">
+        <div id="tech-statement" class="text-left" style="margin-top: 200px;">
             <div class="vertical-heading">
                 <h3 style="font-size:50px; font-family: 'Poppins'; font-weight: 1000;">FAQ</h3>
             </div>
