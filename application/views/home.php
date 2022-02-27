@@ -125,7 +125,7 @@
     <!--end testimoni-->
     
     <!--choosing class-->
-    <div id="chosing-class" class="content-box-md">
+    <div id="chosing-class" class="content-box-md" style="margin-top:-100px;">
         <div class="container">
             <div class="row">
                 <div class="about-item text-left">
@@ -171,7 +171,7 @@
             <div class="row">
                 <div class="about-item text-left">
                     <div id="tech-statement">
-                        <div class="text-choose-package">Pilih Paket Belajar-Mu</div>
+                        <div class="text-choose-package" style="margin-top: 100px;">Pilih Paket Belajar-Mu</div>
                     </div>
                     <div style="color:#8A8787">
                         <h5 style="font-size: 20px;">Paket Pertemuan adalah paket yang pembayarannya dilakukan setiap 1x pertemuan</h5>
@@ -301,14 +301,12 @@
                     <div class="row hidden-xs">
                         <div class="col-xs-12">
                             <div class="text-count-student text-center pull-left" style="font-size:48px;">
-                            <?php if (!empty($count)) { ?>
-                            <?php echo $count['data'][0]['count'] ?>
+                            <?php if (!empty($report)) { ?>
+                            <?php echo $report['data']?>
                             <?php } ?>
                             </div>
                             <div class="text-student text-center pull-left" style="font-size:48px;">
-                            <?php if (!empty($count)) { ?>
-                            <?php echo $count['data'][0]['name'] ?>
-                            <?php } ?>
+                            PERTEMUAN
                             </div>
                         </div>
                     </div>
