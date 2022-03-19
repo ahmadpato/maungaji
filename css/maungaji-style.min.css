@@ -19590,7 +19590,7 @@
   .navbar-brand-mobile img {
     margin-top: -10px !important;
     height: 50px;
-    width: 65%;
+    /* width: 65%; */
   }
   #home-content-inner {
     text-align: center;

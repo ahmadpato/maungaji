@@ -162,7 +162,7 @@
       font-family: "Poppins";
       font-weight: 1000;
       color: #3597d4;
-      margin-top: -30px;
+      margin-top: 0px;
     }
     .section-size {
       height: 900px;
