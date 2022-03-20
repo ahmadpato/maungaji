@@ -243,7 +243,7 @@
                 foreach ($packages as $package) {
                     ?>
                         <div class="card text-center package-card <?php echo $package->{'name'}; ?>">
-                            <img class="card-img-top" src="../img/icon/new/keluarga.svg" alt="">
+                            <img class="card-img-top" src="<?php echo base_url('img/icon/new/keluarga.svg')?>" alt="">
                             <div class="card-body">
                                 <h3 class="package-name"><?php echo $package->{'name'}; ?></h3>
                                 <br />

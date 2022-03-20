@@ -38,6 +38,7 @@ class Home extends CI_Controller {
 		$price = $this->http_request("https://cms.maungaji.co.id/price/getPrice");
 
 		// change string JSON to array
+		
 		$x['count'] = json_decode($countData, TRUE);
 
 		$x['article'] = json_decode($article, TRUE);
