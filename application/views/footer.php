@@ -86,9 +86,6 @@
 <!--Easing -->
 <script src="<?php echo base_url("/js/easing/jquery.easing.1.3.min.js")?>"></script>
 
-<!--WOW JS -->
-<?php echo base_url("/js/wow/wow.min.js")?>
-
 <!--Custom JS -->
 <script src="<?php echo base_url("/js/script.js")?>"></script>
 

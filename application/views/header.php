@@ -23,7 +23,7 @@
 <link rel="icon" type="image/png" href="<?php echo base_url('/img/favicon/favicon-32x32.png') ?>">
 
  <!--Custom CSS -->
-<link rel="stylesheet" href="<?php echo base_url('/css/maungaji-style.min.css?version=1.0.7') ?>">
+<link rel="stylesheet" href="<?php echo base_url('/css/maungaji-style.min.css') ?>">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -54,6 +54,11 @@ src="https://www.facebook.com/tr?id=309812377183251&ev=PageView&noscript=1"
  <script data-ad-client="ca-pub-6962543154354144" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
  <style>
+    .navbar-brand-mobile img {
+      margin-top: -10px !important;
+      height: 50px;
+      /* width: 65%; */
+    }
     @media screen and (max-width: 1100px) {
     #socmed {
       display: none;
