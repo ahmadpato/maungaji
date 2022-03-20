@@ -57,39 +57,40 @@
     </footer>
      <!--FOOTER END -->
 
-<script src="/js/jquery.min.js"></script>
+<script src="<?php echo base_url("/js/jquery.min.js")?>"></script>
 
 <!--Bootstrap JS -->
-<script src="/js/bootstrap/bootstrap.min.js"></script>
+<script src="<?php echo base_url("/js/bootstrap/bootstrap.min.js")?>"></script>
 
 <!--Owl Carousel JS -->
-<script src="/js/owl-carousel/owl.carousel.min.js"></script>
+<script src="<?php echo base_url("/js/owl-carousel/owl.carousel.min.js")?>"></script>
 
 <!--Waypoints -->
-<script src="/js/waypoints/jquery.waypoints.min.js"></script>
+<script src="<?php echo base_url("/js/waypoints/jquery.waypoints.min.js")?>"></script>
 
 <!--Responsive Tabs JS -->
-<script src="/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+<script src="<?php echo base_url("/js/responsive-tabs/jquery.responsiveTabs.min.js")?>"></script>
 
-<script type="text/javascript" src="/js/slick.min.js"></script>
+
+<script src="<?php echo base_url("/js/slick.min.js")?>"></script>
 
  <!--Isotope -->
-<script src="/js/isotope/isotope.pkgd.min.js"></script>
+<script src="<?php echo base_url("/js/isotope/isotope.pkgd.min.js")?>"></script>
 
- <!--Magnific Popup -->
-<script src="/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!--Magnific Popup -->
+<script src="<?php echo base_url("/js/magnific-popup/jquery.magnific-popup.min.js")?>"></script>
 
 <!--Counter -->
-<script src="/js/counter/jquery.counterup.min.js"></script>
+<script src="<?php echo base_url("/js/counter/jquery.counterup.min.js")?>"></script>
 
 <!--Easing -->
-<script src="/js/easing/jquery.easing.1.3.min.js"></script>
+<script src="<?php echo base_url("/js/easing/jquery.easing.1.3.min.js")?>"></script>
 
 <!--WOW JS -->
-<script src="/js/wow/wow.min.js"></script>
+<?php echo base_url("/js/wow/wow.min.js")?>
 
 <!--Custom JS -->
-<script src="/js/script.js?version=1.0.1"></script>
+<script src="<?php echo base_url("/js/script.js")?>"></script>
 
 <script async data-id="16951" src="https://cdn.widgetwhats.com/script.min.js"></script>
 

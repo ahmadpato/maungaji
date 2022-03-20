@@ -49,7 +49,7 @@ class Home extends CI_Controller {
 		$x['url'] = "https://cms.maungaji.co.id/images";
 	
 	    $this->load->view("header");
-	    $this->load->view("home", $x);
+	    $this->load->view("home",$x);
 	    $this->load->view("footer");
 	}
 
