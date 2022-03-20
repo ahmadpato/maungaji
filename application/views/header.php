@@ -51,6 +51,14 @@ src="https://www.facebook.com/tr?id=309812377183251&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KZQR5XW');</script>
+<!-- End Google Tag Manager -->
+
  <script data-ad-client="ca-pub-6962543154354144" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
  <style>
@@ -178,6 +186,10 @@ src="https://www.facebook.com/tr?id=309812377183251&ev=PageView&noscript=1"
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="65">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZQR5XW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
      <!--Header -->
     <header>
         <nav class="navbar navbar-fixed-top">
