@@ -43,11 +43,11 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '309812377183251');
+fbq('init', '919414085406960');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=309812377183251&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=919414085406960&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
@@ -59,7 +59,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-KZQR5XW');</script>
 <!-- End Google Tag Manager -->
 
- <script data-ad-client="ca-pub-6962543154354144" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta name="facebook-domain-verification" content="gjk6vo19jb0rt5ssspse8tds0jwt2m" />
+
+<script data-ad-client="ca-pub-6962543154354144" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
  <style>
     .navbar-brand-mobile img {
