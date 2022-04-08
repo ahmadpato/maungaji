@@ -246,6 +246,7 @@
             // $packages[5]->testimony = "Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.";
 
             $packages = $price['data'];
+            
             if (isset($packages)) {
                 
                 foreach ($packages as $package) {
@@ -259,7 +260,7 @@
                     } else {
                         $container_class = $package['package_name'];
                     }
-                ?>
+                    ?>
                     <div class="card text-center package-card <?php echo $container_class; ?>">
                         <img class="card-img-top" src="<?php echo base_url('img/icon/new/keluarga.svg') ?>" alt="">
                         <div class="card-body">
