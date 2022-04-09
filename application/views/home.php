@@ -260,6 +260,14 @@
                     } else {
                         $container_class = $package['package_name'];
                     }
+
+                    if ($package['session_type'] == 'monthly') {
+                        $session_type = 'bulan';
+                    } else {
+                        $session_type = 'pertemuan';
+                    }
+
+
                     ?>
                     <div class="card text-center package-card <?php echo $container_class; ?>">
                         <img class="card-img-top" src="<?php echo base_url('img/icon/new/keluarga.svg') ?>" alt="">
@@ -267,7 +275,7 @@
                             <h3 class="package-name"><?php echo $package['package_name']; ?></h3>
                             <br />
                             <p class="package-price">
-                                <?php echo $package['price']; ?>/<span>pertemuan</span>
+                                <?php echo $package['price']; ?>/<span><?php echo $session_type; ?></span>
                             </p>
                             <br />
                             <div class="col-sm-6 package-detail">
