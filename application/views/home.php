@@ -262,11 +262,10 @@
                     }
 
                     if ($package['session_type'] == 'monthly') {
-                        $session_type = 'bulan';
+                        $session_type = 'Bulan';
                     } else {
-                        $session_type = 'pertemuan';
+                        $session_type = 'Pertemuan';
                     }
-
 
                     ?>
                     <div class="card text-center package-card <?php echo $container_class; ?>">
@@ -275,7 +274,10 @@
                             <h3 class="package-name"><?php echo $package['package_name']; ?></h3>
                             <br />
                             <p class="package-price">
-                                <?php echo $package['price']; ?>/<span><?php echo $session_type; ?></span>
+                            <?php
+                            $num = $package['price'];
+                            ?>
+                            Rp <?php echo number_format($num, 0, ",", ".") ; ?>/<span><?php echo $session_type; ?></span>
                             </p>
                             <br />
                             <div class="col-sm-6 package-detail">
