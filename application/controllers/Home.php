@@ -37,6 +37,9 @@ class Home extends CI_Controller {
 		//end point for price
 		$price = $this->http_request("https://cms.maungaji.co.id/price/getPrice");
 
+		//end point for partners
+		$partner = $this->http_request("https://cms.maungaji.co.id/partner/getPartner");
+
 		// change string JSON to array
 		
 		$x['count'] = json_decode($countData, TRUE);
@@ -50,6 +53,8 @@ class Home extends CI_Controller {
 		$x['report'] = json_decode($report, TRUE);
 
 		$x['price'] = json_decode($price, TRUE);
+
+		$x['partner'] = json_decode($partner, TRUE);
 		
 		//get url images
 		$x['url'] = "https://cms.maungaji.co.id/images";

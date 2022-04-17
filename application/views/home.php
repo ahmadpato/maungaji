@@ -96,7 +96,7 @@
             <div class="row">
                 <div class="about-item text-left" style="margin-top: 100px;">
                     <div id="tech-statement">
-                        <div class="title-testimoni">Testimoni</div>
+                        <div class="title-testimoni">Apa Kata Mereka yang sudah mengajar dan belajar di Maungaji</div>
                     </div>
                     <div style="color:#8A8787">
                         <h5 style="font-size: 20px;">Kumpulan testimoni dari para santri dan guru ngaji yang sudah terdaftar di maungaji</h5>
@@ -134,10 +134,10 @@
             <div class="row">
                 <div class="about-item text-left">
                     <div id="tech-statement">
-                        <h3 style="font-size: 40px; font-family: 'Poppins'; font-weight: 1000;">Pilihan Kelas</h3>
+                        <h3 style="font-size: 40px; font-family: 'Poppins'; font-weight: 1000;">Pilihan Mengaji</h3>
                     </div>
                     <div class="new-text">
-                        <p style="font-size: 24px; line-height: normal;">Di Maungaji kamu bisa memilih salah satu di antara tiga jenis kelas</p>
+                        <p style="font-size: 24px; line-height: normal;">Kamu bisa pilih lebih dari 1 materi dibawah ini</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -175,10 +175,18 @@
             <div class="row">
                 <div class="about-item text-left">
                     <div id="tech-statement">
-                        <div class="text-choose-package" style="margin-top: 100px;">Pilih Paket Belajar-Mu</div>
+                        <div class="text-choose-package" style="margin-top: 100px;">Pilih Paket Mengaji mu</div>
                     </div>
+                    <form action="" style="font-size: 20px;">
+                        <label class="radio-inline">
+                            <input type="radio" name="learningPackages" id="package_online" value="online"> <strong>Paket online</strong>
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="learningPackages" id="package_offline" value="offline"> <strong>Paket offline</strong>
+                        </label>
+                    </form>
                     <div style="color:#8A8787">
-                        <h5 style="font-size: 20px;">Paket Pertemuan adalah paket yang pembayarannya dilakukan setiap 1x pertemuan</h5>
+                        <h5 style="font-size: 20px;">Mengaji lebih seru dengan paket bulanan yang sesuai dengan kebutuhan mu</h5>
                     </div>
                 </div>
             </div>
@@ -190,69 +198,18 @@
             {
                 public $name;
                 public $price;
+                public $partner;
                 public $class_type;
                 public $max_student;
                 public $study_duration;
                 public $testimony;
             }
-            // $packages = array();
-
-            // $packages[0] = new StudyPackage();
-            // $packages[0]->name = "keluarga";
-            // $packages[0]->price = "75K";
-            // $packages[0]->class_type = "Online";
-            // $packages[0]->max_student = "4";
-            // $packages[0]->study_duration = "90";
-            // $packages[0]->testimony = "Belajar ngaji bersama guru ngaji secara online dan sertakan anggota keluarga Anda untuk belajar bersama.";
-
-            // $packages[1] = new StudyPackage();
-            // $packages[1]->name = "keluarga";
-            // $packages[1]->price = "150K";
-            // $packages[1]->class_type = "Offline";
-            // $packages[1]->max_student = "4";
-            // $packages[1]->study_duration = "90";
-            // $packages[1]->testimony = "Belajar ngaji bersama guru ngaji secara offline dan sertakan anggota keluarga Anda untuk belajar bersama.";
-
-            // $packages[2] = new StudyPackage();
-            // $packages[2]->name = "kelompok";
-            // $packages[2]->price = "100K";
-            // $packages[2]->class_type = "Online";
-            // $packages[2]->max_student = "10";
-            // $packages[2]->study_duration = "120";
-            // $packages[2]->testimony = "Belajar ngaji bersama guru ngaji secara online dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.";
-
-            // $packages[3] = new StudyPackage();
-            // $packages[3]->name = "kelompok";
-            // $packages[3]->price = "200K";
-            // $packages[3]->class_type = "Offline";
-            // $packages[3]->max_student = "10";
-            // $packages[3]->study_duration = "120";
-            // $packages[3]->testimony = "Belajar ngaji bersama guru ngaji secara offline dengan sensasi belajar di dalam kelas, Anda bisa mengajak hingga 10 orang untuk ikut belajar.";
-
-            // $packages[4] = new StudyPackage();
-            // $packages[4]->name = "personal";
-            // $packages[4]->price = "50K";
-            // $packages[4]->class_type = "Online";
-            // $packages[4]->max_student = "1";
-            // $packages[4]->study_duration = "60";
-            // $packages[4]->testimony = "Belajar ngaji bersama guru ngaji secara online dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.";
-
-            // $packages[5] = new StudyPackage();
-            // $packages[5]->name = "personal";
-            // $packages[5]->price = "100K";
-            // $packages[5]->class_type = "Offline";
-            // $packages[5]->max_student = "1";
-            // $packages[5]->study_duration = "60";
-            // $packages[5]->testimony = "Belajar ngaji bersama guru ngaji secara offline dan privat. Cocok untuk Anda yang lebih suka pembelajaran 1 on 1 dengan guru.";
 
             $packages = $price['data'];
-            
-            if (isset($packages)) {
-                
-                foreach ($packages as $package) {
-                    // echo 'Sedap <br>';
-                    // var_dump($package);
 
+            if (isset($packages)) {
+
+                foreach ($packages as $package) {
                     if ($package['package_name'] == 'family') {
                         $container_class = 'keluarga';
                     } elseif ($package['package_name'] == 'group') {
@@ -268,8 +225,8 @@
                     }
 
 
-                    ?>
-                    <div class="card text-center package-card <?php echo $container_class; ?>">
+            ?>
+                    <div class="card text-center package-card <?php echo $container_class; ?> <?php echo $package['class_type']; ?>">
                         <img class="card-img-top" src="<?php echo base_url('img/icon/new/keluarga.svg') ?>" alt="">
                         <div class="card-body">
                             <h3 class="package-name"><?php echo $package['package_name']; ?></h3>
@@ -292,12 +249,12 @@
                             </p>
                         </div>
                     </div>
-                <?php
+            <?php
                 }
             }
-                ?>
-            
-            
+            ?>
+
+
 
         </div>
     </div>
@@ -358,7 +315,7 @@
                             </div>
                             <div class="text-center">
                                 <p class="text-register-student text-center" style="color: #3597D4;">
-                                    <a href="https://linktr.ee/Maungaji" target="_blank">Daftar Jadi Santri Ngaji <i class="fa fa-arrow-right"></i>
+                                    <a href="https://bit.ly/Maungajiapa" target="_blank">Daftar Jadi Santri Ngaji <i class="fa fa-arrow-right"></i>
                                     </a>
                                 </p>
                             </div>
@@ -397,7 +354,7 @@
                             </div>
                             <div class="text-center">
                                 <p class="text-register-teacher text-center" style="color: #3597D4;">
-                                    <a href="https://play.google.com/store/apps/details?id=com.maungaji.guruapp" target="_blank">Daftar Jadi Guru Ngaji <i class="fa fa-arrow-right"></i></a>
+                                    <a href="https://bit.ly/Maungajiapa" target="_blank">Daftar Jadi Guru Ngaji <i class="fa fa-arrow-right"></i></a>
                                 </p>
                             </div>
                         </div>
@@ -499,12 +456,18 @@
     </div>
 
     <!-- Faq -->
-    <div id="faq" class="container">
-        <div id="tech-statement" class="text-left" style="margin-top: 200px;">
-            <div class="vertical-heading">
-                <h3 style="font-size:50px; font-family: 'Poppins'; font-weight: 1000;">FAQ</h3>
+    <div id="faq" class="container" style="margin-top: 200px;">
+        <div class="row">
+            <div class="about-item text-left">
+                <div id="tech-statement" class="text-left">
+                    <h3 style="font-size:50px; font-family: 'Poppins'; font-weight: 1000;">FAQ</h3>
+                </div>
+                <div style="color:#8A8787">
+                    <h5 style="font-size: 20px;">Yang biasa di tanyakan oleh ayah, bunda, atau kaka yang ingin mengaji</h5>
+                </div>
             </div>
         </div>
+
         <?php
         if ($faq) {
             foreach ($faq['data'] as $dataFaq) {
@@ -541,7 +504,7 @@
                         <h3 style="font-size: 50px; font-family: 'Poppins'; font-weight: 1000;">Artikel</h3>
                     </div>
                     <div style="color:#8A8787">
-                        <h5 style="font-size: 20px;">Kumpulan artikel terbaru yang ada di maungaji</h5>
+                        <h5 style="font-size: 20px;">Baca informasi terbaru seputar Al-Quran dan islami disini</h5>
                     </div>
                 </div>
             </div>
@@ -587,7 +550,7 @@
     <div id="tech-statement" class="text-center" style="margin-top: 50px;">
         <div class="vertical-heading">
             <div class="media">
-                Maungaji Telah diliput Oleh
+                Telah Diliput dan Bekerja Sama Dengan
             </div>
         </div>
     </div>
@@ -596,13 +559,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 wow fadeIn">
-                    <div id="logo" class="text-center">
+                    <div id="logo" class="text-center" style="margin-bottom: 50px;">
                         <div class="vertical-heading">
-                            <ul>
-                                <img src="<?php echo base_url('img/icon/koran-tempo.png') ?>" class="img-responsive img-media-tempo" width="200px" height="auto" alt="Koran Tempo">
-                                <img src="<?php echo base_url('/img/icon/go-muslim.png') ?>" class="img-responsive img-media-gomuslim" width="200px" height="auto" alt="gomuslim">
-                                <img src="<?php echo base_url('img/icon/republika.png') ?>" class="img-responsive img-media-republika" width="200px" height="auto">
-                                <img src="<?php echo base_url('/img/icon/republika_ramadhan.png') ?>" class="img-responsive img-media-republika-ramadhan" width="200px" height="auto" alt="Republika">
+                            <ul class="list-inline">
+                                <?php
+                                $partners = $partner['data'];
+                                foreach ($partners as $partner) {
+                                ?>
+                                    <li>
+                                        <a href="<?php echo $partner['url'] ?>">
+                                            <img src="<?php echo 'http://cms.maungaji.co.id/images/' . $partner['photo']; ?>" class="img-responsive img-media-tempo" width="200px" height="auto" alt="<?php echo $partner['description'] ?>">
+                                        </a>
+                                    </li>
+                                <?php
+                                }
+                                ?>
                             </ul>
                         </div>
                     </div>

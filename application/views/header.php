@@ -171,8 +171,16 @@ ini_set('display_errors', 1);
         font-size: 27px;
         font-family: "Poppins";
         font-weight: 1000;
-        margin-top: 100px;
+        margin-top: 0px !important;
         color: #3597d4;
+      }
+
+      #chosing-class.content-box-md {
+        padding-bottom: 0px !important;
+      }
+
+      .vertical-heading {
+        text-align: left !important;
       }
 
       .media {
