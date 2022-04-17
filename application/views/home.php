@@ -96,10 +96,10 @@
             <div class="row">
                 <div class="about-item text-left" style="margin-top: 100px;">
                     <div id="tech-statement">
-                        <div class="title-testimoni">Apa Kata Mereka yang sudah mengajar dan belajar di Maungaji</div>
+                        <div class="title-testimoni">Testimoni</div>
                     </div>
                     <div style="color:#8A8787">
-                        <h5 style="font-size: 20px;">Kumpulan testimoni dari para santri dan guru ngaji yang sudah terdaftar di maungaji</h5>
+                        <h5 style="font-size: 20px;">Apa Kata Mereka yang sudah mengajar dan belajar di Maungaji</h5>
                     </div>
                 </div>
             </div>
@@ -232,10 +232,10 @@
                             <h3 class="package-name"><?php echo $package['package_name']; ?></h3>
                             <br />
                             <p class="package-price">
-                            <?php
-                            $num = $package['price'];
-                            ?>
-                            Rp <?php echo number_format($num, 0, ",", ".") ; ?>/<span><?php echo $session_type; ?></span>
+                                <?php
+                                $num = $package['price'];
+                                ?>
+                                Rp <?php echo number_format($num, 0, ",", "."); ?>/<span><?php echo $session_type; ?></span>
                             </p>
                             <br />
                             <div class="col-sm-6 package-detail">
