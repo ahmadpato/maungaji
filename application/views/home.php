@@ -562,9 +562,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 wow fadeIn">
-                    <div id="logo" class="text-center" style="margin-bottom: 50px;">
+                    <div id="logo" class="text-center" style="margin-bottom: 50px; margin-top: 25px;">
                         <div class="vertical-heading">
-                            <ul class="list-inline">
+                            <ul class="list-inline text-center">
                                 <?php
                                 $partners = $partner['data'];
                                 foreach ($partners as $partner) {

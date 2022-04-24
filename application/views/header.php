@@ -84,10 +84,8 @@ ini_set('display_errors', 1);
   <script data-ad-client="ca-pub-6962543154354144" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
   <style>
-    .navbar-brand-mobile img {
-      margin-top: -10px !important;
-      height: 50px;
-      /* width: 65%; */
+    #logo ul li img {
+      margin-top: 25px;
     }
 
     .package-card .package-price {
@@ -108,6 +106,11 @@ ini_set('display_errors', 1);
     }
 
     @media screen and (max-width: 1100px) {
+      #tech-statement .media {
+        line-height: 35px;
+        padding: 20px;
+      }
+
       #socmed {
         display: none;
       }
@@ -271,6 +274,20 @@ ini_set('display_errors', 1);
 
       .package-card .package-price span {
         font-size: 20px;
+      }
+    }
+
+    @media screen and (max-width: 710px) {
+      #logo ul {
+        width: 455px;
+        margin: auto;
+      }
+    }
+
+    @media screen and (max-width: 485px) {
+      #logo ul {
+        width: 200px;
+        margin: auto;
       }
     }
   </style>
