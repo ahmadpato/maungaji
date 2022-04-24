@@ -134,7 +134,7 @@
             <div class="row">
                 <div class="about-item text-left">
                     <div id="tech-statement">
-                        <h3 style="font-size: 40px; font-family: 'Poppins'; font-weight: 1000;">Pilihan Mengaji</h3>
+                        <h3 style="font-size: 35px; font-family: 'Poppins'; font-weight: 1000;">Pilihan Mengaji</h3>
                     </div>
                     <div class="new-text">
                         <p style="font-size: 24px; line-height: normal;">Kamu bisa pilih lebih dari 1 materi dibawah ini</p>
