@@ -125,7 +125,7 @@
                 responsiveClass: true,
                 autoplay: true,
                 nav: true,
-                navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+                navText : ["<i class='fa fa-chevron-left' style='color: #3597d4;'></i>","<i class='fa fa-chevron-right' style='color: #3597d4;'></i>"]
             });
         };
 
