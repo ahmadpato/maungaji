@@ -84,6 +84,12 @@ ini_set('display_errors', 1);
   <script data-ad-client="ca-pub-6962543154354144" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
   <style>
+    .testimony-video-description p {
+      font-family: Poppins;
+      font-size: 24px;
+      text-align: left;
+      line-height: normal;
+    }
     #logo ul li img {
       margin-top: 25px;
     }
@@ -254,7 +260,46 @@ ini_set('display_errors', 1);
       }
     }
 
+    .gtco-testimonials .owl-carousel2 .owl-nav {
+      display: block!important;
+    }
+
+    .owl-prev {
+        width: 15px;
+        height: 100px;
+        position: absolute;
+        top: 40%;
+        margin-left: -20px !important;
+        display: block !important;
+        border:0px solid black;
+    }
+
+    .owl-next {
+        width: 15px;
+        height: 100px;
+        position: absolute;
+        top: 40%;
+        right: 0px !important;
+        display: block !important;
+        border:0px solid black;
+    }
+
+    .owl-carousel2 .owl-item {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
     @media screen and (max-width: 992px) {
+      .testimony-video-carousel {
+        margin-bottom: 50px;
+      }
+      .testimony-video-description {
+        margin-top: 20px;
+      }
+
+      .gtco-testimonials .card {
+        margin: 0 40px !important;
+      }
 
       .text-student,
       .text-count-student,
@@ -262,6 +307,14 @@ ini_set('display_errors', 1);
       .text-count-teacher {
         font-size: 30px !important;
         height: 80px;
+      }
+
+      .owl-prev {
+          top: 5%;
+      }
+
+      .owl-next {
+          top: 5%;
       }
     }
 

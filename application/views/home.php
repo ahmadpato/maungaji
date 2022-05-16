@@ -103,6 +103,27 @@
                     </div>
                 </div>
             </div>
+            <div class="owl-carousel owl-carousel2 owl-theme testimony-video-carousel" style="margin-top: -50px; margin-bottom: 100px;">
+                <?php
+                if ($video) {
+                    foreach ($video['data'] as $video_data) {
+                ?>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <video controls="" style="width:100%;">
+                                <source src="http://cms.maungaji.co.id/images/<?php echo $video_data['video']; ?>" width="320" height="240" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="col-md-6 testimony-video-description">
+                            <?php echo $video_data['description']; ?>
+                        </div>
+                    </div>
+                <?php
+                    }
+                }
+                ?>
+            </div>
         </div>
         <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
             <?php

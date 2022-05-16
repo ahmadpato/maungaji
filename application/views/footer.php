@@ -116,6 +116,17 @@
                     }
                 }
             });
+
+            $(".owl-carousel2").owlCarousel({
+                loop: true,
+                items: 1,
+                center: true,
+                margin: 0,
+                responsiveClass: true,
+                autoplay: true,
+                nav: true,
+                navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+            });
         };
 
         carousels()
