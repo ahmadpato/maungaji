@@ -322,7 +322,7 @@
                         <div class="col-xs-12">
                             <div class="text-count-student text-center pull-left" style="font-size:48px;">
                                 <?php if (!empty($report)) { ?>
-                                    <?php echo $report['data'] ?>
+                                    <?php echo number_format($report['data'], 0, ",", "."); ?>
                                 <?php } ?>
                             </div>
                             <div class="text-student text-center pull-left" style="font-size:48px;">
