@@ -111,7 +111,7 @@
                     
                     <div class="row">
                         <div class="col-md-6">
-                            <video controls="" style="width:100%;">
+                            <video controls="" style="width:100%;border-radius: 20px;">
                                 <source src="http://cms.maungaji.co.id/images/<?php echo $video_data['video']; ?>" width="320" height="240" type="video/mp4">
                             </video>
                         </div>
@@ -303,7 +303,7 @@
 
                             <div class="text-count-student text-center pull-left" style="font-size:48px;">
                                 <?php if (!empty($report)) { ?>
-                                    <?php echo $report['data'] ?>
+                                    <?php echo number_format($report['data'][0]['report'], 0, ",", "."); ?>
                                 <?php } ?>
                             </div>
                             <div class="text-student text-center pull-left" style="font-size:48px;">
@@ -322,7 +322,7 @@
                         <div class="col-xs-12">
                             <div class="text-count-student text-center pull-left" style="font-size:48px;">
                                 <?php if (!empty($report)) { ?>
-                                    <?php echo $report['data'] ?>
+                                    <?php echo number_format($report['data'][0]['report'], 0, ",", "."); ?>
                                 <?php } ?>
                             </div>
                             <div class="text-student text-center pull-left" style="font-size:48px;">
