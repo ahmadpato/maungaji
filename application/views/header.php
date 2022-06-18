@@ -16,7 +16,7 @@ ini_set('display_errors', 1);
   <title>Maungaji | Pesan Guru Ngaji Privat</title>
 
   <!--Basic SEO -->
-  <meta name="description" content="Privat ngaji di tempat yang kamu tentukan, murah, mudah dan sesuai syariah.">
+  <meta name="description" content="Belajar Mengaji Makin Mudah dengan Guru Ngaji Terbaik se-Indonesia Tatap Muka Langsung ataupun Kelas Online. Mudah, Murah dan Sesuai Syariah.">
   <meta name="keywords" content="guru ngaji, guru ngaji online, belajar ngaji, belajar iqro, belajar al-quran, belajar tahsin, hafidz qur'an, aplikasi ngaji online, belajar iqro online, belajar al-quran online, ngaji online, privat ngaji, guru ngaji, guru ngaji profesional, privat ngaji online, ngaji, guru ngaji berkualitas">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -90,6 +90,7 @@ ini_set('display_errors', 1);
       text-align: left;
       line-height: normal;
     }
+
     #logo ul li img {
       margin-top: 25px;
     }
@@ -261,27 +262,27 @@ ini_set('display_errors', 1);
     }
 
     .gtco-testimonials .owl-carousel2 .owl-nav {
-      display: block!important;
+      display: block !important;
     }
 
     .owl-prev {
-        width: 15px;
-        height: 100px;
-        position: absolute;
-        top: 40%;
-        margin-left: -20px !important;
-        display: block !important;
-        border:0px solid black;
+      width: 15px;
+      height: 100px;
+      position: absolute;
+      top: 40%;
+      margin-left: -20px !important;
+      display: block !important;
+      border: 0px solid black;
     }
 
     .owl-next {
-        width: 15px;
-        height: 100px;
-        position: absolute;
-        top: 40%;
-        right: 0px !important;
-        display: block !important;
-        border:0px solid black;
+      width: 15px;
+      height: 100px;
+      position: absolute;
+      top: 40%;
+      right: 0px !important;
+      display: block !important;
+      border: 0px solid black;
     }
 
     .owl-carousel2 .owl-item {
@@ -293,6 +294,7 @@ ini_set('display_errors', 1);
       .testimony-video-carousel {
         margin-bottom: 50px;
       }
+
       .testimony-video-description {
         margin-top: 20px;
       }
@@ -310,11 +312,11 @@ ini_set('display_errors', 1);
       }
 
       .owl-prev {
-          top: 5%;
+        top: 5%;
       }
 
       .owl-next {
-          top: 5%;
+        top: 5%;
       }
     }
 
