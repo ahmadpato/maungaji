@@ -25,14 +25,14 @@ class Home extends CI_Controller {
         //end point for article
         $article = $this->http_request("https://blog.maungaji.co.id/wp-json/wp/v2/posts?per_page=5");
 
-        //end point for testimoni
-        $testimoni = $this->http_request("https://app.maungaji.co.id/api/testimoni");
+		//end point for testimoni
+		$testimoni = $this->http_request("https://app.maungaji.co.id/api/testimoni");
 
-        //end point for faq
-        $faq = $this->http_request("https://app.maungaji.co.id/api/faq");
+		//end point for faq
+		$faq = $this->http_request("https://app.maungaji.co.id/api/faq");
 
 		//end point for summary report
-        $report = $this->http_request("https://app.maungaji.co.id/api/report");
+		$report = $this->http_request("https://app.maungaji.co.id/api/report");
 
 		//end point for price
 		$price = $this->http_request("https://app.maungaji.co.id/api/price");
