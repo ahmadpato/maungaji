@@ -111,7 +111,7 @@
                     
                     <div class="row">
                         <div class="col-md-6">
-                            <video controls="" style="width:100%;border-radius: 20px;" muted playsinline>
+                            <video controls="" style="width:100%;border-radius: 20px;" muted playsinline preload='auto'>
                                 <source src="http://cms.maungaji.co.id/images/<?php echo $video_data['video']; ?>" width="320" height="240" type="video/mp4">
                             </video>
                         </div>
