@@ -108,17 +108,17 @@
                 if ($video) {
                     foreach ($video['data'] as $video_data) {
                 ?>
-                    
-                    <div class="row">
-                        <div class="col-md-6">
-                            <video controls="" style="width:100%;border-radius: 20px;" muted playsinline preload='auto'>
-                                <source src="http://cms.maungaji.co.id/images/<?php echo $video_data['video']; ?>" width="320" height="240" type="video/mp4">
-                            </video>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <video controls="" style="width:100%;border-radius: 20px;" muted playsinline preload='auto'>
+                                    <source src="http://cms.maungaji.co.id/images/<?php echo $video_data['video']; ?>" width="320" height="240" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="col-md-6 testimony-video-description">
+                                <?php echo $video_data['description']; ?>
+                            </div>
                         </div>
-                        <div class="col-md-6 testimony-video-description">
-                            <?php echo $video_data['description']; ?>
-                        </div>
-                    </div>
                 <?php
                     }
                 }
@@ -268,9 +268,10 @@
                             <div class="col-sm-12  package-detail">
                                 Durasi Belajar: <?php echo $package['learning_duration']; ?> Menit
                             </div>
-                            <p class="package-description">
+                            <div class="pb-5">
                                 <?php echo $package['description']; ?>
-                            </p>
+                                <a href="<?php echo $package['url_woocommerce']; ?>"><button class="btn btn-warning" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Pilih</button></a>
+                            </div>
                         </div>
                     </div>
             <?php

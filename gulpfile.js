@@ -1,6 +1,6 @@
 // Import dependencies
 var gulp = require('gulp')
-var sass = require('gulp-sass')
+var sass = require('gulp-sass')(require('sass'))
 var rename = require("gulp-rename")
 var uglify = require('gulp-uglify')
 var browserSync = require('browser-sync').create()
