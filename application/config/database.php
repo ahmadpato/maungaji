@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	// 'hostname' => 'localhost',
-	'username' => 'maungaji_admin',
-	// 'username' => 'root',
-	'password' => 'Ahmad@123456!',
+	'hostname' => 'localhost',
+	// 'username' => 'maungaji_admin',
+	'username' => 'root',
+	// 'password' => 'Ahmad@123456!',
 	'password' => '',
 	'database' => 'maungaji_cms',
 	'dbdriver' => 'mysqli',

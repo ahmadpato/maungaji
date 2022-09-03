@@ -103,49 +103,21 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel owl-carousel2 owl-theme testimony-video-carousel" style="margin-top: -50px; margin-bottom: 100px;">
-                <?php
-                if ($video) {
-                    foreach ($video['data'] as $video_data) {
-                ?>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <video controls="" style="width:100%;border-radius: 20px;" muted playsinline preload='auto'>
-                                    <source src="http://cms.maungaji.co.id/images/<?php echo $video_data['video']; ?>" width="320" height="240" type="video/mp4">
-                                </video>
-                            </div>
-                            <div class="col-md-6 testimony-video-description">
-                                <?php echo $video_data['description']; ?>
-                            </div>
-                        </div>
-                <?php
-                    }
-                }
-                ?>
+            <div class="lds-ellipsis video-list-loading">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
+            <div class="owl-carousel owl-carousel2 owl-theme testimony-video-carousel video-list" style="margin-top: -50px; margin-bottom: 100px;"></div>
         </div>
-        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
-            <?php
-            if ($testimoni) {
-                foreach ($testimoni['data'] as $testi_data) {
-            ?>
-                    <div>
-                        <div class="card text-center pt-5 testimony-card">
-                            <div class="profile-photo center-block mb-5" style="background: url(<?php echo $url . '/' . $testi_data['photo'] ?>"></div>
-                            <div>
-                                <h5><strong><?php echo $testi_data['fullname']; ?></strong></h5><br />
-                                <div>
-                                    <?php echo $testi_data['comment']; ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            <?php
-                }
-            }
-            ?>
+        <div class="lds-ellipsis testimony-list-loading">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
+        <div class="owl-carousel owl-carousel1 owl-theme testimony-list" style="margin-top: -50px;"></div>
     </div>
     <!--end testimoni-->
 
@@ -212,8 +184,13 @@
                 </div>
             </div>
         </div>
-
-        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
+        <div class="lds-ellipsis package-list-loading">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="owl-carousel owl-carousel1 owl-theme package-list" style="margin-top: -50px;">
             <?php
             class StudyPackage
             {
@@ -226,28 +203,28 @@
                 public $testimony;
             }
 
-            $packages = $price['data'];
+            // $packages = $price['data'];
 
-            if (isset($packages)) {
+            // if (isset($packages)) {
 
-                foreach ($packages as $package) {
-                    if ($package['package_name'] == 'family') {
-                        $container_class = 'keluarga';
-                    } elseif ($package['package_name'] == 'group') {
-                        $container_class = 'kelompok';
-                    } else {
-                        $container_class = $package['package_name'];
-                    }
+            //     foreach ($packages as $package) {
+            //         if ($package['package_name'] == 'family') {
+            //             $container_class = 'keluarga';
+            //         } elseif ($package['package_name'] == 'group') {
+            //             $container_class = 'kelompok';
+            //         } else {
+            //             $container_class = $package['package_name'];
+            //         }
 
-                    if ($package['session_type'] == 'monthly') {
-                        $session_type = 'Bulan';
-                    } else {
-                        $session_type = 'Pertemuan';
-                    }
+            //         if ($package['session_type'] == 'monthly') {
+            //             $session_type = 'Bulan';
+            //         } else {
+            //             $session_type = 'Pertemuan';
+            //         }
 
 
             ?>
-                    <div class="card text-center package-card <?php echo $container_class; ?> <?php echo $package['class_type']; ?>">
+            <!-- <div class="card text-center package-card <?php echo $container_class; ?> <?php echo $package['class_type']; ?>">
                         <img class="card-img-top" src="<?php echo base_url('img/icon/new/keluarga.svg') ?>" alt="">
                         <div class="card-body">
                             <h3 class="package-name"><?php echo $package['package_name']; ?></h3>
@@ -273,10 +250,10 @@
                                 <a href="<?php echo $package['url_woocommerce']; ?>"><button class="btn btn-warning" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Pilih</button></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
             <?php
-                }
-            }
+            //     }
+            // }
             ?>
 
 
@@ -303,9 +280,9 @@
                             </div> -->
 
                             <div class="text-count-student text-center pull-left" style="font-size:48px;">
-                                <?php if (!empty($report)) { ?>
+                                <!-- <?php if (!empty($report)) { ?>
                                     <?php echo number_format($report['data'][0]['report'], 0, ",", "."); ?>
-                                <?php } ?>
+                                <?php } ?> -->
                             </div>
                             <div class="text-student text-center pull-left" style="font-size:48px;">
                                 PERTEMUAN
@@ -322,9 +299,9 @@
                     <div class="row hidden-xs">
                         <div class="col-xs-12">
                             <div class="text-count-student text-center pull-left" style="font-size:48px;">
-                                <?php if (!empty($report)) { ?>
+                                <!-- <?php if (!empty($report)) { ?>
                                     <?php echo number_format($report['data'][0]['report'], 0, ",", "."); ?>
-                                <?php } ?>
+                                <?php } ?> -->
                             </div>
                             <div class="text-student text-center pull-left" style="font-size:48px;">
                                 PERTEMUAN
@@ -493,30 +470,7 @@
             </div>
         </div>
 
-        <?php
-        if ($faq) {
-            foreach ($faq['data'] as $dataFaq) {
-        ?>
-                <div class="panel-group" id="faqAccordion">
-                    <div class="panel panel-default ">
-                        <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0" style="background: #3597D4">
-                            <h4 class="panel-title">
-                                <div style="color:#FFFFFF; font-family:Poppins;">
-                                    <?php echo $dataFaq['question']; ?>
-                                </div>
-                            </h4>
-                        </div>
-                        <div class="panel-body">
-                            <p style="font-family:Poppins;">
-                                <?php echo $dataFaq['answer']; ?>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-        <?php
-            }
-        }
-        ?>
+        <div class="faq-list"></div>
     </div>
     <!--End Faq-->
 
@@ -534,41 +488,13 @@
                 </div>
             </div>
         </div>
-
-        <div class="owl-carousel owl-carousel1 owl-theme" style="margin-top: -50px;">
-            <?php
-            if ($article) {
-                foreach ($article as $art) {
-            ?>
-                    <div class="card text-center" style="background: #FFFFFF">
-                        <img class="img-article img-responsive" src="<?php if (!empty($article)) { ?>
-                                    <?php echo $art['jetpack_featured_media_url'] ?>
-                                    <?php } ?>" alt="">
-                        <div class="card-body" style="font-family:Poppins;">
-                            <br />
-                            <p class="card-text" style="color:#263238; font-family:Poppins; margin-top:10px;background-color: #FFFFFF;border: 1px solid #FFFFFF;
-                                    box-sizing: border-box;
-                                    border-radius: 16px;
-                                    font-weight: 600;
-                                    ">
-                                <?php if (!empty($article)) { ?>
-                                    <?php echo $art['title']['rendered'] ?>
-                                <?php } ?>
-                            </p>
-                            <br />
-                        </div>
-
-                        <div class="text-center">
-                            <p>
-                                <a href="<?php if (!empty($article)) { ?> <?php echo $art['link'] ?> <?php } ?>" class="btn btn-warning btn-lg" role="button" target="_blank" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Read More</a>
-                            </p>
-                        </div>
-                    </div>
-            <?php
-                }
-            }
-            ?>
+        <div class="lds-ellipsis article-list-loading">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
+        <div class="owl-carousel owl-carousel1 owl-theme article-list" style="margin-top: -50px;"></div>
     </div>
     <!--end article-->
 
@@ -586,19 +512,13 @@
                 <div class="col-md-12 wow fadeIn">
                     <div id="logo" class="text-center" style="margin-bottom: 50px; margin-top: 25px;">
                         <div class="vertical-heading">
-                            <ul class="list-inline text-center">
-                                <?php
-                                $partners = $partner['data'];
-                                foreach ($partners as $partner) {
-                                ?>
-                                    <li>
-                                        <a href="<?php echo $partner['url'] ?>">
-                                            <img src="<?php echo 'http://cms.maungaji.co.id/images/' . $partner['photo']; ?>" class="img-responsive img-media-tempo" width="200px" height="auto" alt="<?php echo $partner['description'] ?>">
-                                        </a>
-                                    </li>
-                                <?php
-                                }
-                                ?>
+                            <div class="lds-ellipsis article-list-loading">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <ul class="list-inline text-center partner-list">
                             </ul>
                         </div>
                     </div>

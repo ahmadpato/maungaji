@@ -88,64 +88,9 @@
 
 <!--Custom JS -->
 <script src="<?php echo base_url("/js/script.js") ?>"></script>
+<script src="<?php echo base_url("/js/home.min.js") ?>"></script>
 
 <script async data-id="16951" src="https://cdn.widgetwhats.com/script.min.js"></script>
-
-<script>
-    $(function() {
-        var carousels = function() {
-            $(".owl-carousel1").owlCarousel({
-                loop: true,
-                center: true,
-                margin: 0,
-                responsiveClass: true,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    680: {
-                        items: 2,
-                        nav: false,
-                        loop: false
-                    },
-                    1000: {
-                        items: 3,
-                        nav: true
-                    }
-                }
-            });
-
-            $(".owl-carousel2").owlCarousel({
-                loop: true,
-                items: 1,
-                center: true,
-                margin: 0,
-                responsiveClass: true,
-                nav: true,
-                navText : ["<i class='fa fa-chevron-left' style='color: #3597d4;'></i>","<i class='fa fa-chevron-right' style='color: #3597d4;'></i>"]
-            });
-        };
-
-        carousels()
-
-        $('[data-toggle="tooltip"]').tooltip();
-
-        $('#package_online').change(function() {
-            if ($(this).is(':checked')) {
-                $('.package-card.online').parent().removeClass('hidden')
-                $('.package-card.offline').parent().addClass('hidden')
-            }
-        })
-        $('#package_offline').change(function() {
-            if ($(this).is(':checked')) {
-                $('.package-card.online').parent().addClass('hidden')
-                $('.package-card.offline').parent().removeClass('hidden')
-            }
-        })
-    });
-</script>
 
 </body>
 
