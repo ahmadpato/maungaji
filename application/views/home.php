@@ -103,7 +103,7 @@
                     </div>
                 </div>
             </div>
-            <div class="lds-ellipsis video-list-loading">
+            <div class="lds-ellipsis video-list-loading mx-auto">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -111,7 +111,7 @@
             </div>
             <div class="owl-carousel owl-carousel2 owl-theme testimony-video-carousel video-list" style="margin-top: -50px; margin-bottom: 100px;"></div>
         </div>
-        <div class="lds-ellipsis testimony-list-loading">
+        <div class="lds-ellipsis testimony-list-loading mx-auto">
             <div></div>
             <div></div>
             <div></div>
@@ -184,7 +184,7 @@
                 </div>
             </div>
         </div>
-        <div class="lds-ellipsis package-list-loading">
+        <div class="lds-ellipsis package-list-loading mx-auto">
             <div></div>
             <div></div>
             <div></div>
@@ -488,7 +488,7 @@
                 </div>
             </div>
         </div>
-        <div class="lds-ellipsis article-list-loading">
+        <div class="lds-ellipsis article-list-loading mx-auto">
             <div></div>
             <div></div>
             <div></div>
@@ -512,7 +512,7 @@
                 <div class="col-md-12 wow fadeIn">
                     <div id="logo" class="text-center" style="margin-bottom: 50px; margin-top: 25px;">
                         <div class="vertical-heading">
-                            <div class="lds-ellipsis article-list-loading">
+                            <div class="lds-ellipsis article-list-loading mx-auto">
                                 <div></div>
                                 <div></div>
                                 <div></div>

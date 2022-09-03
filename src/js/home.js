@@ -338,8 +338,7 @@ $(function() {
       }
 
       $.when(
-        loopRes(),
-        carouselLoad()
+        loopRes()
       ).then(function () {
          $('.partner-list-loading').remove()
       });

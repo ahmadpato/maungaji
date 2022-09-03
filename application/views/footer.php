@@ -88,7 +88,7 @@
 
 <!--Custom JS -->
 <script src="<?php echo base_url("/js/script.js") ?>"></script>
-<script src="<?php echo base_url("/js/home.min.js") ?>"></script>
+<script src="<?php echo base_url("/js/home.min.js?ver=1.0.0") ?>"></script>
 
 <script async data-id="16951" src="https://cdn.widgetwhats.com/script.min.js"></script>
 
