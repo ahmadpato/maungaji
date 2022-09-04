@@ -94,30 +94,42 @@
     <div class="gtco-testimonials testimonies">
         <div class="container">
             <div class="row">
-                <div class="about-item text-left" style="margin-top: 100px;">
-                    <div id="tech-statement">
-                        <div class="title-testimoni">Testimoni</div>
-                    </div>
-                    <div style="color:#8A8787">
-                        <h5 style="font-size: 20px;">Apa Kata Mereka yang sudah mengajar dan belajar di Maungaji</h5>
+                <div class="col-xs-12">
+                    <div class="about-item text-left" style="margin-top: 100px;">
+                        <div id="tech-statement">
+                            <div class="title-testimoni">Testimoni</div>
+                        </div>
+                        <div style="color:#8A8787">
+                            <h5 style="font-size: 20px;">Apa Kata Mereka yang sudah mengajar dan belajar di Maungaji</h5>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="lds-ellipsis video-list-loading mx-auto">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="lds-ellipsis video-list-loading mx-auto">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="owl-carousel owl-carousel2 owl-theme testimony-video-carousel video-list" style="margin-top: -50px; margin-bottom: 100px;"></div>
+                </div>
             </div>
-            <div class="owl-carousel owl-carousel2 owl-theme testimony-video-carousel video-list" style="margin-top: -50px; margin-bottom: 100px;"></div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="lds-ellipsis testimony-list-loading mx-auto">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="owl-carousel owl-carousel1 owl-theme testimony-list" style="margin-top: -50px;"></div>
+                </div>
+            </div>
         </div>
-        <div class="lds-ellipsis testimony-list-loading mx-auto">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="owl-carousel owl-carousel1 owl-theme testimony-list" style="margin-top: -50px;"></div>
     </div>
     <!--end testimoni-->
 
@@ -166,98 +178,36 @@
     <div class="gtco-testimonials study-packages">
         <div class="container">
             <div class="row">
-                <div class="about-item text-left">
-                    <div id="tech-statement">
-                        <div class="text-choose-package" style="margin-top: 100px;">Pilih Paket Mengaji mu</div>
-                    </div>
-                    <form action="" style="font-size: 20px;">
-                        <label class="radio-inline">
-                            <input type="radio" name="learningPackages" id="package_online" value="online"> <strong>Paket online</strong>
-                        </label>
-                        <label class="radio-inline">
-                            <input type="radio" name="learningPackages" id="package_offline" value="offline"> <strong>Paket offline</strong>
-                        </label>
-                    </form>
-                    <div style="color:#8A8787">
-                        <h5 style="font-size: 20px;">Mengaji lebih seru dengan paket bulanan yang sesuai dengan kebutuhan mu</h5>
+                <div class="col-xs-12">
+                    <div class="about-item text-left">
+                        <div id="tech-statement">
+                            <div class="text-choose-package" style="margin-top: 100px;">Pilih Paket Mengaji mu</div>
+                        </div>
+                        <form action="" style="font-size: 20px;">
+                            <label class="radio-inline">
+                                <input type="radio" name="learningPackages" id="package_online" value="online"> <strong>Paket online</strong>
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="learningPackages" id="package_offline" value="offline"> <strong>Paket offline</strong>
+                            </label>
+                        </form>
+                        <div style="color:#8A8787">
+                            <h5 style="font-size: 20px;">Mengaji lebih seru dengan paket bulanan yang sesuai dengan kebutuhan mu</h5>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="lds-ellipsis package-list-loading mx-auto">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="owl-carousel owl-carousel1 owl-theme package-list" style="margin-top: -50px;">
-            <?php
-            class StudyPackage
-            {
-                public $name;
-                public $price;
-                public $partner;
-                public $class_type;
-                public $max_student;
-                public $study_duration;
-                public $testimony;
-            }
-
-            // $packages = $price['data'];
-
-            // if (isset($packages)) {
-
-            //     foreach ($packages as $package) {
-            //         if ($package['package_name'] == 'family') {
-            //             $container_class = 'keluarga';
-            //         } elseif ($package['package_name'] == 'group') {
-            //             $container_class = 'kelompok';
-            //         } else {
-            //             $container_class = $package['package_name'];
-            //         }
-
-            //         if ($package['session_type'] == 'monthly') {
-            //             $session_type = 'Bulan';
-            //         } else {
-            //             $session_type = 'Pertemuan';
-            //         }
-
-
-            ?>
-            <!-- <div class="card text-center package-card <?php echo $container_class; ?> <?php echo $package['class_type']; ?>">
-                        <img class="card-img-top" src="<?php echo base_url('img/icon/new/keluarga.svg') ?>" alt="">
-                        <div class="card-body">
-                            <h3 class="package-name"><?php echo $package['package_name']; ?></h3>
-                            <br />
-                            <p class="package-price">
-                                <?php
-                                $num = $package['price'];
-                                ?>
-                                Rp <?php echo number_format($num, 0, ",", "."); ?>/<span><?php echo $session_type; ?></span>
-                            </p>
-                            <br />
-                            <div class="col-sm-6 package-detail">
-                                Tipe Kelas: <?php echo $package['class_type']; ?>
-                            </div>
-                            <div class="col-sm-6  package-detail">
-                                Max. Santri: <?php echo $package['max_student']; ?> orang
-                            </div>
-                            <div class="col-sm-12  package-detail">
-                                Durasi Belajar: <?php echo $package['learning_duration']; ?> Menit
-                            </div>
-                            <div class="pb-5">
-                                <?php echo $package['description']; ?>
-                                <a href="<?php echo $package['url_woocommerce']; ?>"><button class="btn btn-warning" style="background-color: #FFD93B; text-transform:capitalize; border-radius: 20px; width: 250px; color: #263238; font-weight: 800;">Pilih</button></a>
-                            </div>
-                        </div>
-                    </div> -->
-            <?php
-            //     }
-            // }
-            ?>
-
-
-
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="lds-ellipsis package-list-loading mx-auto">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="owl-carousel owl-carousel1 owl-theme package-list" style="margin-top: -50px;"></div>
+                </div>
+            </div>
         </div>
     </div>
     <!--end price-->
@@ -393,7 +343,7 @@
             <div class="container">
                 <div class="row">
                     <br>
-                    <div class="col-md-12 col-sm-12">
+                    <div class="col-xs-12">
                         <p>
                         <h3 style="font-family: 'Poppins'; font-weight: 1000; font-size: 30px;">Kelebihan Maungaji</h3>
                         </p>
@@ -460,17 +410,22 @@
     <!-- Faq -->
     <div id="faq" class="container" style="margin-top: 200px;">
         <div class="row">
-            <div class="about-item text-left">
-                <div id="tech-statement" class="text-left">
-                    <h3 style="font-size:50px; font-family: 'Poppins'; font-weight: 1000;">FAQ</h3>
-                </div>
-                <div style="color:#8A8787">
-                    <h5 style="font-size: 20px;">Yang biasa di tanyakan oleh ayah, bunda, atau kaka yang ingin mengaji</h5>
+            <div class="col-xs-12">
+                <div class="about-item text-left">
+                    <div id="tech-statement" class="text-left">
+                        <h3 style="font-size:50px; font-family: 'Poppins'; font-weight: 1000;">FAQ</h3>
+                    </div>
+                    <div style="color:#8A8787">
+                        <h5 style="font-size: 20px;">Yang biasa di tanyakan oleh ayah, bunda, atau kaka yang ingin mengaji</h5>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="faq-list"></div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="faq-list"></div>
+            </div>
+        </div>
     </div>
     <!--End Faq-->
 
@@ -478,23 +433,29 @@
     <div class="gtco-article">
         <div class="container">
             <div class="row">
-                <div class="about-item text-left">
-                    <div id="tech-statement">
-                        <h3 style="font-size: 50px; font-family: 'Poppins'; font-weight: 1000;">Artikel</h3>
-                    </div>
-                    <div style="color:#8A8787">
-                        <h5 style="font-size: 20px;">Baca informasi terbaru seputar Al-Quran dan islami disini</h5>
+                <div class="col-xs-12">
+                    <div class="about-item text-left">
+                        <div id="tech-statement">
+                            <h3 style="font-size: 50px; font-family: 'Poppins'; font-weight: 1000;">Artikel</h3>
+                        </div>
+                        <div style="color:#8A8787">
+                            <h5 style="font-size: 20px;">Baca informasi terbaru seputar Al-Quran dan islami disini</h5>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="lds-ellipsis article-list-loading mx-auto">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="owl-carousel owl-carousel1 owl-theme article-list" style="margin-top: -50px;"></div>
+                </div>
+            </div>
         </div>
-        <div class="lds-ellipsis article-list-loading mx-auto">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="owl-carousel owl-carousel1 owl-theme article-list" style="margin-top: -50px;"></div>
     </div>
     <!--end article-->
 
@@ -509,7 +470,7 @@
     <section id="pers" style="background-color: #FFFFFF;">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 wow fadeIn">
+                <div class="col-xs-12 wow fadeIn">
                     <div id="logo" class="text-center" style="margin-bottom: 50px; margin-top: 25px;">
                         <div class="vertical-heading">
                             <div class="lds-ellipsis article-list-loading mx-auto">
