@@ -423,6 +423,12 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
+                <div class="lds-ellipsis faq-list-loading mx-auto">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <div class="faq-list"></div>
             </div>
         </div>

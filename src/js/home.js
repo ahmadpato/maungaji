@@ -232,28 +232,38 @@ $(function() {
     url: '/home/faq',
     dataType: 'json',
     method: "GET",
-  }).done(function(response){
-    $.each(response.data, function( index, value ) {
-      $('.faq-list').append('<div class="panel-group" id="faqAccordion">\
-                              <div class="panel panel-default ">\
-                                  <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0" style="background: #3597D4">\
-                                      <h4 class="panel-title">\
-                                          <div style="color:#FFFFFF; font-family:Poppins;">\
-                                              '+value.question+'\
-                                          </div>\
-                                      </h4>\
+    success: function (response) {
+      function loopRes () {
+        $.each(response.data, function( index, value ) {
+          $('.faq-list').append('<div class="panel-group" id="faqAccordion">\
+                                  <div class="panel panel-default ">\
+                                      <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0" style="background: #3597D4">\
+                                          <h4 class="panel-title">\
+                                              <div style="color:#FFFFFF; font-family:Poppins;">\
+                                                  '+value.question+'\
+                                              </div>\
+                                          </h4>\
+                                      </div>\
+                                      <div class="panel-body">\
+                                          <p style="font-family:Poppins;">\
+                                              '+value.answer+'\
+                                          </p>\
+                                      </div>\
                                   </div>\
-                                  <div class="panel-body">\
-                                      <p style="font-family:Poppins;">\
-                                          '+value.answer+'\
-                                      </p>\
-                                  </div>\
-                              </div>\
-                          </div>')
-    })
-  }).fail(function(error){
-    console.log('Error fetching FAQs')
-    console.log(error)
+                              </div>')
+        })
+      }
+
+      $.when(
+        loopRes()
+      ).then(function () {
+         $('.faq-list-loading').remove()
+      })
+    },
+    error: function () {
+      console.log('Error fetching FAQs')
+      console.log(error)
+    }
   })
 
   // Fetching articles
